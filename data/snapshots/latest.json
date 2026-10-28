@@ -1,22 +1,23 @@
 {
-  "at": "2026-10-28T15:44:40+00:00",
+  "at": "2026-10-28T15:49:19+00:00",
   "previousRun": {
-    "startedAt": "2026-10-28T15:38:56+00:00",
+    "startedAt": "2026-10-28T15:44:39+00:00",
     "lastSuccessfulCollection": "2026-10-28T15:30:14+00:00",
     "newSources": 0,
     "sources": [],
     "errors": [],
     "scheduled": true,
-    "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40717704577",
+    "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40718946773",
     "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
     "discoverySchedule": "Dimanche, 06:15 UTC",
     "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
-    "finishedAt": "2026-10-28T15:38:57+00:00",
+    "quarantined": 11,
+    "finishedAt": "2026-10-28T15:44:40+00:00",
     "httpRequests": 0,
-    "events": 376,
+    "events": 339,
     "incoming": 0,
     "newEvents": 0,
-    "status": "Catalogue retraité sans téléchargement · collecte précédente : Succès partiel",
+    "status": "Catalogue retraité sans téléchargement · collecte précédente : Catalogue retraité sans téléchargement · collecte précédente : Succès partiel",
     "reprocessed": true
   },
   "previousEvents": [
@@ -3959,9 +3960,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -3989,7 +3990,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "2c06d02c74ed1bbe01c4",
@@ -4753,9 +4757,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -4783,7 +4787,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "fab45e27063632e50e98",
@@ -5057,9 +5064,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -5087,7 +5094,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "7b373f7c07afe4296b58",
@@ -9259,9 +9269,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -9289,7 +9299,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "b551d1424ca07058b273",
@@ -9348,68 +9361,6 @@
         "reasons": [
           "Quantique mentionné ; caractère expérimental à vérifier.",
           "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "050866ae1627886f488a",
-      "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Salons Global Industrie 2026 du 30 mar 2026 au 2 avr 2026 Paris Nord Villepinte Webinaires La valeur ajoutée du logiciel en photonique 18 mars 2026 en ligne Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau Salons SPIE Photonics West 2026 du 20 jan 2026 au 22 jan 2026 San Francisco Webinaires Rencontre avec les nouveaux adhérents 9 décembre 2025 en ligne 1 2 3",
-      "start": "2026-03-18",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Photonics France",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Salon",
-      "disciplines": [
-        "Photonique",
-        "Deeptech"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.photonics-france.org/evenements/page/3/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s052",
-          "name": "Photonics France",
-          "url": "https://www.photonics-france.org/evenements/page/3/",
-          "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:12:02+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:12:02+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 61,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 20,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 5,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : rencontres explicitement annoncées.",
           "Tarif non précisé : à vérifier."
         ]
       }
@@ -11277,69 +11228,6 @@
     {
       "id": "8019fe0122800b74c633",
       "title": "Soutenance de thèse de Grégoire PICHARD",
-      "description": "Institut Recherche Le 20 mai 2026 Soutenance de thèse de Grégoire PICHARD Soutenance de thèse de Grégoire PICHARD , doctorant dans le groupe Optique quantique du Laboratoire Charles Fabry, le mercredi 20 auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-05-20 00:00:00 2026-05-20 00:00:00 Soutenance de thèse de Grégoire PICHARD Soutenance de thèse de Grégoire PICHARD, doctorant dans le groupe Optique quantique du Laboratoire Charles Fabry, le mercredi 20 mai 2026 à 14h00 dans l'auditorium de l'Institut d'Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-05-20T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Soutenance",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-gregoire-pichard",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-gregoire-pichard",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 45,
-        "parts": {
-          "Adéquation scientifique": 35,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Lien explicite avec le matériel photonique ou quantique.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "ab15b7e8f985b3462a8b",
-      "title": "Soutenance de thèse de Grégoire PICHARD",
       "description": "Soutenance de thèse de Grégoire PICHARD Fil d'Ariane Accueil Agenda Soutenance de thèse de Grégoire PICHARD × Envoyer cette page à un ami Soutenance de Thèse Evénement scientifique Soutenance de thèse de Grégoire PICHARD , doctorant dans le groupe Optique quantique du Laboratoire Charles Fabry, le mercredi 20 mai 2026 à 14h00 dans l'auditorium de l'Institut d'Optique Graduate School à Palaiseau, sur le thème : \"Optical tweezers experiment in cryogenic environment for the assembly of large arrays of single atoms\". Résumé : \" Individual atoms trapped in optical tweezers constitute a promising platform for quantum simulation and quantum computing. A key challenge is scaling from a few hundred to several thousand controlled atoms. Building an experiment in a cryogenic environment is one possible solution, allowing to considerably extend the lifetime of atoms trapped in optical tweezers and therefore to increase the time available for manipulating them. Another advantage of a cryogenic system is that it increases the coherence time of Rydberg atoms by reducing blackbody radiation, which can introduce unwanted transitions during quantum computation. During this thesis, we built upon the cryogenic platform previously developed at the Laboratoire Charles Fabry and redesigned the in-vacuum optics in order to integrate microscope objectives, enabling better optical quality across the field for trap generation. We describe the challenges associated with integrating high numerical aperture objectives with a cryogenic system. After a first design iteration enabling the generation of about 2000 traps but with limited and unstable lifetimes, we developed a new optical core combining long lifetimes (~5000 s) and a large number of traps (>2000). Preliminary results obtained in this new system have demonstrated high-fidelity assembly of 1024 individual atoms with defect-free arrays in ~10 % of the experimental runs, using a single moveable optical tweezers. The integration of cryogenics, combined with the development of new assembly techniques, paves the way for major advances in scaling up the neutral-atom platform. \"",
       "start": "2026-05-20T14:00:00+02:00",
       "end": null,
@@ -11387,8 +11275,8 @@
           "at": "2026-10-28T15:22:14+00:00",
           "changes": {
             "location": {
-              "before": "auditorium de l'Institut d'Optique de Palaiseau",
-              "after": null
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
             }
           }
         }
@@ -11549,67 +11437,6 @@
     {
       "id": "6114295587accfef7733",
       "title": "Séminaire de Isabelle DUJONC",
-      "description": "Institut Recherche Le 28 mai 2026 Séminaire de Isabelle DUJONC Séminaire de Isabelle DUJONC , responsable du service des archives du CNRS de Gif-sur-Yvette, le jeudi 28 mai 2026 à auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-05-28 00:00:00 2026-05-28 00:00:00 Séminaire de Isabelle DUJONC Séminaire de Isabelle DUJONC, responsable du service des archives du CNRS de Gif-sur-Yvette, le jeudi 28 mai 2026 à 13h15 dans l'auditorium de l'Institut d'Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-05-28T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Photonique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-isabelle-dujonc",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-isabelle-dujonc",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "087a89c093160e25a334",
-      "title": "Séminaire de Isabelle DUJONC",
       "description": "Séminaire de Isabelle DUJONC Fil d'Ariane Accueil Agenda Séminaire de Isabelle DUJONC × Envoyer cette page à un ami Séminaire (général) Evénement scientifique Séminaire de Isabelle DUJONC , Archiviste au service mutualisé d’Ile-de-France, Délégation Ile-de-France Villejuif du CNRS, le jeudi 28 mai 2026 à 13h15 dans l'auditorium de l'Institut d'Optique Graduate School à Palaiseau, sur le thème : Les archives des unités au CNRS : cadre, organisation et enjeux. Résumé : A l’heure de la science ouverte et dans un contexte international et historique tendu, il est important de rappeler l’importance que revêtent les archives. Les documents et données issus de la recherche sont aujourd’hui particulièrement concernés mais leur cadre de gestion est bien souvent méconnu : il sera question en préambule de cet exposé de définition des archives ; un focus sera notamment fait sur les archives publiques, telles que celles du CNRS et des unités ; les règles et le cadre législatif sur lesquels repose la gestion de ce type d’archives, seront détaillés. Et les enjeux, tant administratifs qu’historiques, abordés tout au long pour comprendre à quel point il est indispensable de préserver ce patrimoine institutionnel et scientifique. Cet exposé sera également l’occasion de vous présenter les différents fonds d’archives qui ont été jusqu’à présent versés par le laboratoire Charles Fabry, au dépôt des archives du CNRS à Gif-sur-Yvette. (Avec son équipe, Isabelle DUJONC agit pour la collecte et la conservation des archives sur l’ensemble du territoire francilien)",
       "start": "2026-05-28T13:15:00+02:00",
       "end": null,
@@ -11654,8 +11481,8 @@
           "at": "2026-10-28T15:22:14+00:00",
           "changes": {
             "location": {
-              "before": "auditorium de l'Institut d'Optique de Palaiseau",
-              "after": null
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
             }
           }
         }
@@ -12415,67 +12242,6 @@
     {
       "id": "c7576cd0adb68a6b507d",
       "title": "Séminaire de Baptiste LEPROVOST",
-      "description": "Institut Recherche Le 18 juin 2026 Séminaire de Baptiste LEPROVOST Séminaire de Baptiste LEPROVOST , doctorant dans le groupe Lasers du Laboratoire Charles Fabry, le jeudi 18 juin 2026 à auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-06-18 00:00:00 2026-06-18 00:00:00 Séminaire de Baptiste LEPROVOST Séminaire de Baptiste LEPROVOST, doctorant dans le groupe Lasers du Laboratoire Charles Fabry, le jeudi 18 juin 2026 à 13h15 dans l'Auditorium de l'Institut d'Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-06-18T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Photonique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-baptiste-leprovost",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-baptiste-leprovost",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "743d50ad0f7b89ef94e8",
-      "title": "Séminaire de Baptiste LEPROVOST",
       "description": "Séminaire de Baptiste LEPROVOST, doctorant dans le groupe Lasers du Laboratoire Charles Fabry, le jeudi 18 juin 2026 à 13h15 dans l'Auditorium de l'Institut d'Optique Graduate School à Palaiseau.",
       "start": "2026-06-18T13:15:00+02:00",
       "end": null,
@@ -12515,7 +12281,17 @@
       ],
       "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:22:14+00:00",
+          "changes": {
+            "location": {
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 48,
@@ -12664,69 +12440,6 @@
     {
       "id": "979cc930412ad08d7693",
       "title": "Séminaire de Ke XIE",
-      "description": "Institut Recherche Le 25 juin 2026 Séminaire de Ke XIE Séminaire de Ke XIE , doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le jeudi 25 juin 2026 auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-06-25 00:00:00 2026-06-25 00:00:00 Séminaire de Ke XIE Séminaire de Ke XIE, doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le jeudi 25 juin 2026 à 13h15 dans l'Auditorium de l'Institut d'Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-06-25T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-ke-xie",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-ke-xie",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "9ac8e3159d15164c8e45",
-      "title": "Séminaire de Ke XIE",
       "description": "Séminaire de Ke XIE, doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le jeudi 25 juin 2026 à 13h15 dans l'Auditorium de l'Institut d'Optique Graduate School à Palaiseau.",
       "start": "2026-06-25T13:15:00+02:00",
       "end": null,
@@ -12767,7 +12480,17 @@
       ],
       "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:22:14+00:00",
+          "changes": {
+            "location": {
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 48,
@@ -13253,69 +12976,6 @@
     {
       "id": "41264b3280b096b042ab",
       "title": "Soutenance de thèse de Géraud DUPUY",
-      "description": "Institut Recherche Le 16 juillet 2026 Soutenance de thèse de Géraud DUPUY Soutenance de thèse de Géraud DUPUY , doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 16 juillet auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-07-16 00:00:00 2026-07-16 00:00:00 Soutenance de thèse de Géraud DUPUY Soutenance de thèse de Géraud DUPUY, doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 16 juillet 2026, à 9h30, dans l'auditorium de l'Institut d'Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-07-16T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Soutenance",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-geraud-dupuy",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-geraud-dupuy",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "c86f7c71624aa6ee94fb",
-      "title": "Soutenance de thèse de Géraud DUPUY",
       "description": "Soutenance de thèse de Géraud DUPUY, doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 16 juillet 2026, à 9h30, dans l'auditorium de l'Institut d'Optique Graduate School à Palaiseau.",
       "start": "2026-07-16T09:30:00+02:00",
       "end": null,
@@ -13356,7 +13016,17 @@
       ],
       "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:22:14+00:00",
+          "changes": {
+            "location": {
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 48,
@@ -13639,66 +13309,6 @@
       }
     },
     {
-      "id": "699eacf3d218439200fd",
-      "title": "Atelier photo 📷",
-      "description": "",
-      "start": "2026-09-10T18:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Université PSL",
-      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
-      "address": null,
-      "city": "Paris",
-      "format": "Non précisé",
-      "category": "Workshop",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T15:24:57+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:24:57+00:00",
-      "lastVerified": "2026-10-28T15:24:57+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
       "id": "557e151754fd0f06b02b",
       "title": "T3-2026 Operator algebras: approximation, rigidity and dynamics",
       "description": "Du 14 Sept. 2026 au 04 Déc. 2026 Centre Émile Borel, Programme thématique T3-2026 Operator algebras: approximation, rigidity and dynamics",
@@ -13764,67 +13374,6 @@
         },
         "reasons": [
           "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "b295c37873de805e06e5",
-      "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Webinaires Rencontre avec nos adhérents 17 septembre 2026 en distanciel Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Webinaires Rencontre avec nos adhérents 11 juin 2026 en distanciel Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Salons SPIE Photonics Europe 2026 du 14 avr 2026 au 15 avr 2026 Strasbourg Webinaires Rencontre avec nos nouveaux adhérents 9 avril 2026 en ligne Institutionnel Assemblée générale 2026 3 avril 2026 Paris - Bpifrance Le Hub 1 2 3",
-      "start": "2026-09-17",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Photonics France",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Salon",
-      "disciplines": [
-        "Photonique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.photonics-france.org/evenements/page/2/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s052",
-          "name": "Photonics France",
-          "url": "https://www.photonics-france.org/evenements/page/2/",
-          "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:12:02+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:12:02+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 56,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 20,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : rencontres explicitement annoncées.",
           "Tarif non précisé : à vérifier."
         ]
       }
@@ -14022,69 +13571,6 @@
     {
       "id": "1bada555f42ac35d89af",
       "title": "Soutenance de thèse de Sara TIENGO",
-      "description": "Institut Recherche Le 21 septembre 2026 Soutenance de thèse de Sara TIENGO Soutenance de thèse de Sara TIENGO , doctorante dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 21 septembre auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-09-21 00:00:00 2026-09-21 00:00:00 Soutenance de thèse de Sara TIENGO Soutenance de thèse de Sara TIENGO, doctorante dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 21 septembre 2026 à 9h30 dans l'Auditorium de l'Institut d’Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-09-21T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Soutenance",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sara-tiengo",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sara-tiengo",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "0c797c1581a755396956",
-      "title": "Soutenance de thèse de Sara TIENGO",
       "description": "Soutenance de thèse de Sara TIENGO, doctorante dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 21 septembre 2026 à 9h30 dans l'Auditorium de l'Institut d’Optique Graduate School à Palaiseau.",
       "start": "2026-09-21T09:30:00+02:00",
       "end": null,
@@ -14125,7 +13611,17 @@
       ],
       "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:22:14+00:00",
+          "changes": {
+            "location": {
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 48,
@@ -14233,9 +13729,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -14263,7 +13759,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "cda46bdc3f9801d590c7",
@@ -14293,9 +13792,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -14323,7 +13822,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "291ca9035c500500c877",
@@ -14333,7 +13835,7 @@
       "end": "2026-12-24",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Perrin Espace Laurent Schwartz",
+      "location": "IHP - Bâtiment Perrin Espace Laurent Schwartz",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -14564,9 +14066,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -14594,7 +14096,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "b7dda46d555ce36a4c2b",
@@ -14659,69 +14164,6 @@
     {
       "id": "225c697440003db22a42",
       "title": "Soutenance de thèse de Hoa Mai QUACH",
-      "description": "Institut Recherche Le 25 septembre 2026 Soutenance de thèse de Hoa Mai QUACH Soutenance de thèse de Hoa Mai QUACH , doctorante dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 25 auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-09-25 00:00:00 2026-09-25 00:00:00 Soutenance de thèse de Hoa Mai QUACH Soutenance de thèse de Hoa Mai QUACH, doctorante dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 25 septembre 2026 à 14h00 dans l'Auditorium de l'Institut d'Optique Graduate School à Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-09-25T00:00:00+02:00",
-      "end": null,
-      "timezone": "UTC+02:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Soutenance",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-hoa-mai-quach",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-hoa-mai-quach",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "8bd6420302641d3e047e",
-      "title": "Soutenance de thèse de Hoa Mai QUACH",
       "description": "Soutenance de thèse de Hoa Mai QUACH, doctorante dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 25 septembre 2026 à 14h00 dans l'Auditorium de l'Institut d'Optique Graduate School à Palaiseau.",
       "start": "2026-09-25T14:00:00+02:00",
       "end": null,
@@ -14762,7 +14204,17 @@
       ],
       "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:22:14+00:00",
+          "changes": {
+            "location": {
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 48,
@@ -14810,9 +14262,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -14840,7 +14292,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "0c47b0c9769451be5a53",
@@ -14935,9 +14390,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -14965,7 +14420,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "47a9c82d673b01d1cde9",
@@ -15043,7 +14501,7 @@
       "end": "2027-01-29",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Bibliothèque | Salon Denise Lardeux",
+      "location": "IHP - Bâtiment Borel Bibliothèque | Salon Denise Lardeux",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -15301,9 +14759,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -15331,7 +14789,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "d9b8ba1c83ba6fcf49e6",
@@ -15361,9 +14822,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -15391,7 +14852,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "1355daf216e78bf08229",
@@ -15704,70 +15168,9 @@
     {
       "id": "70850f431ae56d4e341a",
       "title": "Métaplasticité Bayésienne : l’Incertitude comme Principe Algorithmique pour l’Apprentissage Embarqué",
-      "description": "Kellian Cottart – Centre de nanosciences et de nanotechnologies Artificial intelligence is increasingly moving from data centers to edge devices, where neural networks must operate and learn continuously under severe constraints on memory, computation, and energy. At the same time, real-world environments are dynamic,...",
-      "start": "2026-10-05T14:00:00+02:00",
-      "end": "2026-10-05T16:00:00+02:00",
-      "timezone": "UTC+02:00",
-      "organizer": "C2N",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Nanosciences",
-        "Informatique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/525/ical/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s019",
-          "name": "C2N",
-          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/525/ical/",
-          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-          "checkedAt": "2026-10-28T15:22:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:10:10+00:00",
-      "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": "6974cc26-d2e3-11f1-85a3-bc241160b610",
-      "score": {
-        "total": 32,
-        "parts": {
-          "Adéquation scientifique": 22,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "e89675c8e55de95237a0",
-      "title": "Métaplasticité Bayésienne : l’Incertitude comme Principe Algorithmique pour l’Apprentissage Embarqué",
       "description": "5 octobre 2026 – 14h00 Soutenance de thèse Métaplasticité Bayésienne : l’Incertitude comme Principe Algorithmique pour l’Apprentissage Embarqué 👤 Kellian Cottart Artificial intelligence is increasingly moving from data centers to edge devices, where neural networks must operate and learn continuously under severe constraints on memory, computation, and energy. At the same time, real-world environments are dynamic,... – Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 bld Thomas Gobert 91120 Palaiseau ➜ Lire la suite 📅 Ajouter à son agenda",
       "start": "2026-10-05T14:00:00+02:00",
-      "end": null,
+      "end": "2026-10-05T16:00:00+02:00",
       "timezone": "UTC+02:00",
       "organizer": "C2N",
       "location": "– Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 bld Thomas Gobert 91120 Palaiseau",
@@ -15802,15 +15205,36 @@
         {
           "id": "s019",
           "name": "C2N",
+          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/525/ical/",
+          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
+          "checkedAt": "2026-10-28T15:22:50+00:00"
+        },
+        {
+          "id": "s019",
+          "name": "C2N",
           "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/525/",
           "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
           "checkedAt": "2026-10-28T15:22:50+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:22:50+00:00",
+      "firstSeen": "2026-10-28T15:10:10+00:00",
       "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": null,
+      "history": [
+        {
+          "at": "2026-10-28T15:22:50+00:00",
+          "changes": {
+            "end": {
+              "before": "2026-10-05T16:00:00+02:00",
+              "after": null
+            },
+            "location": {
+              "before": null,
+              "after": "– Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 bld Thomas Gobert 91120 Palaiseau"
+            }
+          }
+        }
+      ],
+      "externalId": "6974cc26-d2e3-11f1-85a3-bc241160b610",
       "score": {
         "total": 44,
         "parts": {
@@ -16271,9 +15695,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -16301,7 +15725,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "fcb84f8cc052d8d44578",
@@ -16331,9 +15758,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -16361,7 +15788,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "19316a3ee91f242457d7",
@@ -16602,9 +16032,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -16632,7 +16062,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "2222c670dd58fea28c8a",
@@ -16924,73 +16357,9 @@
     {
       "id": "8970d5c392626d4a705e",
       "title": "Lasers GeSn à puits quantiques multiples intégrés sur plateforme GeSnOI : Fonctionnement à température ambiante et en régime continu",
-      "description": "Antoine Mayer – Centre de nanosciences et de nanotechnologies L’intégration de sources lasers sur silicium pour le proche et le moyen infrarouge (de 2 à 5 µm) trouve aujourd’hui un vecteur privilégié dans les alliages de germanium-étain (GeSn). Néanmoins, l...",
-      "start": "2026-10-20T14:00:00+02:00",
-      "end": "2026-10-20T16:00:00+02:00",
-      "timezone": "UTC+02:00",
-      "organizer": "C2N",
-      "location": "Amphithéâtre",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Photonique",
-        "Quantique",
-        "Nanosciences"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s019",
-          "name": "C2N",
-          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/",
-          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-          "checkedAt": "2026-10-28T15:22:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:10:10+00:00",
-      "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": "6aa60bce-d2e3-11f1-b031-bc241160b610",
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "d30b3628754b952343da",
-      "title": "Lasers GeSn à puits quantiques multiples intégrés sur plateforme GeSnOI : Fonctionnement à température ambiante et en régime continu",
       "description": "20 octobre 2026 – 14h00 Soutenance de thèse Lasers GeSn à puits quantiques multiples intégrés sur plateforme GeSnOI : Fonctionnement à température ambiante et en régime continu 👤 Antoine Mayer L’intégration de sources lasers sur silicium pour le proche et le moyen infrarouge (de 2 à 5 µm) trouve aujourd’hui un vecteur privilégié dans les alliages de germanium-étain (GeSn). Néanmoins, l... Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau ➜ Lire la suite 📅 Ajouter à son agenda",
       "start": "2026-10-20T14:00:00+02:00",
-      "end": null,
+      "end": "2026-10-20T16:00:00+02:00",
       "timezone": "UTC+02:00",
       "organizer": "C2N",
       "location": "Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau",
@@ -17026,15 +16395,36 @@
         {
           "id": "s019",
           "name": "C2N",
+          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/",
+          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
+          "checkedAt": "2026-10-28T15:22:50+00:00"
+        },
+        {
+          "id": "s019",
+          "name": "C2N",
           "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/",
           "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
           "checkedAt": "2026-10-28T15:22:50+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:22:50+00:00",
+      "firstSeen": "2026-10-28T15:10:10+00:00",
       "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": null,
+      "history": [
+        {
+          "at": "2026-10-28T15:22:50+00:00",
+          "changes": {
+            "end": {
+              "before": "2026-10-20T16:00:00+02:00",
+              "after": null
+            },
+            "location": {
+              "before": "Amphithéâtre",
+              "after": "Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau"
+            }
+          }
+        }
+      ],
+      "externalId": "6aa60bce-d2e3-11f1-b031-bc241160b610",
       "score": {
         "total": 48,
         "parts": {
@@ -17296,66 +16686,6 @@
     {
       "id": "8789e67d462fa37c1722",
       "title": "PhD Seminar C2N - 23rd october",
-      "description": "Mudit Jain, Gervasio Adriano D’anzieri et Melih Aktas – Centre de nanosciences et de nanotechnologies \"Spin and orbital current conversion using topological insulator Bi1-xSbx alloy\" by Mudit Jain. Officient conversion of spin and orbital angular momentum currents into charge currents is central to advancing spintronic and orbitronic mem...",
-      "start": "2026-10-23T10:00:00+02:00",
-      "end": "2026-10-23T12:00:00+02:00",
-      "timezone": "UTC+02:00",
-      "organizer": "C2N",
-      "location": "Amphithéâtre",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Nanosciences"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/ical/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s019",
-          "name": "C2N",
-          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/ical/",
-          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-          "checkedAt": "2026-10-28T15:22:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:10:10+00:00",
-      "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": "6b3ea7eb-d2e3-11f1-a1cf-bc241160b610",
-      "score": {
-        "total": 32,
-        "parts": {
-          "Adéquation scientifique": 22,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "71cd05edd5bb08b19788",
-      "title": "PhD Seminar C2N - 23rd october",
       "description": "23 octobre 2026 – 10h00-12h00 Séminaires PhD Seminar C2N - 23rd october 👤 Mudit Jain, Gervasio Adriano D’anzieri et Melih Aktas \"Spin and orbital current conversion using topological insulator Bi1-xSbx alloy\" by Mudit Jain. Officient conversion of spin and orbital angular momentum currents into charge currents is central to advancing spintronic and orbitronic mem... Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau ➜ Lire la suite 📅 Ajouter à son agenda",
       "start": "2026-10-23T10:00:00+02:00",
       "end": "2026-10-23T12:00:00+02:00",
@@ -17392,15 +16722,32 @@
         {
           "id": "s019",
           "name": "C2N",
+          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/ical/",
+          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
+          "checkedAt": "2026-10-28T15:22:50+00:00"
+        },
+        {
+          "id": "s019",
+          "name": "C2N",
           "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/",
           "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
           "checkedAt": "2026-10-28T15:22:50+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:22:50+00:00",
+      "firstSeen": "2026-10-28T15:10:10+00:00",
       "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": null,
+      "history": [
+        {
+          "at": "2026-10-28T15:22:50+00:00",
+          "changes": {
+            "location": {
+              "before": "Amphithéâtre",
+              "after": "Amphithéâtre (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau"
+            }
+          }
+        }
+      ],
+      "externalId": "6b3ea7eb-d2e3-11f1-a1cf-bc241160b610",
       "score": {
         "total": 44,
         "parts": {
@@ -17445,9 +16792,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -17475,7 +16822,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "311ed4fb19a4373be810",
@@ -17485,7 +16835,7 @@
       "end": "2026-10-30",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
+      "location": "IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -17554,91 +16904,12 @@
     {
       "id": "2694411c010c05d1ff27",
       "title": "Stage lycéen·ne·s “Olympic'Maths 2026” - Association Science Ouverte",
-      "description": "Accueil ... Agenda Stage lycéen·ne·s “Olympic'Maths 2026” - Association Science Ouverte Imprimer cette page Exporter la page au format PDF Partager cette page par e-mail Partager cette page Facebook Twitter Google Linkedin Viadeo Du 26 Oct. 2026 au 30 Oct. 2026 Shedule 09h00 - 18h00 Autres conférences Stage lycéen·ne·s “Olympic'Maths 2026” - Association Science Ouverte IHP - Bâtiment Borel Salle Pierre Grisvard Site web Précédent Retour à la liste Suivant Newsletter Mon courriel Je m’abonne Archives Se désabonner",
-      "start": "2026-10-26",
-      "end": "2026-10-30",
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Salle Pierre Grisvard",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/stage-lyceennes-olympicmaths-2026-association-science-ouverte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/fr/agenda/stage-lyceennes-olympicmaths-2026-association-science-ouverte",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [
-        {
-          "at": "2026-10-28T15:25:32+00:00",
-          "changes": {
-            "location": {
-              "before": "Endroit IHP - Bâtiment Borel Salle Pierre Grisvard",
-              "after": null
-            }
-          }
-        },
-        {
-          "at": "2026-10-28T15:25:32+00:00",
-          "changes": {
-            "location": {
-              "before": "Endroit IHP - Bâtiment Borel Salle Pierre Grisvard",
-              "after": null
-            }
-          }
-        }
-      ],
-      "externalId": null,
-      "score": {
-        "total": 28,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 10,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "087db0dec78f230e2be6",
-      "title": "Stage lycéen·ne·s “Olympic'Maths 2026” - Association Science Ouverte",
       "description": "From 26 Oct. 2026 to 30 Oct. 2026 Other conferences Stage lycéen·ne·s “Olympic'Maths 2026” - Association Science Ouverte Shedule 09h00 - 18h00 Place IHP - Bâtiment Borel Salle Pierre Grisvard",
       "start": "2026-10-26",
       "end": "2026-10-30",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Salle Pierre Grisvard",
+      "location": "IHP - Bâtiment Borel Salle Pierre Grisvard",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -17665,6 +16936,13 @@
         {
           "id": "s094",
           "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/fr/agenda/stage-lyceennes-olympicmaths-2026-association-science-ouverte",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
           "url": "https://www.ihp.fr/en/events/stage-lyceennes-olympicmaths-2026-association-science-ouverte",
           "listingUrl": "https://www.ihp.fr/fr/agenda",
           "checkedAt": "2026-10-28T15:25:32+00:00"
@@ -17672,7 +16950,26 @@
       ],
       "firstSeen": "2026-10-28T15:25:32+00:00",
       "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:25:32+00:00",
+          "changes": {
+            "location": {
+              "before": "Endroit IHP - Bâtiment Borel Salle Pierre Grisvard",
+              "after": null
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:25:32+00:00",
+          "changes": {
+            "location": {
+              "before": "Endroit IHP - Bâtiment Borel Salle Pierre Grisvard",
+              "after": null
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 28,
@@ -17718,9 +17015,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/atelier-photo-10",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -17748,7 +17045,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "3cfc84ca1146873165ce",
@@ -18046,69 +17346,9 @@
     {
       "id": "2d5965f51fb230253b40",
       "title": "Flickering and failed superconductivity in rhombohedral graphene",
-      "description": "Matthew Yankowitz – University of Washington Matthew Yankowitz is an Associate Professor of Physics and Materials Science & Engineering at the University of Washington. His research in experimental condensed matter physics focuses on the investigation and control of strong correlations, magnetis...",
-      "start": "2026-10-30T11:00:00+01:00",
-      "end": "2026-10-30T13:00:00+01:00",
-      "timezone": "UTC+01:00",
-      "organizer": "C2N",
-      "location": "Amphithéâtre",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Physique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s019",
-          "name": "C2N",
-          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/",
-          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-          "checkedAt": "2026-10-28T15:22:50+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:10:10+00:00",
-      "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": "6bd70e45-d2e3-11f1-88e2-bc241160b610",
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "33bae83896bf0ade7b53",
-      "title": "Flickering and failed superconductivity in rhombohedral graphene",
       "description": "30 octobre 2026 – 11h00 Séminaires Flickering and failed superconductivity in rhombohedral graphene 👤 Matthew Yankowitz Matthew Yankowitz is an Associate Professor of Physics and Materials Science & Engineering at the University of Washington. His research in experimental condensed matter physics focuses on the investigation and control of strong correlations, magnetis... Amphithéâtre – c2n (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau ➜ Lire la suite 📅 Ajouter à son agenda",
       "start": "2026-10-30T11:00:00+01:00",
-      "end": null,
+      "end": "2026-10-30T13:00:00+01:00",
       "timezone": "UTC+01:00",
       "organizer": "C2N",
       "location": "Amphithéâtre – c2n (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau",
@@ -18143,15 +17383,36 @@
         {
           "id": "s019",
           "name": "C2N",
+          "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/",
+          "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
+          "checkedAt": "2026-10-28T15:22:50+00:00"
+        },
+        {
+          "id": "s019",
+          "name": "C2N",
           "url": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/",
           "listingUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
           "checkedAt": "2026-10-28T15:22:50+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:22:50+00:00",
+      "firstSeen": "2026-10-28T15:10:10+00:00",
       "lastVerified": "2026-10-28T15:22:50+00:00",
-      "history": [],
-      "externalId": null,
+      "history": [
+        {
+          "at": "2026-10-28T15:22:50+00:00",
+          "changes": {
+            "end": {
+              "before": "2026-10-30T13:00:00+01:00",
+              "after": null
+            },
+            "location": {
+              "before": "Amphithéâtre",
+              "after": "Amphithéâtre – c2n (Centre de nanosciences et de nanotechnologies) 10 boulevard Thomas Gobert 91120 Palaiseau"
+            }
+          }
+        }
+      ],
+      "externalId": "6bd70e45-d2e3-11f1-88e2-bc241160b610",
       "score": {
         "total": 44,
         "parts": {
@@ -18196,9 +17457,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -18226,7 +17487,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "8f080fd2681c7babcde3",
@@ -18294,12 +17558,12 @@
     {
       "id": "63d7b3289f8ff76e8ea2",
       "title": "Deux exposés",
-      "description": "Accueil ... Agenda Deux exposés Imprimer cette page Exporter la page au format PDF Partager cette page par e-mail Partager cette page Facebook Twitter Google Linkedin Viadeo Du 02 Nov. 2026 Shedule 10h00 - 12h00 Groupe de travail parisien de calcul des variations Deux exposés IHP - Bâtiment Borel Salle Maryam Mirzakhani Inscription Précédent Retour à la liste Suivant Newsletter Mon courriel Je m’abonne Archives Se désabonner",
+      "description": "From 02 Nov. 2026 Groupe de travail parisien de calcul des variations Deux exposés Shedule 10h00 - 12h00 Place IHP - Bâtiment Borel Salle Maryam Mirzakhani",
       "start": "2026-11-02",
       "end": null,
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Salle Maryam Mirzakhani",
+      "location": "IHP - Bâtiment Borel Salle Maryam Mirzakhani",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -18319,7 +17583,7 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/deux-exposes",
+      "url": "https://www.ihp.fr/en/events/deux-exposes",
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
@@ -18327,6 +17591,13 @@
           "id": "s094",
           "name": "Institut Henri Poincaré",
           "url": "https://www.ihp.fr/fr/agenda/deux-exposes",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/en/events/deux-exposes",
           "listingUrl": "https://www.ihp.fr/fr/agenda",
           "checkedAt": "2026-10-28T15:25:32+00:00"
         }
@@ -18373,12 +17644,12 @@
     {
       "id": "c1aaf63cb21c3cad7ca2",
       "title": "Assemblée générale du DOS (Durabilité des outils en SHS)",
-      "description": "Accueil ... Agenda Assemblée générale du DOS (Durabilité des outils en SHS) Imprimer cette page Exporter la page au format PDF Partager cette page par e-mail Partager cette page Facebook Twitter Google Linkedin Viadeo Du 02 Nov. 2026 au 03 Nov. 2026 Shedule 13h00 - 14h00 Autres conférences Assemblée générale du DOS (Durabilité des outils en SHS) IHP - Bâtiment Perrin Amphithéâtre Yvonne Choquet-Bruhat Précédent Retour à la liste Suivant Newsletter Mon courriel Je m’abonne Archives Se désabonner",
+      "description": "From 02 Nov. 2026 to 03 Nov. 2026 Other conferences Assemblée générale du DOS (Durabilité des outils en SHS) Shedule 13h00 - 14h00 Place IHP - Bâtiment Perrin Amphithéâtre Yvonne Choquet-Bruhat",
       "start": "2026-11-02",
       "end": "2026-11-03",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Perrin Amphithéâtre Yvonne Choquet-Bruhat",
+      "location": "IHP - Bâtiment Perrin Amphithéâtre Yvonne Choquet-Bruhat",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -18398,7 +17669,7 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/assemblee-generale-du-dos-durabilite-des-outils-en-shs",
+      "url": "https://www.ihp.fr/en/events/assemblee-generale-du-dos-durabilite-des-outils-en-shs",
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
@@ -18406,6 +17677,13 @@
           "id": "s094",
           "name": "Institut Henri Poincaré",
           "url": "https://www.ihp.fr/fr/agenda/assemblee-generale-du-dos-durabilite-des-outils-en-shs",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/en/events/assemblee-generale-du-dos-durabilite-des-outils-en-shs",
           "listingUrl": "https://www.ihp.fr/fr/agenda",
           "checkedAt": "2026-10-28T15:25:32+00:00"
         }
@@ -18452,211 +17730,12 @@
     {
       "id": "915eb6be52afd2d2c24b",
       "title": "10ième Colloque national Action Dark Energy",
-      "description": "Accueil ... Agenda 10ième Colloque national Action Dark Energy Imprimer cette page Exporter la page au format PDF Partager cette page par e-mail Partager cette page Facebook Twitter Google Linkedin Viadeo Du 02 Nov. 2026 au 04 Nov. 2026 Shedule 14h00 - 16h00 Autres conférences 10ième Colloque national Action Dark Energy IHP - Bâtiment Borel Amphithéâtre Charles Hermite Précédent Retour à la liste Suivant Newsletter Mon courriel Je m’abonne Archives Se désabonner",
-      "start": "2026-11-02",
-      "end": "2026-11-04",
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Conférence",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/10ieme-colloque-national-action-dark-energy",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/fr/agenda/10ieme-colloque-national-action-dark-energy",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [
-        {
-          "at": "2026-10-28T15:25:32+00:00",
-          "changes": {
-            "location": {
-              "before": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
-              "after": null
-            }
-          }
-        },
-        {
-          "at": "2026-10-28T15:25:32+00:00",
-          "changes": {
-            "location": {
-              "before": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
-              "after": null
-            }
-          }
-        }
-      ],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "45c3244184c0d49d6557",
-      "title": "Deux exposés",
-      "description": "From 02 Nov. 2026 Groupe de travail parisien de calcul des variations Deux exposés Shedule 10h00 - 12h00 Place IHP - Bâtiment Borel Salle Maryam Mirzakhani",
-      "start": "2026-11-02",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Salle Maryam Mirzakhani",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/en/events/deux-exposes",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/en/events/deux-exposes",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "4d6b760c8d2aca7c3891",
-      "title": "Assemblée générale du DOS (Durabilité des outils en SHS)",
-      "description": "From 02 Nov. 2026 to 03 Nov. 2026 Other conferences Assemblée générale du DOS (Durabilité des outils en SHS) Shedule 13h00 - 14h00 Place IHP - Bâtiment Perrin Amphithéâtre Yvonne Choquet-Bruhat",
-      "start": "2026-11-02",
-      "end": "2026-11-03",
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Perrin Amphithéâtre Yvonne Choquet-Bruhat",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/en/events/assemblee-generale-du-dos-durabilite-des-outils-en-shs",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/en/events/assemblee-generale-du-dos-durabilite-des-outils-en-shs",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "14d1ab6b1a67cecd1e1d",
-      "title": "10ième Colloque national Action Dark Energy",
       "description": "From 02 Nov. 2026 to 04 Nov. 2026 Other conferences 10ième Colloque national Action Dark Energy Shedule 14h00 - 16h00 Place IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
       "start": "2026-11-02",
       "end": "2026-11-04",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
+      "location": "IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -18683,6 +17762,13 @@
         {
           "id": "s094",
           "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/fr/agenda/10ieme-colloque-national-action-dark-energy",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
           "url": "https://www.ihp.fr/en/events/10ieme-colloque-national-action-dark-energy",
           "listingUrl": "https://www.ihp.fr/fr/agenda",
           "checkedAt": "2026-10-28T15:25:32+00:00"
@@ -18690,7 +17776,26 @@
       ],
       "firstSeen": "2026-10-28T15:25:32+00:00",
       "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:25:32+00:00",
+          "changes": {
+            "location": {
+              "before": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
+              "after": null
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:25:32+00:00",
+          "changes": {
+            "location": {
+              "before": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
+              "after": null
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 18,
@@ -18736,9 +17841,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/atelier-photo-10",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -18766,7 +17871,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "59e327da003507788b96",
@@ -18796,9 +17904,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/la-decouverte-des-grands-programmes-de-recherche-de-psl-le-cycle-de-webinaires-2026",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -18826,7 +17934,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "2ca0f66e776765cf718b",
@@ -18856,9 +17967,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/atelier-photo-10",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -18886,7 +17997,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "d3ca56bb68d75d038962",
@@ -19183,9 +18297,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -19213,7 +18327,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "d7071d9e2c3700ef3bb1",
@@ -19510,66 +18627,6 @@
       }
     },
     {
-      "id": "6c2a2d5efc3f82d7a910",
-      "title": "Grands événements",
-      "description": "Partager Facebook LinkedIn Bluesky Threads Copier le lien Enseignements Grands événements Outre ses enseignements réguliers, le Collège de France propose chaque année de nombreux événements exceptionnels, destinés à un large public : expositions, journées européennes du patrimoine, cycles thématiques, conférences et tables rondes traitant des grandes questions contemporaines. À venir Précédent Foucault enseignant : cohérence d’une trajectoire et place dans l’œuvre Philippe Sabot & Elisabetta Basso Grand événement 03 Nov 2026 17:30 à 19:00 Travailler avec Foucault : les séminaires du Collège Pasquale Pasquino & Carolina Verlengia Grand événement 24 Nov 2026 17:30 à 19:00 La biodiversité en miroir brisé : cartographier la flore à l’ère des observations citoyen … Christophe Botella Grand événement 26 Nov 2026 18:00 à 19:00 Histoire et postérité d’une leçon : « Qu’est-ce que les Lumières ? » … Antoine Lilti Grand événement 15 Déc 2026 17:30 à 19:00 Quand la génétique ne suffit plus (1) Edith Heard Grand événement 10 Mai 2027 10:00 à 12:00 Quand la génétique ne suffit plus (2) Edith Heard Grand événement 24 Mai 2027 10:00 à 12:00 Suivant 2027 - 2028 Paysanneries et capitalismes en Europe Laurence Roudart 17 Nov 2027 → 25 Nov 2027 Conférencier invité 17 Nov 2027 → 25 Nov 2027 2026 - 2027 Journées européennes du patrimoine 2026 Expositions et Journées européennes du patrimoine 19 Sep 2026 → 20 Sep 2026 Non enregistré Grand événement 19 Sep 2026 → 20 Sep 2026 Forum Éducation 2026 Agir pour l'éducation 30 Sep 2026 09:00 - 17:45 Grand événement Amphithéâtre Marguerite-de-Navarre, Site Marcelin-Berthelot 30 Sep 2026 09:00 - 17:45 L'animal Colloques de rentrée 14 Oct 2026 → 16 Oct 2026 Colloque Le colloque de rentrée 2026 du Collège de France entend proposer une réflexion de fond sur certaines de ces questions et proposer un parcours croisant sciences du vivant et de la nature, sciences humaines, littérature, histoire des religions et dr... 14 Oct 2026 → 16 Oct 2026 La souveraineté alimentaire et la transition agroécologique en Europe Olivier De Schutter 04 Nov 2026 → 13 Nov 2026 Conférencier invité 04 Nov 2026 → 13 Nov 2026 Migrations et sociétés Avenir Commun Durable 18 Nov 2026 14:00 - 16:00 Séminaire Amphithéâtre Maurice-Halbwachs, Site Marcelin-Berthelot 18 Nov 2026 14:00 - 16:00 La biodiversité en miroir brisé : cartographier la flore à l’ère des observations citoyennes Christophe Botella 26 Nov 2026 18:00 - 19:00 Grand événement Amphithéâtre Maurice-Halbwachs, Site Marcelin-Berthelot 26 Nov 2026 18:00 - 19:00 2025 - 2026 Le futur en héritage (suite) Avenir Commun Durable, Marc Fontecave, Dario Mantovani, Jean-Marie Tarascon 11 Sep 2025 → 14 Oct 2025 Grand événement 11 Sep 2025 → 14 Oct 2025 Journées européennes du patrimoine 2025 Expositions et Journées européennes du patrimoine 20 Sep 2025 → 21 Sep 2025 Non enregistré Grand événement 20 Sep 2025 → 21 Sep 2025 Formes de l’intelligence Colloques de rentrée 16 Oct 2025 → 17 Oct 2025 Colloque Le colloque",
-      "start": "2026-11-03T17:30:00+01:00",
-      "end": null,
-      "timezone": "UTC",
-      "organizer": "Collège de France",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Forum métiers",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.college-de-france.fr%2Ffr%2Fgrands-evenements&title=Grands+%C3%A9v%C3%A9nements",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s084",
-          "name": "Collège de France",
-          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.college-de-france.fr%2Ffr%2Fgrands-evenements&title=Grands+%C3%A9v%C3%A9nements",
-          "listingUrl": "https://www.college-de-france.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:12:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:12:52+00:00",
-      "lastVerified": "2026-10-28T15:12:52+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 30,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 12,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : rencontres explicitement annoncées.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
       "id": "fbdb78f0ef9822d4fe94",
       "title": "Cycle de conférences « Faire École, Faire Territoire » : Rencontre avec Noé Duchaufour-Lawrance",
       "description": "",
@@ -19597,9 +18654,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -19627,67 +18684,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
-    },
-    {
-      "id": "33e3ef3be0848d4e86b6",
-      "title": "Festival Musique 2026 « Piano/accordéon autour de la danse »",
-      "description": "",
-      "start": "2026-11-03T20:00:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "Université PSL",
-      "location": "Mines Paris - PSL, salle des colonnes - 60 bvd Saint-Michel 75006 Paris France",
-      "address": null,
-      "city": "Paris",
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/agenda/agenda-culture?page=0",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T15:24:57+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:13:41+00:00",
-      "lastVerified": "2026-10-28T15:24:57+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "9c63917cafc3841474b8",
@@ -19717,9 +18717,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/la-decouverte-des-grands-programmes-de-recherche-de-psl-le-cycle-de-webinaires-2026",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -19747,7 +18747,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "17494962f9186aa91a5f",
@@ -19777,9 +18780,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://dauphine.psl.eu/dauphine/media-et-communication/article/apres-midi-des-lyceennes-decouvrir-les-metiers-scientifiques",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -19807,7 +18810,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "d806251f0290b4f50700",
@@ -19837,9 +18843,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -19931,7 +18937,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "841838b4b83e1f527a99",
@@ -19961,9 +18970,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/atelier-photo-10",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -19991,77 +19000,20 @@
           "Networking : rencontres explicitement annoncées.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "d78467a33a826a8e79ef",
-      "title": "Organisation d'une conférence sur l'IA à destination de doctorants",
-      "description": "Du 05 Nov. 2026 au 06 Nov. 2026 Autres conférences Organisation d'une conférence sur l'IA à destination de doctorants Shedule 08h30 - 18h00 Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
-      "start": "2026-11-05",
-      "end": "2026-11-06",
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Conférence",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/organisation-dune-conference-sur-lia-destination-de-doctorants",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/fr/agenda/organisation-dune-conference-sur-lia-destination-de-doctorants",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "e32e047bd8d6b8f19d86",
       "title": "Organisation d'une conférence sur l'IA à destination de doctorants",
       "description": "From 05 Nov. 2026 to 06 Nov. 2026 Other conferences Organisation d'une conférence sur l'IA à destination de doctorants Shedule 08h30 - 18h00 Place IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
       "start": "2026-11-05",
       "end": "2026-11-06",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
+      "location": "IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -20085,6 +19037,13 @@
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/fr/agenda/organisation-dune-conference-sur-lia-destination-de-doctorants",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
         {
           "id": "s094",
           "name": "Institut Henri Poincaré",
@@ -20141,9 +19100,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -20171,7 +19130,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "31e1f2b1a33fffd5bd68",
@@ -20239,192 +19201,12 @@
     {
       "id": "5a760c412d717022b6eb",
       "title": "Charles-François Sturm (1803–1855) : circulations mathématiques et trajectoire savante entre Genève et Paris",
-      "description": "Du 06 Nov. 2026 Séminaire d'Histoire des Mathématiques de l'IHP Charles-François Sturm (1803–1855) : circulations mathématiques et trajectoire savante entre Genève et Paris Shedule 10h00 - 17h00 Endroit IHP - Bâtiment Perrin Salle Yvette Cauchois",
-      "start": "2026-11-06",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Perrin Salle Yvette Cauchois",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Mathématiques"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/charles-francois-sturm-1803-1855-circulations-mathematiques-et-trajectoire-savante-entre",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/fr/agenda/charles-francois-sturm-1803-1855-circulations-mathematiques-et-trajectoire-savante-entre",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "e8f851ad867fa55b640a",
-      "title": "Séminaire FDD - FiME - MIRTE",
-      "description": "Du 06 Nov. 2026 Séminaire commun Chaire FDD - Laboratoire FiME Séminaire FDD - FiME - MIRTE Shedule 14h30 - 15h30 Endroit IHP - Bâtiment Borel Salle Olga Ladyjenskaïa",
-      "start": "2026-11-06",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Salle Olga Ladyjenskaïa",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/seminaire-fdd-fime-mirte-16",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/fr/agenda/seminaire-fdd-fime-mirte-16",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "1aab95a0baa7ae529999",
-      "title": "Élise Devey - A Frank–Wolfe-Type Algorithm for High-Dimensional Stochastic Control Problems with Non-Exchangeable Agents",
-      "description": "Du 06 Nov. 2026 Séminaire des doctorants de FIME Élise Devey - A Frank–Wolfe-Type Algorithm for High-Dimensional Stochastic Control Problems with Non-Exchangeable Agents Shedule 16h00 - 17h00 Endroit IHP - Bâtiment Borel Salle Maurice Fréchet",
-      "start": "2026-11-06",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Institut Henri Poincaré",
-      "location": "Endroit IHP - Bâtiment Borel Salle Maurice Fréchet",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.ihp.fr/fr/agenda/elise-devey-frank-wolfe-type-algorithm-high-dimensional-stochastic-control-problems-non",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s094",
-          "name": "Institut Henri Poincaré",
-          "url": "https://www.ihp.fr/fr/agenda/elise-devey-frank-wolfe-type-algorithm-high-dimensional-stochastic-control-problems-non",
-          "listingUrl": "https://www.ihp.fr/fr/agenda",
-          "checkedAt": "2026-10-28T15:25:32+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:25:32+00:00",
-      "lastVerified": "2026-10-28T15:25:32+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "df2457c2128d4f7e4a29",
-      "title": "Charles-François Sturm (1803–1855) : circulations mathématiques et trajectoire savante entre Genève et Paris",
       "description": "From 06 Nov. 2026 Séminaire d'Histoire des Mathématiques de l'IHP Charles-François Sturm (1803–1855) : circulations mathématiques et trajectoire savante entre Genève et Paris Shedule 10h00 - 17h00 Place IHP - Bâtiment Perrin Salle Yvette Cauchois",
       "start": "2026-11-06",
       "end": null,
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Perrin Salle Yvette Cauchois",
+      "location": "IHP - Bâtiment Perrin Salle Yvette Cauchois",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -20448,6 +19230,13 @@
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/fr/agenda/charles-francois-sturm-1803-1855-circulations-mathematiques-et-trajectoire-savante-entre",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
         {
           "id": "s094",
           "name": "Institut Henri Poincaré",
@@ -20477,14 +19266,14 @@
       }
     },
     {
-      "id": "ce3ea34cff0ba36fe3ae",
+      "id": "e8f851ad867fa55b640a",
       "title": "Séminaire FDD - FiME - MIRTE",
       "description": "From 06 Nov. 2026 Séminaire commun Chaire FDD - Laboratoire FiME Séminaire FDD - FiME - MIRTE Shedule 14h30 - 15h30 Place IHP - Bâtiment Borel Salle Olga Ladyjenskaïa",
       "start": "2026-11-06",
       "end": null,
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Salle Olga Ladyjenskaïa",
+      "location": "IHP - Bâtiment Borel Salle Olga Ladyjenskaïa",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -20508,6 +19297,13 @@
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/fr/agenda/seminaire-fdd-fime-mirte-16",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
         {
           "id": "s094",
           "name": "Institut Henri Poincaré",
@@ -20537,14 +19333,14 @@
       }
     },
     {
-      "id": "267b5c7f6ee894d88f40",
+      "id": "1aab95a0baa7ae529999",
       "title": "Élise Devey - A Frank–Wolfe-Type Algorithm for High-Dimensional Stochastic Control Problems with Non-Exchangeable Agents",
       "description": "From 06 Nov. 2026 Séminaire des doctorants de FIME Élise Devey - A Frank–Wolfe-Type Algorithm for High-Dimensional Stochastic Control Problems with Non-Exchangeable Agents Shedule 16h00 - 17h00 Place IHP - Bâtiment Borel Salle Maurice Fréchet",
       "start": "2026-11-06",
       "end": null,
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Salle Maurice Fréchet",
+      "location": "IHP - Bâtiment Borel Salle Maurice Fréchet",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -20568,6 +19364,13 @@
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
+        {
+          "id": "s094",
+          "name": "Institut Henri Poincaré",
+          "url": "https://www.ihp.fr/fr/agenda/elise-devey-frank-wolfe-type-algorithm-high-dimensional-stochastic-control-problems-non",
+          "listingUrl": "https://www.ihp.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:25:32+00:00"
+        },
         {
           "id": "s094",
           "name": "Institut Henri Poincaré",
@@ -20721,9 +19524,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/atelier-photo-10",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -20751,7 +19554,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "6f2d22a3ca3cb375986e",
@@ -20814,66 +19620,6 @@
       }
     },
     {
-      "id": "8babd43e3dba6198df8d",
-      "title": "Festival Musique 2026 « Trio Cornière »",
-      "description": "",
-      "start": "2026-11-07T20:30:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "Université PSL",
-      "location": "Maison du Japon de la CIUP - 7 boulevard Jourdan 75014 Paris France",
-      "address": null,
-      "city": "Paris",
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/agenda/agenda-culture?page=0",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T15:24:57+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:13:41+00:00",
-      "lastVerified": "2026-10-28T15:24:57+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
       "id": "81044b96048edf9952e1",
       "title": "De Jérusalem au Sinaï : les graffitis occidentaux des XIVe-XVIe siècle",
       "description": "",
@@ -20901,9 +19647,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -20931,67 +19677,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
-    },
-    {
-      "id": "779d51fbede63fd2634d",
-      "title": "Patrimoines en guerre : l’Ukraine aujourd’hui",
-      "description": "",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "timezone": "Europe/Paris",
-      "organizer": "École nationale des chartes - PSL",
-      "location": "École nationale des chartes - PSL",
-      "address": "65 Rue de Richelieu, 75002, Paris",
-      "city": "Paris",
-      "format": "Présentiel",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.chartes.psl.eu/gazette-chartiste/agenda/patrimoines-en-guerre-lukraine-aujourdhui",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://www.chartes.psl.eu/gazette-chartiste/agenda/patrimoines-en-guerre-lukraine-aujourdhui",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T15:13:41+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:13:41+00:00",
-      "lastVerified": "2026-10-28T15:13:41+00:00",
-      "history": [],
-      "externalId": "https://www.chartes.psl.eu/node/16384",
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "da73d583f304a9c2e733",
@@ -21001,7 +19690,7 @@
       "end": null,
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Salle Maryam Mirzakhani",
+      "location": "IHP - Bâtiment Borel Salle Maryam Mirzakhani",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -21153,9 +19842,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -21183,7 +19872,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "29c3533400078302670f",
@@ -21213,9 +19905,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/atelier-photo-10",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -21243,7 +19935,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "8f9df7cf9fac94fe5a15",
@@ -21316,15 +20011,15 @@
       }
     },
     {
-      "id": "e7ce6523a98b20b49520",
+      "id": "779d51fbede63fd2634d",
       "title": "Patrimoines en guerre : l’Ukraine aujourd’hui",
       "description": "",
       "start": "2026-11-10T18:30:00+01:00",
-      "end": null,
+      "end": "2026-11-10",
       "timezone": "UTC+01:00",
       "organizer": "Université PSL",
       "location": "École nationale des chartes - PSL, 65, rue de Richelieu, Paris 2e (salle Delisle)",
-      "address": null,
+      "address": "65 Rue de Richelieu, 75002, Paris",
       "city": "Paris",
       "format": "Non précisé",
       "category": "Événement scientifique",
@@ -21343,10 +20038,17 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://www.chartes.psl.eu/gazette-chartiste/agenda/patrimoines-en-guerre-lukraine-aujourdhui",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        },
         {
           "id": "s088",
           "name": "Université PSL",
@@ -21357,8 +20059,26 @@
       ],
       "firstSeen": "2026-10-28T15:13:41+00:00",
       "lastVerified": "2026-10-28T15:24:57+00:00",
-      "history": [],
-      "externalId": null,
+      "history": [
+        {
+          "at": "2026-10-28T15:24:57+00:00",
+          "changes": {
+            "end": {
+              "before": "2026-11-10",
+              "after": null
+            },
+            "location": {
+              "before": "École nationale des chartes - PSL",
+              "after": "École nationale des chartes - PSL, 65, rue de Richelieu, Paris 2e (salle Delisle)"
+            },
+            "address": {
+              "before": "65 Rue de Richelieu, 75002, Paris",
+              "after": null
+            }
+          }
+        }
+      ],
+      "externalId": "https://www.chartes.psl.eu/node/16384",
       "score": {
         "total": 25,
         "parts": {
@@ -21373,7 +20093,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "ad008adb5f7fc6ae777b",
@@ -21464,9 +20187,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -21494,67 +20217,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
-    },
-    {
-      "id": "f71e0c958a0b3fc94de4",
-      "title": "Festival Musique 2026 « Quatuor à cordes et percussions »",
-      "description": "",
-      "start": "2026-11-10T20:00:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "Université PSL",
-      "location": "Mines Paris - PSL, espace Maurice Allais - 60 bvd Saint-Michel 75006 Paris France",
-      "address": null,
-      "city": "Paris",
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://psl.eu/agenda/agenda-culture?page=0",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/agenda/agenda-culture?page=0",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T15:24:57+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:13:41+00:00",
-      "lastVerified": "2026-10-28T15:24:57+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "4f376d00a2a3042d710d",
@@ -21564,7 +20230,7 @@
       "end": "2026-11-13",
       "timezone": "Europe/Paris",
       "organizer": "Institut Henri Poincaré",
-      "location": "Place IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
+      "location": "IHP - Bâtiment Borel Amphithéâtre Charles Hermite",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -21766,7 +20432,7 @@
     {
       "id": "22a232a025d79f118021",
       "title": "Soutenance HDR de Pierre Penet",
-      "description": "La soutenance d’habilitation à diriger des recherches (HDR) de Pierre Pénet, chercheur CNRS à l’IDHES et professeur attaché de l’ENS Paris-Saclay, se tiendra vendredi 13 novembre 2026, à 9h30, à Sciences Po (Paris).",
+      "description": "Contact Liens utiles Repenser la dette souveraine, avec le nouvel ouvrage de Pierre Pénet Des étudiantes et étudiants enquêtent sur la rédaction des rapports du GIEC Soutenance HDR de Pierre Penet La soutenance d’habilitation à diriger des recherches (HDR) de Pierre Pénet, chercheur CNRS à l’IDHES et professeur attaché de l’ENS Paris-Saclay, se tiendra vendredi 13 novembre 2026, à 9h30, à Sciences Po (Paris). Le 13/11/2026 : 09:30 à 12:00 Soutenance de thèse et HDR Ajouter à mon agenda 2026-11-13 09:30:00 2026-11-13 12:00:00 Soutenance HDR de Pierre Penet La soutenance d’habilitation à diriger des recherches (HDR) de Pierre Pénet, chercheur CNRS à l’IDHES et professeur attaché de l’ENS Paris-Saclay, se tiendra vendredi 13 novembre 2026, à 9h30, à Sciences Po (Paris). Sciences Po : 28 rue des Saints-Pères, 75007 Paris - Salle G009 ENS-PARIS-SACLAY webmaster@ens-paris-saclay.fr Europe/Paris public INFORMATIQUES PRATIQUES Vendredi 13 novembre 2026 à 9h30 Sciences Po 28 rue des Saints-Pères 75007 Paris Salle G009 Inscrivez-vous en ligne (inscription obligatoire via Google form) HDR Cette habilitation sera délivrée par l’Université Paris-Saclay. Le dossier est composé de 3 volumes : Un mémoire de synthèse retraçant le parcours scientifique : Le goût de la crise. Itinéraire d’un sociologue de la dette Un manuscrit inédit intitulé Financiers sous escorte. Protection des créanciers et crises de la dette souveraine (XIXᵉ–XXIᵉ siècles Une sélection de 15 publications Jury de soutenance Mme Valérie Boussard, Professeure des universités en sociologie, IDHES, Université Paris Nanterre (examinatrice) M. Frédéric Lebaron, Professeur des universités en sociologie, IDHES, ENS Paris-Saclay (garant) Mme Marieke Louis, Maîtresse de conférences HDR en science politique, CERAPS, Sciences Po Lille (rapporteure) M. Jérôme Sgard, Professeur FNSP en économie politique, CERI, Sciences Po Paris (rapporteur) M. Ricardo Soares de Oliveira, Professor of Political Science, CERI, Sciences Po Paris (examinateur) M. Antoine Vauchez, Directeur de recherche en science politique, CESSP, Université Paris 1 Panthéon-Sorbonne (rapporteur) Résumé du mémoire inédit La dette souveraine est, de longue date, un terrain privilégié d’intervention publique en faveur des financiers. Ce manuscrit analyse deux siècles de crises de dette à partir des protections accordées aux créanciers lorsqu’un État menace de ne plus rembourser. Il retrace le passage, dans les années 1980, d’une assistance politiquement contingente à une garantie plus systématique qui a désinhibé le crédit en faisant de l’investissement souverain une activité apparemment sans risque. Il pose l’hypothèse d’une érosion contemporaine de cet ordre protectionnel, miné par ses coûts et contradictions. Cette érosion est saisie à travers trois processus : la repolitisation des protections dans les parlements nationaux et les arènes internationales ; la concurrence des banques chinoises, qui perturbe les règles de négociation et affaiblit",
       "start": "2026-11-13T09:30:00+01:00",
       "end": null,
       "timezone": "UTC+01:00",
@@ -21774,66 +20440,6 @@
       "location": "Sciences Po : 28 rue des Saints-Pères, 75007 Paris - Salle G009",
       "address": null,
       "city": "Paris",
-      "format": "Non précisé",
-      "category": "Soutenance",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://ens-paris-saclay.fr/agenda/soutenance-hdr-de-pierre-penet",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s006",
-          "name": "ENS Paris-Saclay",
-          "url": "https://ens-paris-saclay.fr/agenda/soutenance-hdr-de-pierre-penet",
-          "listingUrl": "https://ens-paris-saclay.fr/agenda",
-          "checkedAt": "2026-10-28T15:22:34+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:52+00:00",
-      "lastVerified": "2026-10-28T15:22:34+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "8782e35bc4c9132ee726",
-      "title": "Soutenance HDR de Pierre Penet",
-      "description": "Contact Liens utiles Repenser la dette souveraine, avec le nouvel ouvrage de Pierre Pénet Des étudiantes et étudiants enquêtent sur la rédaction des rapports du GIEC Soutenance HDR de Pierre Penet La soutenance d’habilitation à diriger des recherches (HDR) de Pierre Pénet, chercheur CNRS à l’IDHES et professeur attaché de l’ENS Paris-Saclay, se tiendra vendredi 13 novembre 2026, à 9h30, à Sciences Po (Paris). Le 13/11/2026 : 09:30 à 12:00 Soutenance de thèse et HDR Ajouter à mon agenda 2026-11-13 09:30:00 2026-11-13 12:00:00 Soutenance HDR de Pierre Penet La soutenance d’habilitation à diriger des recherches (HDR) de Pierre Pénet, chercheur CNRS à l’IDHES et professeur attaché de l’ENS Paris-Saclay, se tiendra vendredi 13 novembre 2026, à 9h30, à Sciences Po (Paris). Sciences Po : 28 rue des Saints-Pères, 75007 Paris - Salle G009 ENS-PARIS-SACLAY webmaster@ens-paris-saclay.fr Europe/Paris public INFORMATIQUES PRATIQUES Vendredi 13 novembre 2026 à 9h30 Sciences Po 28 rue des Saints-Pères 75007 Paris Salle G009 Inscrivez-vous en ligne (inscription obligatoire via Google form) HDR Cette habilitation sera délivrée par l’Université Paris-Saclay. Le dossier est composé de 3 volumes : Un mémoire de synthèse retraçant le parcours scientifique : Le goût de la crise. Itinéraire d’un sociologue de la dette Un manuscrit inédit intitulé Financiers sous escorte. Protection des créanciers et crises de la dette souveraine (XIXᵉ–XXIᵉ siècles Une sélection de 15 publications Jury de soutenance Mme Valérie Boussard, Professeure des universités en sociologie, IDHES, Université Paris Nanterre (examinatrice) M. Frédéric Lebaron, Professeur des universités en sociologie, IDHES, ENS Paris-Saclay (garant) Mme Marieke Louis, Maîtresse de conférences HDR en science politique, CERAPS, Sciences Po Lille (rapporteure) M. Jérôme Sgard, Professeur FNSP en économie politique, CERI, Sciences Po Paris (rapporteur) M. Ricardo Soares de Oliveira, Professor of Political Science, CERI, Sciences Po Paris (examinateur) M. Antoine Vauchez, Directeur de recherche en science politique, CESSP, Université Paris 1 Panthéon-Sorbonne (rapporteur) Résumé du mémoire inédit La dette souveraine est, de longue date, un terrain privilégié d’intervention publique en faveur des financiers. Ce manuscrit analyse deux siècles de crises de dette à partir des protections accordées aux créanciers lorsqu’un État menace de ne plus rembourser. Il retrace le passage, dans les années 1980, d’une assistance politiquement contingente à une garantie plus systématique qui a désinhibé le crédit en faisant de l’investissement souverain une activité apparemment sans risque. Il pose l’hypothèse d’une érosion contemporaine de cet ordre protectionnel, miné par ses coûts et contradictions. Cette érosion est saisie à travers trois processus : la repolitisation des protections dans les parlements nationaux et les arènes internationales ; la concurrence des banques chinoises, qui perturbe les règles de négociation et affaiblit",
-      "start": "2026-11-13T09:30:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "ENS Paris-Saclay",
-      "location": null,
-      "address": null,
-      "city": null,
       "format": "Non précisé",
       "category": "Soutenance",
       "disciplines": [
@@ -21858,6 +20464,13 @@
         {
           "id": "s006",
           "name": "ENS Paris-Saclay",
+          "url": "https://ens-paris-saclay.fr/agenda/soutenance-hdr-de-pierre-penet",
+          "listingUrl": "https://ens-paris-saclay.fr/agenda",
+          "checkedAt": "2026-10-28T15:22:34+00:00"
+        },
+        {
+          "id": "s006",
+          "name": "ENS Paris-Saclay",
           "url": "https://ens-paris-saclay.fr/actualite/repenser-la-dette-souveraine-avec-le-nouvel-ouvrage-de-pierre-penet",
           "listingUrl": "https://ens-paris-saclay.fr/agenda",
           "checkedAt": "2026-10-28T15:09:52+00:00"
@@ -21865,14 +20478,24 @@
       ],
       "firstSeen": "2026-10-28T15:09:52+00:00",
       "lastVerified": "2026-10-28T15:09:52+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:09:52+00:00",
+          "changes": {
+            "location": {
+              "before": "Sciences Po : 28 rue des Saints-Pères, 75007 Paris - Salle G009",
+              "after": null
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
-        "total": 18,
+        "total": 25,
         "parts": {
           "Adéquation scientifique": 8,
           "Networking annoncé": 0,
-          "Proximité": 3,
+          "Proximité": 10,
           "Coût et accès": 5,
           "Stages et métiers": 0,
           "Niveau étudiant": 2
@@ -21911,9 +20534,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://www.ensad.fr/fr/exposition",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -21941,73 +20564,15 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
-    },
-    {
-      "id": "cf490c0ede2edd2524cc",
-      "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2026 2025 Tags Tous les tags Votre recherche : 6 événement(s) disponible(s) Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Webinaires Rencontre avec nos adhérents 17 septembre 2026 en distanciel Webinaires Rencontre avec nos adhérents 11 juin 2026 en distanciel Webinaires Rencontre avec nos nouveaux adhérents 9 avril 2026 en ligne Webinaires La valeur ajoutée du logiciel en photonique 18 mars 2026 en ligne Webinaires Rencontre avec les nouveaux adhérents 9 décembre 2025 en ligne",
-      "start": "2026-11-17",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Photonics France",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Photonique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s052",
-          "name": "Photonics France",
-          "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
-          "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:24:18+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:24:18+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 56,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 20,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : rencontres explicitement annoncées.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "b7ce4076b67163749160",
       "title": "Conférence du diplôme sur l'histoire environnementale des infrastructures",
-      "description": "Nous vous invitons à assister à la conférence de Nelo Magalhaes, chargé de recherche au CNRS le mardi 17 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect.",
+      "description": "Contact dsve [at] ens-paris-saclay.fr ( Direction de la scolarité, vie étudiante et concours) Conférence du diplôme sur l'histoire environnementale des infrastructures Nous vous invitons à assister à la conférence de Nelo Magalhaes, chargé de recherche au CNRS le mardi 17 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. Le 17/11/2026 : 18:30 à 20:00 Conférence du diplôme Ajouter à mon agenda 2026-11-17 18:30:00 2026-11-17 20:00:00 Conférence du diplôme sur l'histoire environnementale des infrastructures Nous vous invitons à assister à la conférence de Nelo Magalhaes, chargé de recherche au CNRS le mardi 17 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette ENS-PARIS-SACLAY webmaster@ens-paris-saclay.fr Europe/Paris public INFORMATIONS PRATIQUES Mardi 17 novembre 2026 de 18h30 à 20h ENS Paris-Saclay 4, Avenue des Sciences 91190 Gif-sur-Yvette Amphithéâtre Alain Aspect Venir à l'ENS - Intervenant : Nelo Magalhaes - Modératrice : Caroline Vincensini INSCRIPTION L'inscription en ligne est obligatoire pour participer à la conférence. Inscrivez-vous en ligne (billetweb) à partir du 26 octobre 2026 . Les informations personnelles sont recueillies uniquement pour l'inscription. Pour les élèves, étudiantes et étudiants : les informations personnelles sont recueillies uniquement pour suivre et valider votre présence dans le cadre des Conférences du Diplôme. Les élèves doivent obligatoirement s'inscrire avec leur mail \"ens-paris-saclay.fr\" pour valider la conférence du diplôme. Résumé Analyser le capitalisme par son métabolisme Le capitalisme ne flotte pas. Au-delà des circuits de trillions de dollars, il génère et exige des dizaines de milliards de tonnes. Nous présenterons une analyse historique du capitalisme (mondial et français) sur la longue durée, à partir de son métabolisme, soit l'ensemble des flux biophysiques qui lui permettent de se reproduire dans le temps. Nous proposerons également une réflexion critique et réflexive sur l'usage de la \"quantification environnementale\" en sciences sociales, en abordant les difficultés épistémologiques à coupler métabolisme et rapports sociaux, ainsi que les moyens d'y faire face. Biographie Nelo Magalhães est chargé de recherche au CNRS au laboratoire Clersé. Ses recherches portent sur la matérialité du capitalisme, dans une perspective qui allie économie politique et histoire environnementale. Consultez la liste des conférences du diplôme. Imprimer la page Facebook",
       "start": "2026-11-17T18:30:00+01:00",
       "end": null,
       "timezone": "UTC+01:00",
@@ -22015,66 +20580,6 @@
       "location": "ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette",
       "address": null,
       "city": "Gif-sur-Yvette",
-      "format": "Non précisé",
-      "category": "Conférence",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://ens-paris-saclay.fr/agenda/conference-du-diplome-sur-lhistoire-environnementale-des-infrastructures",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s006",
-          "name": "ENS Paris-Saclay",
-          "url": "https://ens-paris-saclay.fr/agenda/conference-du-diplome-sur-lhistoire-environnementale-des-infrastructures",
-          "listingUrl": "https://ens-paris-saclay.fr/agenda",
-          "checkedAt": "2026-10-28T15:22:34+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:52+00:00",
-      "lastVerified": "2026-10-28T15:22:34+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 30,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 15,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "9d8521fc0596c213f94d",
-      "title": "Conférence du diplôme sur l'histoire environnementale des infrastructures",
-      "description": "Contact dsve [at] ens-paris-saclay.fr ( Direction de la scolarité, vie étudiante et concours) Conférence du diplôme sur l'histoire environnementale des infrastructures Nous vous invitons à assister à la conférence de Nelo Magalhaes, chargé de recherche au CNRS le mardi 17 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. Le 17/11/2026 : 18:30 à 20:00 Conférence du diplôme Ajouter à mon agenda 2026-11-17 18:30:00 2026-11-17 20:00:00 Conférence du diplôme sur l'histoire environnementale des infrastructures Nous vous invitons à assister à la conférence de Nelo Magalhaes, chargé de recherche au CNRS le mardi 17 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette ENS-PARIS-SACLAY webmaster@ens-paris-saclay.fr Europe/Paris public INFORMATIONS PRATIQUES Mardi 17 novembre 2026 de 18h30 à 20h ENS Paris-Saclay 4, Avenue des Sciences 91190 Gif-sur-Yvette Amphithéâtre Alain Aspect Venir à l'ENS - Intervenant : Nelo Magalhaes - Modératrice : Caroline Vincensini INSCRIPTION L'inscription en ligne est obligatoire pour participer à la conférence. Inscrivez-vous en ligne (billetweb) à partir du 26 octobre 2026 . Les informations personnelles sont recueillies uniquement pour l'inscription. Pour les élèves, étudiantes et étudiants : les informations personnelles sont recueillies uniquement pour suivre et valider votre présence dans le cadre des Conférences du Diplôme. Les élèves doivent obligatoirement s'inscrire avec leur mail \"ens-paris-saclay.fr\" pour valider la conférence du diplôme. Résumé Analyser le capitalisme par son métabolisme Le capitalisme ne flotte pas. Au-delà des circuits de trillions de dollars, il génère et exige des dizaines de milliards de tonnes. Nous présenterons une analyse historique du capitalisme (mondial et français) sur la longue durée, à partir de son métabolisme, soit l'ensemble des flux biophysiques qui lui permettent de se reproduire dans le temps. Nous proposerons également une réflexion critique et réflexive sur l'usage de la \"quantification environnementale\" en sciences sociales, en abordant les difficultés épistémologiques à coupler métabolisme et rapports sociaux, ainsi que les moyens d'y faire face. Biographie Nelo Magalhães est chargé de recherche au CNRS au laboratoire Clersé. Ses recherches portent sur la matérialité du capitalisme, dans une perspective qui allie économie politique et histoire environnementale. Consultez la liste des conférences du diplôme. Imprimer la page Facebook",
-      "start": "2026-11-17T18:30:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "ENS Paris-Saclay",
-      "location": null,
-      "address": null,
-      "city": null,
       "format": "Non précisé",
       "category": "Conférence",
       "disciplines": [
@@ -22100,6 +20605,13 @@
         {
           "id": "s006",
           "name": "ENS Paris-Saclay",
+          "url": "https://ens-paris-saclay.fr/agenda/conference-du-diplome-sur-lhistoire-environnementale-des-infrastructures",
+          "listingUrl": "https://ens-paris-saclay.fr/agenda",
+          "checkedAt": "2026-10-28T15:22:34+00:00"
+        },
+        {
+          "id": "s006",
+          "name": "ENS Paris-Saclay",
           "url": "https://ens-paris-saclay.fr/lecole/venir-lecole",
           "listingUrl": "https://ens-paris-saclay.fr/agenda",
           "checkedAt": "2026-10-28T15:09:52+00:00"
@@ -22107,14 +20619,24 @@
       ],
       "firstSeen": "2026-10-28T15:09:52+00:00",
       "lastVerified": "2026-10-28T15:09:52+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:09:52+00:00",
+          "changes": {
+            "location": {
+              "before": "ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette",
+              "after": null
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
-        "total": 18,
+        "total": 30,
         "parts": {
           "Adéquation scientifique": 8,
           "Networking annoncé": 0,
-          "Proximité": 3,
+          "Proximité": 15,
           "Coût et accès": 5,
           "Stages et métiers": 0,
           "Niveau étudiant": 2
@@ -22217,9 +20739,9 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://psl.eu/agenda/la-decouverte-des-grands-programmes-de-recherche-de-psl-le-cycle-de-webinaires-2026",
-      "status": "Annoncé",
-      "reliability": "Élevée",
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
       "sources": [
         {
           "id": "s088",
@@ -22247,7 +20769,10 @@
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
-      }
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
     },
     {
       "id": "22c1a01b9b3701c52068",
@@ -22583,67 +21108,6 @@
       }
     },
     {
-      "id": "37ab9b8815ca478456c4",
-      "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 9 événement(s) disponible(s) Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau",
-      "start": "2026-11-24",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Photonics France",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Conférence",
-      "disciplines": [
-        "Photonique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.photonics-france.org/evenements/category/networking/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s052",
-          "name": "Photonics France",
-          "url": "https://www.photonics-france.org/evenements/category/networking/",
-          "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:24:18+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:24:18+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 56,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 20,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : rencontres explicitement annoncées.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
       "id": "71ab4ed860b67d26b234",
       "title": "Photonics Excellence Day 2026",
       "description": "Photonics Excellence Day 2026 Networking Événement partenaire Photonics France est partenaire de la 7e édition du Photonics Excellence Day, organisée par Systematic Paris-Region. Elle se tiendra à Sorbonne Université (Paris), le 24 novembre 2026. Le Photonics Excellence Day est une journée phare de conférences autour de la photonique et de son rôle stratégique. Cette année, cette édition explore un nouveau thème : Comment les technologies de la lumière peuvent-elles contribuer à une souveraineté technologique ? L’objectif de cette journée est de faire se rencontrer et dialoguer PME, grands industriels, chercheurs et étudiants. Ce rendez-vous leur permet de décrypter ensemble les ruptures technologiques, partager leurs expertises et faire émerger de nouvelles collaborations. Cette année les grandes thématiques sont les suivantes : Photonique & Nucléaire Photonique & Décarbonation Regards croisés Photonique pour l’intelligence artificielle En savoir plus L’événement se tiendra : Le 24 novembre 2026 – Sorbonne Université, Paris Je m’inscris Date : 24 novembre 2026 Lieu : Sorbonne Université, Paris. Je m'inscris Voir aussi Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Salons Global Industrie 2027 du 15 mar 2027 au 18 mar 2027 Lyon Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Tous les événements",
@@ -22949,67 +21413,6 @@
     {
       "id": "decd74cdd3af98c9c7cb",
       "title": "Séminaire de Nathan ARQUES",
-      "description": "Institut Recherche Le 26 novembre 2026 Séminaire de Nathan ARQUES Séminaire de Nathan ARQUES , doctorant dans le groupe Imagerie et Information du Laboratoire Charles Fabry, le 26 novembre 2026 Ajouter au calendrier 2026-11-26 00:00:00 2026-11-26 00:00:00 Séminaire de Nathan ARQUES Séminaire de Nathan ARQUES, doctorant dans le groupe Imagerie et Information du Laboratoire Charles Fabry, le 26 novembre 2026 à 13h15 à l'Institut d'Optique Graduate School à Palaiseau. init admin@local.com UTC public En savoir plus",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Photonique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-nathan-arques",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-nathan-arques",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "552662726ed3ecef4f82",
-      "title": "Séminaire de Nathan ARQUES",
       "description": "Séminaire de Nathan ARQUES Fil d'Ariane Accueil Agenda Séminaire de Nathan ARQUES × Envoyer cette page à un ami Séminaire des Doctorants Evénement scientifique Séminaire de Nathan ARQUES , doctorant dans le groupe Imagerie et Information du Laboratoire Charles Fabry, le 26 novembre 2026 à 13h15 à l'Institut d'Optique Graduate School à Palaiseau, sur le thème : \" Co-conception optique/traitement de systèmes optiques freeforms : apport des logiciels de conception optique professionnels et des algorithmes de déconvolution avancés \".",
       "start": "2026-11-26T13:15:00+01:00",
       "end": null,
@@ -23047,7 +21450,7 @@
           "checkedAt": "2026-10-28T15:22:14+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:22:14+00:00",
+      "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
       "history": [],
       "externalId": null,
@@ -23071,72 +21474,12 @@
     {
       "id": "c0fd77b2e7cff2ac2229",
       "title": "Conférence du diplôme avec Didier Fassin",
-      "description": "Dans le cadre du cycle de conférences autour des droits humains, nous vous invitons à assister à la conférence «Ce que la violence fait au langage et à la vie» de Didier Fassin, professeur au Collège de France, le jeudi 26 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. La conférence est gratuite, ouverte à toutes et à tous, avec inscription obligatoire pour des questions logistiques.",
-      "start": "2026-11-26T18:30:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "ENS Paris-Saclay",
-      "location": "ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Conférence",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://ens-paris-saclay.fr/agenda/conference-du-diplome-avec-didier-fassin",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s006",
-          "name": "ENS Paris-Saclay",
-          "url": "https://ens-paris-saclay.fr/agenda/conference-du-diplome-avec-didier-fassin",
-          "listingUrl": "https://ens-paris-saclay.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:52+00:00",
-      "lastVerified": "2026-10-28T15:09:52+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 18,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "a3dd1e28ea1128ccdd8e",
-      "title": "Conférence du diplôme avec Didier Fassin",
       "description": "Contact dsve [at] ens-paris-saclay.fr ( Direction de la scolarité, vie étudiante et concours) Conférence du diplôme avec Didier Fassin Didier Fassin Dans le cadre du cycle de conférences autour des droits humains, nous vous invitons à assister à la conférence «Ce que la violence fait au langage et à la vie» de Didier Fassin, professeur au Collège de France, le jeudi 26 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. La conférence est gratuite, ouverte à toutes et à tous, avec inscription obligatoire pour des questions logistiques. Le 26/11/2026 : 18:30 à 20:00 Conférence du diplôme Ajouter à mon agenda 2026-11-26 18:30:00 2026-11-26 20:00:00 Conférence du diplôme avec Didier Fassin Dans le cadre du cycle de conférences autour des droits humains, nous vous invitons à assister à la conférence «Ce que la violence fait au langage et à la vie» de Didier Fassin, professeur au Collège de France, le jeudi 26 novembre 2026 de 18h30 à 20h dans l'amphi Alain Aspect. La conférence est gratuite, ouverte à toutes et à tous, avec inscription obligatoire pour des questions logistiques. ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette ENS-PARIS-SACLAY webmaster@ens-paris-saclay.fr Europe/Paris public INFORMATION PRATIQUE - Date et heure : jeudi 26 novembre 2026 de 18h30 à 20h - Intervenant : Didier Fassin - Modérateur : Stéphane Le Roux - Mode conférence : amphithéâtre Alain Aspect INSCRIPTION L'inscription en ligne est obligatoire pour participer à la conférence. Inscrivez-vous en ligne (billetweb) à partir du 2 novembre 2026 . Résumé Ce que la violence fait au langage et à la vie La violence extrême, telle qu’elle se manifeste dans les conflits armés, les guerres civiles ou dans les génocides, génère un double dommage au langage et à la vie. En s’appuyant sur les analyses d’Hannah Arendt autour de la vérité et du mensonge en politique, dans \"Crisis of the Republic\", et autour de la distinction entre biologie et biographie, dans \"The Human Condition\", la conférence prendra comme étude de cas l’opération militaire menée par l’armée israélienne à Gaza. Biographie Didier Fassin est professeur au Collège de France, titulaire de la chaire Questions morales et enjeux politiques dans les sociétés contemporaines, et professeur émérite de sciences sociales à l’Institute for Advanced Study de Princeton. Anthropologue, sociologue et médecin, il est aussi directeur d’études à l’École des hautes études en sciences sociales. Il a conduit des recherches au Sénégal, en Afrique du Sud, en Équateur, et plus récemment aux États-Unis et en France. Membre de l’American Philosophical Society et de l’Academia Europea, ses travaux ont été reconnus par la médaille d’or de l’anthropologie à l’Académie royale des sciences de Suède, la Distinguished Scientist Award de la Fondation suisse Nomis et la Huxley Memorial Medal du Royal Anthropological Institute de Grande-Bretagne. Il a été vice-président de Médecins sans frontières et président du Comede, Comité pour la san",
       "start": "2026-11-26T18:30:00+01:00",
       "end": null,
       "timezone": "UTC+01:00",
       "organizer": "ENS Paris-Saclay",
-      "location": null,
+      "location": "ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette",
       "address": null,
       "city": null,
       "format": "Non précisé",
@@ -23163,6 +21506,13 @@
         {
           "id": "s006",
           "name": "ENS Paris-Saclay",
+          "url": "https://ens-paris-saclay.fr/agenda/conference-du-diplome-avec-didier-fassin",
+          "listingUrl": "https://ens-paris-saclay.fr/agenda",
+          "checkedAt": "2026-10-28T15:09:52+00:00"
+        },
+        {
+          "id": "s006",
+          "name": "ENS Paris-Saclay",
           "url": "https://www.billetweb.fr/conference-diplome-ce-que-la-violence-dit-du-monde",
           "listingUrl": "https://ens-paris-saclay.fr/agenda",
           "checkedAt": "2026-10-28T15:09:52+00:00"
@@ -23170,7 +21520,17 @@
       ],
       "firstSeen": "2026-10-28T15:09:52+00:00",
       "lastVerified": "2026-10-28T15:09:52+00:00",
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-28T15:09:52+00:00",
+          "changes": {
+            "location": {
+              "before": "ENS Paris-Saclay - 4, Avenue des Sciences 91190 Gif-sur-Yvette",
+              "after": null
+            }
+          }
+        }
+      ],
       "externalId": null,
       "score": {
         "total": 18,
@@ -23645,69 +22005,6 @@
     {
       "id": "a204abcf5ae72b62adf5",
       "title": "Soutenance de thèse de Sanghyeop LEE",
-      "description": "Institut Recherche Le 30 novembre 2026 Soutenance de thèse de Sanghyeop LEE Soutenance de thèse de Sanghyeop LEE , doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 30 novembre auditorium de l'Institut d'Optique de Palaiseau Ajouter au calendrier 2026-11-30 00:00:00 2026-11-30 00:00:00 Soutenance de thèse de Sanghyeop LEE Soutenance de thèse de Sanghyeop LEE, doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 30 novembre 2026 à 14h00 dans l'Auditorium de l'Institut d'Optique Graduate School de Palaiseau. auditorium de l'Institut d'Optique de Palaiseau init admin@local.com UTC public En savoir plus",
-      "start": "2026-11-30T00:00:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Soutenance",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sanghyeop-lee",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sanghyeop-lee",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "31cf55f876154cab73bf",
-      "title": "Soutenance de thèse de Sanghyeop LEE",
       "description": "Soutenance de thèse de Sanghyeop LEE Fil d'Ariane Accueil Agenda Soutenance de thèse de Sanghyeop LEE × Envoyer cette page à un ami Soutenance de Thèse Evénement scientifique Image de fluorescence d'atomes de strontium 84 piégés dans un réseau optique Soutenance de thèse de Sanghyeop LEE , doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 30 novembre 2026 à 14h00 dans l'Auditorium de l'Institut d'Optique Graduate School de Palaiseau, sur le thème : \"Site-resolved fluorescence imaging with a strontium quantum gas microscope\". Résumé : \"In this dissertation, we describe the development and characterization of a new strontium quantum gas microscope for site-resolved studies of two-dimensional Bose-Hubbard physics. The long-term goal of the experiment is to investigate out-of-equilibrium dynamics in the quantum critical region of the two-dimensional Bose-Hubbard model. The envisioned protocol consists of preparing a quantum gas in optical lattices, quenching the lattice parameters, and measuring the propagation of density-density correlations in real space. The main focus of this work is the implementation and understanding of site-resolved fluorescence imaging in optical lattices. On the experimental side, we describe the preparation of the two-dimensional confinement and lattice system required for imaging, the realization of site-resolved fluorescence imaging, and the characterization of the imaging performance of our setup. On the theoretical side, we develop a framework to describe fluorescence imaging of a single atom confined in an optical trap using a narrow optical transition. This approach is used to understand the imaging in the high-saturation regime relevant to our experiment and to guide the optimization of the imaging parameters. Together, these results establish the experimental and theoretical basis for future studies of Bose-Hubbard dynamics with site-resolved detection.\"",
       "start": "2026-11-30T14:00:00+01:00",
       "end": null,
@@ -23754,8 +22051,8 @@
           "at": "2026-10-28T15:22:14+00:00",
           "changes": {
             "location": {
-              "before": "auditorium de l'Institut d'Optique de Palaiseau",
-              "after": null
+              "before": null,
+              "after": "auditorium de l'Institut d'Optique de Palaiseau"
             }
           }
         }
@@ -23781,69 +22078,6 @@
     },
     {
       "id": "0624f9a185a1b562dd0a",
-      "title": "Séminaire de Yassir AMAZOUZ",
-      "description": "Institut Recherche Le 03 décembre 2026 Séminaire de Yassir AMAZOUZ Séminaire de Yassir AMAZOUZ , doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 3 décembre 2026 à Ajouter au calendrier 2026-12-03 00:00:00 2026-12-03 00:00:00 Séminaire de Yassir AMAZOUZ Séminaire de Yassir AMAZOUZ, doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 3 décembre 2026 à 13h15 à l'Institut d'Optique Graduate School à Palaiseau. init admin@local.com UTC public En savoir plus",
-      "start": "2026-12-03T00:00:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "Laboratoire Charles Fabry",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Séminaire",
-      "disciplines": [
-        "Photonique",
-        "Quantique"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-yassir-amazouz",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s002",
-          "name": "Laboratoire Charles Fabry",
-          "url": "https://www.lcf.institutoptique.fr/agenda/seminaire-de-yassir-amazouz",
-          "listingUrl": "https://www.lcf.institutoptique.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:15+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:15+00:00",
-      "lastVerified": "2026-10-28T15:09:15+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 36,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Quantique mentionné ; caractère expérimental à vérifier.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "c185e1a07cc186f9b5af",
       "title": "Séminaire de Yassir AMAZOUZ",
       "description": "Séminaire de Yassir AMAZOUZ Fil d'Ariane Accueil Agenda Séminaire de Yassir AMAZOUZ × Envoyer cette page à un ami Séminaire des Doctorants Evénement scientifique Séminaire de Yassir AMAZOUZ , doctorant dans le groupe Gaz quantiques du Laboratoire Charles Fabry, le 3 décembre 2026 à 13h15 à l'Institut d'Optique Graduate School à Palaiseau, sur le thème : \" Dynamique de relaxation de gaz quantiques sur réseau \".",
       "start": "2026-12-03T13:15:00+01:00",
@@ -23883,7 +22117,7 @@
           "checkedAt": "2026-10-28T15:22:14+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:22:14+00:00",
+      "firstSeen": "2026-10-28T15:09:15+00:00",
       "lastVerified": "2026-10-28T15:22:14+00:00",
       "history": [],
       "externalId": null,
@@ -24237,66 +22471,6 @@
         "reasons": [
           "Thématique photonique ou optique annoncée.",
           "Lien explicite avec le matériel photonique ou quantique.",
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "af8cda4eb2902c136788",
-      "title": "Spectacle : Trait(s)",
-      "description": "Cirque, peinture et musique se rencontrent dans ce spectacle pour familles et enfants. Un acrobate transforme la scène en toile vivante : avec sa roue Cyr comme pinceau, il trace, tourne, éclabousse et fait surgir formes et couleurs. Inspiré des peintres Kandinsky, Miró ou Delaunay, \"Trait(s)\" mêle cirque et arts visuels dans un jeu de lignes et de spirales. Chaque geste laisse une empreinte, chaque passage dessine une œuvre éphémère. Accompagné d’un musicien multi-instrumentiste, l’acrobate invente un langage poétique de cercles et de pigments. Un moment suspendu, comme un tableau en train de naître.",
-      "start": "2026-12-05T14:00:00+01:00",
-      "end": null,
-      "timezone": "UTC+01:00",
-      "organizer": "ENS Paris-Saclay",
-      "location": "La Scène de recherche - Théâtre Paris-Saclay",
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Instrumentation"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://billetterie-scenederecherche.mapado.com/event/781308-trait-s",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s006",
-          "name": "ENS Paris-Saclay",
-          "url": "https://billetterie-scenederecherche.mapado.com/event/781308-trait-s",
-          "listingUrl": "https://ens-paris-saclay.fr/agenda",
-          "checkedAt": "2026-10-28T15:09:52+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:09:52+00:00",
-      "lastVerified": "2026-10-28T15:09:52+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 32,
-        "parts": {
-          "Adéquation scientifique": 22,
-          "Networking annoncé": 0,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
           "Networking : aucune rencontre professionnelle garantie.",
           "Tarif non précisé : à vérifier."
         ]
@@ -25029,68 +23203,6 @@
         },
         "reasons": [
           "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
-      "id": "3677864ce40edade99c3",
-      "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Votre recherche : 3 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie Institutionnel Assemblée générale 2026 3 avril 2026 Paris - Bpifrance Le Hub",
-      "start": "2027-03-24",
-      "end": null,
-      "timezone": "Europe/Paris",
-      "organizer": "Photonics France",
-      "location": null,
-      "address": null,
-      "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Photonique",
-        "Deeptech"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": null,
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s052",
-          "name": "Photonics France",
-          "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
-          "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:24:18+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:24:18+00:00",
-      "history": [],
-      "externalId": null,
-      "score": {
-        "total": 61,
-        "parts": {
-          "Adéquation scientifique": 26,
-          "Networking annoncé": 20,
-          "Proximité": 3,
-          "Coût et accès": 5,
-          "Stages et métiers": 5,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Thématique photonique ou optique annoncée.",
-          "Networking : rencontres explicitement annoncées.",
           "Tarif non précisé : à vérifier."
         ]
       }
