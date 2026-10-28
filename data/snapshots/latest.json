@@ -1,25 +1,25 @@
 {
-  "at": "2026-10-28T19:08:46+00:00",
+  "at": "2026-10-28T19:14:34+00:00",
   "previousRun": {
-    "startedAt": "2026-10-28T19:05:49+00:00",
-    "lastSuccessfulCollection": "2026-10-28T18:57:41+00:00",
+    "startedAt": "2026-10-28T19:08:46+00:00",
+    "lastSuccessfulCollection": "2026-10-28T19:09:56+00:00",
     "newSources": 0,
     "sources": [],
     "errors": [],
     "scheduled": true,
-    "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40751149313",
+    "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40751744569",
     "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
     "discoverySchedule": "Dimanche, 06:15 UTC",
     "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
     "quarantined": 0,
     "quarantineHistory": 47,
-    "finishedAt": "2026-10-28T19:05:49+00:00",
+    "finishedAt": "2026-10-28T19:09:56+00:00",
     "httpRequests": 0,
     "events": 362,
     "incoming": 0,
     "newEvents": 0,
-    "status": "Données récentes conservées · vérification du catalogue effectuée",
-    "reprocessed": true
+    "status": "Import public depuis une URL réussi",
+    "reprocessed": false
   },
   "previousEvents": [
     {
@@ -24886,6 +24886,72 @@
       "evidence": {},
       "extractionVersion": 2,
       "warnings": []
+    },
+    {
+      "id": "fc31e730c4bb16975ef6",
+      "title": "SÉMINAIRE 14/12 - Les Lundis de l'IPSIT",
+      "description": "L'IPSIT organise un séminaire \"Bien vieillir : comprendre les adaptations, préserver les capacités\" le 14 décembre 2026.",
+      "start": "2026-12-14",
+      "end": null,
+      "endExclusive": false,
+      "evidence": {
+        "access": "ublics Type d'évènement Conférence / séminaire / webinaire Conditions Sur inscription Dates Le 14 décembre 2026 12:00 am - 12:00 am Lieu Bâtiment Henri Moissan Un Séminaire des Lundis de l'IPSIT se déroule le lundi 14 décembre 2026 , de 09h15 à 12h15, en salle 1009"
+      },
+      "timezone": "Europe/Paris",
+      "organizer": "Faculté de pharmacie Paris-Saclay",
+      "location": "Bâtiment Henri Moissan",
+      "address": null,
+      "city": null,
+      "format": "En ligne",
+      "category": "Séminaire",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": "ublics Type d'évènement Conférence / séminaire / webinaire Conditions Sur inscription Dates Le 14 décembre 2026 12:00 am - 12:00 am Lieu Bâtiment Henri Moissan Un Séminaire des Lundis de l'IPSIT se déroule le lundi 14 décembre 2026 , de 09h15 à 12h15, en salle 1009",
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/seminaire-14/12-les-lundis-de-lipsit",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "url-e6897985bcdb",
+          "name": "Faculté de pharmacie Paris-Saclay",
+          "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/seminaire-14/12-les-lundis-de-lipsit",
+          "listingUrl": "https://www.pharmacie.universite-paris-saclay.fr/evenements/seminaire-14/12-les-lundis-de-lipsit",
+          "checkedAt": "2026-10-28T19:09:56+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T19:09:56+00:00",
+      "lastVerified": "2026-10-28T19:09:56+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 23,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 8,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
     },
     {
       "id": "1f218dc6071ef7a00279",
