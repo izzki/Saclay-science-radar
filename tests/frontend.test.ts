@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import type {RadarEvent} from '../src/types.ts';
-import {EMPTY_FILTERS,filterEvents,toIcs,safeUrl,dayInParis,scoreLabel,validateLocalEvent} from '../src/lib.ts';
+import {EMPTY_FILTERS,filterEvents,toIcs,safeUrl,dayInParis,scoreLabel,validateLocalEvent,eventPhase,sortEvents,mergeLocalEvents} from '../src/lib.ts';
 const e={id:'test',title:'Optique, quantique\nTest',description:'Description',start:'2026-11-03T11:00:00+01:00',end:null,url:'https://example.org/',city:'Palaiseau',organizer:'Laboratoire',disciplines:['Photonique'],category:'Séminaire',format:'Présentiel',price:null,currency:null,access:null,reliability:'Élevée',score:{total:22}} as RadarEvent;
 const today=new Date('2026-10-28T12:00:00Z');
 test('aucun score faible exclu du mode exhaustif',()=>assert.equal(filterEvents([e],EMPTY_FILTERS,today).length,1));
@@ -20,3 +20,24 @@ test('une sauvegarde refuse les avertissements mal formés',()=>{
  assert.equal(validateLocalEvent(value),true);
  assert.equal(validateLocalEvent({...value,warnings:{invalid:true}}),false);
 });
+
+test('un événement terminé aujourd’hui est masqué à l’heure réelle',()=>{
+ const ended={...e,start:'2026-10-28T14:00:00+01:00',end:'2026-10-28T15:00:00+01:00'};
+ const now=new Date('2026-10-28T16:00:00Z');assert.equal(eventPhase(ended,now),'ended');assert.equal(filterEvents([ended],EMPTY_FILTERS,now).length,0);
+ assert.equal(filterEvents([ended],{...EMPTY_FILTERS,timeScope:'past'},now).length,1);
+});
+test('fin inconnue : déjà commencé ne signifie pas confirmé terminé',()=>{
+ const started={...e,start:'2026-10-28T14:00:00+01:00',end:null};assert.equal(eventPhase(started,new Date('2026-10-28T16:00Z')),'started');assert.equal(filterEvents([started],EMPTY_FILTERS,new Date('2026-10-28T16:00Z')).length,0);
+});
+test('événement en cours et fin ICS exclusive',()=>{
+ const ongoing={...e,start:'2026-10-26',end:'2026-10-29',endExclusive:true};assert.equal(eventPhase(ongoing,new Date('2026-10-28T12:00Z')),'ongoing');assert.equal(eventPhase(ongoing,new Date('2026-10-29T12:00Z')),'ended');
+});
+test('tri chronologique explicite dans les deux sens',()=>{
+ const later={...e,id:'later',start:'2026-12-01'};assert.equal(sortEvents([later,e],'date-asc')[0].id,e.id);assert.equal(sortEvents([later,e],'date-desc')[0].id,'later');
+});
+test('mots-clés séparés par virgules et noms d’intervenants',()=>{
+ const item={...e,speakers:[{name:'Camille Test',institution:'Laboratoire'}]};assert.equal(filterEvents([item],{...EMPTY_FILTERS,search:'optique, Camille'},today).length,1);
+});
+
+test('les sept derniers jours fonctionnent dans les archives',()=>{const past={...e,start:'2026-10-24T11:00:00+02:00',end:null};assert.equal(filterEvents([past],{...EMPTY_FILTERS,timeScope:'past',period:'week'},today).length,1);});
+test('réimport local : la nouvelle séance remplace la précédente et conserve son historique',()=>{const old={...e,history:[],firstSeen:'2026-10-01T00:00Z'};const newer={...old,start:'2026-11-03T14:00:00+01:00'};const result=mergeLocalEvents([old],[newer]);assert.equal(result.length,1);assert.equal(result[0].firstSeen,old.firstSeen);assert.equal(result[0].history.length,1);assert.equal(result[0].start,newer.start);});

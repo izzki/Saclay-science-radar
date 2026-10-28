@@ -7,12 +7,12 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:21:39+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:16+00:00",
     "verifiedUrl": "https://www.institutoptique.fr/agenda",
-    "lastCheck": "2026-10-28T15:21:45+00:00",
+    "lastCheck": "2026-10-28T18:50:16+00:00",
     "pendingDetails": [
       "https://www.institutoptique.fr/agenda/rentree-2026-les-dates-retenir",
       "https://www.institutoptique.fr/agenda/linstitut-doptique-accueille-les-oraux-du-concours-centrale-supelec-2026",
@@ -27,9 +27,10 @@
       "https://www.institutoptique.fr/agenda/cross-solidaire-de-liosf"
     ],
     "lastResult": "ok",
-    "lastEventCount": 15,
+    "lastEventCount": 2,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:22:00+00:00"
+    "lastSuccess": "2026-10-28T18:50:16+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00"
   },
   {
     "id": "s002",
@@ -39,12 +40,12 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Collecte opérationnelle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:00+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:19+00:00",
     "verifiedUrl": "https://www.lcf.institutoptique.fr/agenda",
-    "lastCheck": "2026-10-28T15:22:02+00:00",
+    "lastCheck": "2026-10-28T18:50:19+00:00",
     "pendingDetails": [
       "https://www.lcf.institutoptique.fr/agenda/seminaire-de-alexis-corbillet",
       "https://www.lcf.institutoptique.fr/agenda/seminaire-de-romain-martin-le-5-novembre-2026-13h15-iogs-palaiseau",
@@ -58,9 +59,10 @@
       "https://www.lcf.institutoptique.fr/agenda/seminaire-de-baptiste-leprovost"
     ],
     "lastResult": "ok",
-    "lastEventCount": 31,
+    "lastEventCount": 18,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:22:14+00:00"
+    "lastSuccess": "2026-10-28T18:50:19+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00"
   },
   {
     "id": "s003",
@@ -73,7 +75,7 @@
     "status": "Indisponible",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:14+00:00",
+    "lastAttempt": "2026-10-28T18:50:09+00:00",
     "lastResult": "error",
     "errors": [
       {
@@ -81,7 +83,9 @@
         "error": "403 Client Error: Forbidden for url: https://www.polytechnique.edu/evenements"
       }
     ],
-    "lastCheckError": "403 Client Error: Forbidden for url: https://www.polytechnique.edu/evenements"
+    "lastCheckError": "403 Client Error: Forbidden for url: https://www.polytechnique.edu/evenements",
+    "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00",
+    "lastIntegrationError": "403 Client Error: Forbidden for url: https://www.polytechnique.edu/evenements"
   },
   {
     "id": "s004",
@@ -91,18 +95,23 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Indisponible",
+    "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:16+00:00",
-    "lastResult": "error",
+    "lastAttempt": "2026-10-28T18:50:10+00:00",
+    "lastResult": "empty",
     "errors": [
       {
         "at": "2026-10-28T15:22:17+00:00",
         "error": "404 Client Error: Not Found for url: https://www.ip-paris.fr/actualites/agenda"
       }
     ],
-    "lastCheckError": "404 Client Error: Not Found for url: https://www.ip-paris.fr/actualites/agenda"
+    "lastCheckError": "404 Client Error: Not Found for url: https://www.ip-paris.fr/actualites/agenda",
+    "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:50:10+00:00",
+    "verifiedUrl": "https://www.ip-paris.fr/",
+    "lastEventCount": 0
   },
   {
     "id": "s005",
@@ -115,8 +124,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:15:59+00:00",
-    "verifiedUrl": "https://www.centralesupelec.fr/"
+    "lastCheck": "2026-10-28T18:36:35+00:00",
+    "verifiedUrl": "https://www.centralesupelec.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:26+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s006",
@@ -126,12 +137,12 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:17+00:00",
+    "lastAttempt": "2026-10-28T18:50:15+00:00",
     "verifiedUrl": "https://ens-paris-saclay.fr/agenda",
-    "lastCheck": "2026-10-28T15:22:20+00:00",
+    "lastCheck": "2026-10-28T18:50:15+00:00",
     "pendingDetails": [
       "https://ens-paris-saclay.fr/agenda/journee-detudes-de-larcom-en-partenariat-avec-lens-paris-saclay-2026",
       "https://ens-paris-saclay.fr/agenda/la-vie-de-recherche-jean-jouzel",
@@ -151,31 +162,32 @@
       "https://ens-paris-saclay.fr/actualite/nouvelle-formation-professionnelle-le-diplome-de-comptabilite-et-de-gestion-en",
       "https://ens-paris-saclay.fr/actualite/lancement-du-label-employeur-pro-velo"
     ],
-    "lastResult": "ok",
-    "lastEventCount": 5,
+    "lastResult": "empty",
+    "lastEventCount": 0,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:22:34+00:00"
+    "lastSuccess": "2026-10-28T15:22:34+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:09+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s007",
     "name": "Université Paris-Saclay",
-    "url": "https://www.universite-paris-saclay.fr/actualites/agenda",
+    "url": "https://www.universite-paris-saclay.fr/evenements",
     "group": "Campus Paris-Saclay",
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Indisponible",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:34+00:00",
-    "lastResult": "error",
-    "errors": [
-      {
-        "at": "2026-10-28T15:22:36+00:00",
-        "error": "404 Client Error: Not Found for url: https://www.universite-paris-saclay.fr/actualites/agenda"
-      }
-    ],
-    "lastCheckError": "404 Client Error: Not Found for url: https://www.universite-paris-saclay.fr/actualites/agenda"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:18+00:00",
+    "lastResult": "ok",
+    "errors": [],
+    "lastIntegrationAttempt": "2026-10-28T18:50:10+00:00",
+    "lastCheck": "2026-10-28T18:50:18+00:00",
+    "verifiedUrl": "https://www.universite-paris-saclay.fr/evenements",
+    "lastEventCount": 2,
+    "lastSuccess": "2026-10-28T18:50:18+00:00"
   },
   {
     "id": "s008",
@@ -188,8 +200,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:01+00:00",
-    "verifiedUrl": "https://www.sciences.universite-paris-saclay.fr/"
+    "lastCheck": "2026-10-28T18:36:37+00:00",
+    "verifiedUrl": "https://www.sciences.universite-paris-saclay.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:33+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s009",
@@ -202,8 +216,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:05+00:00",
-    "verifiedUrl": "https://www.universite-paris-saclay.fr/graduate-schools"
+    "lastCheck": "2026-10-28T18:36:38+00:00",
+    "verifiedUrl": "https://www.universite-paris-saclay.fr/graduate-schools",
+    "lastIntegrationAttempt": "2026-10-28T18:36:35+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s010",
@@ -216,8 +232,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:06+00:00",
-    "verifiedUrl": "https://www.universite-paris-saclay.fr/recherche/doctorat-et-habilitation-diriger-des-recherches-hdr"
+    "lastCheck": "2026-10-28T18:36:41+00:00",
+    "verifiedUrl": "https://www.universite-paris-saclay.fr/recherche/doctorat-et-habilitation-diriger-des-recherches-hdr",
+    "lastIntegrationAttempt": "2026-10-28T18:36:35+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s011",
@@ -230,8 +248,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:07+00:00",
-    "verifiedUrl": "https://www.institut-pascal.universite-paris-saclay.fr/"
+    "lastCheck": "2026-10-28T18:36:39+00:00",
+    "verifiedUrl": "https://www.institut-pascal.universite-paris-saclay.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:35+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s012",
@@ -244,8 +264,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:09+00:00",
-    "verifiedUrl": "https://www.lumen.universite-paris-saclay.fr/"
+    "lastCheck": "2026-10-28T18:36:42+00:00",
+    "verifiedUrl": "https://www.lumen.universite-paris-saclay.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:37+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s013",
@@ -258,8 +280,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:10+00:00",
-    "verifiedUrl": "https://www.agroparistech.fr/"
+    "lastCheck": "2026-10-28T18:36:41+00:00",
+    "verifiedUrl": "https://www.agroparistech.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:38+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s014",
@@ -272,8 +296,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:12+00:00",
-    "verifiedUrl": "https://www.telecom-paris.fr/"
+    "lastCheck": "2026-10-28T18:36:52+00:00",
+    "verifiedUrl": "https://www.telecom-paris.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:39+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s015",
@@ -286,8 +312,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:15+00:00",
-    "verifiedUrl": "https://www.ensta.fr/"
+    "lastCheck": "2026-10-28T18:36:45+00:00",
+    "verifiedUrl": "https://www.ensta.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:41+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s016",
@@ -300,8 +328,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:16:16+00:00",
-    "verifiedUrl": "https://www.ensae.fr/"
+    "lastCheck": "2026-10-28T18:36:44+00:00",
+    "verifiedUrl": "https://www.ensae.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:41+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s017",
@@ -315,7 +345,9 @@
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
     "lastCheck": "2026-10-28T15:16:19+00:00",
-    "verifiedUrl": "https://www.minesparis.psl.eu/"
+    "verifiedUrl": "https://www.minesparis.psl.eu/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:42+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s018",
@@ -329,7 +361,9 @@
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
     "lastCheck": "2026-10-28T15:25:53+00:00",
-    "verifiedUrl": "https://www.hec.edu/fr"
+    "verifiedUrl": "https://www.hec.edu/fr",
+    "lastIntegrationAttempt": "2026-10-28T18:36:43+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s019",
@@ -339,12 +373,12 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Collecte opérationnelle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:36+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:21+00:00",
     "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-    "lastCheck": "2026-10-28T15:22:38+00:00",
+    "lastCheck": "2026-10-28T18:50:21+00:00",
     "pendingDetails": [
       "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/",
       "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/",
@@ -353,9 +387,10 @@
       "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/"
     ],
     "lastResult": "ok",
-    "lastEventCount": 9,
+    "lastEventCount": 5,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:22:50+00:00"
+    "lastSuccess": "2026-10-28T18:50:21+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:15+00:00"
   },
   {
     "id": "s020",
@@ -365,18 +400,23 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Indisponible",
+    "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:50+00:00",
-    "lastResult": "error",
+    "lastAttempt": "2026-10-28T18:50:21+00:00",
+    "lastResult": "empty",
     "errors": [
       {
         "at": "2026-10-28T15:22:51+00:00",
         "error": "robots.txt non vérifié : collecte suspendue"
       }
     ],
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:50:16+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:50:21+00:00",
+    "verifiedUrl": "https://contractia.universite-paris-saclay.fr/staffing",
+    "lastEventCount": 0
   },
   {
     "id": "s021",
@@ -386,12 +426,12 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:22:51+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:33+00:00",
     "verifiedUrl": "https://www.lps.u-psud.fr/",
-    "lastCheck": "2026-10-28T15:22:54+00:00",
+    "lastCheck": "2026-10-28T18:50:33+00:00",
     "pendingDetails": [
       "https://www.lps.u-psud.fr/petit-seminaire-de-vulgarisation-psv/",
       "https://www.lps.u-psud.fr/seminaires-generaux-du-lps/",
@@ -421,9 +461,10 @@
       "https://www.lps.u-psud.fr/quand-les-vibrations-atomiques-font-voyager-les-electrons-en-groupe/"
     ],
     "lastResult": "ok",
-    "lastEventCount": 49,
+    "lastEventCount": 21,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:23:08+00:00"
+    "lastSuccess": "2026-10-28T18:50:33+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:18+00:00"
   },
   {
     "id": "s022",
@@ -436,7 +477,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:36:44+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s023",
@@ -449,7 +492,7 @@
     "status": "Indisponible",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:23:08+00:00",
+    "lastAttempt": "2026-10-28T18:50:22+00:00",
     "lastResult": "error",
     "errors": [
       {
@@ -457,7 +500,9 @@
         "error": "Interdit par robots.txt"
       }
     ],
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "lastIntegrationAttempt": "2026-10-28T18:50:19+00:00",
+    "lastIntegrationError": "Interdit par robots.txt"
   },
   {
     "id": "s024",
@@ -470,27 +515,30 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:36:47+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s025",
     "name": "Laboratoire Kastler Brossel",
-    "url": "https://www.lkb.fr/",
+    "url": "https://www.lkb.fr/evenements/",
     "group": "Laboratoires et recherche",
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:23:10+00:00",
-    "verifiedUrl": "https://www.lkb.fr/",
-    "lastCheck": "2026-10-28T15:23:12+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:48+00:00",
+    "verifiedUrl": "https://www.lkb.fr/evenements/",
+    "lastCheck": "2026-10-28T18:50:48+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
-    "lastEventCount": 113,
+    "lastEventCount": 112,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:23:17+00:00"
+    "lastSuccess": "2026-10-28T18:50:48+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:21+00:00"
   },
   {
     "id": "s026",
@@ -503,8 +551,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:13+00:00",
-    "verifiedUrl": "https://www.cea.fr/paris-saclay/"
+    "lastCheck": "2026-10-28T18:36:52+00:00",
+    "verifiedUrl": "https://www.cea.fr/paris-saclay/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:49+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s027",
@@ -517,7 +567,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:36:50+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s028",
@@ -530,8 +582,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:16+00:00",
-    "verifiedUrl": "https://www.leti-cea.fr/cea-tech/leti"
+    "lastCheck": "2026-10-28T18:36:57+00:00",
+    "verifiedUrl": "https://www.leti-cea.fr/cea-tech/leti",
+    "lastIntegrationAttempt": "2026-10-28T18:36:51+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s029",
@@ -541,26 +595,25 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Collecte partielle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:23:17+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:43+00:00",
     "verifiedUrl": "https://iramis.cea.fr/",
-    "lastCheck": "2026-10-28T15:23:19+00:00",
+    "lastCheck": "2026-10-28T18:50:43+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
-    "lastEventCount": 33,
+    "lastEventCount": 5,
     "errors": [
       {
-        "url": "https://iramis.cea.fr/feed/",
         "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/feed/"
       },
       {
-        "url": "https://iramis.cea.fr/comments/feed/",
         "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/comments/feed/"
       }
     ],
-    "lastSuccess": "2026-10-28T15:23:32+00:00"
+    "lastSuccess": "2026-10-28T18:50:43+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:21+00:00"
   },
   {
     "id": "s030",
@@ -568,13 +621,26 @@
     "url": "https://iramis.cea.fr/spec/",
     "group": "Laboratoires et recherche",
     "connector": "auto",
-    "enabled": false,
+    "enabled": true,
     "priority": false,
-    "status": "Inventoriée — intégration nécessaire",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:17+00:00",
-    "verifiedUrl": "https://iramis.cea.fr/spec/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:50:44+00:00",
+    "verifiedUrl": "https://iramis.cea.fr/spec/",
+    "lastIntegrationAttempt": "2026-10-28T18:50:22+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 2,
+    "lastSuccess": "2026-10-28T18:50:44+00:00",
+    "lastAttempt": "2026-10-28T18:50:44+00:00",
+    "errors": [
+      {
+        "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/feed/"
+      },
+      {
+        "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/comments/feed/"
+      }
+    ]
   },
   {
     "id": "s031",
@@ -587,7 +653,11 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "404 Client Error: Not Found for url: https://joliot.cea.fr/drf/joliot/Pages/Entites/NeuroSpin.aspx"
+    "lastCheckError": "404 Client Error: Not Found for url: https://joliot.cea.fr/drf/joliot/Pages/Entites/NeuroSpin.aspx",
+    "lastIntegrationAttempt": "2026-10-28T18:36:52+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:36:59+00:00",
+    "verifiedUrl": "https://joliot.cea.fr/drf/joliot"
   },
   {
     "id": "s032",
@@ -595,13 +665,19 @@
     "url": "https://www.inria.fr/fr/centre-inria-de-saclay",
     "group": "Laboratoires et recherche",
     "connector": "auto",
-    "enabled": false,
+    "enabled": true,
     "priority": false,
-    "status": "Inventoriée — intégration nécessaire",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:21+00:00",
-    "verifiedUrl": "https://www.inria.fr/fr/centre-inria-de-saclay"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:50:42+00:00",
+    "verifiedUrl": "https://www.inria.fr/fr/centre-inria-de-saclay",
+    "lastIntegrationAttempt": "2026-10-28T18:50:33+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 8,
+    "lastSuccess": "2026-10-28T18:50:42+00:00",
+    "lastAttempt": "2026-10-28T18:50:42+00:00",
+    "errors": []
   },
   {
     "id": "s033",
@@ -614,7 +690,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "[Errno -5] No address associated with hostname"
+    "lastCheckError": "[Errno -5] No address associated with hostname",
+    "lastIntegrationAttempt": "2026-10-28T18:36:57+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s034",
@@ -627,7 +705,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt inaccessible : collecte suspendue"
+    "lastCheckError": "robots.txt inaccessible : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:36:57+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue"
   },
   {
     "id": "s035",
@@ -640,8 +720,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:25+00:00",
-    "verifiedUrl": "https://www.cnrs.fr/fr/agenda"
+    "lastCheck": "2026-10-28T18:37:02+00:00",
+    "verifiedUrl": "https://www.cnrs.fr/fr/agenda",
+    "lastIntegrationAttempt": "2026-10-28T18:36:58+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s036",
@@ -654,8 +736,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:27+00:00",
-    "verifiedUrl": "https://portail.polytechnique.edu/luli/"
+    "lastCheck": "2026-10-28T18:37:06+00:00",
+    "verifiedUrl": "https://portail.polytechnique.edu/luli/",
+    "lastIntegrationAttempt": "2026-10-28T18:36:59+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s037",
@@ -668,7 +752,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt inaccessible : collecte suspendue"
+    "lastCheckError": "robots.txt inaccessible : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:36:59+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue"
   },
   {
     "id": "s038",
@@ -681,8 +767,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:31+00:00",
-    "verifiedUrl": "https://llr.in2p3.fr/"
+    "lastCheck": "2026-10-28T18:37:08+00:00",
+    "verifiedUrl": "https://llr.in2p3.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:02+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s039",
@@ -695,8 +783,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:32+00:00",
-    "verifiedUrl": "https://www.ladhyx.polytechnique.fr/"
+    "lastCheck": "2026-10-28T18:37:03+00:00",
+    "verifiedUrl": "https://www.ladhyx.polytechnique.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:02+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s040",
@@ -706,42 +796,31 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte partielle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:23:32+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:50:53+00:00",
     "verifiedUrl": "https://www.ipht.fr/",
-    "lastCheck": "2026-10-28T15:23:35+00:00",
+    "lastCheck": "2026-10-28T18:50:53+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
-    "lastEventCount": 5,
+    "lastEventCount": 3,
     "errors": [
       {
-        "url": "https://www.ipht.fr/feed/",
         "error": "404 Client Error: Not Found for url: https://www.ipht.fr/feed/"
       },
       {
-        "url": "https://www.ipht.fr/comments/feed/",
         "error": "404 Client Error: Not Found for url: https://www.ipht.fr/comments/feed/"
       },
       {
-        "url": "https://www.ipht.fr/events/tba-93/?occurrence=2026-10-29",
         "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/tba-93/?occurrence=2026-10-29"
       },
       {
-        "url": "https://www.ipht.fr/events/the-onsager-algebra-in-quantum-lattice-models/?occurrence=2026-11-02",
         "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/the-onsager-algebra-in-quantum-lattice-models/?occurrence=2026-11-02"
-      },
-      {
-        "url": "https://www.ipht.fr/events/seminaire-group-b/?occurrence=2026-11-03",
-        "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/seminaire-group-b/?occurrence=2026-11-03"
-      },
-      {
-        "url": "https://www.ipht.fr/events/seminaire-group-b-2/?occurrence=2026-11-24",
-        "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/seminaire-group-b-2/?occurrence=2026-11-24"
       }
     ],
-    "lastSuccess": "2026-10-28T15:23:45+00:00"
+    "lastSuccess": "2026-10-28T18:50:53+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:43+00:00"
   },
   {
     "id": "s041",
@@ -754,7 +833,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:02+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s042",
@@ -767,8 +848,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:35+00:00",
-    "verifiedUrl": "https://www.synchrotron-soleil.fr/fr"
+    "lastCheck": "2026-10-28T18:37:08+00:00",
+    "verifiedUrl": "https://www.synchrotron-soleil.fr/fr",
+    "lastIntegrationAttempt": "2026-10-28T18:37:03+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s043",
@@ -781,22 +864,30 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:37+00:00",
-    "verifiedUrl": "https://lsi.ip-paris.fr/"
+    "lastCheck": "2026-10-28T18:37:05+00:00",
+    "verifiedUrl": "https://lsi.ip-paris.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:03+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s044",
     "name": "LMPS",
-    "url": "https://lmps.ens-paris-saclay.fr/",
+    "url": "https://lmps.ens-paris-saclay.fr/fr/agenda",
     "group": "Laboratoires et recherche",
     "connector": "auto",
-    "enabled": false,
+    "enabled": true,
     "priority": false,
-    "status": "Inventoriée — intégration nécessaire",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:41+00:00",
-    "verifiedUrl": "https://lmps.ens-paris-saclay.fr/fr"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:50:55+00:00",
+    "verifiedUrl": "https://lmps.ens-paris-saclay.fr/fr/agenda",
+    "lastIntegrationAttempt": "2026-10-28T18:50:43+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 12,
+    "lastSuccess": "2026-10-28T18:50:55+00:00",
+    "lastAttempt": "2026-10-28T18:50:55+00:00",
+    "errors": []
   },
   {
     "id": "s045",
@@ -809,8 +900,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:43+00:00",
-    "verifiedUrl": "https://l2s.centralesupelec.fr/"
+    "lastCheck": "2026-10-28T18:37:11+00:00",
+    "verifiedUrl": "https://l2s.centralesupelec.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:06+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s046",
@@ -823,8 +916,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:48+00:00",
-    "verifiedUrl": "https://satie.ens-paris-saclay.fr/fr"
+    "lastCheck": "2026-10-28T18:37:18+00:00",
+    "verifiedUrl": "https://satie.ens-paris-saclay.fr/fr",
+    "lastIntegrationAttempt": "2026-10-28T18:37:08+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s047",
@@ -837,7 +932,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:08+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s048",
@@ -847,26 +944,28 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Collecte partielle",
+    "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:23:45+00:00",
+    "lastAttempt": "2026-10-28T18:50:53+00:00",
     "verifiedUrl": "https://quantum-saclay.fr/",
-    "lastCheck": "2026-10-28T15:23:49+00:00",
+    "lastCheck": "2026-10-28T18:50:53+00:00",
     "pendingDetails": [
       "https://quantum-saclay.fr/deux-chercheurs-lies-a-communaute-de-luniversite-paris-saclay-laureats-dune-bourse-erc-advanced",
       "https://quantum-saclay.fr/quantum-phd-days-2025",
       "https://quantum-saclay.fr/course-announcement-quantum-sensing-quantum-metrology"
     ],
-    "lastResult": "ok",
-    "lastEventCount": 1,
+    "lastResult": "empty",
+    "lastEventCount": 0,
     "errors": [
       {
         "url": "https://quantum-saclay.fr/events/?ical=1",
         "error": "Found no components where exactly one is required: "
       }
     ],
-    "lastSuccess": "2026-10-28T15:24:02+00:00"
+    "lastSuccess": "2026-10-28T15:24:02+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:44+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s049",
@@ -879,8 +978,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:26:52+00:00",
-    "verifiedUrl": "https://www.francequantum.fr/"
+    "lastCheck": "2026-10-28T18:37:13+00:00",
+    "verifiedUrl": "https://www.francequantum.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:11+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s050",
@@ -893,8 +994,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:08+00:00",
-    "verifiedUrl": "https://www.sfoptique.org/"
+    "lastCheck": "2026-10-28T18:37:29+00:00",
+    "verifiedUrl": "https://www.sfoptique.org/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:11+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s051",
@@ -907,7 +1010,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:13+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s052",
@@ -917,20 +1022,22 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:24:02+00:00",
+    "lastAttempt": "2026-10-28T18:50:55+00:00",
     "verifiedUrl": "https://www.photonics-france.org/",
-    "lastCheck": "2026-10-28T15:24:03+00:00",
+    "lastCheck": "2026-10-28T18:50:55+00:00",
     "pendingDetails": [
       "https://www.photonics-france.org/evenements/page/2/",
       "https://www.photonics-france.org/evenements/page/3/"
     ],
-    "lastResult": "ok",
-    "lastEventCount": 4,
+    "lastResult": "empty",
+    "lastEventCount": 0,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:24:18+00:00"
+    "lastSuccess": "2026-10-28T15:24:18+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:48+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s053",
@@ -943,8 +1050,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:11+00:00",
-    "verifiedUrl": "https://www.quandela.com/"
+    "lastCheck": "2026-10-28T18:37:19+00:00",
+    "verifiedUrl": "https://www.quandela.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:16+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s054",
@@ -957,8 +1066,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:12+00:00",
-    "verifiedUrl": "https://www.pasqal.com/"
+    "lastCheck": "2026-10-28T18:37:22+00:00",
+    "verifiedUrl": "https://www.pasqal.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:18+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s055",
@@ -971,8 +1082,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:13+00:00",
-    "verifiedUrl": "https://alice-bob.com/"
+    "lastCheck": "2026-10-28T18:37:20+00:00",
+    "verifiedUrl": "https://alice-bob.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:19+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s056",
@@ -985,8 +1098,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:15+00:00",
-    "verifiedUrl": "https://www.c12qe.com/"
+    "lastCheck": "2026-10-28T18:37:21+00:00",
+    "verifiedUrl": "https://www.c12qe.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:19+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s057",
@@ -999,7 +1114,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:20+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s058",
@@ -1012,8 +1129,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:17+00:00",
-    "verifiedUrl": "https://www.exail.com/"
+    "lastCheck": "2026-10-28T18:37:24+00:00",
+    "verifiedUrl": "https://www.exail.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:21+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s059",
@@ -1026,8 +1145,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:19+00:00",
-    "verifiedUrl": "https://www.thalesgroup.com/en"
+    "lastCheck": "2026-10-28T18:37:23+00:00",
+    "verifiedUrl": "https://www.thalesgroup.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:22+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s060",
@@ -1040,7 +1161,11 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "403 Client Error: Forbidden for url: https://www.safran-group.com/"
+    "lastCheckError": "403 Client Error: Forbidden for url: https://www.safran-group.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:22+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:37:24+00:00",
+    "verifiedUrl": "https://www.safran-group.com/"
   },
   {
     "id": "s061",
@@ -1053,7 +1178,11 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:23+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:37:29+00:00",
+    "verifiedUrl": "https://www.st.com/content/st_com/en.html"
   },
   {
     "id": "s062",
@@ -1066,8 +1195,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:45+00:00",
-    "verifiedUrl": "https://eviden.com/"
+    "lastCheck": "2026-10-28T18:37:28+00:00",
+    "verifiedUrl": "https://eviden.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:24+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s063",
@@ -1080,36 +1211,51 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:46+00:00",
-    "verifiedUrl": "https://www.quantonation.com/"
+    "lastCheck": "2026-10-28T18:37:26+00:00",
+    "verifiedUrl": "https://www.quantonation.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:24+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s064",
     "name": "Le Lab Quantique",
-    "url": "https://lelabquantique.com/",
+    "url": "https://lelabquantique.com/events/",
     "group": "Quantique et photonique",
     "connector": "auto",
-    "enabled": false,
+    "enabled": true,
     "priority": false,
-    "status": "Inventoriée — intégration nécessaire",
+    "status": "Indisponible",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:49+00:00",
-    "verifiedUrl": "https://lelabquantique.com/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:37:44+00:00",
+    "verifiedUrl": "https://lelabquantique.com/events/",
+    "lastIntegrationAttempt": "2026-10-28T18:50:53+00:00",
+    "lastResult": "error",
+    "lastEventCount": 12,
+    "lastSuccess": "2026-10-28T18:37:44+00:00",
+    "lastAttempt": "2026-10-28T18:50:56+00:00",
+    "errors": [],
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s065",
     "name": "Systematic Paris-Region",
-    "url": "https://systematic-paris-region.org/",
+    "url": "https://systematic-paris-region.org/evenements/",
     "group": "Quantique et photonique",
     "connector": "auto",
-    "enabled": false,
+    "enabled": true,
     "priority": false,
-    "status": "Inventoriée — intégration nécessaire",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:51+00:00",
-    "verifiedUrl": "https://systematic-paris-region.org/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:51:00+00:00",
+    "verifiedUrl": "https://systematic-paris-region.org/evenements/",
+    "lastIntegrationAttempt": "2026-10-28T18:50:53+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:51:00+00:00",
+    "lastAttempt": "2026-10-28T18:51:00+00:00",
+    "errors": []
   },
   {
     "id": "s066",
@@ -1122,8 +1268,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:27:54+00:00",
-    "verifiedUrl": "https://systematic-paris-region.org/video/hub-optics-photonics-du-pole-systematic/"
+    "lastCheck": "2026-10-28T18:37:43+00:00",
+    "verifiedUrl": "https://systematic-paris-region.org/video/hub-optics-photonics-du-pole-systematic/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:29+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s067",
@@ -1136,7 +1284,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:29+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s068",
@@ -1149,8 +1299,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:00+00:00",
-    "verifiedUrl": "https://lafrenchtech-paris-saclay.fr/"
+    "lastCheck": "2026-10-28T18:37:42+00:00",
+    "verifiedUrl": "https://lafrenchtech-paris-saclay.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:32+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s069",
@@ -1163,7 +1315,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "[Errno -2] Name or service not known"
+    "lastCheckError": "[Errno -2] Name or service not known",
+    "lastIntegrationAttempt": "2026-10-28T18:37:41+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s070",
@@ -1171,13 +1325,19 @@
     "url": "https://paris-saclay-spring.com/",
     "group": "Innovation et entreprises",
     "connector": "auto",
-    "enabled": false,
+    "enabled": true,
     "priority": false,
-    "status": "Inventoriée — intégration nécessaire",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:02+00:00",
-    "verifiedUrl": "https://paris-saclay-spring.com/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:50:56+00:00",
+    "verifiedUrl": "https://paris-saclay-spring.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:50:55+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:50:56+00:00",
+    "lastAttempt": "2026-10-28T18:50:56+00:00",
+    "errors": []
   },
   {
     "id": "s071",
@@ -1190,8 +1350,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:05+00:00",
-    "verifiedUrl": "https://satt-paris-saclay.fr/"
+    "lastCheck": "2026-10-28T18:37:54+00:00",
+    "verifiedUrl": "https://satt-paris-saclay.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:42+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s072",
@@ -1204,8 +1366,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:07+00:00",
-    "verifiedUrl": "https://www.incuballiance.fr/"
+    "lastCheck": "2026-10-28T18:37:47+00:00",
+    "verifiedUrl": "https://www.incuballiance.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:43+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s073",
@@ -1218,8 +1382,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:08+00:00",
-    "verifiedUrl": "https://stationf.co/"
+    "lastCheck": "2026-10-28T18:37:46+00:00",
+    "verifiedUrl": "https://stationf.co/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:43+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s074",
@@ -1232,7 +1398,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt inaccessible : collecte suspendue"
+    "lastCheckError": "robots.txt inaccessible : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:44+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue"
   },
   {
     "id": "s075",
@@ -1245,8 +1413,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:16+00:00",
-    "verifiedUrl": "https://big.bpifrance.fr/"
+    "lastCheck": "2026-10-28T18:37:49+00:00",
+    "verifiedUrl": "https://big.bpifrance.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:46+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s076",
@@ -1259,8 +1429,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:18+00:00",
-    "verifiedUrl": "https://hello-tomorrow.org/"
+    "lastCheck": "2026-10-28T18:37:53+00:00",
+    "verifiedUrl": "https://hello-tomorrow.org/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:46+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s077",
@@ -1273,7 +1445,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:37:47+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue"
   },
   {
     "id": "s078",
@@ -1286,8 +1460,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:28+00:00",
-    "verifiedUrl": "https://www.agoranov.com/"
+    "lastCheck": "2026-10-28T18:37:52+00:00",
+    "verifiedUrl": "https://www.agoranov.com/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:49+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s079",
@@ -1300,8 +1476,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:29+00:00",
-    "verifiedUrl": "https://www.ip-paris.fr/innovation"
+    "lastCheck": "2026-10-28T18:37:55+00:00",
+    "verifiedUrl": "https://www.ip-paris.fr/innovation",
+    "lastIntegrationAttempt": "2026-10-28T18:37:52+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s080",
@@ -1314,8 +1492,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:31+00:00",
-    "verifiedUrl": "https://epa-paris-saclay.fr/"
+    "lastCheck": "2026-10-28T18:37:57+00:00",
+    "verifiedUrl": "https://epa-paris-saclay.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:53+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s081",
@@ -1328,8 +1508,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:33+00:00",
-    "verifiedUrl": "https://www.chooseparisregion.org/"
+    "lastCheck": "2026-10-28T18:37:57+00:00",
+    "verifiedUrl": "https://www.chooseparisregion.org/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:53+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s082",
@@ -1342,8 +1524,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:38+00:00",
-    "verifiedUrl": "https://medicen.org/"
+    "lastCheck": "2026-10-28T18:38:00+00:00",
+    "verifiedUrl": "https://medicen.org/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:54+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s083",
@@ -1356,8 +1540,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:41+00:00",
-    "verifiedUrl": "https://www.supoptique-alumni.com/fr/"
+    "lastCheck": "2026-10-28T18:37:58+00:00",
+    "verifiedUrl": "https://www.supoptique-alumni.com/fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:55+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s084",
@@ -1369,10 +1555,10 @@
     "priority": false,
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:24:18+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:51:07+00:00",
     "verifiedUrl": "https://www.college-de-france.fr/fr/agenda",
-    "lastCheck": "2026-10-28T15:24:19+00:00",
+    "lastCheck": "2026-10-28T18:51:07+00:00",
     "pendingDetails": [
       "https://www.college-de-france.fr/fr/agenda/seminaire/lecture-de-textes-en-lien-avec-le-cours/lecture-de-textes-en-lien-avec-le-cours-2",
       "https://www.college-de-france.fr/fr/agenda/cours/les-epouses-du-dieu-thebes/les-nouveaux-territoires-de-epouse-du-dieu-2-chapelles-et-domaines-funeraires",
@@ -1457,7 +1643,9 @@
     "lastResult": "empty",
     "lastEventCount": 0,
     "errors": [],
-    "lastSuccess": "2026-10-28T15:12:52+00:00"
+    "lastSuccess": "2026-10-28T18:38:04+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:55+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s085",
@@ -1470,7 +1658,11 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "403 Client Error: Forbidden for url: https://www.academie-sciences.fr/"
+    "lastCheckError": "403 Client Error: Forbidden for url: https://www.academie-sciences.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:37:57+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:38:02+00:00",
+    "verifiedUrl": "https://www.academie-sciences.fr/"
   },
   {
     "id": "s086",
@@ -1480,18 +1672,23 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Indisponible",
+    "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:24:35+00:00",
-    "lastResult": "error",
+    "lastAttempt": "2026-10-28T18:51:02+00:00",
+    "lastResult": "empty",
     "errors": [
       {
         "at": "2026-10-28T15:24:37+00:00",
         "error": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda"
       }
     ],
-    "lastCheckError": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda"
+    "lastCheckError": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda",
+    "lastIntegrationAttempt": "2026-10-28T18:50:56+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:51:02+00:00",
+    "verifiedUrl": "https://www.sorbonne-universite.fr/",
+    "lastEventCount": 0
   },
   {
     "id": "s087",
@@ -1504,22 +1701,26 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "404 Client Error: Not Found for url: https://u-paris.fr/agenda/"
+    "lastCheckError": "404 Client Error: Not Found for url: https://u-paris.fr/agenda/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:00+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:38:05+00:00",
+    "verifiedUrl": "https://u-paris.fr/"
   },
   {
     "id": "s088",
     "name": "Université PSL",
     "url": "https://psl.eu/agenda",
     "group": "Paris et culture scientifique",
-    "connector": "auto",
-    "enabled": false,
+    "connector": "psl-agenda-v2",
+    "enabled": true,
     "priority": false,
-    "status": "Intégration nécessaire — métadonnées ambiguës",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "Des métadonnées globales ont été retrouvées sur des pages sans rapport avec certaines annonces. Collecte suspendue jusqu’à validation du rattachement aux pages individuelles. Les annonces déjà repérées restent accessibles avec une fiabilité faible.",
-    "lastAttempt": "2026-10-28T15:24:37+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:51:06+00:00",
     "verifiedUrl": "https://psl.eu/agenda",
-    "lastCheck": "2026-10-28T15:24:39+00:00",
+    "lastCheck": "2026-10-28T18:51:06+00:00",
     "pendingDetails": [
       "https://psl.eu/agenda/cours-du-soir-de-lempire-ottoman-la-turquie-moderne",
       "https://psl.eu/agenda/cours-du-soir-la-mode-sous-toutes-ses-coutures",
@@ -1538,14 +1739,14 @@
       "https://psl.eu/actualites/les-candidatures-pour-le-phd-track-psl-chimie-sont-ouvertes"
     ],
     "lastResult": "ok",
-    "lastEventCount": 34,
+    "lastEventCount": 11,
     "errors": [
       {
-        "url": "http://www.univ-psl.fr/rss.xml",
         "error": "robots.txt non vérifié : collecte suspendue"
       }
     ],
-    "lastSuccess": "2026-10-28T15:24:57+00:00"
+    "lastSuccess": "2026-10-28T18:51:06+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:50:56+00:00"
   },
   {
     "id": "s089",
@@ -1558,13 +1759,15 @@
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:24:57+00:00",
+    "lastAttempt": "2026-10-28T18:51:07+00:00",
     "verifiedUrl": "https://www.ens.psl.eu/agenda",
-    "lastCheck": "2026-10-28T15:24:59+00:00",
+    "lastCheck": "2026-10-28T18:51:07+00:00",
     "pendingDetails": [],
     "lastResult": "empty",
     "lastEventCount": 0,
-    "errors": []
+    "errors": [],
+    "lastIntegrationAttempt": "2026-10-28T18:51:00+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s090",
@@ -1577,8 +1780,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:53+00:00",
-    "verifiedUrl": "https://www.espci.psl.eu/"
+    "lastCheck": "2026-10-28T18:38:15+00:00",
+    "verifiedUrl": "https://www.espci.psl.eu/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:05+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s091",
@@ -1591,8 +1796,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:56+00:00",
-    "verifiedUrl": "https://www.institut-langevin.espci.fr/home"
+    "lastCheck": "2026-10-28T18:38:17+00:00",
+    "verifiedUrl": "https://www.institut-langevin.espci.fr/home",
+    "lastIntegrationAttempt": "2026-10-28T18:38:05+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s092",
@@ -1605,8 +1812,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:28:58+00:00",
-    "verifiedUrl": "https://curie.fr/"
+    "lastCheck": "2026-10-28T18:38:12+00:00",
+    "verifiedUrl": "https://curie.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:08+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s093",
@@ -1619,7 +1828,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt non vérifié : collecte suspendue"
+    "lastCheckError": "robots.txt non vérifié : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:38:10+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s094",
@@ -1629,12 +1840,12 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte partielle",
+    "status": "Connecteur validé automatiquement",
     "reliability": "Élevée",
-    "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T15:25:13+00:00",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastAttempt": "2026-10-28T18:51:11+00:00",
     "verifiedUrl": "https://www.ihp.fr/fr/agenda",
-    "lastCheck": "2026-10-28T15:25:15+00:00",
+    "lastCheck": "2026-10-28T18:51:11+00:00",
     "pendingDetails": [
       "https://www.ihp.fr/fr/agenda/organisation-dune-conference-sur-lia-destination-de-doctorants",
       "https://www.ihp.fr/fr/agenda/charles-francois-sturm-1803-1855-circulations-mathematiques-et-trajectoire-savante-entre",
@@ -1642,14 +1853,10 @@
       "https://www.ihp.fr/fr/agenda/elise-devey-frank-wolfe-type-algorithm-high-dimensional-stochastic-control-problems-non"
     ],
     "lastResult": "ok",
-    "lastEventCount": 24,
-    "errors": [
-      {
-        "url": "https://www.ihp.fr/fr/agenda.xml",
-        "error": "500 Server Error: Internal Server Error for url: https://www.ihp.fr/fr/agenda.xml"
-      }
-    ],
-    "lastSuccess": "2026-10-28T15:25:32+00:00"
+    "lastEventCount": 12,
+    "errors": [],
+    "lastSuccess": "2026-10-28T18:51:11+00:00",
+    "lastIntegrationAttempt": "2026-10-28T18:51:02+00:00"
   },
   {
     "id": "s095",
@@ -1662,8 +1869,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:10+00:00",
-    "verifiedUrl": "https://www.inp.cnrs.fr/fr"
+    "lastCheck": "2026-10-28T18:38:16+00:00",
+    "verifiedUrl": "https://www.inp.cnrs.fr/fr",
+    "lastIntegrationAttempt": "2026-10-28T18:38:11+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s096",
@@ -1676,7 +1885,11 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt inaccessible : collecte suspendue"
+    "lastCheckError": "robots.txt inaccessible : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:38:12+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "lastCheck": "2026-10-28T18:38:16+00:00",
+    "verifiedUrl": "https://www.mnhn.fr/fr/l-agenda-du-museum"
   },
   {
     "id": "s097",
@@ -1689,8 +1902,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:15+00:00",
-    "verifiedUrl": "https://www.cite-sciences.fr/fr/accueil"
+    "lastCheck": "2026-10-28T18:38:23+00:00",
+    "verifiedUrl": "https://www.cite-sciences.fr/fr/accueil",
+    "lastIntegrationAttempt": "2026-10-28T18:38:15+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s098",
@@ -1703,8 +1918,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:17+00:00",
-    "verifiedUrl": "https://www.palais-decouverte.fr/"
+    "lastCheck": "2026-10-28T18:38:21+00:00",
+    "verifiedUrl": "https://www.palais-decouverte.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:16+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s099",
@@ -1717,8 +1934,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:20+00:00",
-    "verifiedUrl": "https://www.iledefrance-gif.cnrs.fr/fr"
+    "lastCheck": "2026-10-28T18:38:21+00:00",
+    "verifiedUrl": "https://www.iledefrance-gif.cnrs.fr/fr",
+    "lastIntegrationAttempt": "2026-10-28T18:38:16+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s100",
@@ -1731,8 +1950,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:21+00:00",
-    "verifiedUrl": "https://www.iap.fr/"
+    "lastCheck": "2026-10-28T18:38:25+00:00",
+    "verifiedUrl": "https://www.iap.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:17+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s101",
@@ -1746,7 +1967,9 @@
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
     "lastCheck": "2026-10-28T15:29:25+00:00",
-    "verifiedUrl": "https://www.ijm.fr/"
+    "verifiedUrl": "https://www.ijm.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:21+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s102",
@@ -1759,8 +1982,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:27+00:00",
-    "verifiedUrl": "https://www.institut-vision.org/"
+    "lastCheck": "2026-10-28T18:38:24+00:00",
+    "verifiedUrl": "https://www.institut-vision.org/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:21+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s103",
@@ -1773,8 +1998,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:29+00:00",
-    "verifiedUrl": "https://www.forumdelaphotonique.fr/"
+    "lastCheck": "2026-10-28T18:38:25+00:00",
+    "verifiedUrl": "https://www.forumdelaphotonique.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:23+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s104",
@@ -1787,7 +2014,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "[Errno -2] Name or service not known"
+    "lastCheckError": "[Errno -2] Name or service not known",
+    "lastIntegrationAttempt": "2026-10-28T18:38:24+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s105",
@@ -1800,7 +2029,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "robots.txt inaccessible : collecte suspendue"
+    "lastCheckError": "robots.txt inaccessible : collecte suspendue",
+    "lastIntegrationAttempt": "2026-10-28T18:38:24+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue"
   },
   {
     "id": "s106",
@@ -1813,8 +2044,10 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T15:29:31+00:00",
-    "verifiedUrl": "https://www.fetedelascience.fr/"
+    "lastCheck": "2026-10-28T18:38:30+00:00",
+    "verifiedUrl": "https://www.fetedelascience.fr/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:24+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire"
   },
   {
     "id": "s107",
@@ -1827,7 +2060,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "[Errno -2] Name or service not known"
+    "lastCheckError": "[Errno -2] Name or service not known",
+    "lastIntegrationAttempt": "2026-10-28T18:38:25+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s108",
@@ -1840,7 +2075,9 @@
     "status": "Inventoriée — intégration nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheckError": "[Errno -2] Name or service not known"
+    "lastCheckError": "[Errno -2] Name or service not known",
+    "lastIntegrationAttempt": "2026-10-28T18:38:25+00:00",
+    "lastIntegrationError": "[Errno -2] Name or service not known"
   },
   {
     "id": "s109",
@@ -2000,8 +2237,11 @@
     "parentId": "s001",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:31+00:00",
-    "verifiedUrl": "https://www.institutoptique.fr/agenda/rss.xml"
+    "lastCheck": "2026-10-28T18:38:32+00:00",
+    "verifiedUrl": "https://www.institutoptique.fr/agenda/rss.xml",
+    "lastIntegrationAttempt": "2026-10-28T18:38:25+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "organizerName": "Institut d’Optique Graduate School"
   },
   {
     "id": "auto-ffd8853ba08f",
@@ -2018,7 +2258,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:32+00:00",
-    "verifiedUrl": "https://www.institutoptique.fr/letablissement/mediatheque/les-publications"
+    "verifiedUrl": "https://www.institutoptique.fr/letablissement/mediatheque/les-publications",
+    "organizerName": "Institut d’Optique Graduate School"
   },
   {
     "id": "auto-5acf9c96ba27",
@@ -2034,8 +2275,11 @@
     "parentId": "s001",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:36+00:00",
-    "verifiedUrl": "https://www.institutoptique.fr/en/agenda/rss.xml"
+    "lastCheck": "2026-10-28T18:38:31+00:00",
+    "verifiedUrl": "https://www.institutoptique.fr/en/agenda/rss.xml",
+    "lastIntegrationAttempt": "2026-10-28T18:38:27+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "organizerName": "Institut d’Optique Graduate School"
   },
   {
     "id": "auto-df17255d090d",
@@ -2052,7 +2296,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:36+00:00",
-    "verifiedUrl": "https://www.institutoptique.fr/en/institut-doptique/library/publications"
+    "verifiedUrl": "https://www.institutoptique.fr/en/institut-doptique/library/publications",
+    "organizerName": "Institut d’Optique Graduate School"
   },
   {
     "id": "auto-650acd1814f9",
@@ -2068,8 +2313,11 @@
     "parentId": "s001",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:40+00:00",
-    "verifiedUrl": "https://www.institutoptique.fr/es/agenda/rss.xml"
+    "lastCheck": "2026-10-28T18:38:33+00:00",
+    "verifiedUrl": "https://www.institutoptique.fr/es/agenda/rss.xml",
+    "lastIntegrationAttempt": "2026-10-28T18:38:29+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "organizerName": "Institut d’Optique Graduate School"
   },
   {
     "id": "auto-c1e1417e9d55",
@@ -2086,7 +2334,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:41+00:00",
-    "verifiedUrl": "https://www.institutoptique.fr/es/node/584"
+    "verifiedUrl": "https://www.institutoptique.fr/es/node/584",
+    "organizerName": "Institut d’Optique Graduate School"
   },
   {
     "id": "auto-d00d5a26bc88",
@@ -2103,7 +2352,10 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:41+00:00",
-    "verifiedUrl": "https://www.lcf.institutoptique.fr/agenda/rss.xml"
+    "verifiedUrl": "https://www.lcf.institutoptique.fr/agenda/rss.xml",
+    "lastIntegrationAttempt": "2026-10-28T18:38:30+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue",
+    "organizerName": "Laboratoire Charles Fabry"
   },
   {
     "id": "auto-453a5c9cb0fc",
@@ -2120,7 +2372,10 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:42+00:00",
-    "verifiedUrl": "https://www.lcf.institutoptique.fr/en/agenda/rss.xml"
+    "verifiedUrl": "https://www.lcf.institutoptique.fr/en/agenda/rss.xml",
+    "lastIntegrationAttempt": "2026-10-28T18:38:31+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue",
+    "organizerName": "Laboratoire Charles Fabry"
   },
   {
     "id": "auto-8b4248e3a48f",
@@ -2137,7 +2392,10 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:43+00:00",
-    "verifiedUrl": "https://www.lcf.institutoptique.fr/es/agenda/rss.xml"
+    "verifiedUrl": "https://www.lcf.institutoptique.fr/es/agenda/rss.xml",
+    "lastIntegrationAttempt": "2026-10-28T18:38:31+00:00",
+    "lastIntegrationError": "robots.txt inaccessible : collecte suspendue",
+    "organizerName": "Laboratoire Charles Fabry"
   },
   {
     "id": "auto-616608276513",
@@ -2153,8 +2411,11 @@
     "parentId": "s006",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:43+00:00",
-    "verifiedUrl": "https://ens-paris-saclay.fr/actualite/rss"
+    "lastCheck": "2026-10-28T18:38:37+00:00",
+    "verifiedUrl": "https://ens-paris-saclay.fr/actualite/rss",
+    "lastIntegrationAttempt": "2026-10-28T18:38:32+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "organizerName": "ENS Paris-Saclay"
   },
   {
     "id": "auto-369e7dd439da",
@@ -2171,7 +2432,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:45+00:00",
-    "verifiedUrl": "https://ens-paris-saclay.fr/entites/laboratoires"
+    "verifiedUrl": "https://ens-paris-saclay.fr/entites/laboratoires",
+    "organizerName": "ENS Paris-Saclay"
   },
   {
     "id": "auto-b6af76edcc74",
@@ -2188,7 +2450,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:46+00:00",
-    "verifiedUrl": "https://ens-paris-saclay.fr/recherche/laboratoires-internationaux"
+    "verifiedUrl": "https://ens-paris-saclay.fr/recherche/laboratoires-internationaux",
+    "organizerName": "ENS Paris-Saclay"
   },
   {
     "id": "auto-0bb95e0beabf",
@@ -2205,7 +2468,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://ens-paris-saclay.fr/en/entites/laboratoires"
+    "verifiedUrl": "https://ens-paris-saclay.fr/en/entites/laboratoires",
+    "organizerName": "ENS Paris-Saclay"
   },
   {
     "id": "auto-3405a38c141f",
@@ -2215,14 +2479,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:35+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/525/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:36+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/525/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:32+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:36+00:00",
+    "lastAttempt": "2026-10-28T18:38:36+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-8fb6b1cbdd59",
@@ -2232,14 +2503,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:35+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/527/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:38+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/527/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:33+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:38+00:00",
+    "lastAttempt": "2026-10-28T18:38:38+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-2c6594714fc1",
@@ -2249,14 +2527,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:35+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:37+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:33+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:37+00:00",
+    "lastAttempt": "2026-10-28T18:38:37+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-10f7b0b3d8a4",
@@ -2266,14 +2551,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:35+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:43+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:36+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:43+00:00",
+    "lastAttempt": "2026-10-28T18:38:43+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-6940c0b6f236",
@@ -2283,14 +2575,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:35+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:44+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:37+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:44+00:00",
+    "lastAttempt": "2026-10-28T18:38:44+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-ef17a8c768ce",
@@ -2306,8 +2605,11 @@
     "parentId": "s019",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:48+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/science-societe/seminaires/"
+    "lastCheck": "2026-10-28T18:38:49+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/science-societe/seminaires/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:37+00:00",
+    "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
+    "organizerName": "C2N"
   },
   {
     "id": "auto-448f9fd08b31",
@@ -2317,14 +2619,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:39+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/en/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:49+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/525/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:46+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/525/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:38+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:46+00:00",
+    "lastAttempt": "2026-10-28T18:38:46+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-eb2cebecc77c",
@@ -2334,14 +2643,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:39+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/en/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:50+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/527/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:51+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/527/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:43+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:51+00:00",
+    "lastAttempt": "2026-10-28T18:38:51+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-9303316ca350",
@@ -2351,14 +2667,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:39+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/en/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:51+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/531/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:52+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/531/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:44+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:52+00:00",
+    "lastAttempt": "2026-10-28T18:38:52+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-3178b25c8a96",
@@ -2368,14 +2691,21 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:39+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/en/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheck": "2026-10-28T15:29:52+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/529/ical/"
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastCheck": "2026-10-28T18:38:54+00:00",
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/529/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:46+00:00",
+    "lastResult": "ok",
+    "lastEventCount": 1,
+    "lastSuccess": "2026-10-28T18:38:54+00:00",
+    "lastAttempt": "2026-10-28T18:38:54+00:00",
+    "errors": [],
+    "organizerName": "C2N"
   },
   {
     "id": "auto-14acf3316422",
@@ -2385,14 +2715,17 @@
     "connector": "auto",
     "enabled": false,
     "priority": false,
-    "status": "Source découverte — intégration nécessaire",
+    "status": "Export d’événement — source parente collectée",
     "discoveredAt": "2026-10-28T15:14:39+00:00",
     "discoveredFrom": "https://www.c2n.universite-paris-saclay.fr/en/agenda/",
     "parentId": "s019",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:53+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/532/ical/"
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/agenda/532/ical/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:49+00:00",
+    "lastIntegrationError": "Budget de vérification HTTP atteint ; reprise automatique au prochain passage",
+    "organizerName": "C2N"
   },
   {
     "id": "auto-a0a713bf5b81",
@@ -2409,7 +2742,10 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:54+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/science-society/seminars/"
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/science-society/seminars/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:51+00:00",
+    "lastIntegrationError": "Budget de vérification HTTP atteint ; reprise automatique au prochain passage",
+    "organizerName": "C2N"
   },
   {
     "id": "auto-7e7767f8e345",
@@ -2426,7 +2762,10 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:56+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/science-society/news/2"
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/en/science-society/news/2",
+    "lastIntegrationAttempt": "2026-10-28T18:38:52+00:00",
+    "lastIntegrationError": "Budget de vérification HTTP atteint ; reprise automatique au prochain passage",
+    "organizerName": "C2N"
   },
   {
     "id": "auto-e8027b9c5196",
@@ -2443,7 +2782,10 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:57+00:00",
-    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/science-societe/seminaires/1/2026/"
+    "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/science-societe/seminaires/1/2026/",
+    "lastIntegrationAttempt": "2026-10-28T18:38:54+00:00",
+    "lastIntegrationError": "robots.txt non vérifié : collecte suspendue",
+    "organizerName": "C2N"
   },
   {
     "id": "auto-3ac59e62f863",
@@ -2460,7 +2802,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:57+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-030269431740",
@@ -2477,7 +2820,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:57+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaires/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaires/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-f76be7fc88b4",
@@ -2494,7 +2838,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:57+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/seminaire-matiere-quantique-smq/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/seminaire-matiere-quantique-smq/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-a11a44dfce1f",
@@ -2511,7 +2856,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:57+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/seminaire-matiere-molle/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/seminaire-matiere-molle/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-f90987d12151",
@@ -2528,7 +2874,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:57+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/seminaire-de-theorie-de-la-matiere-condensee/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/seminaire-de-theorie-de-la-matiere-condensee/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-35a629ddf837",
@@ -2545,7 +2892,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:29:59+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/petit-seminaire-de-vulgarisation-psv/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/petit-seminaire-de-vulgarisation-psv/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-8c4d534f0596",
@@ -2562,7 +2910,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:01+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/seminaires-generaux-du-lps/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/seminaires-generaux-du-lps/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-2ddf3822b850",
@@ -2579,7 +2928,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:01+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaire-exceptionnel/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaire-exceptionnel/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-6faa7fbd33a4",
@@ -2596,7 +2946,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:01+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/events/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/events/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-09f27e374ade",
@@ -2613,7 +2964,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:02+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/events/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/events/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-0de838ce4464",
@@ -2630,7 +2982,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:03+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaires/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaires/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-94c767a15a76",
@@ -2647,7 +3000,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:05+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaires-de-la-theorie-de-la-matiere-condensee/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaires-de-la-theorie-de-la-matiere-condensee/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-0e9e2e04def1",
@@ -2664,7 +3018,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:07+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaire-matiere-molle/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaire-matiere-molle/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-599e19306600",
@@ -2681,7 +3036,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:08+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaire-exceptionnel/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/seminaire-exceptionnel/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-3a99b6774087",
@@ -2698,7 +3054,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:09+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/colloques/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/colloques/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-124ee67362cc",
@@ -2715,7 +3072,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:10+00:00",
-    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/evenements-ouverts-au-public/feed/"
+    "verifiedUrl": "https://www.lps.u-psud.fr/mec-category/evenements-ouverts-au-public/feed/",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-7faf43c0a93c",
@@ -2731,7 +3089,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-c0e4161da50e",
@@ -2747,7 +3106,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-ac1fa715b092",
@@ -2763,7 +3123,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-c774efc13866",
@@ -2779,7 +3140,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-9ca753713081",
@@ -2795,7 +3157,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-afddb50c3622",
@@ -2811,7 +3174,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-7da006ac1de8",
@@ -2827,7 +3191,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-d76a7a1eda37",
@@ -2843,7 +3208,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-679800348726",
@@ -2859,7 +3225,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-9ed98a822c17",
@@ -2875,7 +3242,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-5fe8281c0810",
@@ -2891,7 +3259,8 @@
     "parentId": "s021",
     "reliability": "Moyenne",
     "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
-    "lastCheckError": "Interdit par robots.txt"
+    "lastCheckError": "Interdit par robots.txt",
+    "organizerName": "Laboratoire de Physique des Solides"
   },
   {
     "id": "auto-f00675a09579",
@@ -2908,7 +3277,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:10+00:00",
-    "verifiedUrl": "https://www.lkb.fr/evenements/seminaires-du-lkb/"
+    "verifiedUrl": "https://www.lkb.fr/evenements/seminaires-du-lkb/",
+    "organizerName": "Laboratoire Kastler Brossel"
   },
   {
     "id": "auto-d59a1431d5de",
@@ -2925,7 +3295,8 @@
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
     "lastCheck": "2026-10-28T15:30:12+00:00",
-    "verifiedUrl": "https://www.lkb.fr/evenements/?type_evenement=seminaires-du-lkb"
+    "verifiedUrl": "https://www.lkb.fr/evenements/?type_evenement=seminaires-du-lkb",
+    "organizerName": "Laboratoire Kastler Brossel"
   },
   {
     "id": "auto-f3b7368fa353",
@@ -2941,7 +3312,8 @@
     "parentId": "s029",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheckError": "404 Client Error: Not Found for url: https://iramis.cea.fr/feed/"
+    "lastCheckError": "404 Client Error: Not Found for url: https://iramis.cea.fr/feed/",
+    "organizerName": "CEA IRAMIS"
   },
   {
     "id": "auto-a50db60e4bb1",
@@ -2957,7 +3329,8 @@
     "parentId": "s029",
     "reliability": "Élevée",
     "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
-    "lastCheckError": "404 Client Error: Not Found for url: https://iramis.cea.fr/comments/feed/"
+    "lastCheckError": "404 Client Error: Not Found for url: https://iramis.cea.fr/comments/feed/",
+    "organizerName": "CEA IRAMIS"
   },
   {
     "id": "auto-7b792fcc4366",
@@ -2972,7 +3345,8 @@
     "discoveredFrom": "https://iramis.cea.fr/",
     "parentId": "s029",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "CEA IRAMIS"
   },
   {
     "id": "auto-068b6e44c527",
@@ -2987,7 +3361,8 @@
     "discoveredFrom": "https://iramis.cea.fr/",
     "parentId": "s029",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "CEA IRAMIS"
   },
   {
     "id": "auto-4a5154e179a6",
@@ -3002,7 +3377,8 @@
     "discoveredFrom": "https://iramis.cea.fr/evenement/",
     "parentId": "s029",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "CEA IRAMIS"
   },
   {
     "id": "auto-59abf6fd44b6",
@@ -3017,7 +3393,8 @@
     "discoveredFrom": "https://www.ipht.fr/",
     "parentId": "s040",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut de physique théorique CEA"
   },
   {
     "id": "auto-ddcfa7c95c58",
@@ -3032,7 +3409,8 @@
     "discoveredFrom": "https://www.ipht.fr/",
     "parentId": "s040",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut de physique théorique CEA"
   },
   {
     "id": "auto-faf0a859eb4c",
@@ -3047,7 +3425,8 @@
     "discoveredFrom": "https://www.ipht.fr/",
     "parentId": "s040",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut de physique théorique CEA"
   },
   {
     "id": "auto-e9d8ef2679d8",
@@ -3062,7 +3441,8 @@
     "discoveredFrom": "https://www.ipht.fr/en/archive-des-conferences/",
     "parentId": "s040",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut de physique théorique CEA"
   },
   {
     "id": "auto-a50c44ce41ba",
@@ -3077,7 +3457,8 @@
     "discoveredFrom": "https://www.ipht.fr/en/archive-des-conferences/",
     "parentId": "s040",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut de physique théorique CEA"
   },
   {
     "id": "auto-f7cdf585b8ec",
@@ -3092,7 +3473,8 @@
     "discoveredFrom": "https://www.ipht.fr/en/archive-des-conferences/",
     "parentId": "s040",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut de physique théorique CEA"
   },
   {
     "id": "auto-a97d5b150ff8",
@@ -3107,7 +3489,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-006c8e6dc301",
@@ -3122,7 +3505,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-cee39a5c8c41",
@@ -3137,7 +3521,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Test automatique : Found no components where exactly one is required: "
+    "note": "Test automatique : Found no components where exactly one is required: ",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-83d1fd82b9a6",
@@ -3152,7 +3537,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-a9b8598b3193",
@@ -3167,7 +3553,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-eb7b62f2032b",
@@ -3182,7 +3569,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/journee-scientifique-en-lhonneur-de-philippe-grangier",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-870114d09d68",
@@ -3197,7 +3585,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/quantum-phd-days-2026",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-e6708e70fd64",
@@ -3212,7 +3601,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/demi-journee-dinitiation-a-la-vulgarisation-de-la-physique-quantique",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-527c58efce65",
@@ -3227,7 +3617,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/quantumday",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-5fb643255803",
@@ -3242,7 +3633,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/une-collaboration-lcf-et-exail-autour-de-la-cryptographie-quantique",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-c65ade3df4f8",
@@ -3257,7 +3649,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/%f0%9d%90%90%f0%9d%90%ae%f0%9d%90%9a%f0%9d%90%a7%f0%9d%90%ad%f0%9d%90%84%f0%9d%90%91%f0%9d%90%80-%f0%9d%90%82%f0%9d%90%9a%f0%9d%90%a5%f0%9d%90%a5-%f0%9d%9f%90%f0%9d%9f%8e%f0%9d%9f%90%f0%9d%9f%93",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-1caef6af7fb7",
@@ -3272,7 +3665,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/deces-de-mark-oliver-goerbig",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-df124a4f1ea0",
@@ -3287,7 +3681,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/deux-chercheurs-lies-a-communaute-de-luniversite-paris-saclay-laureats-dune-bourse-erc-advanced",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-9916361c65d1",
@@ -3302,7 +3697,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/quantum-phd-days-2025",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-0b33aad7f039",
@@ -3317,7 +3713,8 @@
     "discoveredFrom": "https://quantum-saclay.fr/course-announcement-quantum-sensing-quantum-metrology",
     "parentId": "s048",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Quantum-Saclay"
   },
   {
     "id": "auto-8e78f89912c2",
@@ -3332,7 +3729,8 @@
     "discoveredFrom": "https://www.photonics-france.org/",
     "parentId": "s052",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Photonics France"
   },
   {
     "id": "auto-4229612d4567",
@@ -3347,7 +3745,8 @@
     "discoveredFrom": "https://www.photonics-france.org/",
     "parentId": "s052",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Photonics France"
   },
   {
     "id": "auto-84887e20c04f",
@@ -3362,7 +3761,8 @@
     "discoveredFrom": "https://www.photonics-france.org/offre-evenementielle/",
     "parentId": "s052",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Photonics France"
   },
   {
     "id": "auto-9b24f7098c96",
@@ -3377,7 +3777,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-5e16ac4a0860",
@@ -3392,7 +3793,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-d8473d8ae829",
@@ -3407,7 +3809,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-ba302661eec9",
@@ -3422,7 +3825,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-20eb9ce02250",
@@ -3437,7 +3841,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-426c7a0179db",
@@ -3452,7 +3857,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/en/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-7cddbf9570db",
@@ -3467,7 +3873,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/en/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-dcd73a805a87",
@@ -3482,7 +3889,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/en/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-da7c5a45fa42",
@@ -3497,7 +3905,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/en/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-a0be22bf5e3f",
@@ -3512,7 +3921,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/en/agenda",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-2329feefc92b",
@@ -3527,7 +3937,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/grands-evenements",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-a3b3ef4f9ad1",
@@ -3542,7 +3953,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-formation-des-planetes-telluriques/la-lune-et-sa-formation",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-4ef8027377f3",
@@ -3557,7 +3969,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-formation-des-planetes-telluriques/la-lune-et-sa-formation",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-e71a3e80b5f7",
@@ -3572,7 +3985,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-formation-des-planetes-telluriques/la-lune-et-sa-formation",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-fc366663d2d7",
@@ -3587,7 +4001,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/lecon-inaugurale/faire-mieux/faire-mieux",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-f4ae733379ad",
@@ -3602,7 +4017,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/lecon-inaugurale/faire-mieux/faire-mieux",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-9b868f5ee6c6",
@@ -3617,7 +4033,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/lecon-inaugurale/faire-mieux/faire-mieux",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-cbe041008cb5",
@@ -3632,7 +4049,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/lecture-de-textes-en-lien-avec-le-cours/lecture-de-textes-en-lien-avec-le-cours-1",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-3bc82e8aa446",
@@ -3647,7 +4065,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/lecture-de-textes-en-lien-avec-le-cours/lecture-de-textes-en-lien-avec-le-cours-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-471031ac3db2",
@@ -3662,7 +4081,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/lecture-de-textes-en-lien-avec-le-cours/lecture-de-textes-en-lien-avec-le-cours-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-49df372d0bd1",
@@ -3677,7 +4097,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-epouses-du-dieu-thebes/les-nouveaux-territoires-de-epouse-du-dieu-1-palais-et-possessions",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-bc0e3fc2610c",
@@ -3692,7 +4113,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-epouses-du-dieu-thebes/les-nouveaux-territoires-de-epouse-du-dieu-1-palais-et-possessions",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-d8b617cc2d18",
@@ -3707,7 +4129,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-epouses-du-dieu-thebes/les-nouveaux-territoires-de-epouse-du-dieu-1-palais-et-possessions",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-f1fe62ac7b82",
@@ -3722,7 +4145,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-epouses-du-dieu-thebes/les-nouveaux-territoires-de-epouse-du-dieu-1-palais-et-possessions",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-69dbef78cf61",
@@ -3737,7 +4161,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/sortir-de-cette-chambre-moi-chanceler-chavirer/le-stalker-dialogue-avec-aurelien-barrau",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-459159dac755",
@@ -3752,7 +4177,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/sortir-de-cette-chambre-moi-chanceler-chavirer/le-stalker-dialogue-avec-aurelien-barrau",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-c9a786156e2f",
@@ -3767,7 +4193,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/sortir-de-cette-chambre-moi-chanceler-chavirer/le-stalker-dialogue-avec-aurelien-barrau",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-f340150d9eec",
@@ -3782,7 +4209,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-nouvelles-idees-sont-elles-plus-difficiles-trouver/les-nouvelles-idees-sont-elles-plus-difficiles-trouver-4",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-2ff6c3bffa8f",
@@ -3797,7 +4225,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-nouvelles-idees-sont-elles-plus-difficiles-trouver/les-nouvelles-idees-sont-elles-plus-difficiles-trouver-4",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-8aad55832f5d",
@@ -3812,7 +4241,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-nouvelles-idees-sont-elles-plus-difficiles-trouver/les-nouvelles-idees-sont-elles-plus-difficiles-trouver-4",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-2cf0223f43bf",
@@ -3827,7 +4257,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/stress-oxydant-et-reponse-therapeutique-3/stress-oxydant-et-reponse-therapeutique-3-1",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-50029f0bafa6",
@@ -3842,7 +4273,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/stress-oxydant-et-reponse-therapeutique-3/stress-oxydant-et-reponse-therapeutique-3-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-6a80efbb8234",
@@ -3857,7 +4289,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/stress-oxydant-et-reponse-therapeutique-3/stress-oxydant-et-reponse-therapeutique-3-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-f1c19a0f4815",
@@ -3872,7 +4305,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/grand-evenement/michel-foucault-au-college-de-france/foucault-enseignant-coherence-une-trajectoire-et-place-dans-oeuvre",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-5cb677f166a6",
@@ -3887,7 +4321,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/grand-evenement/michel-foucault-au-college-de-france/foucault-enseignant-coherence-une-trajectoire-et-place-dans-oeuvre",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-0cdec70e28f2",
@@ -3902,7 +4337,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/grand-evenement/michel-foucault-au-college-de-france/foucault-enseignant-coherence-une-trajectoire-et-place-dans-oeuvre",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-c4eed26e0e7e",
@@ -3917,7 +4353,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-question-de-la-palestine-au-xxie-siecle/la-question-de-la-palestine-au-xxie-siecle-1",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-b8a619f7019a",
@@ -3932,7 +4369,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-question-de-la-palestine-au-xxie-siecle/la-question-de-la-palestine-au-xxie-siecle-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-388ad09915a7",
@@ -3947,7 +4385,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-question-de-la-palestine-au-xxie-siecle/la-question-de-la-palestine-au-xxie-siecle-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-1e7d65ffec6b",
@@ -3962,7 +4401,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/aesthetic-experience/the-noetic-theory-part-i-intelligible-beauty-and-seeking-to-understand",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-0216e9a39d49",
@@ -3977,7 +4417,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/aesthetic-experience/the-noetic-theory-part-i-intelligible-beauty-and-seeking-to-understand",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-d01983cac80c",
@@ -3992,7 +4433,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/aesthetic-experience/the-noetic-theory-part-i-intelligible-beauty-and-seeking-to-understand",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-6460c173f46a",
@@ -4007,7 +4449,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/autour-des-epouses-du-dieu-en-egypte-ancienne-recherches-recentes-et-elements-de-comparaison/une-pretresse-en-grece-ancienne-un-pretre-comme-un-autre",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-cb74d0f99a34",
@@ -4022,7 +4465,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/autour-des-epouses-du-dieu-en-egypte-ancienne-recherches-recentes-et-elements-de-comparaison/une-pretresse-en-grece-ancienne-un-pretre-comme-un-autre",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-c788789d32ce",
@@ -4037,7 +4481,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/autour-des-epouses-du-dieu-en-egypte-ancienne-recherches-recentes-et-elements-de-comparaison/une-pretresse-en-grece-ancienne-un-pretre-comme-un-autre",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-352aab8166c1",
@@ -4052,7 +4497,8 @@
     "discoveredFrom": "https://psl.eu/agenda",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-bcd51ca899b9",
@@ -4067,7 +4513,8 @@
     "discoveredFrom": "https://psl.eu/agenda",
     "parentId": "s088",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-ff0759b101fa",
@@ -4082,7 +4529,8 @@
     "discoveredFrom": "https://psl.eu/agenda",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-524784fab66f",
@@ -4097,7 +4545,8 @@
     "discoveredFrom": "https://psl.eu/agenda/mines-magic-3d-de-la-stereoscopie-aux-images-3d-numeriques",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-2eb670b21bcc",
@@ -4112,7 +4561,8 @@
     "discoveredFrom": "https://psl.eu/agenda/seminaires-de-lorganologia-institute",
     "parentId": "s088",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-73c865d0e16a",
@@ -4127,7 +4577,8 @@
     "discoveredFrom": "https://psl.eu/actualites/7-start-distinguees-par-le-programme-french-tech-2030-2026",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-a9ace0a92e08",
@@ -4142,7 +4593,8 @@
     "discoveredFrom": "https://paris-malaquais.archi.fr/galerie-callot/events/exposition-photostgermain/",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-0800c868c4db",
@@ -4157,7 +4609,8 @@
     "discoveredFrom": "https://www.ensad.fr/fr/after-project-room-signatures-art-fair",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-da2f904a33c8",
@@ -4172,7 +4625,8 @@
     "discoveredFrom": "https://www.ensad.fr/fr/after-project-room-signatures-art-fair",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-f37828ab8c6e",
@@ -4187,7 +4641,8 @@
     "discoveredFrom": "https://www.chartes.psl.eu/gazette-chartiste/agenda/patrimoines-en-guerre-lukraine-aujourdhui",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-7d40523fc9b6",
@@ -4202,7 +4657,8 @@
     "discoveredFrom": "https://dauphine.psl.eu/dauphine/media-et-communication/article/apres-midi-des-lyceennes-decouvrir-les-metiers-scientifiques",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-1151f4952bb9",
@@ -4217,7 +4673,8 @@
     "discoveredFrom": "https://www.chimieparistech.psl.eu/ecole/actualites/applications-for-the-phd-track-in-chemistry-are-now-open/",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Test automatique : 403 Client Error: Forbidden for url: https://www.chimieparistech.psl.eu/agenda/?ical=1"
+    "note": "Test automatique : 403 Client Error: Forbidden for url: https://www.chimieparistech.psl.eu/agenda/?ical=1",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-766ebbd14bc9",
@@ -4232,7 +4689,8 @@
     "discoveredFrom": "https://www.chimieparistech.psl.eu/ecole/actualites/applications-for-the-phd-track-in-chemistry-are-now-open/",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-97f30e83e09e",
@@ -4247,7 +4705,8 @@
     "discoveredFrom": "https://www.chimieparistech.psl.eu/ecole/actualites/applications-for-the-phd-track-in-chemistry-are-now-open/",
     "parentId": "s088",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Université PSL"
   },
   {
     "id": "auto-7180cfba76c7",
@@ -4262,7 +4721,8 @@
     "discoveredFrom": "https://www.ihp.fr/fr/agenda",
     "parentId": "s094",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut Henri Poincaré"
   },
   {
     "id": "auto-8eebc16cd4a2",
@@ -4277,7 +4737,8 @@
     "discoveredFrom": "https://www.ihp.fr/fr/agenda",
     "parentId": "s094",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut Henri Poincaré"
   },
   {
     "id": "auto-85ca53624aef",
@@ -4292,7 +4753,8 @@
     "discoveredFrom": "https://www.ihp.fr/en/events",
     "parentId": "s094",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut Henri Poincaré"
   },
   {
     "id": "auto-392e08f9100c",
@@ -4307,7 +4769,8 @@
     "discoveredFrom": "https://www.ihp.fr/en/events",
     "parentId": "s094",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Institut Henri Poincaré"
   },
   {
     "id": "auto-0d9f2b6c2c8d",
@@ -4322,7 +4785,8 @@
     "discoveredFrom": "https://www.photonics-france.org/offre-evenementielle/",
     "parentId": "s052",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Photonics France"
   },
   {
     "id": "auto-1ef632d00d63",
@@ -4337,7 +4801,8 @@
     "discoveredFrom": "https://www.photonics-france.org/offre-evenementielle/",
     "parentId": "s052",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Photonics France"
   },
   {
     "id": "auto-f7809cfc682f",
@@ -4352,7 +4817,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-formation-des-planetes-telluriques/chronologie-de-la-formation-des-planetes-telluriques",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-90d784f44572",
@@ -4367,7 +4833,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-formation-des-planetes-telluriques/chronologie-de-la-formation-des-planetes-telluriques",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-98643700cf96",
@@ -4382,7 +4849,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/la-formation-des-planetes-telluriques/chronologie-de-la-formation-des-planetes-telluriques",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-8f6fd2533bf6",
@@ -4397,7 +4865,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/la-souverainete-alimentaire-et-la-transition-agro-ecologique-en-europe/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe-1",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-845f6e24f7ba",
@@ -4412,7 +4881,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/la-souverainete-alimentaire-et-la-transition-agro-ecologique-en-europe/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-d287ca51b3fc",
@@ -4427,7 +4897,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/la-souverainete-alimentaire-et-la-transition-agro-ecologique-en-europe/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-b76ac6f91d77",
@@ -4442,7 +4913,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/equivalences-de-programmes/introduction-equivalence-et-au-raffinement-entre-programmes",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-1d6d58569eba",
@@ -4457,7 +4929,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/equivalences-de-programmes/introduction-equivalence-et-au-raffinement-entre-programmes",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-25ff815ee246",
@@ -4472,7 +4945,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/equivalences-de-programmes/introduction-equivalence-et-au-raffinement-entre-programmes",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-6f7cda0742a6",
@@ -4487,7 +4961,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/jerome-prado/how-do-we-learn-that-2-3-5",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-17e8bc265cd5",
@@ -4502,7 +4977,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/jerome-prado/how-do-we-learn-that-2-3-5",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-d26e7b08644a",
@@ -4517,7 +4993,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/jerome-prado/how-do-we-learn-that-2-3-5",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-8ebdd1a513f4",
@@ -4532,7 +5009,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/equivalences-de-programmes/concurrency-theory-from-its-origins-towards-science-of-processes",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-97ba85aad2d2",
@@ -4547,7 +5025,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/equivalences-de-programmes/concurrency-theory-from-its-origins-towards-science-of-processes",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-313b995473dc",
@@ -4562,7 +5041,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/seminaire/equivalences-de-programmes/concurrency-theory-from-its-origins-towards-science-of-processes",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-78e18f8f757f",
@@ -4577,7 +5057,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/contributions-to-sustainable-chemical-industry/chemical-technologies-for-recycling-plastics-designed-to-last",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-53efc8646333",
@@ -4592,7 +5073,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/contributions-to-sustainable-chemical-industry/chemical-technologies-for-recycling-plastics-designed-to-last",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-c26dbb44fa2b",
@@ -4607,7 +5089,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/contributions-to-sustainable-chemical-industry/chemical-technologies-for-recycling-plastics-designed-to-last",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-1464f9a39e92",
@@ -4622,7 +5105,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe-2",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-ee7db75e9322",
@@ -4637,7 +5121,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe-2",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-8ffec746ba4c",
@@ -4652,7 +5137,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe/la-souverainete-alimentaire-et-la-transition-agroecologique-en-europe-2",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-c8dd69dc9c55",
@@ -4667,7 +5153,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/lecon-inaugurale/hematologie-au-carrefour-des-disciplines-biomedicales-un-aller-retour-entre-recherche-fondamentale/hematologie-au-carrefour-des-disciplines-biomedicales-un-aller-retour-entre-recherche-fondamentale",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-315f1df5b488",
@@ -4682,7 +5169,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/lecon-inaugurale/hematologie-au-carrefour-des-disciplines-biomedicales-un-aller-retour-entre-recherche-fondamentale/hematologie-au-carrefour-des-disciplines-biomedicales-un-aller-retour-entre-recherche-fondamentale",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-24061e82791e",
@@ -4697,7 +5185,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/lecon-inaugurale/hematologie-au-carrefour-des-disciplines-biomedicales-un-aller-retour-entre-recherche-fondamentale/hematologie-au-carrefour-des-disciplines-biomedicales-un-aller-retour-entre-recherche-fondamentale",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-46046a830865",
@@ -4712,7 +5201,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/biogenese-et-biologie-du-globule-rouge-et-pathologies-associees/biogenese-et-biologie-du-globule-rouge-et-pathologies-associees-1",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-320daeec77e2",
@@ -4727,7 +5217,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/biogenese-et-biologie-du-globule-rouge-et-pathologies-associees/biogenese-et-biologie-du-globule-rouge-et-pathologies-associees-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-221d7c0405d7",
@@ -4742,7 +5233,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/biogenese-et-biologie-du-globule-rouge-et-pathologies-associees/biogenese-et-biologie-du-globule-rouge-et-pathologies-associees-1",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-05a5bd508598",
@@ -4757,7 +5249,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/aesthetic-experience/the-noetic-theory-part-ii-aesthetic-discovery-exploration-and-conceptual-mapping",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-01de2f6aabec",
@@ -4772,7 +5265,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/aesthetic-experience/the-noetic-theory-part-ii-aesthetic-discovery-exploration-and-conceptual-mapping",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-8851621e6206",
@@ -4787,7 +5281,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/aesthetic-experience/the-noetic-theory-part-ii-aesthetic-discovery-exploration-and-conceptual-mapping",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-41699afe26d1",
@@ -4802,7 +5297,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-arts-au-defi-des-sciences-sociales-suite/une-science-des-oeuvres-collaborations-et-competitions-entre-disciplines-etude-des-arts",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-62b0d894ab82",
@@ -4817,7 +5313,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-arts-au-defi-des-sciences-sociales-suite/une-science-des-oeuvres-collaborations-et-competitions-entre-disciplines-etude-des-arts",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-104df0e087b2",
@@ -4832,7 +5329,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/les-arts-au-defi-des-sciences-sociales-suite/une-science-des-oeuvres-collaborations-et-competitions-entre-disciplines-etude-des-arts",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-86035662a7b6",
@@ -4847,7 +5345,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/un-tresor-mythologique-inedit-la-mosaique-romaine-arethuse-syrie-centrale-et-ses-inscriptions/un-tresor-mythologique-inedit-la-mosaique-romaine-arethuse-syrie-centrale-et-ses-inscriptions",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-5a855ba729e1",
@@ -4862,7 +5361,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/un-tresor-mythologique-inedit-la-mosaique-romaine-arethuse-syrie-centrale-et-ses-inscriptions/un-tresor-mythologique-inedit-la-mosaique-romaine-arethuse-syrie-centrale-et-ses-inscriptions",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-0b5dbaa7c606",
@@ -4877,7 +5377,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/conferencier-invite/un-tresor-mythologique-inedit-la-mosaique-romaine-arethuse-syrie-centrale-et-ses-inscriptions/un-tresor-mythologique-inedit-la-mosaique-romaine-arethuse-syrie-centrale-et-ses-inscriptions",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-b48c6395bf98",
@@ -4892,7 +5393,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/concepts-et-modes-de-presentation/qu-est-ce-qu-un-mode-de-presentation",
     "parentId": "s084",
     "reliability": "Élevée",
-    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer."
+    "note": "Lien découvert automatiquement ; légitimité et périmètre à confirmer.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-ad7de75cc68b",
@@ -4907,7 +5409,8 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/concepts-et-modes-de-presentation/qu-est-ce-qu-un-mode-de-presentation",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
   },
   {
     "id": "auto-a0fed482ba95",
@@ -4922,6 +5425,65 @@
     "discoveredFrom": "https://www.college-de-france.fr/fr/agenda/cours/concepts-et-modes-de-presentation/qu-est-ce-qu-un-mode-de-presentation",
     "parentId": "s084",
     "reliability": "Moyenne",
-    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation."
+    "note": "Lien externe découvert : validation institutionnelle nécessaire avant activation.",
+    "organizerName": "Collège de France"
+  },
+  {
+    "id": "ups-pharma",
+    "name": "Faculté de pharmacie Paris-Saclay",
+    "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements-ufr-pharmacie",
+    "group": "Campus Paris-Saclay",
+    "connector": "auto",
+    "enabled": true,
+    "priority": false,
+    "status": "Connecteur validé automatiquement",
+    "reliability": "Élevée",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastIntegrationAttempt": "2026-10-28T18:51:06+00:00",
+    "lastCheck": "2026-10-28T18:51:11+00:00",
+    "verifiedUrl": "https://www.pharmacie.universite-paris-saclay.fr/evenements-ufr-pharmacie",
+    "lastResult": "ok",
+    "lastEventCount": 2,
+    "lastSuccess": "2026-10-28T18:51:11+00:00",
+    "lastAttempt": "2026-10-28T18:51:11+00:00",
+    "errors": []
+  },
+  {
+    "id": "ups-med",
+    "name": "Faculté de médecine Paris-Saclay",
+    "url": "https://www.medecine.universite-paris-saclay.fr/evenements-ufr-medecine",
+    "group": "Campus Paris-Saclay",
+    "connector": "auto",
+    "enabled": true,
+    "priority": false,
+    "status": "Connecteur validé automatiquement",
+    "reliability": "Élevée",
+    "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
+    "lastIntegrationAttempt": "2026-10-28T18:51:07+00:00",
+    "lastCheck": "2026-10-28T18:51:10+00:00",
+    "verifiedUrl": "https://www.medecine.universite-paris-saclay.fr/evenements-ufr-medecine",
+    "lastResult": "ok",
+    "lastEventCount": 2,
+    "lastSuccess": "2026-10-28T18:51:10+00:00",
+    "lastAttempt": "2026-10-28T18:51:10+00:00",
+    "errors": []
+  },
+  {
+    "id": "url-9f2649e26015",
+    "name": "Faculté de pharmacie Paris-Saclay",
+    "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/journee-scientifique-reseau-cytometrie",
+    "group": "Ajouts publics depuis une URL",
+    "connector": "auto",
+    "enabled": false,
+    "priority": false,
+    "status": "Extraction ponctuelle depuis une URL",
+    "reliability": "Élevée",
+    "lastCheck": "2026-10-28T18:57:41+00:00",
+    "verifiedUrl": "https://www.pharmacie.universite-paris-saclay.fr/evenements/journee-scientifique-reseau-cytometrie",
+    "note": "Import ponctuel demandé par le propriétaire. Ne constitue pas une surveillance quotidienne de cet organisateur.",
+    "lastSuccess": "2026-10-28T18:57:41+00:00",
+    "lastEventCount": 1,
+    "lastResult": "ok",
+    "lastAttempt": "2026-10-28T18:57:41+00:00"
   }
 ]

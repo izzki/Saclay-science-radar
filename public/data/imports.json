@@ -1,0 +1,14 @@
+{
+  "requests": [
+    {
+      "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/journee-scientifique-reseau-cytometrie",
+      "issueNumber": null,
+      "checkedAt": "2026-10-28T18:57:32+00:00",
+      "status": "imported",
+      "eventIds": [
+        "855dbfd353fd28557b11"
+      ],
+      "message": "1 annonce(s) extraite(s) et validée(s). Les événements terminés sont accessibles dans les archives."
+    }
+  ]
+}

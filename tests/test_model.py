@@ -40,6 +40,9 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(len(compact([a,b])),1)
         c=dict(a,start='2026-11-03T14:00:00+01:00',id='second-session')
         self.assertEqual(len(compact([a,b,c])),3)
+    def test_same_day_time_change_has_history_with_stable_uid(self):
+        a=event(externalId='stable');b=event(externalId='stable');b['start']='2026-11-03T14:00:00+01:00'
+        result=reconcile([a],[b]);self.assertEqual(len(result),1);self.assertEqual(result[0]['history'][0]['changes']['start']['after'],b['start'])
     def test_sessions_preserved(self):
         a=event();b=dict(a,start='2026-11-03T14:00:00+01:00',id='session2')
         self.assertEqual(len(reconcile([],[a,b])),2)

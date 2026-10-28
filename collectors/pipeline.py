@@ -12,6 +12,7 @@ from .source_discovery import discover
 from .audit import coverage
 from .quality import prepare_sources,clean_catalog
 from .seed_registry import seed
+from .integration import integrate
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -32,6 +33,9 @@ def run(args):
             'scheduled':bool(os.getenv('GITHUB_ACTIONS')),'workflowRunUrl':f"https://github.com/{os.getenv('GITHUB_REPOSITORY')}/actions/runs/{os.getenv('GITHUB_RUN_ID')}" if os.getenv('GITHUB_RUN_ID') else None,
             'schedule':'06:15 et 16:15 UTC ; sources prioritaires au second passage','discoverySchedule':'Dimanche, 06:15 UTC','auditSchedule':'Premier jour du mois : recalcul des audits indépendants disponibles'}
     incoming=[];pages=[]
+    if getattr(args,'integrate',False) and not args.reprocess:
+        registry,new,found,integration=integrate(registry,http_budget=max(100,args.budget//2))
+        incoming.extend(new);pages.extend(found);report['integration']=integration
     # An individual event export stays attached to its parent agenda.
     for source in registry:
         if source.get('discoveredAt') and source.get('connector')=='ics' and re.search(r'(?:[?&](?:method=ical&(?:[^#]*&)?id=|event_id=|mec-ical=event)|/agenda/\d+/ical/)',source['url']):
@@ -74,7 +78,7 @@ def run(args):
                 except Exception as e:errors.append({'url':link,'error':str(e)[:240]})
             valid=[e for e in (make_event(raw,source) for raw in records) if e]
             incoming.extend(valid)
-            source.update(lastResult='ok' if valid else 'empty',lastEventCount=len(reconcile([],valid)),errors=errors,
+            source.update(lastResult='ok' if valid else 'empty',lastEventCount=len(compact(valid)),errors=errors,
                 status='Collecte opérationnelle' if valid and not errors else 'Collecte partielle' if valid else 'Extraction vide — contrôle nécessaire')
             if valid:source['lastSuccess']=now()
             report['sources'].append({'id':source['id'],'count':source['lastEventCount'],'result':source['lastResult'],'errors':len(errors),'pending':len(source['pendingDetails'])})
@@ -117,17 +121,17 @@ def run(args):
     report.update(finishedAt=now(),httpRequests=fetcher.requests,events=len(events),incoming=len(reconcile([],incoming)),newEvents=len([e for e in events if e['id'] not in {p['id'] for p in previous}]),
         status='Succès partiel' if report['errors'] or any(s['result']!='ok' or s.get('errors') or s.get('pending') for s in report['sources']) else 'Succès' if incoming else 'Aucune collecte confirmée')
     if args.reprocess:
-        report['status']='Catalogue retraité sans téléchargement · collecte précédente : '+prior.get('status','Non précisé')
+        report['status']='Données récentes conservées · vérification du catalogue effectuée'
         report['reprocessed']=True
     cov=coverage(registry,events,report)
     write('data/sources.json',registry);write('public/data/sources.json',registry)
     write('public/data/events.json',events);write('public/data/run.json',report);write('public/data/coverage.json',cov)
     write('data/snapshots/latest.json',{'at':now(),'previousRun':prior,'previousEvents':previous})
-    write('data/reports/'+report['startedAt'][:10]+'.json',report)
+    write('data/reports/'+report['startedAt'].replace(':','-').replace('+00-00','Z')+'.json',report)
     # Keep the latest full previous snapshot and dated collection reports. Event change history is persistent.
     if args.audit:write('data/coverage-history/'+report['startedAt'][:10]+'.json',cov)
     print(json.dumps({'events':len(events),'sources':len(registry),'automated':cov['automated'],'discovered':cov['discovered'],'http':fetcher.requests},ensure_ascii=False))
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--discover',action='store_true');parser.add_argument('--audit',action='store_true');parser.add_argument('--priority',action='store_true');parser.add_argument('--reprocess',action='store_true');parser.add_argument('--budget',type=int,default=350)
+    parser=argparse.ArgumentParser();parser.add_argument('--discover',action='store_true');parser.add_argument('--integrate',action='store_true');parser.add_argument('--audit',action='store_true');parser.add_argument('--priority',action='store_true');parser.add_argument('--reprocess',action='store_true');parser.add_argument('--budget',type=int,default=350)
     run(parser.parse_args())

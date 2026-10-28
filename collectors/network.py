@@ -2,6 +2,7 @@
 import ipaddress
 import socket
 import time
+import threading
 from urllib.parse import urlsplit, urljoin
 from urllib.robotparser import RobotFileParser
 import requests
@@ -9,11 +10,23 @@ from .model import canonical
 
 AGENT='SaclayScienceRadar/1.0 (+https://github.com/izzki/Saclay-science-radar)'
 MAX_BYTES=6_000_000
+_HOST_GUARD=threading.Lock()
+_HOST_LOCKS={}
+_HOST_LAST={}
+
+class RequestBudget:
+    def __init__(self,limit):self.limit=limit;self.used=0;self.lock=threading.Lock()
+    def take(self):
+        with self.lock:
+            if self.used>=self.limit:raise RuntimeError('Budget de vérification HTTP atteint ; reprise automatique au prochain passage')
+            self.used+=1
+
 
 class Fetcher:
-    def __init__(self, budget=350):
+    def __init__(self, budget=350, shared_budget=None):
         self.session=requests.Session()
         self.session.headers['User-Agent']=AGENT
+        self.shared_budget=shared_budget
         self.robots={}; self.last={}; self.cache={}; self.budget=budget; self.requests=0
     def validate(self,url):
         url=canonical(url)
@@ -21,7 +34,12 @@ class Fetcher:
         p=urlsplit(url)
         if p.port not in (None,80,443): raise ValueError('Port non autorisé')
         if any(k in p.hostname.lower() for k in ('intranet.','webmail.','vpn.')): raise ValueError('Source privée exclue')
-        addresses=socket.getaddrinfo(p.hostname,p.port or (443 if p.scheme=='https' else 80),type=socket.SOCK_STREAM)
+        for attempt in range(3):
+            try:
+                addresses=socket.getaddrinfo(p.hostname,p.port or (443 if p.scheme=='https' else 80),type=socket.SOCK_STREAM);break
+            except socket.gaierror:
+                if attempt==2:raise
+                time.sleep(0.2)
         if not addresses or any(not ipaddress.ip_address(a[4][0]).is_global for a in addresses): raise ValueError('Destination réseau non publique')
         return url
     def _request(self,url):
@@ -30,7 +48,11 @@ class Fetcher:
             if self.requests>=self.budget: raise RuntimeError('Budget HTTP atteint ; reprise à la prochaine exécution')
             host=urlsplit(url).netloc
             delay=max(1.0,self.robots.get(host,(None,1.0))[1])
-            time.sleep(max(0,delay-(time.monotonic()-self.last.get(host,0))))
+            with _HOST_GUARD:host_lock=_HOST_LOCKS.setdefault(host,threading.Lock())
+            with host_lock:
+                time.sleep(max(0,delay-(time.monotonic()-_HOST_LAST.get(host,0))))
+                _HOST_LAST[host]=time.monotonic()
+            if self.shared_budget:self.shared_budget.take()
             self.last[host]=time.monotonic(); self.requests+=1
             r=self.session.get(url,timeout=(8,22),allow_redirects=False,stream=True)
             if r.status_code in (301,302,303,307,308):

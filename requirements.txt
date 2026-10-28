@@ -1,3 +1,4 @@
 requests==2.32.5
 beautifulsoup4==4.14.2
 icalendar==6.3.2
+recurring-ical-events==3.8.2

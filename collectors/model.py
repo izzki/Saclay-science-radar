@@ -112,8 +112,8 @@ def make_event(raw, source, checked=None):
     elif status=='Annoncé' and re.search(r'\b(reporte|reportee|postponed)\b',norm(title+' '+desc[:100])):status='Reporté'
     event={
         'id':hashlib.sha256((url+'|'+start+'|'+norm(title)).encode()).hexdigest()[:20],
-        'title':title,'description':desc,'start':start,'end':parse_date(raw.get('end')),'timezone':'Europe/Paris' if len(start)==10 else str(datetime.fromisoformat(start).tzinfo),
-        'organizer':clean(raw.get('organizer') or ('Laboratoire Charles Fabry' if 'laboratoire charles fabry' in norm(desc) else source['name'])),
+        'title':title,'description':desc,'start':start,'end':parse_date(raw.get('end')),'endExclusive':bool(raw.get('endExclusive')), 'evidence':raw.get('evidence',{}),'timezone':'Europe/Paris' if len(start)==10 else str(datetime.fromisoformat(start).tzinfo),
+        'organizer':clean(raw.get('organizer') or ('Laboratoire Charles Fabry' if 'laboratoire charles fabry' in norm(desc) else source.get('organizerName') or source['name'])),
         'location':clean(raw.get('location')) or None,'address':clean(raw.get('address')) or None,'city':city,
         'format':raw.get('format') or 'Non précisé','category':category(text),'disciplines':disciplines(text),
         'price':price,'currency':raw.get('currency') or ('EUR' if price is not None else None),'studentPrice':raw.get('studentPrice'),
@@ -123,7 +123,7 @@ def make_event(raw, source, checked=None):
         'speakers':raw.get('speakers',[]),'companies':raw.get('companies',[]),'labs':raw.get('labs',[]),'level':clean(raw.get('level')) or None,
         'url':url,'status':status,'reliability':source.get('reliability','Élevée'),
         'sources':[{'id':source['id'],'name':source['name'],'url':url,'listingUrl':source['url'],'checkedAt':checked}],
-        'firstSeen':checked,'lastVerified':checked,'history':[], 'externalId':clean(raw.get('externalId')) or None,
+        'firstSeen':checked,'lastVerified':checked,'history':[], 'externalId':clean(raw.get('externalId')) or None,'extractionVersion':raw.get('extractionVersion',1),'warnings':raw.get('warnings',[]),
     }
     if event['end'] and event['end']<start: event['end']=None
     event['score']=score(event)
@@ -155,7 +155,7 @@ def reconcile(previous, incoming):
             # Stable URL + title identifies a schedule change only when this source does not publish several sessions.
             candidates=[e for e in result if e['url']==new['url'] and norm(e['title'])==norm(new['title'])]
             sessions=[e for e in incoming if e['url']==new['url'] and norm(e['title'])==norm(new['title'])]
-            if len(candidates)==1 and len(sessions)==1 and len({e['start'][:10] for e in candidates+sessions})>1 and new.get('externalId') and candidates[0].get('externalId')==new['externalId']: match=candidates[0]
+            if len(candidates)==1 and len(sessions)==1 and new.get('externalId') and candidates[0].get('externalId')==new['externalId']: match=candidates[0]
         if match:
             changes={k:{'before':match.get(k),'after':new.get(k)} for k in ('start','end','location','address','price','status','registration') if match.get(k)!=new.get(k)}
             history=match.get('history',[])+([{'at':new['lastVerified'],'changes':changes}] if changes else [])
@@ -164,6 +164,8 @@ def reconcile(previous, incoming):
             merged={k:(v if v is not None and v!='' and v!=[] else match.get(k,v)) for k,v in new.items()}
             if new.get('price') is None and match.get('price') is not None:
                 merged['priceLabel']=match['priceLabel'];merged['currency']=match.get('currency')
+            if new.get('extractionVersion',1)>=2:
+                merged['warnings']=new.get('warnings',[])
             match.update(merged,id=match['id'],firstSeen=match['firstSeen'],history=history,sources=list(sources.values()))
             match['score']=score(match)
         else: result.append(new)

@@ -1,82 +1,79 @@
 # Saclay Science Radar
 
-Application statique française pour explorer les événements scientifiques, académiques et professionnels de Paris-Saclay et Paris. Profil : étudiant SupOptique, R&D photonique et matériel quantique expérimental.
+Veille scientifique et professionnelle pour un étudiant SupOptique à Paris-Saclay. Application française React/TypeScript/Vite, Python pour la collecte, GitHub Actions et GitHub Pages. Pas d’abonnement, d’IA payante, de serveur permanent ni de compte utilisateur sur le site.
 
-## Fonctionnement
+**Site : https://izzki.github.io/Saclay-science-radar/**
 
-React 19, TypeScript strict et Vite. Données JSON collectées hors navigateur par Python 3.12 et GitHub Actions. Pas de serveur, de compte utilisateur, de base payante ni d’API d’IA. Favoris, préférences et annonces personnelles restent dans le navigateur.
+## Explorer au quotidien
 
-- **Tout voir** : tous les scores, par ordre chronologique. Les événements passés sont accessibles en activant les archives ; aucun seuil de prix ou de score n’est implicite.
-- **Pour moi** : même catalogue, tri par score explicable sur 100 (35 science, 20 networking, 15 géographie, 15 coût et accès, 10 métiers, 5 niveau).
-- Recherche, période, dates, ville, zone, prix, discipline, organisateur, type, score, fiabilité, accès et format.
-- Fiche, provenance, prix inconnu explicite, conseils distincts des faits, export ICS sans durée inventée, favoris et nouveautés depuis la précédente visite.
-- Registre initial de 120 sources candidates. L’inventaire n’équivaut ni à 120 agendas validés, ni à 120 collecteurs opérationnels.
-- Sources et couverture : résultats réels du pipeline, erreurs, dates de succès, URL finales, sources découvertes et limites.
-- Ajout manuel local, export et import JSON. L’extraction d’une URL depuis le navigateur n’est pas implémentée : les données doivent être vérifiées dans l’annonce. Aucune donnée privée n’est publiée.
+Les mots-clés, le thème, l’ordre de tri, la période, la ville et le budget sont directement visibles. Les thèmes rapides couvrent photonique, quantique, nanosciences, instrumentation, deeptech et physique ; le menu comprend toutes les disciplines du catalogue. La recherche couvre aussi les intervenants, organismes et entreprises. Plusieurs mots séparés par espaces ou virgules se combinent ; une expression entre guillemets est recherchée telle quelle.
 
-## Collecte et découverte
+Tri : dates croissantes, dates décroissantes, pertinence, dernières annonces et prix croissants avec inconnus à la fin. Les autres filtres précisent dates, zone, format, organisateur, type, fiabilité, score et conditions d’accès. La remise à zéro est accessible sans ouvrir les réglages avancés.
 
-Connecteurs prédéfinis : JSON-LD `schema.org/Event`, calendriers ICS non récurrents, liens de flux RSS/Atom vers des pages d’événements, blocs HTML institutionnels, boutons calendrier Institut d’Optique/LCF, blocs d’agenda CEA IRAMIS. Les dates de publication RSS ne deviennent jamais des dates d’événement.
+**Les événements terminés sont masqués par défaut, même si une ancienne préférence avait activé les archives.** Le menu « Période du catalogue » permet de consulter les archives. Les cartes et fiches distinguent Terminé, En cours, À venir, Aujourd’hui sans heure et Déjà commencé sans fin connue. La comparaison tient compte de l’heure réelle et de Paris ; la date de fin ICS exclusive est respectée. Une fin non publiée n’est pas inventée. Les événements annulés ou reportés ne proposent pas d’inscription active.
 
-`collectors/source_discovery.py` découvre des liens d’agendas, d’annuaires et des flux sur les pages institutionnelles visitées. Un nouveau flux compatible du même domaine peut être activé après vérification robots, extraction et présence de dates valides. Les liens externes et formats nécessitant une intégration restent en file d’attente. Aucun moteur de recherche ni réseau social n’est faussement annoncé comme intégré. Pas d’exécution de code externe.
+Favoris, préférences et annonces personnelles sont conservés localement. Les nouveautés dépendent de la dernière visite. L’export ICS respecte les fuseaux et les fins exclusives. La pondération des scores reste 35/20/15/15/10/5 ; aucun prix ou score ne supprime une annonce.
 
-HTTP : identité explicite, robots.txt, requêtes espacées, limites de taille, délais, contrôle des IP publiques et des redirections, arrêt sur 429/503, aucun CAPTCHA contourné. Une erreur de source est isolée. En cas d’échec, les données connues sont conservées et vieillissent visiblement. Le respect de robots.txt ne remplace pas la vérification des conditions d’utilisation ; une source peut être désactivée dans le registre.
+## Collecter et élargir les sources
 
-Le budget HTTP limite la charge **par exécution**, pas la taille du catalogue. Une file persistante conserve les pages de détail non encore visitées. La navigation profonde et les contenus JavaScript non structurés peuvent encore faire manquer des annonces. Les récurrences ICS RRULE sont signalées comme non prises en charge plutôt que mal interprétées. Une annonce sans date valide ne devient pas un événement confirmé.
+Connecteurs fixes : JSON-LD Event rattaché au titre ou au lien de l’annonce, widgets institutionnels de calendrier, ICS, RSS/Atom vers pages datées et blocs HTML d’agendas. Une date de publication de news ne suffit pas à créer un événement.
 
-Les sessions avec des horaires distincts ne sont pas fusionnées. La déduplication conservatrice maintient les provenances. Les modifications de date nécessitent un identifiant externe stable afin de limiter les fausses fusions. Les contradictions entre sources demandent encore une revue ; l’historique conserve les modifications reçues.
+Le collecteur PSL a été corrigé : titre, dates et lien sont lus **dans le même bloc d’événement**, sans choisir le lien d’un autre bloc. Les anciennes associations erronées sont conservées dans l’historique de qualité et remplacées par les annonces réextraites. Les tarifs, tarifs étudiants, conditions d’accès et liens d’inscription sont extraits lorsqu’ils sont explicitement publiés. Les contenus de navigation, newsletters et pieds de page ne servent pas de tarif à l’événement. Un tarif non publié reste inconnu ; un tarif étudiant gratuit ne signifie pas que l’entrée est gratuite pour tout public.
+
+`source_discovery` découvre les liens publics de nouveaux agendas/flux ; `integration` teste les candidats existants avec les connecteurs validés. Jusqu’à quatre organismes sont contrôlés en parallèle, avec espacement global des requêtes par hôte. Le budget de requêtes limite chaque passage, **pas le catalogue**. Les candidats non encore visités et les échecs restent dans le registre ; les prochaines validations reprennent par les plus anciens tests. Les sources qui exigent un parseur spécifique ou refusent la collecte ne sont pas présentées comme surveillées.
+
+Règles réseau : robots.txt, DNS public, rejet des adresses internes, redirections revérifiées, délais, limitation de taille et gestion 429/503. Pas de CAPTCHA contourné, de scraping privé ou d’exécution de scripts externes. L’ajout de connecteurs ne provient jamais d’un site distant.
+
+## Calendriers récurrents
+
+Le traitement Python utilise `recurring-ical-events` pour RRULE, RDATE, EXDATE et RECURRENCE-ID : séances exclues, déplacées, changements d’heure et annulations explicites. Les occurrences ont des identifiants distincts ; un changement horaire portant un identifiant stable conserve son historique.
+
+Une série infinie ne peut pas être publiée sans borne : l’expansion porte sur les douze derniers mois et les deux prochaines années, et avance à chaque collecte. `RADAR_RECURRENCE_HORIZON_DAYS` configure l’horizon futur. Les règles à la seconde ou minute sont signalées pour contrôle plutôt que développées sans limite. Les événements simples passés restent archivés.
+
+## Ajouter une URL publique
+
+Le formulaire reconnaît immédiatement les URL déjà présentes. Pour une nouvelle page, le bouton ouvre une demande GitHub préremplie ; **le propriétaire doit valider cette demande sur GitHub**. Cette autorisation est nécessaire pour lancer un traitement sur un site statique sans serveur ni jeton dans le navigateur. Le workflow lit la page publique, teste ses dates, extrait et valide les informations, déduplique, calcule le score et republie le catalogue. Le formulaire affiche le résultat après publication via `data/imports.json`.
+
+Seul le propriétaire du dépôt peut déclencher cet import. Le corps de la demande est lu comme des données JSON/texte, jamais comme du shell. Un lien contenant jeton, mot de passe ou signature n’est pas accepté dans ce circuit public. En cas d’échec ou d’annonce sans date exploitable, le résultat indique l’erreur et le formulaire manuel reste disponible : aucune date fictive ne remplace l’échec.
+
+## Informations privées : sur l’appareil uniquement
+
+Le formulaire accepte un fichier ICS exporté d’un calendrier autorisé, d’une invitation ou d’un intranet accessible par l’utilisateur. `ical.js` développe localement les récurrences et exceptions. Le fichier, ses descriptions et ses URL privées ne sont jamais envoyés au dépôt ou au collecteur. Un événement sans URL reste sans URL. Un réimport met à jour les séances portant le même identifiant et conserve l’historique local.
+
+Cela ne donne pas un accès direct à un compte, un groupe privé, une messagerie ou un intranet. Une connexion automatique à ces services exige leur autorisation propre ; aucun accès n’est simulé et aucun identifiant n’est demandé dans le chat. Les sauvegardes JSON et ICS téléchargées restent sous le contrôle de l’utilisateur.
 
 ## Automatisation
 
-Workflow `.github/workflows/radar.yml` :
-
 - 06:15 UTC : collecte quotidienne de toutes les sources activées.
-- 16:15 UTC : deuxième passage des sources prioritaires.
-- Dimanche matin : découverte et contrôle d’URL candidates, dans le budget HTTP.
-- Premier jour du mois : rapport de couverture et recalcul des audits indépendants disponibles.
-- Exécution manuelle disponible. Sur modification du code, réutilisation des données réelles si la dernière collecte date de moins de deux heures ; sinon collecte. Les passages planifiés téléchargent toujours les données. Les nouvelles modifications de code peuvent remplacer une exécution précédente en cours.
-- Tests Python et TypeScript, contrôle Android sous Chromium, validation des données, build, persistance du catalogue, d’un instantané précédent et des rapports datés, artefact de rapport, publication Pages.
+- 16:15 UTC : second passage des sources prioritaires.
+- Dimanche matin : découverte et validation automatique des candidats dans le budget HTTP.
+- Premier jour du mois : rapport de couverture et recalcul des échantillons indépendants disponibles.
+- Demande d’import public par le propriétaire : traitement et publication de l’URL.
+- Modification du code : réutilisation du corpus réel s’il date de moins de deux heures, sinon nouvelle collecte.
 
-Les horaires Actions sont indicatifs : GitHub peut retarder ou désactiver un workflow planifié (notamment après une période d’inactivité du dépôt public). Le site alerte après 48 h sans collecte de données réussie. Un workflow présent n’est pas une preuve d’exécution.
+GitHub peut retarder/désactiver une planification : le site compare la dernière collecte réelle à l’heure actuelle et alerte après 48 h. Une reconstruction seule ne devient pas une nouvelle collecte. Instantané précédent, historique des événements, rapports datés par exécution et exclusions documentées sont persistés.
 
-Les permissions sont limitées par tâche : écriture du contenu pour les instantanés, `pages: write` et `id-token: write` pour la publication. Les données des sources ne modifient jamais les scripts ni les workflows.
+Les permissions sont définies par tâche : écriture du contenu pour les données, publication Pages et jeton d’identité pour le déploiement. Aucun secret utilisateur n’est nécessaire. Les tests et le build précèdent la publication ; le workflow vérifie ensuite l’URL publique, les assets et les données JSON.
 
-GitHub Pages doit utiliser **GitHub Actions** comme source de publication. Le workflow tente l’activation native ; selon les droits du jeton Actions, l’administrateur du dépôt peut devoir sélectionner cette option une fois. Aucun déploiement n’est déclaré réussi sans résultat d’exécution et contrôle du site.
+## Couverture et fiabilité
 
-## Couverture et audits
+Le tableau sépare inventaire, candidats découverts, URL contrôlées, sources ayant une extraction concluante au dernier passage, erreurs et fraîcheur. Une annonce incertaine reste signalée. Les exclusions de rubriques ou d’événements purement festifs sans lien scientifique sont conservées dans `data/quarantine.json` ; elles ne reposent pas sur le score.
 
-Le rapport `public/data/coverage.json` sépare : inventaire, extraction validée par source, succès technique, fraîcheur et rappel sur un échantillon indépendant. L’exhaustivité globale reste inconnue. **95 % est un objectif, jamais un résultat implicite.**
+Le relevé indépendant de la première page du LCF au 28 octobre 2026 compte huit annonces ; le rapport mesure celles retrouvées. Ce petit échantillon ne représente pas Paris-Saclay. **L’exhaustivité globale reste inconnue. 95 % est un objectif, pas un résultat.** Un nouveau relevé indépendant reste nécessaire pour étendre l’audit ; recalculer les résultats existants n’équivaut pas à constituer un nouvel échantillon.
 
-Protocole indépendant : choisir des sources officielles représentatives et une fenêtre temporelle ; relever toutes leurs annonces ; enregistrer titres, dates et URL ; comparer au catalogue ; conserver les manqués ; publier le rappel observé et sa portée. Le relevé ne doit pas être produit par le collecteur évalué.
+## Vérification et maintenance
 
-Les relevés indépendants vivent dans `data/audits/*.json` et comprennent `sourceId`, `window`, `reviewedAt`, `method` et `expected` (liste d’objets `title`, `date`, `url`). Aucun échantillon fictif n’est livré en production. Le recalcul mensuel ne remplace pas la constitution d’un nouvel échantillon. L’interface affiche « Non mesuré » en l’absence d’audit.
-
-## Développement et vérification
-
-Ces commandes sont destinées aux mainteneurs ; l’utilisateur n’a rien à installer sur sa tablette.
+Commandes pour les mainteneurs uniquement ; rien à installer sur la tablette :
 
 ```sh
-npm install
+npm ci
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -p 'test_*.py' -v
 npm test
-python -m collectors.pipeline --discover --audit
-python -m collectors.validate
 npm run build
+npm run test:browser
+python -m collectors.pipeline --discover --integrate --audit
+python -m collectors.validate
 ```
 
-Le verrou npm est généré et conservé par GitHub Actions. Les installations prennent en compte ce verrou et le mettent à jour si les dépendances directes changent. Les versions directes sont fixées dans `package.json` et `requirements.txt`.
-
-`data/sources.json` est le registre persistant ; `public/data/` contient les fichiers publiés. Les données synthétiques n’existent que dans `tests/`. Aucun événement de démonstration n’est chargé par l’application.
-
-## Limites de la V1
-
-L’inventaire contient des liens non vérifiés. La liste des sources opérationnelles dépend des résultats de collecte, et non de la configuration. Pas de collecte automatique LinkedIn, intranet, messagerie, affiche ni newsletter privée. Pas de scraping massif des plateformes. Pas de promesse de stage, de réseau ou d’accès : les conditions non extraites restent « Non précisé ». Les conseils sont déterministes et généraux, sans invention de personnes ou d’exposants.
-
-Le système est conçu pour évoluer par ajout de connecteurs testés et par audit. Il ne prouve pas une couverture globale exhaustive. Les échecs et travaux restant à faire sont visibles dans Sources et Couverture.
-
-Un premier relevé indépendant réel de huit annonces visibles sur la première page LCF au 28 octobre 2026 est conservé dans `data/audits/2026-10-28-lcf-page1.json`. Sa portée se limite à cette page et à cet instant ; il ne représente pas tous les agendas.
-
-Les métadonnées globales de PSL ont révélé des rattachements ambigus. Cette collecte est suspendue ; les annonces héritées restent en mode exhaustif avec fiabilité faible et avertissement explicite. Les concerts et spectacles sans lien scientifique identifiable ainsi que les rubriques de navigation sont exclus avec leur motif dans `data/quarantine.json`. Aucun score ou prix ne sert à cette exclusion. Les déclinaisons linguistiques d’un même événement IHP et les exports individuels C2N partagent une identité normalisée tout en conservant leurs URL sources.
-
-Après publication, le workflow contrôle l’accès HTTP réel au site, aux fichiers JavaScript/CSS et aux données JSON publiques, puis vérifie les identifiants et les chiffres de couverture.
+Les tests couvrent notamment échéances à l’heure réelle, archives, filtres et tris, tarifs inconnus/étudiants, déduplication et changements horaires, récurrences et exceptions, sécurité des demandes d’import, confidentialité locale et parcours Android. Les données synthétiques restent exclusivement dans les tests.

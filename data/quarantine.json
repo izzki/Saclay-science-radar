@@ -698,5 +698,2473 @@
       }
     },
     "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "06aad97541f3031d4956",
+      "title": "La nuit européenne des idées au Collège de France",
+      "description": "",
+      "start": "2022-03-12T21:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Collège de France, 11, place Marcelin Berthelot - 75005 Paris",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:13:41+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 18,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "2664a7d4a95ab449c8de",
+      "title": "LE RAMEAU D’OR",
+      "description": "",
+      "start": "2022-12-09T20:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "2 bis rue du Conservatoire 75009 Paris",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:13:41+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 18,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "4585c612e949dee8aa1e",
+      "title": "Le festival du Conservatoire avec le Nouveau Théâtre populaire",
+      "description": "",
+      "start": "2023-04-19T14:00:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "2 bis rue du Conservatoire 75009 Paris",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:13:41+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 18,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "1630f9d29c27000271bf",
+      "title": "À la découverte des Grands programmes de recherche de PSL : le cycle de webinaires 2026",
+      "description": "",
+      "start": "2026-03-11T13:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Siège de l’Université PSL (60 rue Mazarine, 75006 Paris) ou à distance via Teams",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "f529669f46480e127244",
+      "title": "Cours du soir - La Nouvelle Vague, un cinéma en liberté",
+      "description": "",
+      "start": "2026-09-22T18:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "cda46bdc3f9801d590c7",
+      "title": "Cours du soir - L'architecture du XXe siècle",
+      "description": "",
+      "start": "2026-09-23T18:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot, Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "2fe7f1a7e08f05e4f7bd",
+      "title": "Cours du soir - Les grandes questions de l'astronomie",
+      "description": "",
+      "start": "2026-09-24T18:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "86ebb0c519b19768b02f",
+      "title": "Game Night 🎲",
+      "description": "",
+      "start": "2026-09-25T17:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "03874f94045e2c6b4994",
+      "title": "Cours du soir - Une histoire de l'IA (1940-2026)",
+      "description": "",
+      "start": "2026-09-29T18:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "7195596c13c9bb97205f",
+      "title": "Cours du soir - De l'Empire ottoman à la Turquie moderne",
+      "description": "",
+      "start": "2026-10-01T18:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "d9b8ba1c83ba6fcf49e6",
+      "title": "Cours du soir - La mode sous toutes ses coutures",
+      "description": "",
+      "start": "2026-10-01T18:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "9b7bdd08d84e66512f06",
+      "title": "Séminaires de l’Organologia Institute",
+      "description": "",
+      "start": "2026-10-13T12:15:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 18,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "fcb84f8cc052d8d44578",
+      "title": "Les Rendez-vous Carrière - Alumni PSL",
+      "description": "",
+      "start": "2026-10-13T12:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Forum métiers",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 28,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 10,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "c276fe643f188f59d365",
+      "title": "Les Europe(s) Spatiale(s)",
+      "description": "",
+      "start": "2026-10-15T16:30:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "École normale supérieure, 45 rue d’Ulm, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "e144d071eb12529230e5",
+      "title": "Littérature et Cinéma chinois - Regards croisés entre texte et écran",
+      "description": "",
+      "start": "2026-10-23T18:00:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "Salle des Actes, 1er étage, escalier A, bâtiment Ulm, ENS-PSL ; 45 rue d’Ulm, 75005, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "b2dc910a321600e752b2",
+      "title": "Histoires intersexes : expositions et lecture-performance",
+      "description": "",
+      "start": "2026-10-26T11:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "fdf67fbd8998c93bec3e",
+      "title": "Peur en panne, une chasse au trésor scientifique d’Halloween !",
+      "description": "",
+      "start": "2026-10-30T19:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Espace des Sciences Pierre-Gilles de Gennes, 10 Rue Vauquelin, 75005, Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "143135bfd8e7465892ca",
+      "title": "Evènements et sensibilisations autour de l’inclusion et de la diversité",
+      "description": "",
+      "start": "2026-11-02T10:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "59e327da003507788b96",
+      "title": "SGAP 2026 Paris – A Scientist’s Guide to AI",
+      "description": "",
+      "start": "2026-11-02T10:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Inria Paris – 48 rue Barrault – Paris 13",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/la-decouverte-des-grands-programmes-de-recherche-de-psl-le-cycle-de-webinaires-2026",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "2ca0f66e776765cf718b",
+      "title": "Le mentorat dans l’enseignement supérieur et la recherche",
+      "description": "",
+      "start": "2026-11-02T11:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 18,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "0b4f0353ec24052c65b3",
+      "title": "Gagnez en impact dans vos prises de parole",
+      "description": "",
+      "start": "2026-11-03T10:30:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Centre de la Vie étudiante Université PSL, 5 Rue André Mazet, 75006, Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "fbdb78f0ef9822d4fe94",
+      "title": "Cycle de conférences « Faire École, Faire Territoire » : Rencontre avec Noé Duchaufour-Lawrance",
+      "description": "",
+      "start": "2026-11-03T19:30:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "31, rue d'Ulm Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "9c63917cafc3841474b8",
+      "title": "Quand les données éclairent les cultures et les sociétés",
+      "description": "",
+      "start": "2026-11-04T13:15:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Siège de PSL, 60 rue Mazarine, Paris 6e, ou possibilité de suivre à distance via teams",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/la-decouverte-des-grands-programmes-de-recherche-de-psl-le-cycle-de-webinaires-2026",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "17494962f9186aa91a5f",
+      "title": "Après-midi des lycéennes : découvrir les métiers scientifiques",
+      "description": "",
+      "start": "2026-11-04T14:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Salle A709",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://dauphine.psl.eu/dauphine/media-et-communication/article/apres-midi-des-lyceennes-decouvrir-les-metiers-scientifiques",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:13:41+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 28,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 10,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "d806251f0290b4f50700",
+      "title": "Après-midi des lycéennes : découvrir les métiers scientifiques",
+      "description": "",
+      "start": "2026-11-04T15:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Salle A709, Université Paris Dauphine - PSL",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [
+        {
+          "at": "2026-10-28T15:13:41+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709 – Université Paris Dauphine - PSL",
+              "after": "Salle A709, Université Paris Dauphine - PSL"
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:13:41+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709, Université Paris Dauphine - PSL",
+              "after": "Salle A709 – Université Paris Dauphine - PSL"
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:13:41+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709 – Université Paris Dauphine - PSL",
+              "after": "Salle A709, Université Paris Dauphine - PSL"
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:13:41+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709, Université Paris Dauphine - PSL",
+              "after": "Salle A709 – Université Paris Dauphine - PSL"
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:13:41+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709 – Université Paris Dauphine - PSL",
+              "after": "Salle A709, Université Paris Dauphine - PSL"
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:24:57+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709, Université Paris Dauphine - PSL",
+              "after": "Salle A709 – Université Paris Dauphine - PSL"
+            }
+          }
+        },
+        {
+          "at": "2026-10-28T15:24:57+00:00",
+          "changes": {
+            "location": {
+              "before": "Salle A709 – Université Paris Dauphine - PSL",
+              "after": "Salle A709, Université Paris Dauphine - PSL"
+            }
+          }
+        }
+      ],
+      "externalId": null,
+      "score": {
+        "total": 35,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 10,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "841838b4b83e1f527a99",
+      "title": "Salon de la mobilité d'EELISA",
+      "description": "",
+      "start": "2026-11-04T19:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "En ligne",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Salon",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 30,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 12,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "8bc93b1493e19dec3079",
+      "title": "Exposition (Zus), Benoît Fougeirol",
+      "description": "",
+      "start": "2026-11-05T11:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Galerie Callot 1 rue Jacques Callot – Paris 6e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "b884dc43cb1c9b452490",
+      "title": "Ateliers d’Art-Thérapie",
+      "description": "",
+      "start": "2026-11-06T11:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "81044b96048edf9952e1",
+      "title": "De Jérusalem au Sinaï : les graffitis occidentaux des XIVe-XVIe siècle",
+      "description": "",
+      "start": "2026-11-09T19:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "École nationale des chartes - PSL, 65, rue de Richelieu, Paris 2e (salle Delisle)",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "eca32941243f502a1868",
+      "title": "Mines Magic 3D : de la stéréoscopie aux images 3D numériques",
+      "description": "",
+      "start": "2026-11-10T11:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Mines Paris - PSL, 60 boulevard Saint-Michel, 75006 Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "29c3533400078302670f",
+      "title": "Agir Etudiant.e - Permanence juridique pour les étudiantes et étudiants en situation de handicap",
+      "description": "",
+      "start": "2026-11-10T12:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "779d51fbede63fd2634d",
+      "title": "Patrimoines en guerre : l’Ukraine aujourd’hui",
+      "description": "",
+      "start": "2026-11-10T18:30:00+01:00",
+      "end": "2026-11-10",
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "École nationale des chartes - PSL, 65, rue de Richelieu, Paris 2e (salle Delisle)",
+      "address": "65 Rue de Richelieu, 75002, Paris",
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://www.chartes.psl.eu/gazette-chartiste/agenda/patrimoines-en-guerre-lukraine-aujourdhui",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        },
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [
+        {
+          "at": "2026-10-28T15:24:57+00:00",
+          "changes": {
+            "end": {
+              "before": "2026-11-10",
+              "after": null
+            },
+            "location": {
+              "before": "École nationale des chartes - PSL",
+              "after": "École nationale des chartes - PSL, 65, rue de Richelieu, Paris 2e (salle Delisle)"
+            },
+            "address": {
+              "before": "65 Rue de Richelieu, 75002, Paris",
+              "after": null
+            }
+          }
+        }
+      ],
+      "externalId": "https://www.chartes.psl.eu/node/16384",
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "ec31cb4d88e38aa4d104",
+      "title": "Afterwork Alumni Université PSL",
+      "description": "",
+      "start": "2026-11-10T19:30:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Centre de la Vie étudiante Mazet, 5 Rue André Mazet, 75006, Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "1563a3613676ca509891",
+      "title": "AFTER Project room - SIGNATURES ART FAIR",
+      "description": "Exposition AFTER Project room - SIGNATURES ART FAIR Paris 3e Du 13 nov. 2026 jusqu'au 15 nov. 2026 © Philippine Joyeux L’École des Arts Décoratifs – PSL accompagne la première édition de la foire SIGNATURES en présentant un AFTER Project Room dédié aux éditions limitées. Informations Du vendredi 13 au dimanche 15 novembre Vernissage le jeudi 12 novembre Tarif plein 12 euros Réduit moins de 25 ans 6 euros En savoir plus Carreau du Temple 4 Rue Eugène Spuller Paris 3e Label de révélation des créateur·rices récemment diplômé·es de l’École des Arts Décoratifs – PSL, AFTER explore le passage du diplôme à l’édition en série limitée. Image imprimée sur textile ou papier, objet édité, photographie, éditions d’artistes, sérigraphies et formes hybrides : autant de pratiques qui témoignent d’une génération qui investit l’édition comme un espace de création, d’expérimentation et de diffusion à part entière. AFTER s’inscrit comme un espace de continuité où se déploie la diversité des pratiques artistiques issues de l’École. Il révèle une scène émergente formée au sein de ses champs de création — design textile et matière, design objet, design vêtement, image imprimée, photographie — et engagée dans la réinvention des arts de vivre et d’habiter. Réunissant une vingtaine de jeunes artistes et designers diplômé·es entre 2023 et 2026, l’exposition donne à voir une génération pour laquelle le geste créatif s’ancre dans les enjeux contemporains : écologiques, sociaux, culturels et d’usage. Le beau et l’utile s’y recomposent, dans une attention renouvelée aux formes, aux matériaux et aux modes de production. Entre préoccupation écologique et sociale, question des usages et recherche formelle, ces travaux dessinent une promesse de réinvention de l’objet : du prototype à la série, de l’expérimentation à l’édition. Ils affirment une pratique où le savoir-faire dialogue avec le récit et où l’édition devient un espace de transformation du réel. Bienvenue dans le premier AFTER en série limitée de l’École des Arts Décoratifs – PSL. Avec : Elisa Scarpaci , diplômée Design Textile et Matière, 2026 Alexandre Esteban Hernandez , diplômé d’Image imprimée, 2025 Eliot Ruffel , diplômé de Photo vidéo, 2025 Emile Mariot , diplômé d’Image imprimée, 2023 Luane Hubert , diplômée d’Image imprimée, 2024 Luisa Olivera , diplômée de Design vêtement, 2024 Lucie Lozano , diplômée de Design textile et matière, 2024 Nora Ourabah , étudiante en 5e année d’Image imprimée Chahinase Youcef , diplômée de Design vêtement, 2024 Nico Brousmiche Criséo , diplômé de Design graphique, 2025 Célia Joumard , diplômée d’Image imprimée, 2024 Zoénine Laurent Perroto , diplômée d’Image imprimée, 2025 Sara Génin , diplômée de Design vêtement, 2025 Raphaël Journaux , diplômé d’Architecture intérieure, 2024 Matthieu Dina , étudiant de 5e année d’Image imprimée Felix Ryon , diplômé d’Image Imprimée, 2026 Chloé Diner , diplômée de Design textile et matière, 2025 Alec Vivier Reynaud diplômé de Design graphique, 2024",
+      "start": "2026-11-13T13:00:00+01:00",
+      "end": null,
+      "timezone": "UTC",
+      "organizer": "Université PSL",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Salon",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://www.ensad.fr/fr/exposition",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:13:41+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:13:41+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 18,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "86e147a3e94b59c8e1b0",
+      "title": "Séminaire AGIR : Femmes et Sciences",
+      "description": "",
+      "start": "2026-11-19T18:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Chimie ParisTech - PSL, 11 rue Pierre et Marie Curie, 75005 Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Séminaire",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda",
+      "status": "Annonce à confirmer",
+      "reliability": "Faible",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/la-decouverte-des-grands-programmes-de-recherche-de-psl-le-cycle-de-webinaires-2026",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      },
+      "warnings": [
+        "Métadonnées institutionnelles non rattachées à une page individuelle : date, heure et accès à confirmer. La source n’est plus collectée automatiquement en attendant réparation."
+      ]
+    },
+    "reason": "Ancien rattachement PSL incorrect : retrait en attente de réextraction du bloc officiel"
+  },
+  {
+    "event": {
+      "id": "fde514c3d823d7d3d5c8",
+      "title": "Cours du soir - La Nouvelle Vague, un cinéma en liberté",
+      "description": "22 sept. - 4 mai Formation - Cours | MOOC Cours du soir - La Nouvelle Vague, un cinéma en liberté 3 rue Amyot Paris 5e #coursdusoir 2026-09-22 18:30 2027-05-04 20:00 Europe/Paris Cours du soir - La Nouvelle Vague, un cinéma en liberté 3 rue Amyot Paris 5e S'inscrire",
+      "start": "2026-09-22T18:30:00+02:00",
+      "end": "2027-05-04T20:00:00+02:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "3 rue Amyot Paris 5e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://coursdusoir.psl.eu/cinema-nouvelle-vague",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T18:38:10+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T18:38:10+00:00",
+      "lastVerified": "2026-10-28T18:38:10+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
   }
 ]

@@ -4,7 +4,7 @@ from pathlib import Path
 from .model import now,canonical,norm
 
 def coverage(registry,events,run):
-    automated=[s for s in registry if s.get('enabled') and s.get('lastSuccess') and s.get('lastEventCount',0)>0]
+    automated=[s for s in registry if s.get('enabled') and s.get('lastSuccess') and s.get('lastEventCount',0)>0 and s.get('lastResult')=='ok']
     attempted=[s for s in registry if s.get('enabled') and s.get('lastAttempt')]
     success=[s for s in attempted if s.get('lastResult')=='ok']
     audits=[]
@@ -23,5 +23,5 @@ def coverage(registry,events,run):
         'inventoryAutomationRate':round(100*len(automated)/len(registry),1) if registry else 0,'globalRecall':None,
         'audits':audits,'auditedRecall':round(100*sum(a['detected'] for a in audits)/sum(a['expected'] for a in audits),1) if audits else None,
         'lastSuccessfulCollection':run.get('lastSuccessfulCollection'),'events':len(events),
-        'limits':['L’inventaire comprend des URL candidates non vérifiées.','Le succès technique d’un collecteur ne prouve pas l’exhaustivité de l’agenda.','Les annonces privées et les réseaux sans API autorisée ne sont pas collectés.','La découverte suit des liens publics ; elle ne parcourt pas tout le Web.','Les calendriers ICS récurrents nécessitent encore une expansion RRULE.'],
+        'limits':['L’inventaire comprend des URL candidates non vérifiées.','Le succès technique d’un collecteur ne prouve pas l’exhaustivité de l’agenda.','Les annonces privées et les réseaux sans API autorisée ne sont pas collectés.','La découverte suit des liens publics ; elle ne parcourt pas tout le Web.','Les récurrences sont développées sur une fenêtre glissante : douze mois passés et deux ans à venir ; les règles à la seconde/minute sont signalées pour contrôle.'],
         'nextPriorities':[s['name'] for s in registry if s.get('enabled') and s.get('lastResult')!='ok']}

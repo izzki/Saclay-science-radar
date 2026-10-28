@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-28T15:49:19+00:00",
-  "inventory": 309,
-  "automated": 11,
-  "enabled": 19,
-  "verifiedUrls": 122,
+  "generatedAt": "2026-10-28T19:01:59+00:00",
+  "inventory": 312,
+  "automated": 17,
+  "enabled": 28,
+  "verifiedUrls": 135,
   "discovered": 189,
-  "successfulCollectors": 11,
-  "attemptedCollectors": 19,
-  "collectorSuccessRate": 57.9,
-  "inventoryAutomationRate": 3.6,
+  "successfulCollectors": 17,
+  "attemptedCollectors": 28,
+  "collectorSuccessRate": 60.7,
+  "inventoryAutomationRate": 5.4,
   "globalRecall": null,
   "audits": [
     {
@@ -24,21 +24,24 @@
     }
   ],
   "auditedRecall": 100.0,
-  "lastSuccessfulCollection": "2026-10-28T15:30:14+00:00",
-  "events": 339,
+  "lastSuccessfulCollection": "2026-10-28T18:57:41+00:00",
+  "events": 362,
   "limits": [
     "L’inventaire comprend des URL candidates non vérifiées.",
     "Le succès technique d’un collecteur ne prouve pas l’exhaustivité de l’agenda.",
     "Les annonces privées et les réseaux sans API autorisée ne sont pas collectés.",
     "La découverte suit des liens publics ; elle ne parcourt pas tout le Web.",
-    "Les calendriers ICS récurrents nécessitent encore une expansion RRULE."
+    "Les récurrences sont développées sur une fenêtre glissante : douze mois passés et deux ans à venir ; les règles à la seconde/minute sont signalées pour contrôle."
   ],
   "nextPriorities": [
     "École polytechnique",
     "Institut Polytechnique de Paris",
-    "Université Paris-Saclay",
+    "ENS Paris-Saclay",
     "ISMO",
     "IJCLab",
+    "Quantum-Saclay",
+    "Photonics France",
+    "Le Lab Quantique",
     "Collège de France",
     "Sorbonne Université",
     "École normale supérieure"
