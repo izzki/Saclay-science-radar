@@ -1,25 +1,35 @@
 {
-  "at": "2026-10-28T20:07:10+00:00",
+  "at": "2026-10-28T20:09:40+00:00",
   "previousRun": {
-    "startedAt": "2026-10-28T20:06:06+00:00",
-    "lastSuccessfulCollection": "2026-10-28T20:05:45+00:00",
+    "startedAt": "2026-10-28T20:07:01+00:00",
+    "lastSuccessfulCollection": "2026-10-28T20:07:10+00:00",
     "newSources": 0,
-    "sources": [],
+    "sources": [
+      {
+        "id": "s103",
+        "count": 1,
+        "result": "ok",
+        "errors": 0,
+        "pending": 0
+      }
+    ],
     "errors": [],
     "scheduled": false,
     "workflowRunUrl": null,
     "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
     "discoverySchedule": "Dimanche, 06:15 UTC",
     "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
-    "quarantined": 0,
-    "quarantineHistory": 47,
-    "finishedAt": "2026-10-28T20:06:06+00:00",
-    "httpRequests": 0,
-    "events": 457,
-    "incoming": 0,
+    "targetedSources": [
+      "s103"
+    ],
+    "quarantined": 1,
+    "quarantineHistory": 48,
+    "finishedAt": "2026-10-28T20:07:10+00:00",
+    "httpRequests": 3,
+    "events": 456,
+    "incoming": 1,
     "newEvents": 0,
-    "status": "Données récentes conservées · vérification du catalogue effectuée",
-    "reprocessed": true
+    "status": "Succès"
   },
   "previousEvents": [
     {
@@ -15149,72 +15159,6 @@
       "warnings": []
     },
     {
-      "id": "bc93a24646ed4631bcbb",
-      "title": "Game Night 🎲",
-      "description": "25 sept. - 9 juil. Campus - Soirée Game Night 🎲 Centre Mazet - 5A rue André Mazet, 75006, Paris 2026-09-25 17:30 2027-07-09 23:00 Europe/Paris Game Night 🎲 Centre Mazet - 5A rue André Mazet, 75006, Paris S'inscrire",
-      "start": "2026-09-25T17:30:00+02:00",
-      "end": "2027-07-09T23:00:00+02:00",
-      "endExclusive": false,
-      "evidence": {
-        "registrationUrl": "S'inscrire"
-      },
-      "timezone": "UTC+02:00",
-      "organizer": "Université PSL",
-      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
-      "address": null,
-      "city": "Paris",
-      "format": "Non précisé",
-      "category": "Événement scientifique",
-      "disciplines": [
-        "Sciences générales"
-      ],
-      "price": null,
-      "currency": null,
-      "studentPrice": null,
-      "priceLabel": "Non précisé",
-      "access": null,
-      "registration": null,
-      "registrationUrl": "https://my.weezevent.com/game-night-25",
-      "deadline": null,
-      "speakers": [],
-      "companies": [],
-      "labs": [],
-      "level": null,
-      "url": "https://psl.eu/agenda/game-night-16",
-      "status": "Annoncé",
-      "reliability": "Élevée",
-      "sources": [
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/agenda/game-night-16",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T18:51:06+00:00"
-        }
-      ],
-      "firstSeen": "2026-10-28T18:38:10+00:00",
-      "lastVerified": "2026-10-28T18:51:06+00:00",
-      "history": [],
-      "externalId": null,
-      "extractionVersion": 2,
-      "warnings": [],
-      "score": {
-        "total": 25,
-        "parts": {
-          "Adéquation scientifique": 8,
-          "Networking annoncé": 0,
-          "Proximité": 10,
-          "Coût et accès": 5,
-          "Stages et métiers": 0,
-          "Niveau étudiant": 2
-        },
-        "reasons": [
-          "Networking : aucune rencontre professionnelle garantie.",
-          "Tarif non précisé : à vérifier."
-        ]
-      }
-    },
-    {
       "id": "0c47b0c9769451be5a53",
       "title": "Eduardo Bittar : Uniaxial vs. Hydrostatic Pressure in the Kagome Lattice Cs1-xRbxV3Sb5",
       "description": "Kagome metals AV3Sb5 (A = K, Rb, Cs) provide a remarkable platform for investigating the interplay between superconductivity, charge-density-wave (CDW) order, and unconventional electronic states. Here we discuss the combined effects of Rb substitution, hydrostatic pressure, and uniaxial in-plane strain in Cs1-xRbxV3Sb5. Rb substitution substantially modifies the ambient-pressure superconducting and CDW transition temperatures, suppressing superconductivity and enhancing the CDW state, while also changing the lattice parameters and disorder. Hydrostatic pressure, however, produces a qualitatively different response: it enhances superconductivity while suppressing the CDW order. High-pressure X-ray diffraction further shows that this response is associated with strongly anisotropic lattice compression, dominated by the contraction of the crystallographic c-axis. In contrast, compressive uniaxial strain applied within the ab-plane produces the opposite effect, similar to the behavior induced by Rb substitution. These results show that pressure and strain cannot be treated as equivalent, raising the question of what ultimately determines the superconducting state reached under hydrostatic compression.",
@@ -22826,11 +22770,18 @@
           "name": "Forum de la Photonique",
           "url": "https://www.forumdelaphotonique.fr/",
           "listingUrl": "https://www.forumdelaphotonique.fr/",
-          "checkedAt": "2026-10-28T20:03:45+00:00"
+          "checkedAt": "2026-10-28T20:07:10+00:00"
+        },
+        {
+          "id": "s103",
+          "name": "Forum de la Photonique — espace visiteur",
+          "url": "https://www.forumdelaphotonique.fr/espace-visiteur",
+          "listingUrl": "https://www.forumdelaphotonique.fr/",
+          "checkedAt": "2026-10-28T20:07:10+00:00"
         }
       ],
       "firstSeen": "2026-10-28T20:03:45+00:00",
-      "lastVerified": "2026-10-28T20:03:45+00:00",
+      "lastVerified": "2026-10-28T20:07:10+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,

@@ -1,31 +1,21 @@
 {
-  "startedAt": "2026-10-28T20:07:01+00:00",
+  "startedAt": "2026-10-28T20:09:40+00:00",
   "lastSuccessfulCollection": "2026-10-28T20:07:10+00:00",
   "newSources": 0,
-  "sources": [
-    {
-      "id": "s103",
-      "count": 1,
-      "result": "ok",
-      "errors": 0,
-      "pending": 0
-    }
-  ],
+  "sources": [],
   "errors": [],
-  "scheduled": false,
-  "workflowRunUrl": null,
+  "scheduled": true,
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40760730826",
   "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
   "discoverySchedule": "Dimanche, 06:15 UTC",
   "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
-  "targetedSources": [
-    "s103"
-  ],
-  "quarantined": 1,
+  "quarantined": 0,
   "quarantineHistory": 48,
-  "finishedAt": "2026-10-28T20:07:10+00:00",
-  "httpRequests": 3,
+  "finishedAt": "2026-10-28T20:09:40+00:00",
+  "httpRequests": 0,
   "events": 456,
-  "incoming": 1,
+  "incoming": 0,
   "newEvents": 0,
-  "status": "Succès"
+  "status": "Données récentes conservées · vérification du catalogue effectuée",
+  "reprocessed": true
 }
