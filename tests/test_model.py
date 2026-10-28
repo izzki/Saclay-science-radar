@@ -16,6 +16,11 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(parse_date('2026-11-03'),'2026-11-03')
         self.assertIsNone(parse_date('31 février 2026',True))
         self.assertIsNone(parse_date('sans date'))
+    def test_timezone_normalized(self):
+        self.assertEqual(parse_date('2026-11-03T10:00:00Z'),parse_date('2026-11-03T11:00:00+01:00'))
+    def test_explicit_city_and_status(self):
+        e=event(description='REPORTÉ : séminaire à Palaiseau')
+        self.assertEqual(e['city'],'Palaiseau');self.assertEqual(e['status'],'Reporté')
     def test_no_invention(self):
         e=event();self.assertIsNone(e['price']);self.assertIsNone(e['city']);self.assertIsNone(e['registrationUrl']);self.assertEqual(e['priceLabel'],'Non précisé')
     def test_quantum_word_not_max(self):

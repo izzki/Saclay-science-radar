@@ -1,0 +1,17 @@
+{
+  "sourceId": "s002",
+  "window": "Annonces à venir visibles sur la première page de l’agenda LCF le 28 octobre 2026 ; du 29 octobre au 17 décembre 2026. Ce périmètre exclut les autres pages et sous-agendas.",
+  "reviewedAt": "2026-10-28T15:10:00+00:00",
+  "method": "Lecture indépendante de la page officielle via l’outil de navigation, puis vérification des liens de détail. Les huit annonces à venir visibles ont été relevées avant consultation du résultat du collecteur. Le taux obtenu ne vaut que pour cette page et cet instant.",
+  "referenceUrl": "https://www.lcf.institutoptique.fr/agenda",
+  "expected": [
+    {"title":"Séminaire de Félix KEIL","date":"2026-12-17","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-felix-keil"},
+    {"title":"Séminaire de Tarek HASSAN","date":"2026-12-10","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-tarek-hassan"},
+    {"title":"Séminaire de Yassir AMAZOUZ","date":"2026-12-03","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-yassir-amazouz"},
+    {"title":"Soutenance de thèse de Sanghyeop LEE","date":"2026-11-30","url":"https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sanghyeop-lee"},
+    {"title":"Séminaire de Nathan ARQUES","date":"2026-11-26","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-nathan-arques"},
+    {"title":"Séminaire de Alexis CORBILLET","date":"2026-11-12","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-alexis-corbillet"},
+    {"title":"Séminaire de Romain MARTIN le 5 novembre 2026 à 13h15 (IOGS Palaiseau)","date":"2026-11-05","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-romain-martin-le-5-novembre-2026-13h15-iogs-palaiseau"},
+    {"title":"Séminaire de Rui PINTO le 29 octobre 2026 13h15 (IOGS Palaiseau)","date":"2026-10-29","url":"https://www.lcf.institutoptique.fr/agenda/seminaire-de-rui-pinto-le-29-octobre-2026-13h15-iogs-palaiseau"}
+  ]
+}
