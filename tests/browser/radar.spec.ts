@@ -11,7 +11,8 @@ test('catalogue Android, navigation, filtres et sources',async({page})=>{
  await page.getByRole('navigation').getByRole('button',{name:'Les sources',exact:false}).click();
  await expect(page.getByRole('heading',{name:'Un registre ouvert, des statuts explicites.'})).toBeVisible();
  await page.getByLabel('Rechercher une source').fill('Charles Fabry');
- await expect(page.locator('.source-card')).toHaveCount(1);
+ await expect(page.locator('.source-card').first()).toContainText('Charles Fabry');
+ for(const text of await page.locator('.source-card h3').allTextContents())expect(text).toContain('Charles Fabry');
  await page.getByRole('button',{name:'Couverture',exact:false}).click();
  await expect(page.getByText('Exhaustivité globale',{exact:true})).toBeVisible();
  await expect(page.getByText('Inconnue',{exact:true})).toBeVisible();
@@ -31,4 +32,20 @@ test('favoris persistants, fiche et export calendrier sur données réelles',asy
  await page.getByRole('button',{name:'Fermer la fiche'}).click();
  await page.reload();await page.getByRole('button',{name:'Mes favoris',exact:false}).click();
  await expect(page.locator('.event-card')).toHaveCount(1);
+});
+
+test('ajout local accessible sur Android et conservé après rechargement',async({page})=>{
+ await page.goto('/');await page.waitForSelector('.result-line');
+ await page.getByRole('button',{name:'Ajouter une annonce',exact:true}).click();
+ await page.getByLabel('Lien de l’annonce publique').fill('https://example.org/annonce-de-test');
+ await page.getByLabel('Titre',{exact:true}).fill('Annonce synthétique réservée au test navigateur');
+ await page.getByLabel('Date',{exact:true}).fill('2026-12-10');
+ await page.getByLabel('Organisateur',{exact:true}).fill('Organisateur de test');
+ await page.getByRole('button',{name:'Enregistrer sur cet appareil'}).click();
+ await expect(page.getByRole('dialog')).toBeVisible();
+ await page.getByRole('button',{name:'Fermer la fiche'}).click();
+ await page.reload();await page.getByRole('button',{name:'Ajouter une annonce',exact:true}).click();
+ await expect(page.locator('.local-row')).toContainText('Annonce synthétique réservée au test navigateur');
+ await page.getByRole('button',{name:'Supprimer cet ajout local'}).click();
+ await expect(page.locator('.local-row')).toHaveCount(0);
 });

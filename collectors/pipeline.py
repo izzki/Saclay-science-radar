@@ -31,6 +31,10 @@ def run(args):
             'scheduled':bool(os.getenv('GITHUB_ACTIONS')),'workflowRunUrl':f"https://github.com/{os.getenv('GITHUB_REPOSITORY')}/actions/runs/{os.getenv('GITHUB_RUN_ID')}" if os.getenv('GITHUB_RUN_ID') else None,
             'schedule':'06:15 et 16:15 UTC ; sources prioritaires au second passage','discoverySchedule':'Dimanche, 06:15 UTC','auditSchedule':'Premier jour du mois : recalcul des audits indépendants disponibles'}
     incoming=[];pages=[]
+    # An individual event export stays attached to its parent agenda.
+    for source in registry:
+        if source.get('discoveredAt') and source.get('connector')=='ics' and re.search(r'(?:[?&](?:method=ical&(?:[^#]*&)?id=|event_id=|mec-ical=event)|/agenda/\d+/ical/)',source['url']):
+            source.update(enabled=False,status='Export d’événement — source parente collectée')
     active=[s for s in registry if s.get('enabled') and (not args.priority or s.get('priority'))]
     for source_index,source in enumerate(active):
         source_budget=max(6,(args.budget-fetcher.requests)//max(1,len(active)-source_index))
