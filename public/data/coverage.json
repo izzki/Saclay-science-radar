@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-28T15:35:15+00:00",
-  "inventory": 320,
+  "generatedAt": "2026-10-28T15:38:57+00:00",
+  "inventory": 309,
   "automated": 12,
   "enabled": 20,
-  "verifiedUrls": 133,
-  "discovered": 200,
+  "verifiedUrls": 122,
+  "discovered": 189,
   "successfulCollectors": 12,
   "attemptedCollectors": 20,
   "collectorSuccessRate": 60.0,
-  "inventoryAutomationRate": 3.8,
+  "inventoryAutomationRate": 3.9,
   "globalRecall": null,
   "audits": [
     {
