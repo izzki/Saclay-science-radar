@@ -1,0 +1,79 @@
+{
+  "startedAt": "2026-10-28T20:02:38+00:00",
+  "lastSuccessfulCollection": "2026-10-28T20:05:45+00:00",
+  "newSources": 0,
+  "sources": [
+    {
+      "id": "s050",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s094",
+      "count": 99,
+      "result": "ok",
+      "errors": 0,
+      "pending": 5
+    },
+    {
+      "id": "s103",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "ihp-qcrypto-2027",
+      "count": 4,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "quest-is",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "cigre-paris",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "quantum-networks-2027",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    }
+  ],
+  "errors": [],
+  "scheduled": false,
+  "workflowRunUrl": null,
+  "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
+  "discoverySchedule": "Dimanche, 06:15 UTC",
+  "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
+  "targetedSources": [
+    "s103",
+    "s050",
+    "s094",
+    "ihp-qcrypto-2027",
+    "quest-is",
+    "cigre-paris",
+    "quantum-networks-2027"
+  ],
+  "quarantined": 0,
+  "quarantineHistory": 47,
+  "finishedAt": "2026-10-28T20:05:45+00:00",
+  "httpRequests": 69,
+  "events": 457,
+  "incoming": 108,
+  "newEvents": 94,
+  "status": "Succès partiel"
+}

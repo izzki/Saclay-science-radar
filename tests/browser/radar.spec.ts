@@ -83,3 +83,14 @@ test('analyse de lien public et garde contre les liens privés signés',async({p
  await page.getByLabel('Lien public à analyser').fill('https://example.org/event?token=secret');await page.getByRole('button',{name:'Analyser ce lien',exact:true}).click();await expect(page.getByRole('alert')).toContainText('sans jeton');await expect(page.getByRole('link',{name:'Autoriser l’extraction sur GitHub ↗'})).toHaveCount(0);
  await page.getByLabel('Lien public à analyser').fill('https://example.org/new-public-event');await page.getByRole('button',{name:'Analyser ce lien',exact:true}).click();await expect(page.getByRole('link',{name:'Autoriser l’extraction sur GitHub ↗'})).toHaveAttribute('href',/SACLAY_RADAR_PUBLIC_IMPORT_V1/);
 });
+
+test('année 2027 et au-delà accessibles directement sur Android',async({page})=>{
+ const response=await page.request.get('/data/events.json');const original=(await response.json())[0];
+ const fixtures=[{...original,id:'future-2027',title:'QUEST-IS 2027 — parcours de test',start:'2027-12-06',end:'2027-12-10'},{...original,id:'future-2028',title:'CIGRE 2028 — parcours de test',start:'2028-08-27',end:'2028-09-01'}];
+ await page.clock.install({time:new Date('2026-10-28T17:00:00Z')});
+ await page.route('**/data/events.json',route=>route.fulfill({json:fixtures}));
+ await page.goto('/');await expect(page.getByLabel('Année',{exact:true})).toBeVisible();
+ await page.getByLabel('Année',{exact:true}).selectOption('2027');await expect(page.locator('.event-card')).toHaveCount(1);await expect(page.locator('.event-card')).toContainText('QUEST-IS 2027');
+ await page.getByLabel('Année',{exact:true}).selectOption('2028');await expect(page.locator('.event-card')).toHaveCount(1);await expect(page.locator('.event-card')).toContainText('CIGRE 2028');
+ await expect(page.locator('.horizon-note')).toContainText('2028');
+});

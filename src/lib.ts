@@ -1,5 +1,5 @@
 import type { Filters, RadarEvent } from './types.ts';
-export const EMPTY_FILTERS:Filters={search:'',period:'all',from:'',to:'',city:'',zone:'',price:'',discipline:'',organizer:'',category:'',score:'',reliability:'',format:'',access:'',archives:false,timeScope:'future',sort:'date-asc'};
+export const EMPTY_FILTERS:Filters={search:'',period:'all',year:'',from:'',to:'',city:'',zone:'',price:'',discipline:'',organizer:'',category:'',score:'',reliability:'',format:'',access:'',archives:false,timeScope:'future',sort:'date-asc'};
 export const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 export function safeUrl(value:unknown):string|null {try{const u=new URL(String(value));return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:null;}catch{return null;}}
 export function dayInParis(now=new Date()):string {return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}
@@ -42,7 +42,7 @@ export function filterEvents(events:RadarEvent[],f:Filters,now=new Date()):Radar
   const hay=normalize([e.title,e.description,e.organizer,e.city,e.category,...e.disciplines,...e.speakers?.map(s=>s.name+' '+(s.institution||''))||[],...e.companies||[],...e.labs||[]].join(' '));
   const temporal=scope==='all'||(scope==='past'?['ended','started'].includes(phase):!['ended','started'].includes(phase));
   return temporal&&searchTokens(f.search).every(w=>hay.includes(w))&&
-   (f.period==='all'||(scope==='past'?(start<=today&&day>=limit.toISOString().slice(0,10)):(day>=today&&start<=limit.toISOString().slice(0,10))))&&(!f.from||day>=f.from)&&(!f.to||start<=f.to)&&
+   (f.period==='all'||(scope==='past'?(start<=today&&day>=limit.toISOString().slice(0,10)):(day>=today&&start<=limit.toISOString().slice(0,10))))&&(!f.year||(start<=f.year+'-12-31'&&day>=f.year+'-01-01'))&&(!f.from||day>=f.from)&&(!f.to||start<=f.to)&&
    (!f.city||e.city===f.city)&&(!f.zone||(f.zone==='saclay'?cities.includes(normalize(e.city||'')):f.zone==='paris'?normalize(e.city||'')==='paris':f.zone==='online'?['En ligne','Hybride'].includes(e.format):true))&&
    (!f.price||(f.price==='free'?e.price===0:f.price==='unknown'?e.price===null:f.price==='paid'?e.price!==null&&e.price>0:e.price!==null&&e.currency==='EUR'&&e.price<=Number(f.price)))&&
    (!f.discipline||e.disciplines.includes(f.discipline))&&(!f.organizer||e.organizer===f.organizer)&&(!f.category||e.category===f.category)&&

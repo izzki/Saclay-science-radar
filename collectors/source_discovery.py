@@ -14,7 +14,7 @@ def candidates(text,base):
         if a['href'].startswith('#'):continue
         label=a.get_text(' ',strip=True);url=canonical(urljoin(base,a['href']))
         if not url or url==canonical(base):continue
-        if re.search(r'agenda|calendar|séminaires|seminars|événements|events|laboratoires|laboratories',label,re.I):
+        if re.search(r'agenda|calendar|séminaires|seminars|événements|events|laboratoires|laboratories|forum|congrès|congress|summit|conférence|conference|photonique|quantum',label,re.I) or (re.search(r'20\d{2}',url) and re.search(r'forum|conference|congress|summit|quantum|photon',url,re.I)):
             result.append({'url':url,'label':label,'format':'auto'})
     return list({c['url']:c for c in result}.values())
 

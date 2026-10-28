@@ -18,7 +18,7 @@ def clean_catalog(events):
         reason=None
         if title in STRUCTURAL:reason='Rubrique de navigation interprétée comme événement'
         # Exclusion de périmètre explicite, sans aucun critère de score ou de prix.
-        artistic=re.search(r'\b(concert|festival musique|spectacle|atelier photo|art fair|cinema|troupe|soiree etudiante|soiree dansante|gala etudiant)\b',title)
+        artistic=re.search(r'\b(concert|festival musique|spectacle|atelier photo|art fair|cinema|troupe|soiree etudiante|soiree dansante|gala etudiant|game night|board games night|soiree jeux|karaoke)\b',title)
         science=re.search(r'\b(sciences?|scientifique|recherche|chercheur|physique|quantique|photonique|ingenierie|technologie|mathematiques|science art)\b',text)
         if artistic and not science:reason='Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite'
         if re.search(r'\b(photon|optique|laser|stereoscop|informat|numerique|3d|electronique)\w*',text):science=True

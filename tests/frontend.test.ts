@@ -41,3 +41,16 @@ test('mots-clés séparés par virgules et noms d’intervenants',()=>{
 
 test('les sept derniers jours fonctionnent dans les archives',()=>{const past={...e,start:'2026-10-24T11:00:00+02:00',end:null};assert.equal(filterEvents([past],{...EMPTY_FILTERS,timeScope:'past',period:'week'},today).length,1);});
 test('réimport local : la nouvelle séance remplace la précédente et conserve son historique',()=>{const old={...e,history:[],firstSeen:'2026-10-01T00:00Z'};const newer={...old,start:'2026-11-03T14:00:00+01:00'};const result=mergeLocalEvents([old],[newer]);assert.equal(result.length,1);assert.equal(result[0].firstSeen,old.firstSeen);assert.equal(result[0].history.length,1);assert.equal(result[0].start,newer.start);});
+
+test('les annonces datées restent accessibles en 2027, 2028 et au-delà',()=>{
+ const events=[{...e,id:'a',start:'2027-11-15',end:'2027-11-19'},{...e,id:'b',start:'2028-08-27',end:'2028-09-01'},{...e,id:'c',start:'2035-12-10',end:null}];
+ assert.equal(filterEvents(events,{...EMPTY_FILTERS},today).length,3);
+ assert.deepEqual(filterEvents(events,{...EMPTY_FILTERS,year:'2027'},today).map(x=>x.id),['a']);
+ assert.deepEqual(filterEvents(events,{...EMPTY_FILTERS,year:'2028'},today).map(x=>x.id),['b']);
+ assert.equal(filterEvents(events,{...EMPTY_FILTERS,year:'2035'},today).length,1);
+});
+test('filtre année inclut un programme chevauchant le nouvel an',()=>{
+ const event={...e,start:'2027-12-29',end:'2028-01-05'};
+ assert.equal(filterEvents([event],{...EMPTY_FILTERS,year:'2028'},today).length,1);
+ assert.equal(filterEvents([event],{...EMPTY_FILTERS,year:'2029'},today).length,0);
+});

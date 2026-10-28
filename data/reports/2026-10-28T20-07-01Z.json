@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-28T20:07:01+00:00",
+  "lastSuccessfulCollection": "2026-10-28T20:07:10+00:00",
+  "newSources": 0,
+  "sources": [
+    {
+      "id": "s103",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    }
+  ],
+  "errors": [],
+  "scheduled": false,
+  "workflowRunUrl": null,
+  "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
+  "discoverySchedule": "Dimanche, 06:15 UTC",
+  "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
+  "targetedSources": [
+    "s103"
+  ],
+  "quarantined": 1,
+  "quarantineHistory": 48,
+  "finishedAt": "2026-10-28T20:07:10+00:00",
+  "httpRequests": 3,
+  "events": 456,
+  "incoming": 1,
+  "newEvents": 0,
+  "status": "Succès"
+}

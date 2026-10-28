@@ -13,6 +13,9 @@ from .audit import coverage
 from .quality import prepare_sources,clean_catalog
 from .seed_registry import seed
 from .integration import integrate
+from .maintained_sources import maintained_sources
+from .crawl import collection_queue,is_listing_page
+from .landing_pages import enrich_forum
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -26,7 +29,7 @@ def write(path,value):
 
 def run(args):
     os.chdir(ROOT)
-    registry=prepare_sources(read('data/sources.json',seed()));previous=read('public/data/events.json',[])
+    registry=maintained_sources(prepare_sources(read('data/sources.json',seed())));previous=read('public/data/events.json',[])
     prior=read('public/data/run.json',{})
     fetcher=Fetcher(budget=args.budget)
     report={'startedAt':now(),'lastSuccessfulCollection':prior.get('lastSuccessfulCollection'),'newSources':0,'sources':[],'errors':[],
@@ -40,7 +43,9 @@ def run(args):
     for source in registry:
         if source.get('discoveredAt') and source.get('connector')=='ics' and re.search(r'(?:[?&](?:method=ical&(?:[^#]*&)?id=|event_id=|mec-ical=event)|/agenda/\d+/ical/)',source['url']):
             source.update(enabled=False,status='Export d’événement — source parente collectée')
-    active=[] if args.reprocess else [s for s in registry if s.get('enabled') and (not args.priority or s.get('priority'))]
+    selected=getattr(args,'source',None)
+    active=[] if args.reprocess else [s for s in registry if s.get('enabled') and (not args.priority or s.get('priority')) and (not selected or s['id'] in selected)]
+    if selected:report['targetedSources']=selected
     for source_index,source in enumerate(active):
         source_budget=max(6,(args.budget-fetcher.requests)//max(1,len(active)-source_index))
         source_start_requests=fetcher.requests
@@ -51,9 +56,17 @@ def run(args):
             pages.append((source,body,final))
             is_feed=source.get('connector')=='feed'
             if not is_feed:records.extend(extract(body,final,source,source.get('connector')))
+            for extra in source.get('enrichmentUrls',[]):
+                if urlsplit(extra).netloc!=urlsplit(final).netloc:continue
+                try:
+                    text,page_url,_=fetcher.get(extra);pages.append((source,text,page_url))
+                    if source['id']=='s103':
+                        records=[enrich_forum(raw,text,page_url) for raw in records]
+                except Exception as e:errors.append({'url':extra,'error':str(e)[:240]})
             children=[] if is_feed else calendar_links(body,final)
             pending=source.get('pendingDetails',[])
-            links=list(dict.fromkeys(pending+(feed_links(body,final) if is_feed else detail_links(body,final))))
+            root_links=feed_links(body,final) if is_feed else [] if source.get('connector')=='edition-landing' else detail_links(body,final)
+            links=collection_queue(root_links,[] if source.get('connector')=='edition-landing' else pending,final)
             # A per-run request budget bounds traffic, not catalog size. Unvisited URLs persist.
             source['pendingDetails']=[]
             for child in children:
@@ -73,14 +86,17 @@ def run(args):
                 try:
                     text,url,_=fetcher.get(link);records.extend(extract(text,url,source));pages.append((source,text,url))
                     # Follow calendar pagination only; no arbitrary recursive crawl.
-                    for next_link in detail_links(text,url):
-                        if ('page=' in next_link or '/page/' in next_link) and next_link not in visited and next_link not in links:links.append(next_link)
+                    following=[u for u in detail_links(text,url) if is_listing_page(u,final) and u not in visited and u not in links]
+                    # Traverse the calendar itself before spending the budget on detail pages.
+                    links[index+1:index+1]=collection_queue(following,[],final)
                 except Exception as e:errors.append({'url':link,'error':str(e)[:240]})
             valid=[e for e in (make_event(raw,source) for raw in records) if e]
             incoming.extend(valid)
             source.update(lastResult='ok' if valid else 'empty',lastEventCount=len(compact(valid)),errors=errors,
                 status='Collecte opérationnelle' if valid and not errors else 'Collecte partielle' if valid else 'Extraction vide — contrôle nécessaire')
-            if valid:source['lastSuccess']=now()
+            if valid:
+                source['lastSuccess']=now()
+                source.pop('lastIntegrationError',None);source.pop('lastCheckError',None)
             report['sources'].append({'id':source['id'],'count':source['lastEventCount'],'result':source['lastResult'],'errors':len(errors),'pending':len(source['pendingDetails'])})
             # Diagnostic structure only: makes selector repair possible without copying whole pages.
             if not valid:
@@ -133,5 +149,5 @@ def run(args):
     print(json.dumps({'events':len(events),'sources':len(registry),'automated':cov['automated'],'discovered':cov['discovered'],'http':fetcher.requests},ensure_ascii=False))
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--discover',action='store_true');parser.add_argument('--integrate',action='store_true');parser.add_argument('--audit',action='store_true');parser.add_argument('--priority',action='store_true');parser.add_argument('--reprocess',action='store_true');parser.add_argument('--budget',type=int,default=350)
+    parser=argparse.ArgumentParser();parser.add_argument('--discover',action='store_true');parser.add_argument('--integrate',action='store_true');parser.add_argument('--audit',action='store_true');parser.add_argument('--priority',action='store_true');parser.add_argument('--reprocess',action='store_true');parser.add_argument('--source',action='append',help='Collecter uniquement ces identifiants de sources');parser.add_argument('--budget',type=int,default=350)
     run(parser.parse_args())

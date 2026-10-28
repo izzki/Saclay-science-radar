@@ -27,7 +27,7 @@ def eligible(source,registry):
     if source.get('discoveredAt'):
         parent=next((s for s in registry if s['id']==source.get('parentId')),None)
         if not parent or urlsplit(source['url']).netloc!=urlsplit(source.get('discoveredFrom','')).netloc:return False
-        if not re.search(r'agenda|calendar|seminar|séminaire|événement|evenement|events|rss|feed|\.ics',source['name']+' '+source['url'],re.I):return False
+        if not re.search(r'agenda|calendar|seminar|séminaire|événement|evenement|events|rss|feed|\.ics|forum|congrès|congress|conference|summit|quantum|photon',source['name']+' '+source['url'],re.I):return False
     return True
 
 

@@ -126,6 +126,9 @@ def make_event(raw, source, checked=None):
         'firstSeen':checked,'lastVerified':checked,'history':[], 'externalId':clean(raw.get('externalId')) or None,'extractionVersion':raw.get('extractionVersion',1),'warnings':raw.get('warnings',[]),
     }
     if event['end'] and event['end']<start: event['end']=None
+    for extra in raw.get('additionalSources',[]):
+        extra_url=canonical(extra.get('url'))
+        if extra_url:event['sources'].append({'id':source['id'],'name':clean(extra.get('name')) or source['name'],'url':extra_url,'listingUrl':source['url'],'checkedAt':checked})
     event['score']=score(event)
     return event
 

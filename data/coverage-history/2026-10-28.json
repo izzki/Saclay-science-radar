@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-28T19:14:34+00:00",
-  "inventory": 313,
-  "automated": 17,
-  "enabled": 28,
-  "verifiedUrls": 136,
+  "generatedAt": "2026-10-28T20:07:10+00:00",
+  "inventory": 317,
+  "automated": 23,
+  "enabled": 34,
+  "verifiedUrls": 140,
   "discovered": 189,
-  "successfulCollectors": 17,
-  "attemptedCollectors": 28,
-  "collectorSuccessRate": 60.7,
-  "inventoryAutomationRate": 5.4,
+  "successfulCollectors": 23,
+  "attemptedCollectors": 34,
+  "collectorSuccessRate": 67.6,
+  "inventoryAutomationRate": 7.3,
   "globalRecall": null,
   "audits": [
     {
@@ -21,11 +21,22 @@
       "detected": 8,
       "missed": [],
       "observedRecall": 100.0
+    },
+    {
+      "id": "2026-10-28-photonique-horizon",
+      "sourceId": "s103",
+      "window": "Contrôle ciblé : Forum de la Photonique 2026, workshops de cryptographie quantique IHP en novembre/décembre 2027, QUEST-IS 2027 et CIGRE Paris 2028. Ce relevé ne mesure pas la couverture de tous les événements possibles.",
+      "reviewedAt": "2026-10-28T20:02:16+00:00",
+      "method": "Lecture indépendante des pages officielles avant intégration : site du Forum et espace visiteur, catégorie Indico IHP 837, site QUEST-IS et page principale CIGRE. Comparaison des titres, dates et URL avec le catalogue. Échantillon ciblé de régression, non représentatif de toute la région.",
+      "expected": 5,
+      "detected": 5,
+      "missed": [],
+      "observedRecall": 100.0
     }
   ],
   "auditedRecall": 100.0,
-  "lastSuccessfulCollection": "2026-10-28T19:09:56+00:00",
-  "events": 363,
+  "lastSuccessfulCollection": "2026-10-28T20:07:10+00:00",
+  "events": 456,
   "limits": [
     "L’inventaire comprend des URL candidates non vérifiées.",
     "Le succès technique d’un collecteur ne prouve pas l’exhaustivité de l’agenda.",

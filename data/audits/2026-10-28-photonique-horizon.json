@@ -1,0 +1,33 @@
+{
+  "sourceId": "s103",
+  "window": "Contrôle ciblé : Forum de la Photonique 2026, workshops de cryptographie quantique IHP en novembre/décembre 2027, QUEST-IS 2027 et CIGRE Paris 2028. Ce relevé ne mesure pas la couverture de tous les événements possibles.",
+  "reviewedAt": "2026-10-28T20:02:16+00:00",
+  "method": "Lecture indépendante des pages officielles avant intégration : site du Forum et espace visiteur, catégorie Indico IHP 837, site QUEST-IS et page principale CIGRE. Comparaison des titres, dates et URL avec le catalogue. Échantillon ciblé de régression, non représentatif de toute la région.",
+  "expected": [
+    {
+      "title": "Forum de la Photonique — 40e édition",
+      "date": "2026-11-19",
+      "url": "https://www.forumdelaphotonique.fr/"
+    },
+    {
+      "title": "Advances in Quantum Cryptography: Complexity-theoretic Foundations",
+      "date": "2027-11-15",
+      "url": "https://indico.math.cnrs.fr/event/16602/"
+    },
+    {
+      "title": "Advances in Quantum Cryptography: Computational and Interactive Primitives",
+      "date": "2027-11-29",
+      "url": "https://indico.math.cnrs.fr/event/16603/"
+    },
+    {
+      "title": "QUEST-IS 2027 — Quantum Engineering Conference and Exhibition",
+      "date": "2027-12-06",
+      "url": "https://conference-questis.org/"
+    },
+    {
+      "title": "CIGRE 2028 — Exposition technique et Paris Session",
+      "date": "2028-08-27",
+      "url": "https://www.cigre-exhibition.com/"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ from icalendar import Calendar
 from .model import clean,parse_date,canonical,norm
 from .recurrence import expand_calendar
 from .practical import enrich_event
+from .landing_pages import landing_events
 
 
 def flatten_json(value):
@@ -107,6 +108,12 @@ def detail_links(text,base):
         if a['href'].startswith('#'):continue
         url=canonical(urljoin(base,a['href']));label=clean(a.get_text(' '))
         if not url or urlsplit(url).netloc!=urlsplit(base).netloc or url==canonical(base):continue
+        path=urlsplit(url).path
+        if re.search(r'/(?:login|logout|manage|attachments)(?:/|$)',path) or re.search(r'\.(?:pdf|png|jpe?g|svg|webp)$',path,re.I):continue
+        if 'indico.' in (urlsplit(base).hostname or ''):
+            # Timetables, contributions, forms and display styles are not separate events.
+            if re.fullmatch(r'/event/\d+/?',path):out.append((0,url.split('?')[0].rstrip('/')+'/'))
+            continue
         pagination='page=' in a['href'] and urlsplit(url).path==urlsplit(base).path
         if re.search(r'(evenement|event|seminar|seminaire|agenda|conference|colloque|soutenance|workshop)',a['href']+' '+label,re.I) or pagination:
             priority=0 if a.find_parent('article') or a.find_parent(['h2','h3']) else 1 if pagination else 2
@@ -187,4 +194,7 @@ def html_events(text,base,source):
 def extract(text,url,source,kind=None):
     lower=text.lstrip().lower()
     if kind=='ics' or lower.startswith('begin:vcalendar'):return ics_events(text,url)
+    landing=landing_events(text,url,source)
+    # Landing templates contain former exhibitors and prices for stands: don't enrich from those.
+    if landing:return landing
     return [enrich_event(raw,text,url) for raw in schema_events(text,url)+html_events(text,url,source)]

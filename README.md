@@ -77,3 +77,14 @@ python -m collectors.validate
 ```
 
 Les tests couvrent notamment échéances à l’heure réelle, archives, filtres et tris, tarifs inconnus/étudiants, déduplication et changements horaires, récurrences et exceptions, sécurité des demandes d’import, confidentialité locale et parcours Android. Les données synthétiques restent exclusivement dans les tests.
+
+
+## Éditions et annonces lointaines
+
+Le filtre **Année** permet de consulter directement 2027, 2028 ou toute autre année présente dans le catalogue. Les annonces avec des dates explicites n’ont aucun plafond futur. Le texte « Dates publiées jusqu’au… » reflète les données réellement trouvées, sans promettre une couverture complète jusqu’à cette date.
+
+Le parcours des agendas traite les dernières pages et reprend les pages restant en attente avant de consacrer le budget aux fiches détaillées. Les sources d’édition officielles ont des extracteurs propres : Forum de la Photonique, QUEST-IS, CIGRE Paris, Quantum Networks Summit, annonces parisiennes de la SFO. Les années, dates et intervalles sont lus dans le HTML ; les dates d’une édition précédente ne sont jamais reconduites. Les anciens exposants ou intervenants ne sont pas attribués à une nouvelle édition.
+
+La catégorie publique Indico des programmes de cryptographie quantique IHP est collectée, avec ses workshops distincts. La découverte hebdomadaire repère aussi les liens de forums, congrès, sommets et éditions futures ; seuls les connecteurs déjà validés peuvent être activés. Une recherche Web ponctuelle réalisée pendant le développement ne signifie pas qu’un moteur de recherche est interrogé automatiquement chaque jour.
+
+`python -m collectors.pipeline --source s103 --audit --budget 20` permet une vérification ciblée du Forum, sans effacer les données des autres sources. Un audit de régression limité au Forum et à quatre annonces lointaines est conservé dans `data/audits/2026-10-28-photonique-horizon.json`.
