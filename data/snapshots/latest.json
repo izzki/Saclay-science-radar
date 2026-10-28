@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-28T15:16:19+00:00",
+  "previousRun": {
+    "status": "Première collecte en attente",
+    "lastSuccessfulCollection": null,
+    "scheduled": false
+  },
+  "previousEvents": []
+}

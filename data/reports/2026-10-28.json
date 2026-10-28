@@ -1,0 +1,142 @@
+{
+  "startedAt": "2026-10-28T15:08:06+00:00",
+  "lastSuccessfulCollection": "2026-10-28T15:16:19+00:00",
+  "newSources": 253,
+  "sources": [
+    {
+      "id": "s001",
+      "count": 20,
+      "result": "ok",
+      "errors": 0,
+      "pending": 3
+    },
+    {
+      "id": "s002",
+      "count": 59,
+      "result": "ok",
+      "errors": 1,
+      "pending": 3
+    },
+    {
+      "id": "s006",
+      "count": 15,
+      "result": "ok",
+      "errors": 0,
+      "pending": 4
+    },
+    {
+      "id": "s019",
+      "count": 5,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s021",
+      "count": 60,
+      "result": "ok",
+      "errors": 2,
+      "pending": 7
+    },
+    {
+      "id": "s025",
+      "count": 115,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s029",
+      "count": 9,
+      "result": "ok",
+      "errors": 3,
+      "pending": 0
+    },
+    {
+      "id": "s040",
+      "count": 5,
+      "result": "ok",
+      "errors": 10,
+      "pending": 0
+    },
+    {
+      "id": "s048",
+      "count": 1,
+      "result": "ok",
+      "errors": 1,
+      "pending": 0
+    },
+    {
+      "id": "s052",
+      "count": 6,
+      "result": "ok",
+      "errors": 1,
+      "pending": 0
+    },
+    {
+      "id": "s084",
+      "count": 24,
+      "result": "ok",
+      "errors": 3,
+      "pending": 58
+    },
+    {
+      "id": "s088",
+      "count": 40,
+      "result": "ok",
+      "errors": 1,
+      "pending": 0
+    },
+    {
+      "id": "s089",
+      "count": 0,
+      "result": "empty",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s094",
+      "count": 14,
+      "result": "ok",
+      "errors": 1,
+      "pending": 0
+    }
+  ],
+  "errors": [
+    {
+      "source": "s003",
+      "error": "403 Client Error: Forbidden for url: https://www.polytechnique.edu/evenements"
+    },
+    {
+      "source": "s004",
+      "error": "404 Client Error: Not Found for url: https://www.ip-paris.fr/actualites/agenda"
+    },
+    {
+      "source": "s007",
+      "error": "404 Client Error: Not Found for url: https://www.universite-paris-saclay.fr/actualites/agenda"
+    },
+    {
+      "source": "s020",
+      "error": "robots.txt non vérifié : collecte suspendue"
+    },
+    {
+      "source": "s023",
+      "error": "Interdit par robots.txt"
+    },
+    {
+      "source": "s086",
+      "error": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda"
+    }
+  ],
+  "scheduled": true,
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40712795890",
+  "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
+  "discoverySchedule": "Dimanche, 06:15 UTC",
+  "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
+  "finishedAt": "2026-10-28T15:16:19+00:00",
+  "httpRequests": 415,
+  "events": 373,
+  "incoming": 373,
+  "newEvents": 373,
+  "status": "Succès partiel"
+}
