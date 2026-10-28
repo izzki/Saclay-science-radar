@@ -1,0 +1,702 @@
+[
+  {
+    "event": {
+      "id": "050866ae1627886f488a",
+      "title": "Nos événements",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Salons Global Industrie 2026 du 30 mar 2026 au 2 avr 2026 Paris Nord Villepinte Webinaires La valeur ajoutée du logiciel en photonique 18 mars 2026 en ligne Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau Salons SPIE Photonics West 2026 du 20 jan 2026 au 22 jan 2026 San Francisco Webinaires Rencontre avec les nouveaux adhérents 9 décembre 2025 en ligne 1 2 3",
+      "start": "2026-03-18",
+      "end": null,
+      "timezone": "Europe/Paris",
+      "organizer": "Photonics France",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Salon",
+      "disciplines": [
+        "Photonique",
+        "Deeptech"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.photonics-france.org/evenements/page/3/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s052",
+          "name": "Photonics France",
+          "url": "https://www.photonics-france.org/evenements/page/3/",
+          "listingUrl": "https://www.photonics-france.org/",
+          "checkedAt": "2026-10-28T15:12:02+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:12:02+00:00",
+      "lastVerified": "2026-10-28T15:12:02+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 61,
+        "parts": {
+          "Adéquation scientifique": 26,
+          "Networking annoncé": 20,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 5,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Thématique photonique ou optique annoncée.",
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "699eacf3d218439200fd",
+      "title": "Atelier photo 📷",
+      "description": "",
+      "start": "2026-09-10T18:00:00+02:00",
+      "end": null,
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Workshop",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:24:57+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "b295c37873de805e06e5",
+      "title": "Nos événements",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Webinaires Rencontre avec nos adhérents 17 septembre 2026 en distanciel Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Webinaires Rencontre avec nos adhérents 11 juin 2026 en distanciel Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Salons SPIE Photonics Europe 2026 du 14 avr 2026 au 15 avr 2026 Strasbourg Webinaires Rencontre avec nos nouveaux adhérents 9 avril 2026 en ligne Institutionnel Assemblée générale 2026 3 avril 2026 Paris - Bpifrance Le Hub 1 2 3",
+      "start": "2026-09-17",
+      "end": null,
+      "timezone": "Europe/Paris",
+      "organizer": "Photonics France",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Salon",
+      "disciplines": [
+        "Photonique"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.photonics-france.org/evenements/page/2/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s052",
+          "name": "Photonics France",
+          "url": "https://www.photonics-france.org/evenements/page/2/",
+          "listingUrl": "https://www.photonics-france.org/",
+          "checkedAt": "2026-10-28T15:12:02+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:12:02+00:00",
+      "lastVerified": "2026-10-28T15:12:02+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 56,
+        "parts": {
+          "Adéquation scientifique": 26,
+          "Networking annoncé": 20,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Thématique photonique ou optique annoncée.",
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "6c2a2d5efc3f82d7a910",
+      "title": "Grands événements",
+      "description": "Partager Facebook LinkedIn Bluesky Threads Copier le lien Enseignements Grands événements Outre ses enseignements réguliers, le Collège de France propose chaque année de nombreux événements exceptionnels, destinés à un large public : expositions, journées européennes du patrimoine, cycles thématiques, conférences et tables rondes traitant des grandes questions contemporaines. À venir Précédent Foucault enseignant : cohérence d’une trajectoire et place dans l’œuvre Philippe Sabot & Elisabetta Basso Grand événement 03 Nov 2026 17:30 à 19:00 Travailler avec Foucault : les séminaires du Collège Pasquale Pasquino & Carolina Verlengia Grand événement 24 Nov 2026 17:30 à 19:00 La biodiversité en miroir brisé : cartographier la flore à l’ère des observations citoyen … Christophe Botella Grand événement 26 Nov 2026 18:00 à 19:00 Histoire et postérité d’une leçon : « Qu’est-ce que les Lumières ? » … Antoine Lilti Grand événement 15 Déc 2026 17:30 à 19:00 Quand la génétique ne suffit plus (1) Edith Heard Grand événement 10 Mai 2027 10:00 à 12:00 Quand la génétique ne suffit plus (2) Edith Heard Grand événement 24 Mai 2027 10:00 à 12:00 Suivant 2027 - 2028 Paysanneries et capitalismes en Europe Laurence Roudart 17 Nov 2027 → 25 Nov 2027 Conférencier invité 17 Nov 2027 → 25 Nov 2027 2026 - 2027 Journées européennes du patrimoine 2026 Expositions et Journées européennes du patrimoine 19 Sep 2026 → 20 Sep 2026 Non enregistré Grand événement 19 Sep 2026 → 20 Sep 2026 Forum Éducation 2026 Agir pour l'éducation 30 Sep 2026 09:00 - 17:45 Grand événement Amphithéâtre Marguerite-de-Navarre, Site Marcelin-Berthelot 30 Sep 2026 09:00 - 17:45 L'animal Colloques de rentrée 14 Oct 2026 → 16 Oct 2026 Colloque Le colloque de rentrée 2026 du Collège de France entend proposer une réflexion de fond sur certaines de ces questions et proposer un parcours croisant sciences du vivant et de la nature, sciences humaines, littérature, histoire des religions et dr... 14 Oct 2026 → 16 Oct 2026 La souveraineté alimentaire et la transition agroécologique en Europe Olivier De Schutter 04 Nov 2026 → 13 Nov 2026 Conférencier invité 04 Nov 2026 → 13 Nov 2026 Migrations et sociétés Avenir Commun Durable 18 Nov 2026 14:00 - 16:00 Séminaire Amphithéâtre Maurice-Halbwachs, Site Marcelin-Berthelot 18 Nov 2026 14:00 - 16:00 La biodiversité en miroir brisé : cartographier la flore à l’ère des observations citoyennes Christophe Botella 26 Nov 2026 18:00 - 19:00 Grand événement Amphithéâtre Maurice-Halbwachs, Site Marcelin-Berthelot 26 Nov 2026 18:00 - 19:00 2025 - 2026 Le futur en héritage (suite) Avenir Commun Durable, Marc Fontecave, Dario Mantovani, Jean-Marie Tarascon 11 Sep 2025 → 14 Oct 2025 Grand événement 11 Sep 2025 → 14 Oct 2025 Journées européennes du patrimoine 2025 Expositions et Journées européennes du patrimoine 20 Sep 2025 → 21 Sep 2025 Non enregistré Grand événement 20 Sep 2025 → 21 Sep 2025 Formes de l’intelligence Colloques de rentrée 16 Oct 2025 → 17 Oct 2025 Colloque Le colloque",
+      "start": "2026-11-03T17:30:00+01:00",
+      "end": null,
+      "timezone": "UTC",
+      "organizer": "Collège de France",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Forum métiers",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.college-de-france.fr%2Ffr%2Fgrands-evenements&title=Grands+%C3%A9v%C3%A9nements",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s084",
+          "name": "Collège de France",
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.college-de-france.fr%2Ffr%2Fgrands-evenements&title=Grands+%C3%A9v%C3%A9nements",
+          "listingUrl": "https://www.college-de-france.fr/fr/agenda",
+          "checkedAt": "2026-10-28T15:12:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:12:52+00:00",
+      "lastVerified": "2026-10-28T15:12:52+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 30,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 12,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "33e3ef3be0848d4e86b6",
+      "title": "Festival Musique 2026 « Piano/accordéon autour de la danse »",
+      "description": "",
+      "start": "2026-11-03T20:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Mines Paris - PSL, salle des colonnes - 60 bvd Saint-Michel 75006 Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/agenda-culture?page=0",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "8babd43e3dba6198df8d",
+      "title": "Festival Musique 2026 « Trio Cornière »",
+      "description": "",
+      "start": "2026-11-07T20:30:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Maison du Japon de la CIUP - 7 boulevard Jourdan 75014 Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/agenda-culture?page=0",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "f71e0c958a0b3fc94de4",
+      "title": "Festival Musique 2026 « Quatuor à cordes et percussions »",
+      "description": "",
+      "start": "2026-11-10T20:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Mines Paris - PSL, espace Maurice Allais - 60 bvd Saint-Michel 75006 Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/agenda-culture?page=0",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/agenda-culture?page=0",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-28T15:24:57+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:13:41+00:00",
+      "lastVerified": "2026-10-28T15:24:57+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "cf490c0ede2edd2524cc",
+      "title": "Nos événements",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2026 2025 Tags Tous les tags Votre recherche : 6 événement(s) disponible(s) Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Webinaires Rencontre avec nos adhérents 17 septembre 2026 en distanciel Webinaires Rencontre avec nos adhérents 11 juin 2026 en distanciel Webinaires Rencontre avec nos nouveaux adhérents 9 avril 2026 en ligne Webinaires La valeur ajoutée du logiciel en photonique 18 mars 2026 en ligne Webinaires Rencontre avec les nouveaux adhérents 9 décembre 2025 en ligne",
+      "start": "2026-11-17",
+      "end": null,
+      "timezone": "Europe/Paris",
+      "organizer": "Photonics France",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Photonique"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s052",
+          "name": "Photonics France",
+          "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
+          "listingUrl": "https://www.photonics-france.org/",
+          "checkedAt": "2026-10-28T15:24:18+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:12:02+00:00",
+      "lastVerified": "2026-10-28T15:24:18+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 56,
+        "parts": {
+          "Adéquation scientifique": 26,
+          "Networking annoncé": 20,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Thématique photonique ou optique annoncée.",
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "37ab9b8815ca478456c4",
+      "title": "Nos événements",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 9 événement(s) disponible(s) Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau",
+      "start": "2026-11-24",
+      "end": null,
+      "timezone": "Europe/Paris",
+      "organizer": "Photonics France",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Conférence",
+      "disciplines": [
+        "Photonique"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.photonics-france.org/evenements/category/networking/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s052",
+          "name": "Photonics France",
+          "url": "https://www.photonics-france.org/evenements/category/networking/",
+          "listingUrl": "https://www.photonics-france.org/",
+          "checkedAt": "2026-10-28T15:24:18+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:12:02+00:00",
+      "lastVerified": "2026-10-28T15:24:18+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 56,
+        "parts": {
+          "Adéquation scientifique": 26,
+          "Networking annoncé": 20,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Thématique photonique ou optique annoncée.",
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "af8cda4eb2902c136788",
+      "title": "Spectacle : Trait(s)",
+      "description": "Cirque, peinture et musique se rencontrent dans ce spectacle pour familles et enfants. Un acrobate transforme la scène en toile vivante : avec sa roue Cyr comme pinceau, il trace, tourne, éclabousse et fait surgir formes et couleurs. Inspiré des peintres Kandinsky, Miró ou Delaunay, \"Trait(s)\" mêle cirque et arts visuels dans un jeu de lignes et de spirales. Chaque geste laisse une empreinte, chaque passage dessine une œuvre éphémère. Accompagné d’un musicien multi-instrumentiste, l’acrobate invente un langage poétique de cercles et de pigments. Un moment suspendu, comme un tableau en train de naître.",
+      "start": "2026-12-05T14:00:00+01:00",
+      "end": null,
+      "timezone": "UTC+01:00",
+      "organizer": "ENS Paris-Saclay",
+      "location": "La Scène de recherche - Théâtre Paris-Saclay",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Instrumentation"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://billetterie-scenederecherche.mapado.com/event/781308-trait-s",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s006",
+          "name": "ENS Paris-Saclay",
+          "url": "https://billetterie-scenederecherche.mapado.com/event/781308-trait-s",
+          "listingUrl": "https://ens-paris-saclay.fr/agenda",
+          "checkedAt": "2026-10-28T15:09:52+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:09:52+00:00",
+      "lastVerified": "2026-10-28T15:09:52+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 32,
+        "parts": {
+          "Adéquation scientifique": 22,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "3677864ce40edade99c3",
+      "title": "Nos événements",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Votre recherche : 3 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie Institutionnel Assemblée générale 2026 3 avril 2026 Paris - Bpifrance Le Hub",
+      "start": "2027-03-24",
+      "end": null,
+      "timezone": "Europe/Paris",
+      "organizer": "Photonics France",
+      "location": null,
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Photonique",
+        "Deeptech"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s052",
+          "name": "Photonics France",
+          "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
+          "listingUrl": "https://www.photonics-france.org/",
+          "checkedAt": "2026-10-28T15:24:18+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-28T15:12:02+00:00",
+      "lastVerified": "2026-10-28T15:24:18+00:00",
+      "history": [],
+      "externalId": null,
+      "score": {
+        "total": 61,
+        "parts": {
+          "Adéquation scientifique": 26,
+          "Networking annoncé": 20,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 5,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Thématique photonique ou optique annoncée.",
+          "Networking : rencontres explicitement annoncées.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Rubrique de navigation interprétée comme événement"
+  }
+]
