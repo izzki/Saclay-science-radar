@@ -1,0 +1,106 @@
+name: Collecte, tests et publication
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['public/data/**', 'data/**', 'package-lock.json']
+  schedule:
+    - cron: '15 6 * * *'
+    - cron: '15 16 * * *'
+  workflow_dispatch:
+    inputs:
+      discovery:
+        description: Rechercher de nouvelles sources
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: radar-production
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installer les dépendances
+        run: |
+          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+          python -m pip install -r requirements.txt
+      - name: Tests du traitement et de l’interface
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          npm test
+      - name: Collecter et découvrir
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          DISCOVERY: ${{ inputs.discovery }}
+        shell: bash
+        run: |
+          FLAGS=()
+          if [ "$SCHEDULE" = '15 16 * * *' ]; then FLAGS+=(--priority); fi
+          if [ "$EVENT_NAME" = 'push' ] || [ "$DISCOVERY" = 'true' ] || { [ "$SCHEDULE" = '15 6 * * *' ] && [ "$(date -u +%u)" = '7' ]; }; then FLAGS+=(--discover); fi
+          if [ "$EVENT_NAME" = 'push' ] || [ "$(date -u +%d)" = '01' ]; then FLAGS+=(--audit); fi
+          python -u -m collectors.pipeline "${FLAGS[@]}" --budget 420
+      - name: Valider les données et construire le site
+        run: |
+          python -m collectors.validate
+          npm run build
+          touch dist/.nojekyll
+      - name: Conserver l’historique et le catalogue
+        run: |
+          git config user.name 'Saclay Science Radar'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ public/data/ package-lock.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: actualiser les événements et la couverture'
+            git push
+          fi
+      - name: Rapport d’exécution
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          c=json.loads(Path('public/data/coverage.json').read_text())
+          r=json.loads(Path('public/data/run.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write(f"État : {r.get('status')}\n\n{c['inventory']} sources inventoriées ; {c['automated']} avec événements extraits ; {c['discovered']} découvertes ; {c['events']} événements réels.\n\nExhaustivité globale : inconnue.\n")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: radar-rapports
+          path: |
+            public/data/
+            data/reports/
+          retention-days: 30
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Publier GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
