@@ -1,6 +1,16 @@
 {
   "requests": [
     {
+      "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/seminaire-14/12-les-lundis-de-lipsit",
+      "issueNumber": 1,
+      "checkedAt": "2026-10-28T19:09:54+00:00",
+      "status": "imported",
+      "eventIds": [
+        "fc31e730c4bb16975ef6"
+      ],
+      "message": "1 annonce(s) extraite(s) et validée(s). Les événements terminés sont accessibles dans les archives."
+    },
+    {
       "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/journee-scientifique-reseau-cytometrie",
       "issueNumber": null,
       "checkedAt": "2026-10-28T18:57:32+00:00",

@@ -5485,5 +5485,23 @@
     "lastEventCount": 1,
     "lastResult": "ok",
     "lastAttempt": "2026-10-28T18:57:41+00:00"
+  },
+  {
+    "id": "url-e6897985bcdb",
+    "name": "Faculté de pharmacie Paris-Saclay",
+    "url": "https://www.pharmacie.universite-paris-saclay.fr/evenements/seminaire-14/12-les-lundis-de-lipsit",
+    "group": "Ajouts publics depuis une URL",
+    "connector": "auto",
+    "enabled": false,
+    "priority": false,
+    "status": "Extraction ponctuelle depuis une URL",
+    "reliability": "Élevée",
+    "lastCheck": "2026-10-28T19:09:56+00:00",
+    "verifiedUrl": "https://www.pharmacie.universite-paris-saclay.fr/evenements/seminaire-14/12-les-lundis-de-lipsit",
+    "note": "Import ponctuel demandé par le propriétaire. Ne constitue pas une surveillance quotidienne de cet organisateur.",
+    "lastSuccess": "2026-10-28T19:09:56+00:00",
+    "lastEventCount": 1,
+    "lastResult": "ok",
+    "lastAttempt": "2026-10-28T19:09:56+00:00"
   }
 ]
