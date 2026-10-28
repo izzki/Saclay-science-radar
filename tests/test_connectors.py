@@ -16,6 +16,12 @@ class ConnectorTests(unittest.TestCase):
  def test_discovery(self):
   result=candidates('<a href="/agenda">Agenda scientifique</a><link type="text/calendar" href="/events.ics">','https://example.org/')
   self.assertEqual({c['url'] for c in result},{'https://example.org/agenda','https://example.org/events.ics'})
+ def test_biomedical_link_is_not_calendar(self):
+  from collectors.connectors import calendar_links
+  self.assertEqual(calendar_links('<a href="/imagerie-biomedicale">Imagerie</a>','https://example.org/'),[])
+ def test_c2n_card(self):
+  text='<div class="events-list"><div class="event-card"><p class="event-date">3 novembre 2026 – 14h00</p><h3>Séminaire de test</h3><p class="event-lieu">Palaiseau</p><a href="/seminaire/test">Lire</a></div></div>'
+  e=html_events(text,'https://example.org/',{})[0];self.assertEqual(e['start'],'2026-11-03T14:00:00+01:00');self.assertEqual(e['location'],'Palaiseau')
  def test_lcf_widget(self):
   text='<div class="addtocalendar"><span class="atc_date_start">2026-11-03 00:00:00</span><span class="atc_title">Test séminaire</span><span class="atc_description">Séminaire le 3 novembre 2026 à 13h15</span></div>'
   self.assertEqual(html_events(text,'https://example.org/',{})[0]['start'],'2026-11-03T13:15:00+01:00')

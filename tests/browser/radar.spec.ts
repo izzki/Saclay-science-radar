@@ -8,7 +8,7 @@ test('catalogue Android, navigation, filtres et sources',async({page})=>{
  await page.getByLabel('Rechercher un événement').fill('zzzintrouvable');
  await expect(page.getByText(/Aucun événement dans cette sélection|Le catalogue attend sa première collecte/)).toBeVisible();
  await page.getByRole('button',{name:'Tout réinitialiser',exact:true}).click();
- await page.getByRole('button',{name:'Les sources',exact:false}).click();
+ await page.getByRole('navigation').getByRole('button',{name:'Les sources',exact:false}).click();
  await expect(page.getByRole('heading',{name:'Un registre ouvert, des statuts explicites.'})).toBeVisible();
  await page.getByLabel('Rechercher une source').fill('Charles Fabry');
  await expect(page.locator('.source-card')).toHaveCount(1);

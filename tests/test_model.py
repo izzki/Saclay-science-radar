@@ -21,6 +21,8 @@ class ModelTests(unittest.TestCase):
     def test_explicit_city_and_status(self):
         e=event(description='REPORTÉ : séminaire à Palaiseau')
         self.assertEqual(e['city'],'Palaiseau');self.assertEqual(e['status'],'Reporté')
+    def test_affiliation_does_not_determine_venue(self):
+        self.assertIsNone(event(description='Intervenant de Paris')['city'])
     def test_no_invention(self):
         e=event();self.assertIsNone(e['price']);self.assertIsNone(e['city']);self.assertIsNone(e['registrationUrl']);self.assertEqual(e['priceLabel'],'Non précisé')
     def test_quantum_word_not_max(self):

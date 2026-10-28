@@ -56,7 +56,7 @@ def parse_date(value, text=False):
 def category(text):
     n=norm(text)
     for keys,label in [('soutenance these hdr','Soutenance'),('hackathon','Hackathon'),('workshop atelier','Workshop'),('forum recrutement carriere','Forum métiers'),('salon expo','Salon'),('seminaire seminar','Séminaire'),('startup deeptech entrepreneuriat','Deeptech'),('colloque congres conference summit','Conférence'),('visite portes ouvertes','Visite')]:
-        if any(k in n for k in keys.split()): return label
+        if any(re.search(r'\b'+re.escape(k)+r'\b',n) for k in keys.split()): return label
     return 'Événement scientifique'
 
 def disciplines(text):
@@ -74,7 +74,7 @@ def score(event):
     if hardware: science=35; reasons.append('Lien explicite avec le matériel photonique ou quantique.')
     elif 'Quantique' in ds: science=max(science,17); reasons.append('Quantique mentionné ; caractère expérimental à vérifier.')
     elif 'Instrumentation' in ds or 'Nanosciences' in ds: science=max(science,22)
-    network=20 if any(k in n for k in ['networking','rencontre recherche industrie','rencontres recherche industrie','b2b']) else 12 if any(k in n for k in ['forum','salon','exposant','table ronde']) else 4
+    network=20 if any(k in n for k in ['networking','rencontre recherche industrie','rencontres recherche industrie','b2b']) else 12 if any(k in n for k in ['forum','salon','exposant','table ronde']) else 0
     careers=10 if any(k in n for k in ['stage','recrutement','cifre','carriere','metiers']) else 5 if 'Deeptech' in ds else 0
     city=norm(event.get('city',''))
     geo=15 if city in ['palaiseau','orsay','gif sur yvette','saclay','bures sur yvette','saint aubin'] else 10 if city=='paris' else 8 if event.get('format')=='En ligne' else 3
@@ -103,7 +103,8 @@ def make_event(raw, source, checked=None):
     city=clean(raw.get('city')) or None
     if not city:
         for candidate in ['Gif-sur-Yvette','Bures-sur-Yvette','Saint-Aubin','Palaiseau','Orsay','Paris','Saclay']:
-            if re.search(r'(?<![\w-])'+re.escape(candidate)+r'(?![\w-])',clean(raw.get('location'))+' '+clean(raw.get('address'))+' '+desc,re.I):
+            explicit_place=clean(raw.get('location'))+' '+clean(raw.get('address'))
+            if re.search(r'(?<![\w-])'+re.escape(candidate)+r'(?![\w-])',explicit_place,re.I) or re.search(r'(?:\bà|\bat|\bin|lieu\s*:)\s+'+re.escape(candidate)+r'(?![\w-])',desc,re.I):
                 city=candidate;break
     status=raw.get('status','Annoncé')
     if status=='Annoncé' and re.search(r'\b(annule|annulee|cancelled)\b',norm(title+' '+desc[:100])):status='Annulé'
