@@ -129,13 +129,23 @@ def make_event(raw, source, checked=None):
     event['score']=score(event)
     return event
 
+def event_url_identity(url):
+    p=urlsplit(canonical(url))
+    path=p.path
+    if p.hostname=='www.ihp.fr':path=re.sub(r'^/(?:fr/agenda|en/events)/','/event/',path)
+    if p.hostname=='www.c2n.universite-paris-saclay.fr':path=re.sub(r'/ical/?$','/',path)
+    return urlunsplit((p.scheme,p.netloc,path,p.query,''))
+
+def normalize_location(value):
+    return re.sub(r'^(?:Endroit|Place|Lieu)\s*[:–-]?\s*','',clean(value),flags=re.I)
+
 def same_event(a,b):
     # Sessions distinctes : même date ET même précision horaire obligatoires.
     if a['start']!=b['start']: return False
     if a.get('id')==b.get('id') and norm(a['title'])==norm(b['title']):return True
     if a.get('externalId') and a.get('externalId')==b.get('externalId') and {s['id'] for s in a['sources']} & {s['id'] for s in b['sources']}: return True
-    if canonical(a['url'])==canonical(b['url']) and norm(a['title'])==norm(b['title']): return True
-    return norm(a['title'])==norm(b['title']) and norm(a['organizer'])==norm(b['organizer']) and norm(a.get('location'))==norm(b.get('location'))
+    if event_url_identity(a['url'])==event_url_identity(b['url']) and norm(a['title'])==norm(b['title']): return True
+    return norm(a['title'])==norm(b['title']) and norm(a['organizer'])==norm(b['organizer']) and (not a.get('location') or not b.get('location') or norm(a.get('location'))==norm(b.get('location')))
 
 def reconcile(previous, incoming):
     result=[dict(e) for e in previous]
@@ -165,6 +175,7 @@ def compact(events):
     prepared=[]
     for original in events:
         e=dict(original)
+        if e.get('location'):e['location']=normalize_location(e['location'])
         e['start']=parse_date(e['start']) or e['start']
         if e.get('end'):e['end']=parse_date(e['end'])
         if len(e['start'])==10:

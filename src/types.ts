@@ -5,7 +5,7 @@ export interface RadarEvent {
  price:number|null; currency:string|null; studentPrice:number|null; priceLabel:string; access:string|null; registration:string|null;
  registrationUrl:string|null; deadline:string|null; speakers:{name:string;institution?:string|null}[]; companies:string[]; labs:string[];level:string|null;
  url:string;status:string;reliability:string;sources:Provenance[];firstSeen:string;lastVerified:string;
- history:{at:string;changes:Record<string,{before:unknown;after:unknown}>}[]; score:{total:number;parts:Record<string,number>;reasons:string[]}; local?:boolean;
+ history:{at:string;changes:Record<string,{before:unknown;after:unknown}>}[]; score:{total:number;parts:Record<string,number>;reasons:string[]}; local?:boolean;warnings?:string[];
 }
 export interface Source { id:string;name:string;url:string;group:string;connector:string;enabled:boolean;priority:boolean;status:string;note?:string;lastSuccess?:string;lastCheck?:string;lastCheckError?:string;lastAttempt?:string;lastResult?:string;lastEventCount?:number;verifiedUrl?:string;discoveredAt?:string;discoveredFrom?:string;errors?:{error:string;url?:string}[] }
 export interface Run { startedAt?:string;finishedAt?:string;lastSuccessfulCollection?:string;status?:string;scheduled?:boolean;workflowRunUrl?:string|null;newEvents?:number;schedule?:string;discoverySchedule?:string;httpRequests?:number }

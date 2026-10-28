@@ -76,3 +76,7 @@ L’inventaire contient des liens non vérifiés. La liste des sources opératio
 Le système est conçu pour évoluer par ajout de connecteurs testés et par audit. Il ne prouve pas une couverture globale exhaustive. Les échecs et travaux restant à faire sont visibles dans Sources et Couverture.
 
 Un premier relevé indépendant réel de huit annonces visibles sur la première page LCF au 28 octobre 2026 est conservé dans `data/audits/2026-10-28-lcf-page1.json`. Sa portée se limite à cette page et à cet instant ; il ne représente pas tous les agendas.
+
+Les métadonnées globales de PSL ont révélé des rattachements ambigus. Cette collecte est suspendue ; les annonces héritées restent en mode exhaustif avec fiabilité faible et avertissement explicite. Les concerts et spectacles sans lien scientifique identifiable ainsi que les rubriques de navigation sont exclus avec leur motif dans `data/quarantine.json`. Aucun score ou prix ne sert à cette exclusion. Les déclinaisons linguistiques d’un même événement IHP et les exports individuels C2N partagent une identité normalisée tout en conservant leurs URL sources.
+
+Après publication, le workflow contrôle l’accès HTTP réel au site, aux fichiers JavaScript/CSS et aux données JSON publiques, puis vérifie les identifiants et les chiffres de couverture.

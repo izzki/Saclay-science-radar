@@ -126,3 +126,31 @@ jobs:
       - name: Publier GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Vérifier le site public et ses données
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PYPUBLIC'
+          import json,os,re,time,urllib.request
+          from urllib.parse import urljoin
+          base=os.environ['PAGE_URL'].rstrip('/')+'/'
+          def fetch(url):
+              with urllib.request.urlopen(url,timeout=20) as response:
+                  assert response.status==200
+                  return response.read()
+          for attempt in range(12):
+              try:
+                  html=fetch(base).decode()
+                  assert 'Saclay Science Radar' in html
+                  for asset in re.findall(r'(?:src|href)="([^"]+\.(?:js|css))"',html):
+                      assert len(fetch(urljoin(base,asset)))>100
+                  events=json.loads(fetch(urljoin(base,'data/events.json')))
+                  coverage=json.loads(fetch(urljoin(base,'data/coverage.json')))
+                  assert events and len({e['id'] for e in events})==len(events)
+                  assert coverage['events']==len(events)
+                  print('SITE PUBLIC VÉRIFIÉ',base,len(events),'annonces ;',coverage['automated'],'sources avec extraction validée')
+                  break
+              except Exception:
+                  if attempt==11:raise
+                  time.sleep(5)
+          PYPUBLIC

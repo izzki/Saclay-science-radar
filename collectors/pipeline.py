@@ -10,6 +10,7 @@ from .network import Fetcher
 from .connectors import extract,detail_links,calendar_links,feed_links
 from .source_discovery import discover
 from .audit import coverage
+from .quality import prepare_sources,clean_catalog
 from .seed_registry import seed
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -24,7 +25,7 @@ def write(path,value):
 
 def run(args):
     os.chdir(ROOT)
-    registry=read('data/sources.json',seed());previous=read('public/data/events.json',[])
+    registry=prepare_sources(read('data/sources.json',seed()));previous=read('public/data/events.json',[])
     prior=read('public/data/run.json',{})
     fetcher=Fetcher(budget=args.budget)
     report={'startedAt':now(),'lastSuccessfulCollection':prior.get('lastSuccessfulCollection'),'newSources':0,'sources':[],'errors':[],
@@ -106,7 +107,9 @@ def run(args):
     previous=[e for e in previous if norm(e['title']) not in structural]
     # Replace old detail-page logo links when a precise official link is now available.
     previous=[old for old in previous if not (urlsplit(old['url']).path in ('/','/fr','/en') and any(norm(new['title'])==norm(old['title']) and new['start'][:10]==old['start'][:10] and urlsplit(new['url']).path not in ('/','/fr','/en') for new in incoming))]
-    events=compact(reconcile(previous,incoming))
+    events,quarantine=clean_catalog(compact(reconcile(previous,incoming)))
+    write('data/quarantine.json',quarantine)
+    report['quarantined']=len(quarantine)
     if incoming:report['lastSuccessfulCollection']=now()
     report.update(finishedAt=now(),httpRequests=fetcher.requests,events=len(events),incoming=len(reconcile([],incoming)),newEvents=len([e for e in events if e['id'] not in {p['id'] for p in previous}]),
         status='Succès partiel' if report['errors'] or any(s['result']!='ok' or s.get('errors') or s.get('pending') for s in report['sources']) else 'Succès' if incoming else 'Aucune collecte confirmée')
