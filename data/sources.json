@@ -40,28 +40,17 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Connecteur validé automatiquement",
+    "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-10-28T18:50:19+00:00",
+    "lastAttempt": "2026-10-28T21:08:02+00:00",
     "verifiedUrl": "https://www.lcf.institutoptique.fr/agenda",
-    "lastCheck": "2026-10-28T18:50:19+00:00",
-    "pendingDetails": [
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-alexis-corbillet",
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-romain-martin-le-5-novembre-2026-13h15-iogs-palaiseau",
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-rui-pinto-le-29-octobre-2026-13h15-iogs-palaiseau",
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-nikita-astrakhantsev-de-google-ai",
-      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-hoa-mai-quach",
-      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sara-tiengo",
-      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-geraud-dupuy",
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-doptique-quantique-de-andrea-litvinov",
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-ke-xie",
-      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-baptiste-leprovost"
-    ],
+    "lastCheck": "2026-10-28T21:08:04+00:00",
+    "pendingDetails": [],
     "lastResult": "ok",
-    "lastEventCount": 18,
+    "lastEventCount": 238,
     "errors": [],
-    "lastSuccess": "2026-10-28T18:50:19+00:00",
+    "lastSuccess": "2026-10-28T21:09:36+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00"
   },
   {
@@ -373,23 +362,17 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Connecteur validé automatiquement",
+    "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-10-28T18:50:21+00:00",
+    "lastAttempt": "2026-10-28T21:09:36+00:00",
     "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-    "lastCheck": "2026-10-28T18:50:21+00:00",
-    "pendingDetails": [
-      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/531/ical/",
-      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/",
-      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/529/ical/",
-      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/",
-      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/532/ical/"
-    ],
+    "lastCheck": "2026-10-28T21:09:39+00:00",
+    "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 5,
     "errors": [],
-    "lastSuccess": "2026-10-28T18:50:21+00:00",
+    "lastSuccess": "2026-10-28T21:09:53+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:15+00:00"
   },
   {
@@ -595,24 +578,26 @@
     "connector": "auto",
     "enabled": true,
     "priority": true,
-    "status": "Connecteur validé automatiquement",
+    "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-10-28T18:50:43+00:00",
+    "lastAttempt": "2026-10-28T21:09:53+00:00",
     "verifiedUrl": "https://iramis.cea.fr/",
-    "lastCheck": "2026-10-28T18:50:43+00:00",
+    "lastCheck": "2026-10-28T21:09:55+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
-    "lastEventCount": 5,
+    "lastEventCount": 26,
     "errors": [
       {
+        "url": "https://iramis.cea.fr/feed/",
         "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/feed/"
       },
       {
+        "url": "https://iramis.cea.fr/comments/feed/",
         "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/comments/feed/"
       }
     ],
-    "lastSuccess": "2026-10-28T18:50:43+00:00",
+    "lastSuccess": "2026-10-28T21:10:06+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:21+00:00"
   },
   {
@@ -947,14 +932,10 @@
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-10-28T18:50:53+00:00",
+    "lastAttempt": "2026-10-28T21:10:06+00:00",
     "verifiedUrl": "https://quantum-saclay.fr/",
-    "lastCheck": "2026-10-28T18:50:53+00:00",
-    "pendingDetails": [
-      "https://quantum-saclay.fr/deux-chercheurs-lies-a-communaute-de-luniversite-paris-saclay-laureats-dune-bourse-erc-advanced",
-      "https://quantum-saclay.fr/quantum-phd-days-2025",
-      "https://quantum-saclay.fr/course-announcement-quantum-sensing-quantum-metrology"
-    ],
+    "lastCheck": "2026-10-28T21:10:11+00:00",
+    "pendingDetails": [],
     "lastResult": "empty",
     "lastEventCount": 0,
     "errors": [
@@ -994,15 +975,15 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T20:02:59+00:00",
+    "lastCheck": "2026-10-28T21:10:37+00:00",
     "verifiedUrl": "https://www.sfoptique.org/",
     "lastIntegrationAttempt": "2026-10-28T18:37:11+00:00",
-    "lastAttempt": "2026-10-28T20:02:38+00:00",
+    "lastAttempt": "2026-10-28T21:10:26+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-10-28T20:03:10+00:00"
+    "lastSuccess": "2026-10-28T21:10:37+00:00"
   },
   {
     "id": "s051",
@@ -2004,18 +1985,18 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-10-28T20:07:09+00:00",
+    "lastCheck": "2026-10-28T21:10:39+00:00",
     "verifiedUrl": "https://www.forumdelaphotonique.fr/",
     "lastIntegrationAttempt": "2026-10-28T18:38:23+00:00",
     "enrichmentUrls": [
       "https://www.forumdelaphotonique.fr/espace-visiteur"
     ],
-    "lastAttempt": "2026-10-28T20:07:01+00:00",
+    "lastAttempt": "2026-10-28T21:10:37+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-10-28T20:07:10+00:00"
+    "lastSuccess": "2026-10-28T21:10:40+00:00"
   },
   {
     "id": "s104",
@@ -5529,14 +5510,14 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-10-28T20:03:45+00:00",
+    "lastAttempt": "2026-10-28T21:10:40+00:00",
     "verifiedUrl": "https://indico.math.cnrs.fr/category/837/",
-    "lastCheck": "2026-10-28T20:03:56+00:00",
+    "lastCheck": "2026-10-28T21:10:52+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 4,
     "errors": [],
-    "lastSuccess": "2026-10-28T20:04:56+00:00"
+    "lastSuccess": "2026-10-28T21:11:52+00:00"
   },
   {
     "id": "quest-is",
@@ -5549,14 +5530,14 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-10-28T20:04:56+00:00",
+    "lastAttempt": "2026-10-28T21:11:52+00:00",
     "verifiedUrl": "https://conference-questis.org/",
-    "lastCheck": "2026-10-28T20:05:00+00:00",
+    "lastCheck": "2026-10-28T21:11:54+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-10-28T20:05:20+00:00"
+    "lastSuccess": "2026-10-28T21:11:54+00:00"
   },
   {
     "id": "cigre-paris",
@@ -5589,13 +5570,13 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-10-28T20:05:41+00:00",
+    "lastAttempt": "2026-10-28T21:11:54+00:00",
     "verifiedUrl": "https://www.uppersideconferences.com/quantum-networks/2027/index.html",
-    "lastCheck": "2026-10-28T20:05:43+00:00",
+    "lastCheck": "2026-10-28T21:11:56+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-10-28T20:05:45+00:00"
+    "lastSuccess": "2026-10-28T21:11:56+00:00"
   }
 ]

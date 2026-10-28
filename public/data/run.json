@@ -1,21 +1,84 @@
 {
-  "startedAt": "2026-10-28T20:09:40+00:00",
-  "lastSuccessfulCollection": "2026-10-28T20:07:10+00:00",
+  "startedAt": "2026-10-28T21:08:02+00:00",
+  "lastSuccessfulCollection": "2026-10-28T21:11:56+00:00",
   "newSources": 0,
-  "sources": [],
+  "sources": [
+    {
+      "id": "s002",
+      "count": 238,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s019",
+      "count": 5,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s029",
+      "count": 26,
+      "result": "ok",
+      "errors": 2,
+      "pending": 0
+    },
+    {
+      "id": "s048",
+      "count": 0,
+      "result": "empty",
+      "errors": 1,
+      "pending": 0
+    },
+    {
+      "id": "s050",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s103",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "ihp-qcrypto-2027",
+      "count": 4,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "quest-is",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "quantum-networks-2027",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    }
+  ],
   "errors": [],
   "scheduled": true,
-  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40760730826",
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40769308063",
   "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
   "discoverySchedule": "Dimanche, 06:15 UTC",
   "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
   "quarantined": 0,
   "quarantineHistory": 48,
-  "finishedAt": "2026-10-28T20:09:40+00:00",
-  "httpRequests": 0,
-  "events": 456,
-  "incoming": 0,
-  "newEvents": 0,
-  "status": "Données récentes conservées · vérification du catalogue effectuée",
-  "reprocessed": true
+  "finishedAt": "2026-10-28T21:11:56+00:00",
+  "httpRequests": 101,
+  "events": 659,
+  "incoming": 280,
+  "newEvents": 205,
+  "status": "Succès partiel"
 }
