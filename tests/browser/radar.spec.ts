@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test('catalogue Android, navigation, filtres et sources',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('/');await expect(page.getByRole('heading',{name:/La science bouge/})).toBeVisible();
+ await page.goto('/');await expect(page.getByRole('heading',{name:/Saclay Science Radar|La science bouge/})).toBeVisible();
  await expect(page.getByRole('button',{name:'◉ Tout voir',exact:true})).toBeVisible();
  await page.getByRole('button',{name:'✧ Pour moi',exact:true}).click();
  await expect(page.getByRole('button',{name:'✧ Pour moi',exact:true})).toHaveAttribute('aria-pressed','true');
