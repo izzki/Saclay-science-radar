@@ -23,6 +23,10 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(e['city'],'Palaiseau');self.assertEqual(e['status'],'Reporté')
     def test_affiliation_does_not_determine_venue(self):
         self.assertIsNone(event(description='Intervenant de Paris')['city'])
+    def test_missing_currency_not_assumed_eur(self):
+        e=event(price=10);self.assertIsNone(e['currency']);self.assertIn('devise non précisée',e['priceLabel'])
+    def test_unspecified_currency_is_not_inherited_as_verified_eur(self):
+        a=event(price=10,currency='EUR');b=event(price=10);self.assertIsNone(reconcile([a],[b])[0]['currency'])
     def test_nonfinite_price_unknown(self):
         self.assertIsNone(event(price='NaN')['price'])
     def test_no_invention(self):

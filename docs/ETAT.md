@@ -18,7 +18,7 @@ Site : https://izzki.github.io/Saclay-science-radar/
 
 Registre : 312 entrées ; 17 sources avec extraction concluante au dernier contrôle ; 189 candidats découverts ; 135 URL contrôlées. Catalogue : 362 annonces réelles, dont les archives.
 
-44 tests Python, 22 tests TypeScript et six parcours Android Chromium ont réussi localement. Le workflow effectue à nouveau les contrôles avant publication et vérifie ensuite le site public. Le résultat du déploiement le plus récent est consultable dans Actions.
+46 tests Python, 22 tests TypeScript et six parcours Android Chromium ont réussi localement. Le workflow effectue à nouveau les contrôles avant publication et vérifie ensuite le site public. Le résultat du déploiement le plus récent est consultable dans Actions.
 
 Les nouveaux sous-agendas incluent Paris-Saclay, ses facultés de pharmacie et médecine, LMPS, CEA SPEC et d’autres agendas validés du quantique/deeptech. Le registre garde les sources inaccessibles ou nécessitant un parseur dédié ; il n’est pas présenté comme entièrement intégré.
 

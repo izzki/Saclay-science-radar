@@ -80,7 +80,7 @@ def score(event):
     city=norm(event.get('city',''))
     geo=15 if city in ['palaiseau','orsay','gif sur yvette','saclay','bures sur yvette','saint aubin'] else 10 if city=='paris' else 8 if event.get('format')=='En ligne' else 3
     price=event.get('price')
-    cost=15 if price==0 else 12 if price is not None and price<10 else 7 if price is not None and price<=30 else 2 if price is not None else 5
+    cost=15 if price==0 else (12 if price<10 else 7 if price<=30 else 2) if price is not None and event.get('currency')=='EUR' else 5
     access=norm(event.get('access',''))
     if any(k in access for k in ['reserve aux','sur invitation','acces restreint']): cost=max(0,cost-4)
     level=5 if any(k in n for k in ['grand public','initiation','introduction','vulgarisation']) else 2
@@ -116,8 +116,8 @@ def make_event(raw, source, checked=None):
         'organizer':clean(raw.get('organizer') or ('Laboratoire Charles Fabry' if 'laboratoire charles fabry' in norm(desc) else source.get('organizerName') or source['name'])),
         'location':clean(raw.get('location')) or None,'address':clean(raw.get('address')) or None,'city':city,
         'format':raw.get('format') or 'Non précisé','category':category(text),'disciplines':disciplines(text),
-        'price':price,'currency':raw.get('currency') or ('EUR' if price is not None else None),'studentPrice':raw.get('studentPrice'),
-        'priceLabel':clean(raw.get('priceLabel')) or ('Gratuit' if price==0 else str(price)+' '+(raw.get('currency') or 'EUR') if price is not None else 'Non précisé'),
+        'price':price,'currency':raw.get('currency') or None,'studentPrice':raw.get('studentPrice'),
+        'priceLabel':clean(raw.get('priceLabel')) or ('Gratuit' if price==0 else str(price)+' '+(raw.get('currency') or '(devise non précisée)') if price is not None else 'Non précisé'),
         'access':clean(raw.get('access')) or None,'registration':clean(raw.get('registration')) or None,
         'registrationUrl':canonical(raw.get('registrationUrl')) or None,'deadline':parse_date(raw.get('deadline')),
         'speakers':raw.get('speakers',[]),'companies':raw.get('companies',[]),'labs':raw.get('labs',[]),'level':clean(raw.get('level')) or None,
@@ -162,6 +162,7 @@ def reconcile(previous, incoming):
             sources={(s['id'],s['url']):s for s in match['sources']+new['sources']}
             # A sparse feed must not erase richer known information.
             merged={k:(v if v is not None and v!='' and v!=[] else match.get(k,v)) for k,v in new.items()}
+            if new.get('price') is not None:merged['currency']=new.get('currency')
             if new.get('price') is None and match.get('price') is not None:
                 merged['priceLabel']=match['priceLabel'];merged['currency']=match.get('currency')
             if new.get('extractionVersion',1)>=2:
