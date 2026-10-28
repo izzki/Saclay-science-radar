@@ -108,8 +108,11 @@ def run(args):
     # Replace old detail-page logo links when a precise official link is now available.
     previous=[old for old in previous if not (urlsplit(old['url']).path in ('/','/fr','/en') and any(norm(new['title'])==norm(old['title']) and new['start'][:10]==old['start'][:10] and urlsplit(new['url']).path not in ('/','/fr','/en') for new in incoming))]
     events,quarantine=clean_catalog(compact(reconcile(previous,incoming)))
-    write('data/quarantine.json',quarantine)
+    saved_quarantine={(q['event']['id'],q['reason']):q for q in read('data/quarantine.json',[])}
+    saved_quarantine.update({(q['event']['id'],q['reason']):q for q in quarantine})
+    write('data/quarantine.json',list(saved_quarantine.values()))
     report['quarantined']=len(quarantine)
+    report['quarantineHistory']=len(saved_quarantine)
     if incoming:report['lastSuccessfulCollection']=now()
     report.update(finishedAt=now(),httpRequests=fetcher.requests,events=len(events),incoming=len(reconcile([],incoming)),newEvents=len([e for e in events if e['id'] not in {p['id'] for p in previous}]),
         status='Succès partiel' if report['errors'] or any(s['result']!='ok' or s.get('errors') or s.get('pending') for s in report['sources']) else 'Succès' if incoming else 'Aucune collecte confirmée')

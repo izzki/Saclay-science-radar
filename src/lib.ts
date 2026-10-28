@@ -58,6 +58,7 @@ export function validateLocalEvent(x:unknown):x is RadarEvent {
  if(!['city','location','address','access','registration','level','currency'].every(k=>e[k as keyof RadarEvent]===null||typeof e[k as keyof RadarEvent]==='string'))return false;
  if(!Array.isArray(e.disciplines)||!e.disciplines.every(d=>typeof d==='string')||!Array.isArray(e.labs)||!e.labs.every(v=>typeof v==='string')||!Array.isArray(e.companies)||!e.companies.every(v=>typeof v==='string'))return false;
  if(!e.score||!Number.isFinite(e.score.total)||e.score.total<0||e.score.total>100||!Array.isArray(e.score.reasons)||!e.score.reasons.every(r=>typeof r==='string')||!e.score.parts||typeof e.score.parts!=='object'||!Object.values(e.score.parts).every(v=>typeof v==='number'&&Number.isFinite(v)))return false;
+ if(e.warnings!==undefined&&(!Array.isArray(e.warnings)||!e.warnings.every(w=>typeof w==='string')))return false;
  if(!Array.isArray(e.sources)||!e.sources.every(s=>s&&typeof s.id==='string'&&typeof s.name==='string'&&!!safeUrl(s.url)&&typeof s.checkedAt==='string'))return false;
  if(!Array.isArray(e.speakers)||!e.speakers.every(s=>s&&typeof s.name==='string'))return false;
  return Array.isArray(e.history)&&e.history.every(h=>h&&typeof h.at==='string'&&h.changes&&typeof h.changes==='object'&&Object.values(h.changes).every(v=>v&&typeof v==='object'&&'before' in v&&'after' in v));
