@@ -8,3 +8,5 @@ __pycache__/
 .collector-cache/
 *.tar.gz
 *.zip
+test-results/
+playwright-report/

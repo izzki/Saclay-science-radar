@@ -2,10 +2,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import traceback
+import re
 from pathlib import Path
 from urllib.parse import urlsplit
-from .model import make_event,reconcile,now,canonical
+from .model import make_event,reconcile,now,canonical,compact
 from .network import Fetcher
 from .connectors import extract,detail_links,calendar_links,feed_links
 from .source_discovery import discover
@@ -39,10 +39,12 @@ def run(args):
         source['lastAttempt']=now();records=[];errors=[]
         try:
             body,final,content_type=fetcher.get(source['url']);source.update(verifiedUrl=final,lastCheck=now())
-            pages.append((source,body,final));records.extend(extract(body,final,source,source.get('connector')))
-            children=calendar_links(body,final)
+            pages.append((source,body,final))
+            is_feed=source.get('connector')=='feed'
+            if not is_feed:records.extend(extract(body,final,source,source.get('connector')))
+            children=[] if is_feed else calendar_links(body,final)
             pending=source.get('pendingDetails',[])
-            links=list(dict.fromkeys(pending+detail_links(body,final)))
+            links=list(dict.fromkeys(pending+(feed_links(body,final) if is_feed else detail_links(body,final))))
             # A per-run request budget bounds traffic, not catalog size. Unvisited URLs persist.
             source['pendingDetails']=[]
             for child in children:
@@ -80,6 +82,11 @@ def run(args):
             source.update(lastResult='error',status='Indisponible',errors=[{'at':now(),'error':str(e)[:300]}])
             report['errors'].append({'source':source['id'],'error':str(e)[:300]})
         print(source['name'],source.get('lastResult'),source.get('lastEventCount',0),flush=True)
+    # Fragment links and single-event exports are not independent agendas.
+    registry=[s for s in registry if not (s.get('discoveredAt') and (canonical(s['url'])==canonical(s.get('discoveredFrom','')) or (s.get('connector')=='ics' and not s.get('enabled') and not re.search(r'\.ics|/ical|[?&][^=]*ical[^=]*=',s['url'],re.I))))]
+    for source in registry:
+        if source.get('discoveredAt') and source.get('connector')=='ics' and ('ical' in source['url'] or '.ics' in source['url']) and ('event=' in source['url'] or '/agenda/' in source['url']):
+            source.update(enabled=False,status='Export d’événement — source parente collectée')
     if args.discover:
         registry=discover(registry,fetcher,pages,report)
         for source in registry:
@@ -88,7 +95,14 @@ def run(args):
             try:
                 _,final,_=fetcher.get(source['url']);source.update(lastCheck=now(),verifiedUrl=final)
             except Exception as e:source.update(lastCheckError=str(e)[:240])
-    events=reconcile(previous,incoming)
+    # Old parser versions could expose structural headings as announcements.
+    # Drop only proven extraction artefacts, never low scores or unknown prices.
+    structural={'agenda','evenements','resume','intervenant s','intervenants','abstract','programme','informations pratiques','inscription','lieu','date'}
+    from .model import norm
+    previous=[e for e in previous if norm(e['title']) not in structural]
+    # Replace old detail-page logo links when a precise official link is now available.
+    previous=[old for old in previous if not (urlsplit(old['url']).path in ('/','/fr','/en') and any(norm(new['title'])==norm(old['title']) and new['start'][:10]==old['start'][:10] and urlsplit(new['url']).path not in ('/','/fr','/en') for new in incoming))]
+    events=compact(reconcile(previous,incoming))
     if incoming:report['lastSuccessfulCollection']=now()
     report.update(finishedAt=now(),httpRequests=fetcher.requests,events=len(events),incoming=len(reconcile([],incoming)),newEvents=len([e for e in events if e['id'] not in {p['id'] for p in previous}]),
         status='Succès partiel' if report['errors'] or any(s['result']!='ok' or s.get('errors') or s.get('pending') for s in report['sources']) else 'Succès' if incoming else 'Aucune collecte confirmée')

@@ -1,0 +1,34 @@
+import {test,expect} from '@playwright/test';
+test('catalogue Android, navigation, filtres et sources',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/');await expect(page.getByRole('heading',{name:/La science bouge/})).toBeVisible();
+ await expect(page.getByRole('button',{name:'◉ Tout voir',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'✧ Pour moi',exact:true}).click();
+ await expect(page.getByRole('button',{name:'✧ Pour moi',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByLabel('Rechercher un événement').fill('zzzintrouvable');
+ await expect(page.getByText(/Aucun événement dans cette sélection|Le catalogue attend sa première collecte/)).toBeVisible();
+ await page.getByRole('button',{name:'Tout réinitialiser',exact:true}).click();
+ await page.getByRole('navigation').getByRole('button',{name:'Les sources',exact:false}).click();
+ await expect(page.getByRole('heading',{name:'Un registre ouvert, des statuts explicites.'})).toBeVisible();
+ await page.getByLabel('Rechercher une source').fill('Charles Fabry');
+ await expect(page.locator('.source-card')).toHaveCount(1);
+ await page.getByRole('button',{name:'Couverture',exact:false}).click();
+ await expect(page.getByText('Exhaustivité globale',{exact:true})).toBeVisible();
+ await expect(page.getByText('Inconnue',{exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ expect(errors).toEqual([]);
+ await page.screenshot({path:'test-results/radar-android.png',fullPage:true});
+});
+test('favoris persistants, fiche et export calendrier sur données réelles',async({page})=>{
+ await page.goto('/');await page.waitForSelector('.result-line');
+ const cards=page.locator('.event-card');
+ test.skip(await cards.count()===0,'Pas encore de données réelles à venir pour ce contrôle.');
+ const first=cards.first();await first.getByRole('button',{name:'Ajouter aux favoris'}).click();
+ await first.getByRole('button',{name:'Détails'}).click();
+ await expect(page.getByRole('dialog')).toBeVisible();
+ const downloaded=page.waitForEvent('download');await page.getByRole('button',{name:'↓ Mon calendrier'}).click();
+ expect((await downloaded).suggestedFilename()).toBe('evenement.ics');
+ await page.getByRole('button',{name:'Fermer la fiche'}).click();
+ await page.reload();await page.getByRole('button',{name:'Mes favoris',exact:false}).click();
+ await expect(page.locator('.event-card')).toHaveCount(1);
+});

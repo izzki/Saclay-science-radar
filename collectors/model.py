@@ -14,7 +14,7 @@ def now():
     return datetime.now(timezone.utc).isoformat(timespec='seconds')
 
 def clean(value):
-    return re.sub(r'\s+', ' ', html.unescape(re.sub('<[^>]+>', ' ', str(value or '')))).strip()
+    return re.sub(r'\s+', ' ', re.sub('<[^>]+>', ' ', html.unescape(html.unescape(str(value or ''))))).strip()
 
 def norm(value):
     value = ''.join(c for c in unicodedata.normalize('NFKD', clean(value).lower()) if not unicodedata.combining(c))
@@ -36,7 +36,7 @@ def parse_date(value, text=False):
     try:
         if re.fullmatch(r'\d{4}-\d{2}-\d{2}', value): return date.fromisoformat(value).isoformat()
         dt = datetime.fromisoformat(value.replace('Z', '+00:00'))
-        return (dt if dt.tzinfo else dt.replace(tzinfo=PARIS)).isoformat()
+        return (dt if dt.tzinfo else dt.replace(tzinfo=PARIS)).astimezone(PARIS).isoformat()
     except ValueError: pass
     if not text: return None
     n = norm(value)
@@ -56,7 +56,7 @@ def parse_date(value, text=False):
 def category(text):
     n=norm(text)
     for keys,label in [('soutenance these hdr','Soutenance'),('hackathon','Hackathon'),('workshop atelier','Workshop'),('forum recrutement carriere','Forum métiers'),('salon expo','Salon'),('seminaire seminar','Séminaire'),('startup deeptech entrepreneuriat','Deeptech'),('colloque congres conference summit','Conférence'),('visite portes ouvertes','Visite')]:
-        if any(k in n for k in keys.split()): return label
+        if any(re.search(r'\b'+re.escape(k)+r'\b',n) for k in keys.split()): return label
     return 'Événement scientifique'
 
 def disciplines(text):
@@ -74,7 +74,7 @@ def score(event):
     if hardware: science=35; reasons.append('Lien explicite avec le matériel photonique ou quantique.')
     elif 'Quantique' in ds: science=max(science,17); reasons.append('Quantique mentionné ; caractère expérimental à vérifier.')
     elif 'Instrumentation' in ds or 'Nanosciences' in ds: science=max(science,22)
-    network=20 if any(k in n for k in ['networking','rencontre recherche industrie','rencontres recherche industrie','b2b']) else 12 if any(k in n for k in ['forum','salon','exposant','table ronde']) else 4
+    network=20 if any(k in n for k in ['networking','rencontre recherche industrie','rencontres recherche industrie','b2b']) else 12 if any(k in n for k in ['forum','salon','exposant','table ronde']) else 0
     careers=10 if any(k in n for k in ['stage','recrutement','cifre','carriere','metiers']) else 5 if 'Deeptech' in ds else 0
     city=norm(event.get('city',''))
     geo=15 if city in ['palaiseau','orsay','gif sur yvette','saclay','bures sur yvette','saint aubin'] else 10 if city=='paris' else 8 if event.get('format')=='En ligne' else 3
@@ -90,7 +90,7 @@ def score(event):
 def make_event(raw, source, checked=None):
     title=clean(raw.get('title'))
     start=parse_date(raw.get('start'))
-    if len(title)<4 or not start: return None
+    if len(title)<4 or not start or norm(title) in {'agenda','evenements','resume','intervenant s','intervenants','abstract','programme','informations pratiques','inscription','lieu','date'}: return None
     url=canonical(raw.get('url') or source['url'])
     if not url: return None
     checked=checked or now()
@@ -100,18 +100,27 @@ def make_event(raw, source, checked=None):
     try: price=float(price) if price is not None and price!='' else None
     except (TypeError,ValueError): price=None
     if price is not None and (price<0 or price>100000): price=None
+    city=clean(raw.get('city')) or None
+    if not city:
+        for candidate in ['Gif-sur-Yvette','Bures-sur-Yvette','Saint-Aubin','Palaiseau','Orsay','Paris','Saclay']:
+            explicit_place=clean(raw.get('location'))+' '+clean(raw.get('address'))
+            if re.search(r'(?<![\w-])'+re.escape(candidate)+r'(?![\w-])',explicit_place,re.I) or re.search(r'(?:\bà|\bat|\bin|lieu\s*:)\s+'+re.escape(candidate)+r'(?![\w-])',desc,re.I):
+                city=candidate;break
+    status=raw.get('status','Annoncé')
+    if status=='Annoncé' and re.search(r'\b(annule|annulee|cancelled)\b',norm(title+' '+desc[:100])):status='Annulé'
+    elif status=='Annoncé' and re.search(r'\b(reporte|reportee|postponed)\b',norm(title+' '+desc[:100])):status='Reporté'
     event={
         'id':hashlib.sha256((url+'|'+start+'|'+norm(title)).encode()).hexdigest()[:20],
         'title':title,'description':desc,'start':start,'end':parse_date(raw.get('end')),'timezone':'Europe/Paris' if len(start)==10 else str(datetime.fromisoformat(start).tzinfo),
-        'organizer':clean(raw.get('organizer') or source['name']),
-        'location':clean(raw.get('location')) or None,'address':clean(raw.get('address')) or None,'city':clean(raw.get('city')) or None,
+        'organizer':clean(raw.get('organizer') or ('Laboratoire Charles Fabry' if 'laboratoire charles fabry' in norm(desc) else source['name'])),
+        'location':clean(raw.get('location')) or None,'address':clean(raw.get('address')) or None,'city':city,
         'format':raw.get('format') or 'Non précisé','category':category(text),'disciplines':disciplines(text),
         'price':price,'currency':raw.get('currency') or ('EUR' if price is not None else None),'studentPrice':raw.get('studentPrice'),
         'priceLabel':clean(raw.get('priceLabel')) or ('Gratuit' if price==0 else str(price)+' '+(raw.get('currency') or 'EUR') if price is not None else 'Non précisé'),
         'access':clean(raw.get('access')) or None,'registration':clean(raw.get('registration')) or None,
         'registrationUrl':canonical(raw.get('registrationUrl')) or None,'deadline':parse_date(raw.get('deadline')),
         'speakers':raw.get('speakers',[]),'companies':raw.get('companies',[]),'labs':raw.get('labs',[]),'level':clean(raw.get('level')) or None,
-        'url':url,'status':raw.get('status','Annoncé'),'reliability':source.get('reliability','Élevée'),
+        'url':url,'status':status,'reliability':source.get('reliability','Élevée'),
         'sources':[{'id':source['id'],'name':source['name'],'url':url,'listingUrl':source['url'],'checkedAt':checked}],
         'firstSeen':checked,'lastVerified':checked,'history':[], 'externalId':clean(raw.get('externalId')) or None,
     }
@@ -147,3 +156,17 @@ def reconcile(previous, incoming):
             match['score']=score(match)
         else: result.append(new)
     return sorted(result,key=lambda e:e['start'])
+
+
+def compact(events):
+    """Retire les doublons dus à la précision de date lorsque l'horaire est univoque."""
+    prepared=[]
+    for original in events:
+        e=dict(original)
+        e['start']=parse_date(e['start']) or e['start']
+        if e.get('end'):e['end']=parse_date(e['end'])
+        if len(e['start'])==10:
+            precise={x['start'] for x in events if len(x['start'])>10 and x['start'][:10]==e['start'] and canonical(x['url'])==canonical(e['url']) and norm(x['title'])==norm(e['title'])}
+            if len(precise)==1:e['start']=next(iter(precise));e['timezone']='Europe/Paris'
+        e['score']=score(e);prepared.append(e)
+    return reconcile([],prepared)

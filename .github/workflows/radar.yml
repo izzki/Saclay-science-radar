@@ -33,7 +33,7 @@ jobs:
           python-version: '3.12'
       - name: Installer les dépendances
         run: |
-          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+          npm install --no-audit --no-fund
           python -m pip install -r requirements.txt
       - name: Tests du traitement et de l’interface
         run: |
@@ -56,6 +56,16 @@ jobs:
           python -m collectors.validate
           npm run build
           touch dist/.nojekyll
+      - name: Vérification Android dans Chromium
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: radar-verification-android
+          path: test-results/
+          retention-days: 14
       - name: Conserver l’historique et le catalogue
         run: |
           git config user.name 'Saclay Science Radar'

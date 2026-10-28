@@ -6,7 +6,7 @@ from urllib.parse import urljoin,urlsplit
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from icalendar import Calendar
-from .model import clean,parse_date,canonical
+from .model import clean,parse_date,canonical,norm
 
 
 def flatten_json(value):
@@ -43,8 +43,15 @@ def schema_events(text,base):
             performers=item.get('performer',[])
             if isinstance(performers,dict):performers=[performers]
             status=item.get('eventStatus','')
+            event_url=urljoin(base,item.get('url') or base)
+            event_name=norm(item.get('name'))
+            if event_name:
+                for link in soup.find_all('a',href=True):
+                    if norm(link.get_text(' '))==event_name and not link['href'].startswith('#'):
+                        linked=canonical(urljoin(base,link['href']))
+                        if linked and urlsplit(linked).netloc==urlsplit(base).netloc:event_url=linked;break
             out.append({'title':item.get('name'),'description':item.get('description'),'start':item.get('startDate'),'end':item.get('endDate'),
-                'url':urljoin(base,item.get('url') or base),'externalId':item.get('@id'),
+                'url':event_url,'externalId':item.get('@id'),
                 'organizer':organizer.get('name') if isinstance(organizer,dict) else organizer,
                 'location':location.get('name'),'address':', '.join(str(address[k]) for k in ['streetAddress','postalCode','addressLocality'] if address.get(k)),
                 'city':address.get('addressLocality'),'format':'Hybride' if 'Mixed' in mode else 'En ligne' if 'Online' in mode else 'Présentiel' if 'Offline' in mode else 'Non précisé',
@@ -82,8 +89,8 @@ def calendar_links(text,base):
     soup=BeautifulSoup(text,'html.parser');out=[]
     for node in soup.find_all(['a','link']):
         href=node.get('href','');kind=node.get('type','');label=clean(node.get_text(' '))
-        if href and (re.search(r'\.ics(?:\?|$)|/feed/?(?:\?|$)|rss|ical',href,re.I) or kind in ('text/calendar','application/rss+xml','application/atom+xml')):
-            out.append({'url':canonical(urljoin(base,href)),'label':label,'format':'ics' if '.ics' in href or 'ical' in href or kind=='text/calendar' else 'feed'})
+        if href and (re.search(r'\.ics(?:\?|$)|/feed/?(?:\?|$)|/rss(?:[./?]|$)|[?&](?:format|type)=ical|/ical(?:[/?]|$)',href,re.I) or kind in ('text/calendar','application/rss+xml','application/atom+xml')):
+            out.append({'url':canonical(urljoin(base,href)),'label':label,'format':'ics' if re.search(r'\.ics(?:\?|$)|[?&](?:format|type)=ical|/ical(?:[/?]|$)',href,re.I) or kind=='text/calendar' else 'feed'})
     return [v for v in out if v['url']]
 
 def detail_links(text,base):
@@ -118,7 +125,7 @@ def html_events(text,base,source):
         out.append({'title':title,'description':desc,'start':parsed,'end':None,'location':pick('atc_location') or pick('location'),
             'url':urljoin(base,link['href']) if link else base})
     # Conservative fallback: explicit event date in a semantic card or event page.
-    candidates=soup.select('article, .views-row, .event, .event-item, .seminaire, .seminar, .tribe-events-calendar-list__event')
+    candidates=soup.select('article, .views-row, .event, .event-item, .seminaire, .seminar, .tribe-events-calendar-list__event, .events-list .event-card')
     if not candidates and re.search(r'/(event|evenement|seminaire|seminar|agenda)/[^/]+',urlsplit(base).path):
         main=soup.find('main') or soup.find('article')
         if main:candidates=[main]
@@ -134,17 +141,24 @@ def html_events(text,base,source):
                 if re.search(r'\b\d{2}/\d{2}/\d{4}\b',body) and len(parent.find_all(['h2','h3']))==1:
                     candidates.append(parent);break
     for card in candidates:
+        if card.select_one('.addtocalendar, .atc_event'):continue
         heading=card.find(['h1','h2','h3','h4'])
         if not heading:continue
         title=clean(heading.get_text(' '));body=clean(card.get_text(' '))
-        time=card.find('time')
-        start=parse_date(time.get('datetime')) if time and time.get('datetime') else None
+        times=card.find_all('time',datetime=True)
+        start=parse_date(times[0].get('datetime')) if times else None
+        end=parse_date(times[1].get('datetime')) if len(times)>1 else None
+        location=card.select_one('.event-lieu, .is-place, [itemprop=location]')
+        speaker=card.select_one('.event-info')
         # Avoid converting the publication date of news into the event's date.
-        if not start and re.search(r'séminaire|seminar|soutenance|conference|conférence|workshop|colloque|agenda|événement',title+' '+body[:160],re.I):
+        if not start and (card.select_one('.event-date') or 'type-evenement' in card.parent.get('class',[]) or re.search(r'séminaire|seminar|soutenance|thèses|conference|conférence|workshop|colloque|agenda|événement',title+' '+body[:160],re.I)):
             start=parse_date(body,text=True)
         if not start:continue
-        a=heading.find('a',href=True) or card.find('a',href=True)
-        out.append({'title':title,'description':body[:3000],'start':start,'url':urljoin(base,a['href']) if a else base})
+        if not end and start and 'T' in start:
+            interval=re.search(r'\b\d{1,2}[h:]\d{2}\s*[-–]\s*(\d{1,2})[h:](\d{2})\b',body)
+            if interval:end=parse_date(start[:10]+f'T{int(interval[1]):02d}:{interval[2]}:00')
+        a=heading.find('a',href=True) or heading.find_parent('a',href=True) or card.select_one('.suite a[href], a.card-title-link[href], .item-title a[href], a.event-link[href]')
+        out.append({'title':title,'description':body[:3000],'start':start,'end':end,'location':clean(location.get_text(' ')) if location else None,'speakers':[{'name':clean(speaker.get_text(' ')).lstrip('👤 ')}] if speaker else [],'url':urljoin(base,a['href']) if a else base})
     return out
 
 def extract(text,url,source,kind=None):

@@ -18,7 +18,7 @@ React 19, TypeScript strict et Vite. Données JSON collectées hors navigateur p
 
 Connecteurs prédéfinis : JSON-LD `schema.org/Event`, calendriers ICS non récurrents, liens de flux RSS/Atom vers des pages d’événements, blocs HTML institutionnels, boutons calendrier Institut d’Optique/LCF, blocs d’agenda CEA IRAMIS. Les dates de publication RSS ne deviennent jamais des dates d’événement.
 
-`collectors/source_discovery.py` découvre des liens d’agendas, d’annuaires et des flux sur les pages institutionnelles visitées. Un nouveau calendrier ICS du même domaine peut être activé après vérification robots, extraction et présence de dates valides. Les liens externes et formats nécessitant une intégration restent en file d’attente. Aucun moteur de recherche ni réseau social n’est faussement annoncé comme intégré. Pas d’exécution de code externe.
+`collectors/source_discovery.py` découvre des liens d’agendas, d’annuaires et des flux sur les pages institutionnelles visitées. Un nouveau flux compatible du même domaine peut être activé après vérification robots, extraction et présence de dates valides. Les liens externes et formats nécessitant une intégration restent en file d’attente. Aucun moteur de recherche ni réseau social n’est faussement annoncé comme intégré. Pas d’exécution de code externe.
 
 HTTP : identité explicite, robots.txt, requêtes espacées, limites de taille, délais, contrôle des IP publiques et des redirections, arrêt sur 429/503, aucun CAPTCHA contourné. Une erreur de source est isolée. En cas d’échec, les données connues sont conservées et vieillissent visiblement. Le respect de robots.txt ne remplace pas la vérification des conditions d’utilisation ; une source peut être désactivée dans le registre.
 
@@ -35,7 +35,7 @@ Workflow `.github/workflows/radar.yml` :
 - Dimanche matin : découverte et contrôle d’URL candidates, dans le budget HTTP.
 - Premier jour du mois : rapport de couverture et recalcul des audits indépendants disponibles.
 - Exécution manuelle disponible et première collecte sur modification du code.
-- Tests Python et TypeScript, validation des données, build, persistance du catalogue, d’un instantané précédent et des rapports datés, artefact de rapport, publication Pages.
+- Tests Python et TypeScript, contrôle Android sous Chromium, validation des données, build, persistance du catalogue, d’un instantané précédent et des rapports datés, artefact de rapport, publication Pages.
 
 Les horaires Actions sont indicatifs : GitHub peut retarder ou désactiver un workflow planifié (notamment après une période d’inactivité du dépôt public). Le site alerte après 48 h sans collecte de données réussie. Un workflow présent n’est pas une preuve d’exécution.
 
@@ -65,7 +65,7 @@ python -m collectors.validate
 npm run build
 ```
 
-Le verrou npm est généré puis conservé par la première exécution Actions si l’environnement de création ne peut pas accéder au registre npm. Les versions directes sont fixées dans `package.json` et `requirements.txt`.
+Le verrou npm est généré et conservé par GitHub Actions. Les installations prennent en compte ce verrou et le mettent à jour si les dépendances directes changent. Les versions directes sont fixées dans `package.json` et `requirements.txt`.
 
 `data/sources.json` est le registre persistant ; `public/data/` contient les fichiers publiés. Les données synthétiques n’existent que dans `tests/`. Aucun événement de démonstration n’est chargé par l’application.
 
@@ -74,3 +74,5 @@ Le verrou npm est généré puis conservé par la première exécution Actions s
 L’inventaire contient des liens non vérifiés. La liste des sources opérationnelles dépend des résultats de collecte, et non de la configuration. Pas de collecte automatique LinkedIn, intranet, messagerie, affiche ni newsletter privée. Pas de scraping massif des plateformes. Pas de promesse de stage, de réseau ou d’accès : les conditions non extraites restent « Non précisé ». Les conseils sont déterministes et généraux, sans invention de personnes ou d’exposants.
 
 Le système est conçu pour évoluer par ajout de connecteurs testés et par audit. Il ne prouve pas une couverture globale exhaustive. Les échecs et travaux restant à faire sont visibles dans Sources et Couverture.
+
+Un premier relevé indépendant réel de huit annonces visibles sur la première page LCF au 28 octobre 2026 est conservé dans `data/audits/2026-10-28-lcf-page1.json`. Sa portée se limite à cette page et à cet instant ; il ne représente pas tous les agendas.

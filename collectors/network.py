@@ -59,10 +59,15 @@ class Fetcher:
                 text,_,_=self._request(robots_url);rp.parse(text.splitlines())
             except requests.HTTPError as e:
                 if e.response.status_code in (404,410): rp.parse([])
-                else: raise RuntimeError('robots.txt inaccessible : collecte suspendue') from e
-            except Exception as e: raise RuntimeError('robots.txt non vérifié : collecte suspendue') from e
+                else:
+                    self.robots.pop(host,None)
+                    raise RuntimeError('robots.txt inaccessible : collecte suspendue') from e
+            except Exception as e:
+                self.robots.pop(host,None)
+                raise RuntimeError('robots.txt non vérifié : collecte suspendue') from e
             delay=rp.crawl_delay(AGENT) or rp.crawl_delay('*') or 1
-            self.robots[host]=(rp,min(max(delay,1),60))
+            if delay>60: raise PermissionError('Crawl-delay supérieur à 60 secondes : intégration à planifier séparément')
+            self.robots[host]=(rp,max(delay,1))
         rp=self.robots[host][0]
         if rp and not rp.can_fetch(AGENT,url): raise PermissionError('Interdit par robots.txt')
     def get(self,url):
