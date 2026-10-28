@@ -16,7 +16,7 @@ permissions:
   contents: read
 concurrency:
   group: radar-production
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'push' }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -50,6 +50,18 @@ jobs:
           if [ "$SCHEDULE" = '15 16 * * *' ]; then FLAGS+=(--priority); fi
           if [ "$EVENT_NAME" = 'push' ] || [ "$DISCOVERY" = 'true' ] || { [ "$SCHEDULE" = '15 6 * * *' ] && [ "$(date -u +%u)" = '7' ]; }; then FLAGS+=(--discover); fi
           if [ "$EVENT_NAME" = 'push' ] || [ "$(date -u +%d)" = '01' ]; then FLAGS+=(--audit); fi
+          if [ "$EVENT_NAME" = 'push' ] && python - <<'PYFRESH'
+          import json,sys
+          from pathlib import Path
+          from datetime import datetime,timezone
+          r=json.loads(Path('public/data/run.json').read_text())
+          value=r.get('lastSuccessfulCollection')
+          fresh=bool(value) and (datetime.now(timezone.utc)-datetime.fromisoformat(value)).total_seconds()<7200
+          sys.exit(0 if fresh else 1)
+          PYFRESH
+          then
+            FLAGS=(--reprocess --audit)
+          fi
           python -u -m collectors.pipeline "${FLAGS[@]}" --budget 420
       - name: Valider les données et construire le site
         run: |

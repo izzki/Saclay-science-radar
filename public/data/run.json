@@ -1,62 +1,62 @@
 {
-  "startedAt": "2026-10-28T15:08:06+00:00",
-  "lastSuccessfulCollection": "2026-10-28T15:16:19+00:00",
-  "newSources": 253,
+  "startedAt": "2026-10-28T15:21:39+00:00",
+  "lastSuccessfulCollection": "2026-10-28T15:30:14+00:00",
+  "newSources": 41,
   "sources": [
     {
       "id": "s001",
-      "count": 20,
-      "result": "ok",
-      "errors": 0,
-      "pending": 3
-    },
-    {
-      "id": "s002",
-      "count": 59,
-      "result": "ok",
-      "errors": 1,
-      "pending": 3
-    },
-    {
-      "id": "s006",
       "count": 15,
       "result": "ok",
       "errors": 0,
-      "pending": 4
+      "pending": 11
     },
     {
-      "id": "s019",
+      "id": "s002",
+      "count": 31,
+      "result": "ok",
+      "errors": 0,
+      "pending": 10
+    },
+    {
+      "id": "s006",
       "count": 5,
       "result": "ok",
       "errors": 0,
-      "pending": 0
+      "pending": 17
+    },
+    {
+      "id": "s019",
+      "count": 9,
+      "result": "ok",
+      "errors": 0,
+      "pending": 5
     },
     {
       "id": "s021",
-      "count": 60,
+      "count": 49,
       "result": "ok",
-      "errors": 2,
-      "pending": 7
+      "errors": 0,
+      "pending": 26
     },
     {
       "id": "s025",
-      "count": 115,
+      "count": 113,
       "result": "ok",
       "errors": 0,
       "pending": 0
     },
     {
       "id": "s029",
-      "count": 9,
+      "count": 33,
       "result": "ok",
-      "errors": 3,
+      "errors": 2,
       "pending": 0
     },
     {
       "id": "s040",
       "count": 5,
       "result": "ok",
-      "errors": 10,
+      "errors": 6,
       "pending": 0
     },
     {
@@ -64,28 +64,28 @@
       "count": 1,
       "result": "ok",
       "errors": 1,
-      "pending": 0
+      "pending": 3
     },
     {
       "id": "s052",
-      "count": 6,
+      "count": 4,
       "result": "ok",
-      "errors": 1,
-      "pending": 0
+      "errors": 0,
+      "pending": 2
     },
     {
       "id": "s084",
-      "count": 24,
-      "result": "ok",
-      "errors": 3,
-      "pending": 58
+      "count": 0,
+      "result": "empty",
+      "errors": 0,
+      "pending": 79
     },
     {
       "id": "s088",
-      "count": 40,
+      "count": 34,
       "result": "ok",
       "errors": 1,
-      "pending": 0
+      "pending": 15
     },
     {
       "id": "s089",
@@ -96,9 +96,86 @@
     },
     {
       "id": "s094",
-      "count": 14,
+      "count": 24,
       "result": "ok",
       "errors": 1,
+      "pending": 4
+    },
+    {
+      "id": "auto-c5deacff8126",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-96749344616e",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-0adfebb08bcb",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-7cac1f7b7369",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-d67f0752566c",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-1f4fb0b6cea9",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-2c484ad3c5da",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-94accafbe2aa",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-ed726d5428f8",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-4acc39c849ff",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "auto-4cc19b710ccb",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
       "pending": 0
     }
   ],
@@ -129,14 +206,14 @@
     }
   ],
   "scheduled": true,
-  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40712795890",
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/40715106814",
   "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
   "discoverySchedule": "Dimanche, 06:15 UTC",
   "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
-  "finishedAt": "2026-10-28T15:16:19+00:00",
+  "finishedAt": "2026-10-28T15:30:14+00:00",
   "httpRequests": 415,
-  "events": 373,
-  "incoming": 373,
-  "newEvents": 373,
+  "events": 378,
+  "incoming": 334,
+  "newEvents": 66,
   "status": "Succès partiel"
 }

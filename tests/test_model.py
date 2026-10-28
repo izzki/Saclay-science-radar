@@ -23,6 +23,8 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(e['city'],'Palaiseau');self.assertEqual(e['status'],'Reporté')
     def test_affiliation_does_not_determine_venue(self):
         self.assertIsNone(event(description='Intervenant de Paris')['city'])
+    def test_nonfinite_price_unknown(self):
+        self.assertIsNone(event(price='NaN')['price'])
     def test_no_invention(self):
         e=event();self.assertIsNone(e['price']);self.assertIsNone(e['city']);self.assertIsNone(e['registrationUrl']);self.assertEqual(e['priceLabel'],'Non précisé')
     def test_quantum_word_not_max(self):
@@ -41,6 +43,9 @@ class ModelTests(unittest.TestCase):
     def test_sessions_preserved(self):
         a=event();b=dict(a,start='2026-11-03T14:00:00+01:00',id='session2')
         self.assertEqual(len(reconcile([],[a,b])),2)
+    def test_identity_stable_across_translations(self):
+        a=event(location='Endroit IHP');b=event(location='Place IHP');b['url']='https://example.org/en/event/1';b['sources'][0]['url']=b['url']
+        result=compact([a,b]);self.assertEqual(len(result),1);self.assertEqual(len(result[0]['sources']),2)
     def test_merge_provenance(self):
         a=event();b=event();b['sources']=[dict(b['sources'][0],id='other')]
         result=reconcile([a],[b]);self.assertEqual(len(result),1);self.assertEqual(len(result[0]['sources']),2)

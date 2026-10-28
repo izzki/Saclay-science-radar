@@ -35,7 +35,7 @@ def run(args):
     for source in registry:
         if source.get('discoveredAt') and source.get('connector')=='ics' and re.search(r'(?:[?&](?:method=ical&(?:[^#]*&)?id=|event_id=|mec-ical=event)|/agenda/\d+/ical/)',source['url']):
             source.update(enabled=False,status='Export d’événement — source parente collectée')
-    active=[s for s in registry if s.get('enabled') and (not args.priority or s.get('priority'))]
+    active=[] if args.reprocess else [s for s in registry if s.get('enabled') and (not args.priority or s.get('priority'))]
     for source_index,source in enumerate(active):
         source_budget=max(6,(args.budget-fetcher.requests)//max(1,len(active)-source_index))
         source_start_requests=fetcher.requests
@@ -91,7 +91,7 @@ def run(args):
     for source in registry:
         if source.get('discoveredAt') and source.get('connector')=='ics' and ('ical' in source['url'] or '.ics' in source['url']) and ('event=' in source['url'] or '/agenda/' in source['url']):
             source.update(enabled=False,status='Export d’événement — source parente collectée')
-    if args.discover:
+    if args.discover and not args.reprocess:
         registry=discover(registry,fetcher,pages,report)
         for source in registry:
             if source.get('lastCheck') or source.get('status')=='Surveillance automatique indisponible':continue
@@ -110,6 +110,9 @@ def run(args):
     if incoming:report['lastSuccessfulCollection']=now()
     report.update(finishedAt=now(),httpRequests=fetcher.requests,events=len(events),incoming=len(reconcile([],incoming)),newEvents=len([e for e in events if e['id'] not in {p['id'] for p in previous}]),
         status='Succès partiel' if report['errors'] or any(s['result']!='ok' or s.get('errors') or s.get('pending') for s in report['sources']) else 'Succès' if incoming else 'Aucune collecte confirmée')
+    if args.reprocess:
+        report['status']='Catalogue retraité sans téléchargement · collecte précédente : '+prior.get('status','Non précisé')
+        report['reprocessed']=True
     cov=coverage(registry,events,report)
     write('data/sources.json',registry);write('public/data/sources.json',registry)
     write('public/data/events.json',events);write('public/data/run.json',report);write('public/data/coverage.json',cov)
@@ -120,5 +123,5 @@ def run(args):
     print(json.dumps({'events':len(events),'sources':len(registry),'automated':cov['automated'],'discovered':cov['discovered'],'http':fetcher.requests},ensure_ascii=False))
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--discover',action='store_true');parser.add_argument('--audit',action='store_true');parser.add_argument('--priority',action='store_true');parser.add_argument('--budget',type=int,default=350)
+    parser=argparse.ArgumentParser();parser.add_argument('--discover',action='store_true');parser.add_argument('--audit',action='store_true');parser.add_argument('--priority',action='store_true');parser.add_argument('--reprocess',action='store_true');parser.add_argument('--budget',type=int,default=350)
     run(parser.parse_args())

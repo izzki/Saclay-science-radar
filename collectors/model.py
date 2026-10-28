@@ -1,6 +1,7 @@
 from __future__ import annotations
 import hashlib
 import html
+import math
 import re
 import unicodedata
 from datetime import datetime, date, timezone
@@ -99,7 +100,7 @@ def make_event(raw, source, checked=None):
     price=raw.get('price')
     try: price=float(price) if price is not None and price!='' else None
     except (TypeError,ValueError): price=None
-    if price is not None and (price<0 or price>100000): price=None
+    if price is not None and (not math.isfinite(price) or price<0 or price>100000): price=None
     city=clean(raw.get('city')) or None
     if not city:
         for candidate in ['Gif-sur-Yvette','Bures-sur-Yvette','Saint-Aubin','Palaiseau','Orsay','Paris','Saclay']:
@@ -131,6 +132,7 @@ def make_event(raw, source, checked=None):
 def same_event(a,b):
     # Sessions distinctes : même date ET même précision horaire obligatoires.
     if a['start']!=b['start']: return False
+    if a.get('id')==b.get('id') and norm(a['title'])==norm(b['title']):return True
     if a.get('externalId') and a.get('externalId')==b.get('externalId') and {s['id'] for s in a['sources']} & {s['id'] for s in b['sources']}: return True
     if canonical(a['url'])==canonical(b['url']) and norm(a['title'])==norm(b['title']): return True
     return norm(a['title'])==norm(b['title']) and norm(a['organizer'])==norm(b['organizer']) and norm(a.get('location'))==norm(b.get('location'))
@@ -147,7 +149,7 @@ def reconcile(previous, incoming):
         if match:
             changes={k:{'before':match.get(k),'after':new.get(k)} for k in ('start','end','location','address','price','status','registration') if match.get(k)!=new.get(k)}
             history=match.get('history',[])+([{'at':new['lastVerified'],'changes':changes}] if changes else [])
-            sources={s['id']:s for s in match['sources']+new['sources']}
+            sources={(s['id'],s['url']):s for s in match['sources']+new['sources']}
             # A sparse feed must not erase richer known information.
             merged={k:(v if v is not None and v!='' and v!=[] else match.get(k,v)) for k,v in new.items()}
             if new.get('price') is None and match.get('price') is not None:

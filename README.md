@@ -34,7 +34,7 @@ Workflow `.github/workflows/radar.yml` :
 - 16:15 UTC : deuxième passage des sources prioritaires.
 - Dimanche matin : découverte et contrôle d’URL candidates, dans le budget HTTP.
 - Premier jour du mois : rapport de couverture et recalcul des audits indépendants disponibles.
-- Exécution manuelle disponible et première collecte sur modification du code.
+- Exécution manuelle disponible. Sur modification du code, réutilisation des données réelles si la dernière collecte date de moins de deux heures ; sinon collecte. Les passages planifiés téléchargent toujours les données. Les nouvelles modifications de code peuvent remplacer une exécution précédente en cours.
 - Tests Python et TypeScript, contrôle Android sous Chromium, validation des données, build, persistance du catalogue, d’un instantané précédent et des rapports datés, artefact de rapport, publication Pages.
 
 Les horaires Actions sont indicatifs : GitHub peut retarder ou désactiver un workflow planifié (notamment après une période d’inactivité du dépôt public). Le site alerte après 48 h sans collecte de données réussie. Un workflow présent n’est pas une preuve d’exécution.
