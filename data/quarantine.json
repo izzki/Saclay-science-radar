@@ -6,13 +6,15 @@
       "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Salons Global Industrie 2026 du 30 mar 2026 au 2 avr 2026 Paris Nord Villepinte Webinaires La valeur ajoutée du logiciel en photonique 18 mars 2026 en ligne Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau Salons SPIE Photonics West 2026 du 20 jan 2026 au 22 jan 2026 San Francisco Webinaires Rencontre avec les nouveaux adhérents 9 décembre 2025 en ligne 1 2 3",
       "start": "2026-03-18",
       "end": null,
+      "endExclusive": false,
+      "evidence": {},
       "timezone": "Europe/Paris",
       "organizer": "Photonics France",
       "location": null,
       "address": null,
       "city": null,
-      "format": "Non précisé",
-      "category": "Salon",
+      "format": "Hybride",
+      "category": "Conférence",
       "disciplines": [
         "Photonique",
         "Deeptech"
@@ -38,13 +40,15 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/page/3/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:12:02+00:00"
+          "checkedAt": "2026-10-29T13:05:15+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:12:02+00:00",
+      "firstSeen": "2026-10-29T13:05:15+00:00",
+      "lastVerified": "2026-10-29T13:05:15+00:00",
       "history": [],
       "externalId": null,
+      "extractionVersion": 1,
+      "warnings": [],
       "score": {
         "total": 61,
         "parts": {
@@ -134,13 +138,15 @@
       "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Webinaires Rencontre avec nos adhérents 17 septembre 2026 en distanciel Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Webinaires Rencontre avec nos adhérents 11 juin 2026 en distanciel Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Salons SPIE Photonics Europe 2026 du 14 avr 2026 au 15 avr 2026 Strasbourg Webinaires Rencontre avec nos nouveaux adhérents 9 avril 2026 en ligne Institutionnel Assemblée générale 2026 3 avril 2026 Paris - Bpifrance Le Hub 1 2 3",
       "start": "2026-09-17",
       "end": null,
+      "endExclusive": false,
+      "evidence": {},
       "timezone": "Europe/Paris",
       "organizer": "Photonics France",
       "location": null,
       "address": null,
       "city": null,
-      "format": "Non précisé",
-      "category": "Salon",
+      "format": "En ligne",
+      "category": "Événement scientifique",
       "disciplines": [
         "Photonique"
       ],
@@ -165,19 +171,21 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/page/2/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:12:02+00:00"
+          "checkedAt": "2026-10-29T13:05:15+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:12:02+00:00",
+      "firstSeen": "2026-10-29T13:05:15+00:00",
+      "lastVerified": "2026-10-29T13:05:15+00:00",
       "history": [],
       "externalId": null,
+      "extractionVersion": 1,
+      "warnings": [],
       "score": {
-        "total": 56,
+        "total": 61,
         "parts": {
           "Adéquation scientifique": 26,
           "Networking annoncé": 20,
-          "Proximité": 3,
+          "Proximité": 8,
           "Coût et accès": 5,
           "Stages et métiers": 0,
           "Niveau étudiant": 2
@@ -447,18 +455,21 @@
     "event": {
       "id": "cf490c0ede2edd2524cc",
       "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2026 2025 Tags Tous les tags Votre recherche : 6 événement(s) disponible(s) Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Webinaires Rencontre avec nos adhérents 17 septembre 2026 en distanciel Webinaires Rencontre avec nos adhérents 11 juin 2026 en distanciel Webinaires Rencontre avec nos nouveaux adhérents 9 avril 2026 en ligne Webinaires La valeur ajoutée du logiciel en photonique 18 mars 2026 en ligne Webinaires Rencontre avec les nouveaux adhérents 9 décembre 2025 en ligne",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Salons SPIE Photonics West 2027 du 2 fév 2027 au 4 fév 2027 San Francisco Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Salons Global Industrie 2027 du 15 mar 2027 au 18 mar 2027 Lyon Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie Salons Global Photonics Economic Forum 2026 du 24 sep 2026 au 25 sep 2026 FYCMA, Palais des Congrès, à Málaga, en Espagne 1 2 3",
       "start": "2026-11-17",
       "end": null,
+      "endExclusive": false,
+      "evidence": {},
       "timezone": "Europe/Paris",
       "organizer": "Photonics France",
       "location": null,
       "address": null,
       "city": null,
-      "format": "Non précisé",
-      "category": "Événement scientifique",
+      "format": "Hybride",
+      "category": "Forum métiers",
       "disciplines": [
-        "Photonique"
+        "Photonique",
+        "Deeptech"
       ],
       "price": null,
       "currency": null,
@@ -472,30 +483,32 @@
       "companies": [],
       "labs": [],
       "level": null,
-      "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
+      "url": "https://www.photonics-france.org/evenements/",
       "status": "Annoncé",
       "reliability": "Élevée",
       "sources": [
         {
           "id": "s052",
           "name": "Photonics France",
-          "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
+          "url": "https://www.photonics-france.org/evenements/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:24:18+00:00"
+          "checkedAt": "2026-10-29T13:05:16+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:24:18+00:00",
+      "firstSeen": "2026-10-29T13:05:16+00:00",
+      "lastVerified": "2026-10-29T13:05:16+00:00",
       "history": [],
       "externalId": null,
+      "extractionVersion": 1,
+      "warnings": [],
       "score": {
-        "total": 56,
+        "total": 61,
         "parts": {
           "Adéquation scientifique": 26,
           "Networking annoncé": 20,
           "Proximité": 3,
           "Coût et accès": 5,
-          "Stages et métiers": 0,
+          "Stages et métiers": 5,
           "Niveau étudiant": 2
         },
         "reasons": [
@@ -514,12 +527,14 @@
       "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 9 événement(s) disponible(s) Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau",
       "start": "2026-11-24",
       "end": null,
+      "endExclusive": false,
+      "evidence": {},
       "timezone": "Europe/Paris",
       "organizer": "Photonics France",
       "location": null,
       "address": null,
       "city": null,
-      "format": "Non précisé",
+      "format": "Hybride",
       "category": "Conférence",
       "disciplines": [
         "Photonique"
@@ -545,13 +560,15 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/networking/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:24:18+00:00"
+          "checkedAt": "2026-10-29T13:05:16+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:24:18+00:00",
+      "firstSeen": "2026-10-29T13:05:16+00:00",
+      "lastVerified": "2026-10-29T13:05:16+00:00",
       "history": [],
       "externalId": null,
+      "extractionVersion": 1,
+      "warnings": [],
       "score": {
         "total": 56,
         "parts": {
@@ -641,6 +658,8 @@
       "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Votre recherche : 3 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie Institutionnel Assemblée générale 2026 3 avril 2026 Paris - Bpifrance Le Hub",
       "start": "2027-03-24",
       "end": null,
+      "endExclusive": false,
+      "evidence": {},
       "timezone": "Europe/Paris",
       "organizer": "Photonics France",
       "location": null,
@@ -673,13 +692,15 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-28T15:24:18+00:00"
+          "checkedAt": "2026-10-29T13:05:16+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T15:12:02+00:00",
-      "lastVerified": "2026-10-28T15:24:18+00:00",
+      "firstSeen": "2026-10-29T13:05:16+00:00",
+      "lastVerified": "2026-10-29T13:05:16+00:00",
       "history": [],
       "externalId": null,
+      "extractionVersion": 1,
+      "warnings": [],
       "score": {
         "total": 61,
         "parts": {
@@ -3140,11 +3161,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T18:38:10+00:00"
+          "checkedAt": "2026-10-29T13:06:43+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T18:38:10+00:00",
-      "lastVerified": "2026-10-28T18:38:10+00:00",
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3209,11 +3230,557 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/game-night-16",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-10-28T18:51:06+00:00"
+          "checkedAt": "2026-10-29T13:06:43+00:00"
         }
       ],
-      "firstSeen": "2026-10-28T18:38:10+00:00",
-      "lastVerified": "2026-10-28T18:51:06+00:00",
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "c9579c9bc1e3e555f442",
+      "title": "Atelier photo 📷",
+      "description": "10 sept. - 8 déc. Campus - Atelier Atelier photo 📷 Centre Mazet - 5A rue André Mazet, 75006, Paris 2026-09-10 18:00 2026-12-08 21:00 Europe/Paris Atelier photo 📷 Centre Mazet - 5A rue André Mazet, 75006, Paris S'inscrire",
+      "start": "2026-09-10T18:00:00+02:00",
+      "end": "2026-12-08T21:00:00+01:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Workshop",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://my.weezevent.com/session-oustiti-11",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/atelier-photo-10",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/atelier-photo-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "dfc2d91352c2540b4c3c",
+      "title": "Littérature et Cinéma chinois - Regards croisés entre texte et écran",
+      "description": "23 oct. - 26 févr. Culture - Séminaire Littérature et Cinéma chinois - Regards croisés entre texte et écran Salle des Actes, 1er étage, escalier A, bâtiment Ulm, ENS-PSL ; 45 rue d’Ulm, 75005, Paris 2026-10-23 18:00 2027-02-26 22:00 Europe/Paris Littérature et Cinéma chinois - Regards croisés entre texte et écran Salle des Actes, 1er étage, escalier A, bâtiment Ulm, ENS-PSL ; 45 rue d’Ulm, 75005, Paris",
+      "start": "2026-10-23T18:00:00+02:00",
+      "end": "2027-02-26T22:00:00+01:00",
+      "endExclusive": false,
+      "evidence": {},
+      "timezone": "UTC+02:00",
+      "organizer": "Université PSL",
+      "location": "Salle des Actes, 1er étage, escalier A, bâtiment Ulm, ENS-PSL ; 45 rue d’Ulm, 75005, Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Séminaire",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/litterature-et-cinema-chinois-regards-croises-entre-texte-et-ecran",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/litterature-et-cinema-chinois-regards-croises-entre-texte-et-ecran",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "6cc79e500802b6e7de2b",
+      "title": "Festival Musique 2026 « Piano/accordéon autour de la danse »",
+      "description": "3 nov. Culture - Festival Festival Musique 2026 « Piano/accordéon autour de la danse » Mines Paris - PSL, salle des colonnes - 60 bvd Saint-Michel 75006 Paris France 2026-11-03 20:00 2026-11-03 21:15 Europe/Paris Festival Musique 2026 « Piano/accordéon autour de la danse » Mines Paris - PSL, salle des colonnes - 60 bvd Saint-Michel 75006 Paris France S'inscrire",
+      "start": "2026-11-03T20:00:00+01:00",
+      "end": "2026-11-03T21:15:00+01:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Mines Paris - PSL, salle des colonnes - 60 bvd Saint-Michel 75006 Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://www.helloasso.com/associations/crescendo-apjm/evenements/festival-musique-aux-mines-2026-piano-accordeon-autour-de-la-danse",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/festival-musique-2026-pianoaccordeon-autour-de-la-danse",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/festival-musique-2026-pianoaccordeon-autour-de-la-danse",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "1399d1cc3492afd29ee8",
+      "title": "Festival Musique 2026 « Trio Cornière »",
+      "description": "7 nov. Culture - Festival Festival Musique 2026 « Trio Cornière » Maison du Japon de la CIUP - 7 boulevard Jourdan 75014 Paris France 2026-11-07 20:30 2026-11-07 22:00 Europe/Paris Festival Musique 2026 « Trio Cornière » Maison du Japon de la CIUP - 7 boulevard Jourdan 75014 Paris France S'inscrire",
+      "start": "2026-11-07T20:30:00+01:00",
+      "end": "2026-11-07T22:00:00+01:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Maison du Japon de la CIUP - 7 boulevard Jourdan 75014 Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://www.helloasso.com/associations/crescendo-apjm/evenements/festival-musique-aux-mines-2026-trio-corniere",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/festival-musique-2026-trio-corniere",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/festival-musique-2026-trio-corniere",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "e929036a29bb309e20f7",
+      "title": "Festival Musique 2026 « Quatuor à cordes et percussions »",
+      "description": "10 nov. Culture - Festival Festival Musique 2026 « Quatuor à cordes et percussions » Mines Paris - PSL, espace Maurice Allais - 60 bvd Saint-Michel 75006 Paris France 2026-11-10 20:00 2026-11-10 21:15 Europe/Paris Festival Musique 2026 « Quatuor à cordes et percussions » Mines Paris - PSL, espace Maurice Allais - 60 bvd Saint-Michel 75006 Paris France S'inscrire",
+      "start": "2026-11-10T20:00:00+01:00",
+      "end": "2026-11-10T21:15:00+01:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Mines Paris - PSL, espace Maurice Allais - 60 bvd Saint-Michel 75006 Paris France",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://www.helloasso.com/associations/crescendo-apjm/evenements/festival-musique-aux-mines-2026-quatuor-a-cordes-et-percussions",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/festival-musique-2026-quatuor-cordes-et-percussions",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/festival-musique-2026-quatuor-cordes-et-percussions",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "6db759689dd88722890a",
+      "title": "AFTER Project room - SIGNATURES ART FAIR",
+      "description": "13 nov. - 15 nov. Culture - Festival AFTER Project room - SIGNATURES ART FAIR 4 Rue Eugène Spuller Paris 3e 2026-11-13 10:00 2026-11-15 18:00 Europe/Paris AFTER Project room - SIGNATURES ART FAIR 4 Rue Eugène Spuller Paris 3e",
+      "start": "2026-11-13T10:00:00+01:00",
+      "end": "2026-11-15T18:00:00+01:00",
+      "endExclusive": false,
+      "evidence": {},
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "4 Rue Eugène Spuller Paris 3e",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/after-project-room-signatures-art-fair",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/after-project-room-signatures-art-fair",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "3b3ff35066648d99e128",
+      "title": "Spectacle : Trait(s)",
+      "description": "Cirque, peinture et musique se rencontrent dans ce spectacle pour familles et enfants. Un acrobate transforme la scène en toile vivante : avec sa roue Cyr comme pinceau, il trace, tourne, éclabousse et fait surgir formes et couleurs. Inspiré des peintres Kandinsky, Miró ou Delaunay, \"Trait(s)\" mêle cirque et arts visuels dans un jeu de lignes et de spirales. Chaque geste laisse une empreinte, chaque passage dessine une œuvre éphémère. Accompagné d’un musicien multi-instrumentiste, l’acrobate invente un langage poétique de cercles et de pigments. Un moment suspendu, comme un tableau en train de naître.",
+      "start": "2026-12-05T14:00:00+01:00",
+      "end": "2026-12-05T14:40:00+01:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "Réserver"
+      },
+      "timezone": "UTC+01:00",
+      "organizer": "ENS Paris-Saclay",
+      "location": "La Scène de recherche - Théâtre Paris-Saclay",
+      "address": null,
+      "city": null,
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Instrumentation"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://billetterie-scenederecherche.mapado.com/event/781308-trait-s",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://scenederecherche.ens-paris-saclay.fr/",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s006",
+          "name": "ENS Paris-Saclay",
+          "url": "https://scenederecherche.ens-paris-saclay.fr/",
+          "listingUrl": "https://ens-paris-saclay.fr/agenda",
+          "checkedAt": "2026-10-29T13:01:45+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:01:45+00:00",
+      "lastVerified": "2026-10-29T13:01:45+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 32,
+        "parts": {
+          "Adéquation scientifique": 22,
+          "Networking annoncé": 0,
+          "Proximité": 3,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
+  },
+  {
+    "event": {
+      "id": "eb4115f05a72e6fc7ec7",
+      "title": "Un concert solidaire au profit des étudiants",
+      "description": "8 déc. Culture - Soirée Un concert solidaire au profit des étudiants Grand Amphithéâtre de la Sorbonne, 47 rue des Ecoles 75005 Paris 2026-12-08 21:00 2026-12-08 23:30 Europe/Paris Un concert solidaire au profit des étudiants Grand Amphithéâtre de la Sorbonne, 47 rue des Ecoles 75005 Paris",
+      "start": "2026-12-08T21:00:00+01:00",
+      "end": "2026-12-08T23:30:00+01:00",
+      "endExclusive": false,
+      "evidence": {},
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Grand Amphithéâtre de la Sorbonne, 47 rue des Ecoles 75005 Paris",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": null,
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/un-concert-solidaire-au-profit-des-etudiants",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/un-concert-solidaire-au-profit-des-etudiants",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-10-29T13:06:43+00:00"
+        }
+      ],
+      "firstSeen": "2026-10-29T13:06:43+00:00",
+      "lastVerified": "2026-10-29T13:06:43+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,

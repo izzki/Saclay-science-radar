@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-28T21:11:56+00:00",
+  "generatedAt": "2026-10-29T13:09:35+00:00",
   "inventory": 317,
-  "automated": 23,
+  "automated": 26,
   "enabled": 34,
   "verifiedUrls": 140,
   "discovered": 189,
-  "successfulCollectors": 23,
+  "successfulCollectors": 26,
   "attemptedCollectors": 34,
-  "collectorSuccessRate": 67.6,
-  "inventoryAutomationRate": 7.3,
+  "collectorSuccessRate": 76.5,
+  "inventoryAutomationRate": 8.2,
   "globalRecall": null,
   "audits": [
     {
@@ -35,8 +35,8 @@
     }
   ],
   "auditedRecall": 100.0,
-  "lastSuccessfulCollection": "2026-10-28T21:11:56+00:00",
-  "events": 659,
+  "lastSuccessfulCollection": "2026-10-29T13:09:34+00:00",
+  "events": 844,
   "limits": [
     "L’inventaire comprend des URL candidates non vérifiées.",
     "Le succès technique d’un collecteur ne prouve pas l’exhaustivité de l’agenda.",
@@ -47,12 +47,9 @@
   "nextPriorities": [
     "École polytechnique",
     "Institut Polytechnique de Paris",
-    "ENS Paris-Saclay",
     "ISMO",
     "IJCLab",
     "Quantum-Saclay",
-    "Photonics France",
-    "Le Lab Quantique",
     "Collège de France",
     "Sorbonne Université",
     "École normale supérieure"
