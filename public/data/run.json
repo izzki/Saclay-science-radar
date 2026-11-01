@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-31T20:00:20+00:00",
-  "lastSuccessfulCollection": "2026-10-31T20:03:19+00:00",
+  "startedAt": "2026-11-01T20:32:15+00:00",
+  "lastSuccessfulCollection": "2026-11-01T20:35:42+00:00",
   "newSources": 0,
   "sources": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": "s019",
-      "count": 5,
+      "count": 4,
       "result": "ok",
       "errors": 0,
       "pending": 0
@@ -69,16 +69,16 @@
   ],
   "errors": [],
   "scheduled": true,
-  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/41236807991",
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/41347334581",
   "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
   "discoverySchedule": "Dimanche, 06:15 UTC",
   "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
   "quarantined": 0,
   "quarantineHistory": 57,
-  "finishedAt": "2026-10-31T20:03:19+00:00",
-  "httpRequests": 101,
-  "events": 907,
-  "incoming": 279,
-  "newEvents": 0,
+  "finishedAt": "2026-11-01T20:35:42+00:00",
+  "httpRequests": 99,
+  "events": 911,
+  "incoming": 278,
+  "newEvents": 4,
   "status": "Succès partiel"
 }
