@@ -455,7 +455,7 @@
     "event": {
       "id": "cf490c0ede2edd2524cc",
       "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 24 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Salons SPIE Photonics West 2027 du 2 fév 2027 au 4 fév 2027 San Francisco Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Salons Global Industrie 2027 du 15 mar 2027 au 18 mar 2027 Lyon Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie Salons Global Photonics Economic Forum 2026 du 24 sep 2026 au 25 sep 2026 FYCMA, Palais des Congrès, à Málaga, en Espagne 1 2 3",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 25 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking France Innovation Defense, Security & Aerospace Meetings 10 décembre 2026 en ligne Salons SPIE Photonics West 2027 du 2 fév 2027 au 4 fév 2027 San Francisco Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Salons Global Industrie 2027 du 15 mar 2027 au 18 mar 2027 Lyon Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie 1 2 3",
       "start": "2026-11-17",
       "end": null,
       "endExclusive": false,
@@ -466,7 +466,7 @@
       "address": null,
       "city": null,
       "format": "Hybride",
-      "category": "Forum métiers",
+      "category": "Événement scientifique",
       "disciplines": [
         "Photonique",
         "Deeptech"
@@ -492,11 +492,11 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-31T12:33:54+00:00"
+          "checkedAt": "2026-11-03T14:18:53+00:00"
         }
       ],
-      "firstSeen": "2026-10-31T12:33:54+00:00",
-      "lastVerified": "2026-10-31T12:33:54+00:00",
+      "firstSeen": "2026-11-03T14:18:53+00:00",
+      "lastVerified": "2026-11-03T14:18:53+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
@@ -524,7 +524,7 @@
     "event": {
       "id": "37ab9b8815ca478456c4",
       "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 9 événement(s) disponible(s) Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne Networking Café & Conférence avec Tematys 12 février 2026 Palaiseau",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 10 événement(s) disponible(s) Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking France Innovation Defense, Security & Aerospace Meetings 10 décembre 2026 en ligne Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Networking After Photonics 15 septembre 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking PLI Conférences du 1 juil 2026 au 2 juil 2026 Stade Beaublanc, Limoges Networking After Photonics 4 juin 2026 Café Oz, Denfert-Rochereau, 75014 Paris Networking La photonique pour la santé visuelle 29 mai 2026 Centre R&D d'EssilorLuxottica, Créteil Networking Minalogic Business Meetings 2026 17 mars 2026 Hybride Grenoble / en ligne 1 2",
       "start": "2026-11-24",
       "end": null,
       "endExclusive": false,
@@ -535,9 +535,10 @@
       "address": null,
       "city": null,
       "format": "Hybride",
-      "category": "Conférence",
+      "category": "Événement scientifique",
       "disciplines": [
-        "Photonique"
+        "Photonique",
+        "Deeptech"
       ],
       "price": null,
       "currency": null,
@@ -560,23 +561,23 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/networking/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-10-31T12:33:54+00:00"
+          "checkedAt": "2026-11-03T14:18:53+00:00"
         }
       ],
-      "firstSeen": "2026-10-31T12:33:54+00:00",
-      "lastVerified": "2026-10-31T12:33:54+00:00",
+      "firstSeen": "2026-11-03T14:18:53+00:00",
+      "lastVerified": "2026-11-03T14:18:53+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
       "warnings": [],
       "score": {
-        "total": 56,
+        "total": 61,
         "parts": {
           "Adéquation scientifique": 26,
           "Networking annoncé": 20,
           "Proximité": 3,
           "Coût et accès": 5,
-          "Stages et métiers": 0,
+          "Stages et métiers": 5,
           "Niveau étudiant": 2
         },
         "reasons": [
@@ -692,11 +693,11 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-02T15:56:49+00:00"
+          "checkedAt": "2026-11-03T14:18:53+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:56:49+00:00",
-      "lastVerified": "2026-11-02T15:56:49+00:00",
+      "firstSeen": "2026-11-03T14:18:53+00:00",
+      "lastVerified": "2026-11-03T14:18:53+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
@@ -3127,9 +3128,7 @@
       "start": "2026-09-22T18:30:00+02:00",
       "end": "2027-05-04T20:00:00+02:00",
       "endExclusive": false,
-      "evidence": {
-        "registrationUrl": "S'inscrire"
-      },
+      "evidence": {},
       "timezone": "UTC+02:00",
       "organizer": "Université PSL",
       "location": "3 rue Amyot Paris 5e",
@@ -3161,11 +3160,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3196,9 +3195,7 @@
       "start": "2026-09-25T17:30:00+02:00",
       "end": "2027-07-09T23:00:00+02:00",
       "endExclusive": false,
-      "evidence": {
-        "registrationUrl": "S'inscrire"
-      },
+      "evidence": {},
       "timezone": "UTC+02:00",
       "organizer": "Université PSL",
       "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
@@ -3230,18 +3227,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/game-night-16",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
-        },
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/en/events/game-night-15",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3272,7 +3262,9 @@
       "start": "2026-09-10T18:00:00+02:00",
       "end": "2026-12-08T21:00:00+01:00",
       "endExclusive": false,
-      "evidence": {},
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
       "timezone": "UTC+02:00",
       "organizer": "Université PSL",
       "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
@@ -3304,18 +3296,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/atelier-photo-10",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
-        },
-        {
-          "id": "s088",
-          "name": "Université PSL",
-          "url": "https://psl.eu/en/events/photo-workshop-10",
-          "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3378,11 +3363,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/litterature-et-cinema-chinois-regards-croises-entre-texte-et-ecran",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3447,11 +3432,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-pianoaccordeon-autour-de-la-danse",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3516,11 +3501,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-trio-corniere",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3585,11 +3570,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-quatuor-cordes-et-percussions",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3652,11 +3637,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/after-project-room-signatures-art-fair",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3788,11 +3773,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/un-concert-solidaire-au-profit-des-etudiants",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-02T15:58:12+00:00"
+          "checkedAt": "2026-11-03T14:20:13+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:58:12+00:00",
-      "lastVerified": "2026-11-02T15:58:12+00:00",
+      "firstSeen": "2026-11-03T14:20:13+00:00",
+      "lastVerified": "2026-11-03T14:20:13+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
