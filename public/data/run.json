@@ -1,35 +1,105 @@
 {
-  "startedAt": "2026-11-03T21:49:09+00:00",
-  "lastSuccessfulCollection": "2026-11-03T21:52:44+00:00",
+  "startedAt": "2026-11-04T14:32:40+00:00",
+  "lastSuccessfulCollection": "2026-11-04T14:41:18+00:00",
   "newSources": 0,
   "sources": [
     {
-      "id": "s002",
-      "count": 239,
+      "id": "s001",
+      "count": 25,
       "result": "ok",
       "errors": 0,
-      "pending": 0
+      "pending": 17
+    },
+    {
+      "id": "s002",
+      "count": 179,
+      "result": "ok",
+      "errors": 0,
+      "pending": 22
+    },
+    {
+      "id": "s006",
+      "count": 5,
+      "result": "ok",
+      "errors": 0,
+      "pending": 18
+    },
+    {
+      "id": "s007",
+      "count": 3,
+      "result": "ok",
+      "errors": 0,
+      "pending": 13
     },
     {
       "id": "s019",
       "count": 6,
       "result": "ok",
       "errors": 0,
-      "pending": 0
+      "pending": 11
+    },
+    {
+      "id": "s020",
+      "count": 0,
+      "result": "empty",
+      "errors": 0,
+      "pending": 42
+    },
+    {
+      "id": "s021",
+      "count": 16,
+      "result": "ok",
+      "errors": 0,
+      "pending": 28
+    },
+    {
+      "id": "s025",
+      "count": 112,
+      "result": "ok",
+      "errors": 0,
+      "pending": 155
     },
     {
       "id": "s029",
+      "count": 24,
+      "result": "ok",
+      "errors": 2,
+      "pending": 0
+    },
+    {
+      "id": "s030",
       "count": 25,
       "result": "ok",
       "errors": 2,
       "pending": 0
     },
     {
+      "id": "s032",
+      "count": 3,
+      "result": "ok",
+      "errors": 0,
+      "pending": 13
+    },
+    {
+      "id": "s040",
+      "count": 2,
+      "result": "ok",
+      "errors": 6,
+      "pending": 0
+    },
+    {
+      "id": "s044",
+      "count": 142,
+      "result": "ok",
+      "errors": 0,
+      "pending": 19
+    },
+    {
       "id": "s048",
       "count": 0,
       "result": "empty",
       "errors": 1,
-      "pending": 0
+      "pending": 6
     },
     {
       "id": "s050",
@@ -39,8 +109,71 @@
       "pending": 0
     },
     {
+      "id": "s052",
+      "count": 3,
+      "result": "ok",
+      "errors": 0,
+      "pending": 2
+    },
+    {
+      "id": "s064",
+      "count": 21,
+      "result": "ok",
+      "errors": 0,
+      "pending": 30
+    },
+    {
+      "id": "s065",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 21
+    },
+    {
+      "id": "s070",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "s084",
+      "count": 0,
+      "result": "empty",
+      "errors": 0,
+      "pending": 130
+    },
+    {
+      "id": "s088",
+      "count": 37,
+      "result": "ok",
+      "errors": 1,
+      "pending": 30
+    },
+    {
+      "id": "s089",
+      "count": 0,
+      "result": "empty",
+      "errors": 0,
+      "pending": 0
+    },
+    {
       "id": "s103",
       "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "ups-pharma",
+      "count": 4,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
+      "id": "ups-med",
+      "count": 12,
       "result": "ok",
       "errors": 0,
       "pending": 0
@@ -60,6 +193,13 @@
       "pending": 0
     },
     {
+      "id": "cigre-paris",
+      "count": 1,
+      "result": "ok",
+      "errors": 0,
+      "pending": 0
+    },
+    {
       "id": "quantum-networks-2027",
       "count": 1,
       "result": "ok",
@@ -67,18 +207,39 @@
       "pending": 0
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "s003",
+      "error": "robots.txt non vérifié : collecte suspendue"
+    },
+    {
+      "source": "s004",
+      "error": "404 Client Error: Not Found for url: https://www.ip-paris.fr/actualites/agenda"
+    },
+    {
+      "source": "s023",
+      "error": "Interdit par robots.txt"
+    },
+    {
+      "source": "s086",
+      "error": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda"
+    },
+    {
+      "source": "s094",
+      "error": "robots.txt non vérifié : collecte suspendue"
+    }
+  ],
   "scheduled": true,
-  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/41725157792",
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/41848536861",
   "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
   "discoverySchedule": "Dimanche, 06:15 UTC",
   "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
-  "quarantined": 0,
-  "quarantineHistory": 57,
-  "finishedAt": "2026-11-03T21:52:44+00:00",
-  "httpRequests": 103,
-  "events": 953,
-  "incoming": 281,
-  "newEvents": 0,
+  "quarantined": 11,
+  "quarantineHistory": 58,
+  "finishedAt": "2026-11-04T14:41:18+00:00",
+  "httpRequests": 318,
+  "events": 959,
+  "incoming": 638,
+  "newEvents": 7,
   "status": "Succès partiel"
 }

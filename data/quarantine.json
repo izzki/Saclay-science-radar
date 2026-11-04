@@ -693,11 +693,11 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-03T14:18:53+00:00"
+          "checkedAt": "2026-11-04T14:37:30+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:18:53+00:00",
-      "lastVerified": "2026-11-03T14:18:53+00:00",
+      "firstSeen": "2026-11-04T14:37:30+00:00",
+      "lastVerified": "2026-11-04T14:37:30+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
@@ -3128,7 +3128,9 @@
       "start": "2026-09-22T18:30:00+02:00",
       "end": "2027-05-04T20:00:00+02:00",
       "endExclusive": false,
-      "evidence": {},
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
       "timezone": "UTC+02:00",
       "organizer": "Université PSL",
       "location": "3 rue Amyot Paris 5e",
@@ -3160,11 +3162,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3195,7 +3197,9 @@
       "start": "2026-09-25T17:30:00+02:00",
       "end": "2027-07-09T23:00:00+02:00",
       "endExclusive": false,
-      "evidence": {},
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
       "timezone": "UTC+02:00",
       "organizer": "Université PSL",
       "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
@@ -3227,11 +3231,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/game-night-16",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3296,11 +3300,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/atelier-photo-10",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3363,11 +3367,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/litterature-et-cinema-chinois-regards-croises-entre-texte-et-ecran",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3501,11 +3505,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-trio-corniere",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3570,11 +3574,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-quatuor-cordes-et-percussions",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3637,11 +3641,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/after-project-room-signatures-art-fair",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3773,11 +3777,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/un-concert-solidaire-au-profit-des-etudiants",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-03T14:20:13+00:00"
+          "checkedAt": "2026-11-04T14:38:45+00:00"
         }
       ],
-      "firstSeen": "2026-11-03T14:20:13+00:00",
-      "lastVerified": "2026-11-03T14:20:13+00:00",
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3804,7 +3808,7 @@
     "event": {
       "id": "ffa7a0c0851ddbfcf00e",
       "title": "Nos événements",
-      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 25 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking France Innovation Defense, Security & Aero Meetings 10 décembre 2026 en ligne Salons SPIE Photonics West 2027 du 2 fév 2027 au 4 fév 2027 San Francisco Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Salons Global Industrie 2027 du 15 mar 2027 au 18 mar 2027 Lyon Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie 1 2 3",
+      "description": "Nos événements Thématique Tous les thèmes Institutionnel Networking Salons Webinaires Année Toutes les années 2027 2026 2025 Tags Tous les tags Événement partenaire Business Meeting Votre recherche : 25 événement(s) disponible(s) Institutionnel French Photonics Days 2026 du 9 nov 2026 au 10 nov 2026 Maison MINATEC - Grenoble Webinaires Rencontre avec nos adhérents 17 novembre 2026 en distanciel Networking Photonics Excellence Day 2026 24 novembre 2026 Sorbonne Université, Paris. Networking Fusion nucléaire : l'énergie du futur en Nouvelle-Aquitaine du 25 nov 2026 au 26 nov 2026 Institut Lasers et Plasmas (ILP), Le Barp, Gironde. Networking France Innovation Defense, Security & Aerospace Meetings 10 décembre 2026 en ligne Salons SPIE Photonics West 2027 du 2 fév 2027 au 4 fév 2027 San Francisco Networking Minalogic Business Meetings 2027 11 mars 2027 Hybride Grenoble / en ligne Salons Global Industrie 2027 du 15 mar 2027 au 18 mar 2027 Lyon Institutionnel Assemblée générale 2027 24 mars 2027 Paris - La Cité des sciences et de l'industrie 1 2 3",
       "start": "2026-11-17",
       "end": null,
       "endExclusive": false,
@@ -3841,18 +3845,18 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-02T15:56:49+00:00"
+          "checkedAt": "2026-11-04T14:37:30+00:00"
         },
         {
           "id": "s052",
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-02T15:56:49+00:00"
+          "checkedAt": "2026-11-04T14:37:30+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:56:49+00:00",
-      "lastVerified": "2026-11-02T15:56:49+00:00",
+      "firstSeen": "2026-11-04T14:37:30+00:00",
+      "lastVerified": "2026-11-04T14:37:30+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
@@ -3875,5 +3879,74 @@
       }
     },
     "reason": "Rubrique de navigation interprétée comme événement"
+  },
+  {
+    "event": {
+      "id": "565518daacb4ac31a99e",
+      "title": "Festival Cinéma \"Voix plurielles\"",
+      "description": "23 nov. - 27 nov. Campus - Festival Festival Cinéma \"Voix plurielles\" Campus Amyot - 3 rue Amyot, 75005 Paris - Amphi d'Amyot, Ecole Nationale des Chartes – PSL (65 rue de Richelieu, 75002 Paris) - Salle Quicherat , Dauphine – PSL (Place du Maréchal de Lattre de Tassigny, 75016 Paris) - Amphi 1, Campus Estrapade (16 bis rue de l'Estrapade, 75005 Paris) - Amphi d'Estrapade 2026-11-23 19:30 2026-11-27 21:00 Europe/Paris Festival Cinéma \"Voix plurielles\" Campus Amyot - 3 rue Amyot, 75005 Paris - Amphi d'Amyot S'inscrire",
+      "start": "2026-11-23T19:30:00+01:00",
+      "end": "2026-11-27T21:00:00+01:00",
+      "endExclusive": false,
+      "evidence": {
+        "registrationUrl": "S'inscrire"
+      },
+      "timezone": "UTC+01:00",
+      "organizer": "Université PSL",
+      "location": "Campus Amyot - 3 rue Amyot, 75005 Paris - Amphi d'Amyot",
+      "address": null,
+      "city": "Paris",
+      "format": "Non précisé",
+      "category": "Événement scientifique",
+      "disciplines": [
+        "Sciences générales"
+      ],
+      "price": null,
+      "currency": null,
+      "studentPrice": null,
+      "priceLabel": "Non précisé",
+      "access": null,
+      "registration": null,
+      "registrationUrl": "https://my.weezevent.com/festival-cinema-voix-plurielles",
+      "deadline": null,
+      "speakers": [],
+      "companies": [],
+      "labs": [],
+      "level": null,
+      "url": "https://psl.eu/agenda/festival-cinema-voix-plurielles",
+      "status": "Annoncé",
+      "reliability": "Élevée",
+      "sources": [
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/agenda/festival-cinema-voix-plurielles",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-11-04T14:38:45+00:00"
+        }
+      ],
+      "firstSeen": "2026-11-04T14:38:45+00:00",
+      "lastVerified": "2026-11-04T14:38:45+00:00",
+      "history": [],
+      "externalId": null,
+      "extractionVersion": 2,
+      "warnings": [],
+      "score": {
+        "total": 25,
+        "parts": {
+          "Adéquation scientifique": 8,
+          "Networking annoncé": 0,
+          "Proximité": 10,
+          "Coût et accès": 5,
+          "Stages et métiers": 0,
+          "Niveau étudiant": 2
+        },
+        "reasons": [
+          "Networking : aucune rencontre professionnelle garantie.",
+          "Tarif non précisé : à vérifier."
+        ]
+      }
+    },
+    "reason": "Événement artistique ou festif sans lien scientifique identifiable dans l’annonce extraite"
   }
 ]
