@@ -693,11 +693,11 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/institutionnel/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-05T14:44:11+00:00"
+          "checkedAt": "2026-11-06T14:21:27+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:44:11+00:00",
-      "lastVerified": "2026-11-05T14:44:11+00:00",
+      "firstSeen": "2026-11-06T14:21:27+00:00",
+      "lastVerified": "2026-11-06T14:21:27+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
@@ -3162,11 +3162,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3231,11 +3231,18 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/game-night-16",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
+        },
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/en/events/game-night-15",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3266,9 +3273,7 @@
       "start": "2026-09-10T18:00:00+02:00",
       "end": "2026-12-08T21:00:00+01:00",
       "endExclusive": false,
-      "evidence": {
-        "registrationUrl": "S'inscrire"
-      },
+      "evidence": {},
       "timezone": "UTC+02:00",
       "organizer": "Université PSL",
       "location": "Centre Mazet - 5A rue André Mazet, 75006, Paris",
@@ -3300,11 +3305,18 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/atelier-photo-10",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
+        },
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/en/events/photo-workshop-10",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3367,11 +3379,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/litterature-et-cinema-chinois-regards-croises-entre-texte-et-ecran",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3505,11 +3517,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-trio-corniere",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3574,11 +3586,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-musique-2026-quatuor-cordes-et-percussions",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3641,11 +3653,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/after-project-room-signatures-art-fair",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3710,11 +3722,11 @@
           "name": "ENS Paris-Saclay",
           "url": "https://scenederecherche.ens-paris-saclay.fr/",
           "listingUrl": "https://ens-paris-saclay.fr/agenda",
-          "checkedAt": "2026-11-02T15:53:20+00:00"
+          "checkedAt": "2026-11-06T14:18:06+00:00"
         }
       ],
-      "firstSeen": "2026-11-02T15:53:20+00:00",
-      "lastVerified": "2026-11-02T15:53:20+00:00",
+      "firstSeen": "2026-11-06T14:18:06+00:00",
+      "lastVerified": "2026-11-06T14:18:06+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3777,11 +3789,11 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/un-concert-solidaire-au-profit-des-etudiants",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
@@ -3845,18 +3857,18 @@
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/category/webinaire-fr/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-04T14:37:30+00:00"
+          "checkedAt": "2026-11-06T14:21:27+00:00"
         },
         {
           "id": "s052",
           "name": "Photonics France",
           "url": "https://www.photonics-france.org/evenements/",
           "listingUrl": "https://www.photonics-france.org/",
-          "checkedAt": "2026-11-04T14:37:30+00:00"
+          "checkedAt": "2026-11-06T14:21:27+00:00"
         }
       ],
-      "firstSeen": "2026-11-04T14:37:30+00:00",
-      "lastVerified": "2026-11-04T14:37:30+00:00",
+      "firstSeen": "2026-11-06T14:21:27+00:00",
+      "lastVerified": "2026-11-06T14:21:27+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 1,
@@ -3922,11 +3934,18 @@
           "name": "Université PSL",
           "url": "https://psl.eu/agenda/festival-cinema-voix-plurielles",
           "listingUrl": "https://psl.eu/agenda",
-          "checkedAt": "2026-11-05T14:45:34+00:00"
+          "checkedAt": "2026-11-06T14:23:01+00:00"
+        },
+        {
+          "id": "s088",
+          "name": "Université PSL",
+          "url": "https://psl.eu/en/events/plural-voices-film-festival",
+          "listingUrl": "https://psl.eu/agenda",
+          "checkedAt": "2026-11-06T14:23:01+00:00"
         }
       ],
-      "firstSeen": "2026-11-05T14:45:34+00:00",
-      "lastVerified": "2026-11-05T14:45:34+00:00",
+      "firstSeen": "2026-11-06T14:23:01+00:00",
+      "lastVerified": "2026-11-06T14:23:01+00:00",
       "history": [],
       "externalId": null,
       "extractionVersion": 2,
