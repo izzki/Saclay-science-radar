@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:08:48+00:00",
+  "generatedAt": "2026-11-07T20:18:31+00:00",
   "inventory": 317,
   "automated": 26,
   "enabled": 34,
@@ -35,7 +35,7 @@
     }
   ],
   "auditedRecall": 100.0,
-  "lastSuccessfulCollection": "2026-11-07T13:08:48+00:00",
+  "lastSuccessfulCollection": "2026-11-07T20:18:31+00:00",
   "events": 978,
   "limits": [
     "L’inventaire comprend des URL candidates non vérifiées.",
