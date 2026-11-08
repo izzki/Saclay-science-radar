@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-07T20:15:05+00:00",
-  "lastSuccessfulCollection": "2026-11-07T20:18:31+00:00",
+  "startedAt": "2026-11-08T20:30:20+00:00",
+  "lastSuccessfulCollection": "2026-11-08T20:33:26+00:00",
   "newSources": 0,
   "sources": [
     {
@@ -69,13 +69,13 @@
   ],
   "errors": [],
   "scheduled": true,
-  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/42410122753",
+  "workflowRunUrl": "https://github.com/izzki/Saclay-science-radar/actions/runs/42520424146",
   "schedule": "06:15 et 16:15 UTC ; sources prioritaires au second passage",
   "discoverySchedule": "Dimanche, 06:15 UTC",
   "auditSchedule": "Premier jour du mois : recalcul des audits indépendants disponibles",
   "quarantined": 0,
   "quarantineHistory": 58,
-  "finishedAt": "2026-11-07T20:18:31+00:00",
+  "finishedAt": "2026-11-08T20:33:26+00:00",
   "httpRequests": 103,
   "events": 978,
   "incoming": 280,
