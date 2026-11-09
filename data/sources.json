@@ -10,16 +10,10 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:00:00+00:00",
+    "lastAttempt": "2026-11-09T16:19:20+00:00",
     "verifiedUrl": "https://www.institutoptique.fr/agenda",
-    "lastCheck": "2026-11-07T13:00:04+00:00",
+    "lastCheck": "2026-11-09T16:19:22+00:00",
     "pendingDetails": [
-      "https://www.institutoptique.fr/recherche/soutenances-de-these-institut-doptique-graduate-school",
-      "https://www.institutoptique.fr/agenda/rss.xml",
-      "https://www.institutoptique.fr/agenda/journee-du-cfa-supoptique",
-      "https://www.institutoptique.fr/agenda/journee-ingeniogs-2026",
-      "https://www.institutoptique.fr/agenda/visites-des-sites-des-entreprises-dans-le-cadre-du-partenariat-ecole",
-      "https://www.institutoptique.fr/agenda/le-club-theatre-du-bda-presente-tout-va-bien-se-passer",
       "https://www.institutoptique.fr/agenda/un-echange-radio-en-direct-avec-liss-organise-par-luniversite-paris-saclay",
       "https://www.institutoptique.fr/agenda/save-date-le-gala-supoptique-2026-rendez-vous-le-20-novembre-au-flow-paris-7e",
       "https://www.institutoptique.fr/agenda/ouverture-des-inscriptions-pour-les-french-photonics-days-2026",
@@ -30,12 +24,17 @@
       "https://www.institutoptique.fr/agenda/conference-industrie-de-defense-en-france-de-quoi-parle-t",
       "https://www.institutoptique.fr/agenda/paris-saclay-summit-choose-science-2026",
       "https://www.institutoptique.fr/agenda/save-date-le-gost-2026",
-      "https://www.institutoptique.fr/en/events"
+      "https://www.institutoptique.fr/en/events",
+      "https://www.institutoptique.fr/agenda/rentree-2026-les-dates-retenir",
+      "https://www.institutoptique.fr/agenda/linstitut-doptique-accueille-les-oraux-du-concours-centrale-supelec-2026",
+      "https://www.institutoptique.fr/agenda/journee-scientifique-en-lhonneur-de-philippe-grangier",
+      "https://www.institutoptique.fr/agenda/webinaire-decouvrez-les-atouts-de-la-filiere-apprentissage-de-linstitut-doptique",
+      "https://www.institutoptique.fr/es/events"
     ],
     "lastResult": "ok",
-    "lastEventCount": 24,
+    "lastEventCount": 25,
     "errors": [],
-    "lastSuccess": "2026-11-07T13:00:20+00:00",
+    "lastSuccess": "2026-11-09T16:19:41+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00"
   },
   {
@@ -49,14 +48,37 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-08T20:30:20+00:00",
+    "lastAttempt": "2026-11-09T16:19:41+00:00",
     "verifiedUrl": "https://www.lcf.institutoptique.fr/agenda",
-    "lastCheck": "2026-11-08T20:30:24+00:00",
-    "pendingDetails": [],
+    "lastCheck": "2026-11-09T16:19:46+00:00",
+    "pendingDetails": [
+      "https://www.lcf.institutoptique.fr/agenda?page=10",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-felix-keil",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-tarek-hassan",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-yassir-amazouz",
+      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sanghyeop-lee",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-nathan-arques",
+      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-gautier-parize",
+      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-corentin-nannini",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-alexis-corbillet",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-romain-martin-le-5-novembre-2026-13h15-iogs-palaiseau",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-rui-pinto-le-29-octobre-2026-13h15-iogs-palaiseau",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-nikita-astrakhantsev-de-google-ai",
+      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-hoa-mai-quach",
+      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-sara-tiengo",
+      "https://www.lcf.institutoptique.fr/agenda/soutenance-de-these-de-geraud-dupuy",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-doptique-quantique-de-andrea-litvinov",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-ke-xie",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-de-baptiste-leprovost",
+      "https://www.lcf.institutoptique.fr/agenda/seminaire-da-douglas-harvard-university",
+      "https://www.lcf.institutoptique.fr/en/events",
+      "https://www.lcf.institutoptique.fr/es/events",
+      "https://www.lcf.institutoptique.fr/agenda/rss.xml"
+    ],
     "lastResult": "ok",
-    "lastEventCount": 240,
+    "lastEventCount": 179,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:31:12+00:00",
+    "lastSuccess": "2026-11-09T16:20:28+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:01+00:00"
   },
   {
@@ -70,11 +92,11 @@
     "status": "Indisponible",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:00:49+00:00",
+    "lastAttempt": "2026-11-09T16:20:28+00:00",
     "lastResult": "error",
     "errors": [
       {
-        "at": "2026-11-07T13:00:52+00:00",
+        "at": "2026-11-09T16:20:30+00:00",
         "error": "403 Client Error: Forbidden for url: https://www.polytechnique.edu/evenements"
       }
     ],
@@ -93,11 +115,11 @@
     "status": "Indisponible",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:00:52+00:00",
+    "lastAttempt": "2026-11-09T16:20:30+00:00",
     "lastResult": "error",
     "errors": [
       {
-        "at": "2026-11-07T13:00:53+00:00",
+        "at": "2026-11-09T16:20:32+00:00",
         "error": "404 Client Error: Not Found for url: https://www.ip-paris.fr/actualites/agenda"
       }
     ],
@@ -135,17 +157,10 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:00:53+00:00",
+    "lastAttempt": "2026-11-09T16:20:32+00:00",
     "verifiedUrl": "https://ens-paris-saclay.fr/agenda",
-    "lastCheck": "2026-11-07T13:00:57+00:00",
+    "lastCheck": "2026-11-09T16:20:34+00:00",
     "pendingDetails": [
-      "https://ens-paris-saclay.fr/agenda/soutenance-hdr-de-pierre-penet",
-      "https://ens-paris-saclay.fr/agenda/conference-du-diplome-sur-lhistoire-environnementale-des-infrastructures",
-      "https://ens-paris-saclay.fr/actualite/appel-candidature-2027-contrats-doctoraux-specifiques-normaliens",
-      "https://ens-paris-saclay.fr/agenda/journee-detude-du-projet-casporal-2026",
-      "https://ens-paris-saclay.fr/agenda/la-vie-de-recherche-jean-jouzel",
-      "https://ens-paris-saclay.fr/agenda/spectacle-extras-1-2",
-      "https://ens-paris-saclay.fr/agenda/conference-du-diplome-avec-didier-fassin",
       "https://ens-paris-saclay.fr/agenda/spectacle-fake-news-un-ennemi-du-peuple",
       "https://ens-paris-saclay.fr/agenda/rencontres-des-jeunes-mathematiciennes-et-informaticiennes-rjmi-2026",
       "https://ens-paris-saclay.fr/actualite/partenariat-entre-laustralie-et-lens-paris-saclay",
@@ -159,12 +174,17 @@
       "https://ens-paris-saclay.fr/agenda/semaine-des-carrieres-normaliennes-2026",
       "https://ens-paris-saclay.fr/agenda/spectacle-traits",
       "https://ens-paris-saclay.fr/actualite/nouvelle-formation-professionnelle-le-diplome-de-comptabilite-et-de-gestion-en",
-      "https://ens-paris-saclay.fr/actualite/lancement-du-label-employeur-pro-velo"
+      "https://ens-paris-saclay.fr/actualite/lancement-du-label-employeur-pro-velo",
+      "https://ens-paris-saclay.fr/en/agenda",
+      "https://ens-paris-saclay.fr/campus/prevention",
+      "https://ens-paris-saclay.fr/agenda/arts-sciences-peritopie-1",
+      "https://ens-paris-saclay.fr/agenda/appel-candidature-pour-la-journee-detudes-de-larcom-en-partenariat-avec-lens-paris-saclay",
+      "https://ens-paris-saclay.fr/actualite/appel-candidature-2027-contrats-doctoraux-specifiques-normaliens"
     ],
     "lastResult": "ok",
-    "lastEventCount": 4,
+    "lastEventCount": 6,
     "errors": [],
-    "lastSuccess": "2026-11-07T13:01:10+00:00",
+    "lastSuccess": "2026-11-09T16:20:45+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:09+00:00"
   },
   {
@@ -178,18 +198,15 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:01:10+00:00",
+    "lastAttempt": "2026-11-09T16:20:45+00:00",
     "lastResult": "ok",
     "errors": [],
     "lastIntegrationAttempt": "2026-10-28T18:50:10+00:00",
-    "lastCheck": "2026-11-07T13:01:11+00:00",
+    "lastCheck": "2026-11-09T16:20:48+00:00",
     "verifiedUrl": "https://www.universite-paris-saclay.fr/evenements",
     "lastEventCount": 3,
-    "lastSuccess": "2026-11-07T13:01:35+00:00",
+    "lastSuccess": "2026-11-09T16:21:15+00:00",
     "pendingDetails": [
-      "https://www.universite-paris-saclay.fr/evenements/atelier-de-co-creation-ia-one-health",
-      "https://www.universite-paris-saclay.fr/evenements/participez-au-habs-neuro-ai-hackathon-2026",
-      "https://www.universite-paris-saclay.fr/evenements/patrimoine-photo-dagroparistech",
       "https://www.universite-paris-saclay.fr/evenements/forum-de-la-mobilite-etudiante-eugloh",
       "https://www.universite-paris-saclay.fr/evenements/vhee-radiotherapy-latest-news-about-very-high-energy-electrons",
       "https://www.universite-paris-saclay.fr/evenements/etre-au-son-resonance-art-science-paris-saclay",
@@ -202,7 +219,11 @@
       "https://www.universite-paris-saclay.fr/evenements/nouvelle-troupe-de-luniversite-paris-saclay",
       "https://www.universite-paris-saclay.fr/evenements/exposition-objet-oriente-langage-dolivain-porry",
       "https://www.universite-paris-saclay.fr/evenements/cine-rencontre-etre-femme-et-resister-letat-hier-et-aujourdhui-7/11-14h",
-      "https://www.universite-paris-saclay.fr/evenements-ufr-pharmacie/forum-forum-de-lindustrie-pharmaceutique"
+      "https://www.universite-paris-saclay.fr/evenements-ufr-pharmacie/forum-forum-de-lindustrie-pharmaceutique",
+      "https://www.universite-paris-saclay.fr/evenements/etre-au-son-resonances-art-science-paris-saclay",
+      "https://www.universite-paris-saclay.fr/evenements/exposition-stratigraphie-des-recherches-en-sante",
+      "https://www.universite-paris-saclay.fr/evenements/langue-et-culture-2026-la-boite-outils-de-survie",
+      "https://www.universite-paris-saclay.fr/evenements/exposition-la-revolution-femme-vie-liberte-dessins-de-presse-de-kianoush-ramezani-et-de-mana-neyestani"
     ]
   },
   {
@@ -392,14 +413,26 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-08T20:31:12+00:00",
+    "lastAttempt": "2026-11-09T16:21:15+00:00",
     "verifiedUrl": "https://www.c2n.universite-paris-saclay.fr/fr/agenda/",
-    "lastCheck": "2026-11-08T20:31:13+00:00",
-    "pendingDetails": [],
+    "lastCheck": "2026-11-09T16:21:17+00:00",
+    "pendingDetails": [
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/526/ical/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/538/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/538/ical/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/537/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/537/ical/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/536/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/536/ical/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/517/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/517/ical/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/539/",
+      "https://www.c2n.universite-paris-saclay.fr/fr/agenda/539/ical/"
+    ],
     "lastResult": "ok",
     "lastEventCount": 6,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:31:29+00:00",
+    "lastSuccess": "2026-11-09T16:21:28+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:15+00:00"
   },
   {
@@ -413,24 +446,16 @@
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:01:49+00:00",
+    "lastAttempt": "2026-11-09T16:21:28+00:00",
     "lastResult": "empty",
     "errors": [],
     "lastCheckError": "robots.txt non vérifié : collecte suspendue",
     "lastIntegrationAttempt": "2026-10-28T18:50:16+00:00",
     "lastIntegrationError": "Aucune extraction datée et rattachée à un événement ; connecteur spécifique nécessaire",
-    "lastCheck": "2026-11-07T13:01:53+00:00",
+    "lastCheck": "2026-11-09T16:21:32+00:00",
     "verifiedUrl": "https://www.ismo.universite-paris-saclay.fr/accueil-ismo/",
     "lastEventCount": 0,
     "pendingDetails": [
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-dalexandre-antezak/",
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-rosemonde-chahbazian/",
-      "https://www.ismo.universite-paris-saclay.fr/xingtong-li-laureate-du-prix-sfo-du-meilleur-poster-a-la-journee-opale-2026/",
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-detienne-rouquet/",
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-darmel-jouan/",
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-roch-sobczyk/",
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-xiao-zhang/",
-      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-jean-xavier-bardaud/",
       "https://www.ismo.universite-paris-saclay.fr/seminaire-de-rishi-maiti-shedding-light-on-2d-materials-a-path-towards-next-generation-photonics/",
       "https://www.ismo.universite-paris-saclay.fr/conference-annuelle-du-gdr-chirafun-a-lismo-19-20-sept/",
       "https://www.ismo.universite-paris-saclay.fr/prix-du-meilleur-poster-du-colloque-emim2022-attribue-a-j-b-bodin/",
@@ -457,7 +482,14 @@
       "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-zixing-qiu/",
       "https://www.ismo.universite-paris-saclay.fr/workshop-du-reseau-quadmarts-a-lismo/",
       "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-delyse-laurent/",
-      "https://www.ismo.universite-paris-saclay.fr/study-on-dispersive-atom-surface-potentials-under-grazing-incidence-condition-2/"
+      "https://www.ismo.universite-paris-saclay.fr/study-on-dispersive-atom-surface-potentials-under-grazing-incidence-condition-2/",
+      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-christian-perest-sonny-tsotezem/",
+      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-hai-linh-le/",
+      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-dali-muhieddine/",
+      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-franco-l-molina/",
+      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-riccardo-ossanna/",
+      "https://www.ismo.universite-paris-saclay.fr/soutenance-de-these-de-wenbo-liu/",
+      "https://www.ismo.universite-paris-saclay.fr/xingtong-li-laureate-du-prix-sfo-du-meilleur-poster-a-la-journee-opale-2026/"
     ]
   },
   {
@@ -471,20 +503,10 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:02:04+00:00",
+    "lastAttempt": "2026-11-09T16:21:44+00:00",
     "verifiedUrl": "https://www.lps.u-psud.fr/",
-    "lastCheck": "2026-11-07T13:02:07+00:00",
+    "lastCheck": "2026-11-09T16:21:47+00:00",
     "pendingDetails": [
-      "https://www.lps.u-psud.fr/events/chisa-hotta-typicality-of-quantum-states/",
-      "https://www.lps.u-psud.fr/events/manuel-bibes-oxide-spintronics/",
-      "https://www.lps.u-psud.fr/events/wladimir-a-benalcazar-spatial-localizers-where-electrons-and-excitons-live-in-quantum-matter/",
-      "https://www.lps.u-psud.fr/events/matthieu-bard-orbital-susceptibility-and-non-reciprocal-magneto-transport-as-probes-of-topology-graphene-bilayer-and-bismuth-nanowires/",
-      "https://www.lps.u-psud.fr/events/clotilde-coron-des-stereotypes-de-genre-aux-inegalites-professionnelles-entre-femmes-et-hommes/",
-      "https://www.lps.u-psud.fr/events/seminaire-qilin-zou/",
-      "https://www.lps.u-psud.fr/events/voyage-dans-linvisible-manipulez-la-matiere/",
-      "https://www.lps.u-psud.fr/events/seminaire-theo-duarte/",
-      "https://www.lps.u-psud.fr/events/session-dinformation-sur-les-cost-actions-comment-ces-super-gdr-europeens-peuvent-ouvrir-vers-de-nouvelles-opportunites-de-collaborations-et-projets/",
-      "https://www.lps.u-psud.fr/events/seminaire-lea-delance/",
       "https://www.lps.u-psud.fr/events/",
       "https://www.lps.u-psud.fr/mec-category/seminaires/",
       "https://www.lps.u-psud.fr/auto-assemblage-de-nanoparticules-dans-des-gouttes-en-levitation-au-cours-du-sechage/",
@@ -503,12 +525,17 @@
       "https://www.lps.u-psud.fr/mathieu-kociak-recoit-le-peter-duncumb-award-2026-de-la-microanalysis-society/",
       "https://www.lps.u-psud.fr/felicitations-a-stephan-rouziere-pour-lobtention-du-tremplinphysique-2026/",
       "https://www.lps.u-psud.fr/les-spins-sous-pression-vers-un-etat-liquide-quantique/",
-      "https://www.lps.u-psud.fr/soutenance-dhabilitation-a-diriger-des-recherches-de-julien-basset/"
+      "https://www.lps.u-psud.fr/soutenance-dhabilitation-a-diriger-des-recherches-de-julien-basset/",
+      "https://www.lps.u-psud.fr/events/diego-garcia-ovalle-spin-and-orbital-angular-momentum-in-periodic-solids-from-nonmagnetic-to-magnetic-materials/",
+      "https://www.lps.u-psud.fr/events/marcelo-goffman-a-quantum-circuit-harnessing-both-the-bosonic-and-the-fermionic-side-of-thejosephson-effec/",
+      "https://www.lps.u-psud.fr/events/chisa-hotta-formation-of-quantum-spin-liquids/",
+      "https://www.lps.u-psud.fr/events/sara-loucif-tunneling-spectroscopy-and-josephson-effect-in-few-layer-nbse2/",
+      "https://www.lps.u-psud.fr/mec-category/evenements-ouverts-au-public/"
     ],
     "lastResult": "ok",
-    "lastEventCount": 16,
+    "lastEventCount": 15,
     "errors": [],
-    "lastSuccess": "2026-11-07T13:02:24+00:00",
+    "lastSuccess": "2026-11-09T16:22:00+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:18+00:00"
   },
   {
@@ -537,11 +564,11 @@
     "status": "Indisponible",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:02:24+00:00",
+    "lastAttempt": "2026-11-09T16:22:00+00:00",
     "lastResult": "error",
     "errors": [
       {
-        "at": "2026-11-07T13:02:25+00:00",
+        "at": "2026-11-09T16:22:01+00:00",
         "error": "Interdit par robots.txt"
       }
     ],
@@ -575,21 +602,10 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:02:25+00:00",
+    "lastAttempt": "2026-11-09T16:22:01+00:00",
     "verifiedUrl": "https://www.lkb.fr/evenements/",
-    "lastCheck": "2026-11-07T13:02:28+00:00",
+    "lastCheck": "2026-11-09T16:22:04+00:00",
     "pendingDetails": [
-      "https://www.lkb.fr/evenements/on-the-persistent-reality-of-the-observer-s-perception/",
-      "https://www.lkb.fr/evenements/les-modifications-non-lineaires-de-la-mecanique-quantique/",
-      "https://www.lkb.fr/evenements/optical-clocks-with-highly-charged-ions-for-tests-of-fundamental-physics/",
-      "https://www.lkb.fr/evenements/quantum-droplets-and-supersolidity-in-a-dipolar-quantum-gas/",
-      "https://www.lkb.fr/evenements/pierre-verschueren/",
-      "https://www.lkb.fr/evenements/vincent-ardourel/",
-      "https://www.lkb.fr/evenements/gravitational-quantum-states-of-light-neutral-particles/",
-      "https://www.lkb.fr/evenements/michel-bitbol/",
-      "https://www.lkb.fr/evenements/ultracold-meets-ultrafast/",
-      "https://www.lkb.fr/evenements/quantum-optical-control-of-levitated-solids/",
-      "https://www.lkb.fr/evenements/quantum-simulation-of-the-two-dimensional-hubbard-model/",
       "https://www.lkb.fr/evenements/generation-of-correlated-photons/",
       "https://www.lkb.fr/evenements/entanglement-in-spinor-bose-einstein-condensates/",
       "https://www.lkb.fr/evenements/synthetic-quantum-systems-with-multi-component-atoms/",
@@ -733,12 +749,23 @@
       "https://www.lkb.fr/evenements/quantum-error-correction-dream-or-nightmare/",
       "https://www.lkb.fr/evenements/causal-indefiniteness-from-quantum-control-of-processes/",
       "https://www.lkb.fr/evenements/resonant-dipole-dipole-interactions/",
-      "https://www.lkb.fr/evenements/precision-tests-of-fundamental-interactions/"
+      "https://www.lkb.fr/evenements/precision-tests-of-fundamental-interactions/",
+      "https://www.lkb.fr/evenements/fragility-and-strength-of-non-classicality-for-quantum-networks/",
+      "https://www.lkb.fr/evenements/far-from-equilibrium-homogeneous-bose-gases/",
+      "https://www.lkb.fr/evenements/quantum-interactions-with-light-that-moves/",
+      "https://www.lkb.fr/evenements/the-fate-of-the-bogoliubov-s-pairs-at-increasing-interactions/",
+      "https://www.lkb.fr/evenements/quantum-superposition-of-thermodynamic-evolutions-with-opposing-time-s-arrows/",
+      "https://www.lkb.fr/evenements/why-decoherence-does-not-solve-the-measurement-problem/",
+      "https://www.lkb.fr/evenements/weak-value-a-property-of-a-single-pre-and-post-sele-cted-system/",
+      "https://www.lkb.fr/evenements/interplay-between-physics-and-philosophy/",
+      "https://www.lkb.fr/evenements/the-understanding-of-qm/",
+      "https://www.lkb.fr/evenements/no-purification-ontology-no-quantum-paradoxes/",
+      "https://www.lkb.fr/evenements/approches-frequentistes-et-bayesiennes-dans-l-analyse-des-incertitudes-de-mesure/"
     ],
     "lastResult": "ok",
     "lastEventCount": 112,
     "errors": [],
-    "lastSuccess": "2026-11-07T13:02:45+00:00",
+    "lastSuccess": "2026-11-09T16:22:25+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:21+00:00"
   },
   {
@@ -799,9 +826,9 @@
     "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-08T20:31:29+00:00",
+    "lastAttempt": "2026-11-09T16:22:25+00:00",
     "verifiedUrl": "https://iramis.cea.fr/",
-    "lastCheck": "2026-11-08T20:31:31+00:00",
+    "lastCheck": "2026-11-09T16:22:28+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 24,
@@ -815,7 +842,7 @@
         "error": "404 Client Error: Not Found for url: https://iramis.cea.fr/comments/feed/"
       }
     ],
-    "lastSuccess": "2026-11-08T20:31:42+00:00",
+    "lastSuccess": "2026-11-09T16:22:40+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:21+00:00"
   },
   {
@@ -829,13 +856,13 @@
     "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastCheck": "2026-11-07T13:02:59+00:00",
+    "lastCheck": "2026-11-09T16:22:40+00:00",
     "verifiedUrl": "https://iramis.cea.fr/spec/",
     "lastIntegrationAttempt": "2026-10-28T18:50:22+00:00",
     "lastResult": "ok",
     "lastEventCount": 25,
-    "lastSuccess": "2026-11-07T13:03:06+00:00",
-    "lastAttempt": "2026-11-07T13:02:59+00:00",
+    "lastSuccess": "2026-11-09T16:22:48+00:00",
+    "lastAttempt": "2026-11-09T16:22:40+00:00",
     "errors": [
       {
         "url": "https://iramis.cea.fr/feed/",
@@ -873,28 +900,41 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastCheck": "2026-11-07T13:03:08+00:00",
+    "lastCheck": "2026-11-09T16:22:50+00:00",
     "verifiedUrl": "https://www.inria.fr/fr/centre-inria-de-saclay",
     "lastIntegrationAttempt": "2026-10-28T18:50:33+00:00",
     "lastResult": "ok",
-    "lastEventCount": 12,
-    "lastSuccess": "2026-11-07T13:03:22+00:00",
-    "lastAttempt": "2026-11-07T13:03:06+00:00",
-    "errors": [],
+    "lastEventCount": 6,
+    "lastSuccess": "2026-11-09T16:23:04+00:00",
+    "lastAttempt": "2026-11-09T16:22:48+00:00",
+    "errors": [
+      {
+        "url": "https://www.inria.fr/fr/evenement-colloque-inria-lutte-manipulation-information-cybersecurite-numerique-17122026",
+        "error": "403 Client Error: Forbidden for url: https://www.inria.fr/fr/evenement-colloque-inria-lutte-manipulation-information-cybersecurite-numerique-17122026"
+      },
+      {
+        "url": "https://www.inria.fr/fr/conference-comprendre-et-agir-vers-le-monopole-radical-de-lia-generative-et-de-ses-plateformes",
+        "error": "404 Client Error: Not Found for url: https://www.inria.fr/fr/conference-comprendre-et-agir-vers-le-monopole-radical-de-lia-generative-et-de-ses-plateformes"
+      },
+      {
+        "url": "https://www.inria.fr/fr/conference-comprendre-et-agir-trumpisme-et-universites-quelles-lecons-tirer-de-lexperience-etats",
+        "error": "404 Client Error: Not Found for url: https://www.inria.fr/fr/conference-comprendre-et-agir-trumpisme-et-universites-quelles-lecons-tirer-de-lexperience-etats"
+      }
+    ],
     "pendingDetails": [
+      "https://www.inria.fr/fr/elles-font-le-numerique-37-sophie-cerf-conjuguer-numerique-et-environnement",
+      "https://www.inria.fr/fr/elles-font-le-numerique-38-melina-skouras-conceptrice-dobjets-numeriques-au-service-de-lindustrie",
       "https://www.inria.fr/fr/appel-chaires-intelligence-artificielle-2026",
       "https://www.inria.fr/fr/donnees-sante-medecine-encore-plus-personnalisee",
-      "https://www.inria.fr/fr/elles-font-le-numerique-36-maureen-clerc-recherche-gout-linconnu-liberte",
-      "https://www.inria.fr/fr/elles-font-le-numerique-35-pascale-erhart-specialiste-en-dialectologie-alsacienne",
-      "https://www.inria.fr/fr/evenement-colloque-inria-lutte-manipulation-information-cybersecurite-numerique-17122026",
       "https://www.inria.fr/fr/mathematiques-protegent-vie-privee",
       "https://www.inria.fr/fr/retour-4e-edition-cigognes-stage-mathematiques-informatique-lyceennes",
-      "https://www.inria.fr/fr/conference-comprendre-et-agir-vers-le-monopole-radical-de-lia-generative-et-de-ses-plateformes",
+      "https://www.inria.fr/fr/elles-font-le-numerique-36-maureen-clerc-recherche-gout-linconnu-liberte",
+      "https://www.inria.fr/fr/elles-font-le-numerique-35-pascale-erhart-specialiste-en-dialectologie-alsacienne",
       "https://www.inria.fr/fr/conference-comprendre-et-agir-energie-et-effondrement-le-role-critique-du-petrole",
-      "https://www.inria.fr/fr/conference-comprendre-et-agir-trumpisme-et-universites-quelles-lecons-tirer-de-lexperience-etats"
+      "https://www.inria.fr/fr/reporte-conference-comprendre-et-agir-reflexions-sur-le-technofascisme-laune-de-lhistoire-de-la"
     ]
   },
   {
@@ -1017,12 +1057,12 @@
     "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:03:22+00:00",
+    "lastAttempt": "2026-11-09T16:23:04+00:00",
     "verifiedUrl": "https://www.ipht.fr/",
-    "lastCheck": "2026-11-07T13:03:24+00:00",
+    "lastCheck": "2026-11-09T16:23:06+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
-    "lastEventCount": 2,
+    "lastEventCount": 4,
     "errors": [
       {
         "url": "https://www.ipht.fr/feed/",
@@ -1037,19 +1077,19 @@
         "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/tba-96/?occurrence=2026-11-12"
       },
       {
+        "url": "https://www.ipht.fr/events/sigma-models-as-gaudin-models/?occurrence=2026-11-16",
+        "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/sigma-models-as-gaudin-models/?occurrence=2026-11-16"
+      },
+      {
+        "url": "https://www.ipht.fr/events/conformal-field-theory-from-non-commutative-geometry/?occurrence=2026-11-23",
+        "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/conformal-field-theory-from-non-commutative-geometry/?occurrence=2026-11-23"
+      },
+      {
         "url": "https://www.ipht.fr/events/seminaire-group-b-2/?occurrence=2026-11-24",
         "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/seminaire-group-b-2/?occurrence=2026-11-24"
-      },
-      {
-        "url": "https://www.ipht.fr/events/tba-94/?occurrence=2026-11-26",
-        "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/tba-94/?occurrence=2026-11-26"
-      },
-      {
-        "url": "https://www.ipht.fr/events/solving-qft-with-integrability/?occurrence=2026-11-30",
-        "error": "404 Client Error: Not Found for url: https://www.ipht.fr/events/solving-qft-with-integrability/?occurrence=2026-11-30"
       }
     ],
-    "lastSuccess": "2026-11-07T13:03:35+00:00",
+    "lastSuccess": "2026-11-09T16:23:17+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:43+00:00"
   },
   {
@@ -1110,19 +1150,19 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastCheck": "2026-11-07T13:03:38+00:00",
+    "lastCheck": "2026-11-09T16:23:20+00:00",
     "verifiedUrl": "https://lmps.ens-paris-saclay.fr/fr/agenda",
     "lastIntegrationAttempt": "2026-10-28T18:50:43+00:00",
     "lastResult": "ok",
     "lastEventCount": 142,
-    "lastSuccess": "2026-11-07T13:03:58+00:00",
-    "lastAttempt": "2026-11-07T13:03:35+00:00",
+    "lastSuccess": "2026-11-09T16:23:49+00:00",
+    "lastAttempt": "2026-11-09T16:23:17+00:00",
     "errors": [],
     "pendingDetails": [
-      "https://lmps.ens-paris-saclay.fr/fr/agenda?page=5",
       "https://lmps.ens-paris-saclay.fr/fr/agenda?page=2",
       "https://lmps.ens-paris-saclay.fr/fr/agenda?page=1",
       "https://lmps.ens-paris-saclay.fr/fr/agenda?page=3",
+      "https://lmps.ens-paris-saclay.fr/fr/agenda?page=4",
       "https://lmps.ens-paris-saclay.fr/fr/agenda/seminaire-de-cedric-pozzolini-0",
       "https://lmps.ens-paris-saclay.fr/fr/agenda/seminaire-de-jeremy-bleyer",
       "https://lmps.ens-paris-saclay.fr/fr/agenda/seminaire-de-johan-guilleminot",
@@ -1198,10 +1238,17 @@
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-08T20:31:42+00:00",
+    "lastAttempt": "2026-11-09T16:23:49+00:00",
     "verifiedUrl": "https://quantum-saclay.fr/",
-    "lastCheck": "2026-11-08T20:31:47+00:00",
-    "pendingDetails": [],
+    "lastCheck": "2026-11-09T16:23:53+00:00",
+    "pendingDetails": [
+      "https://quantum-saclay.fr/une-collaboration-lcf-et-exail-autour-de-la-cryptographie-quantique",
+      "https://quantum-saclay.fr/%f0%9d%90%90%f0%9d%90%ae%f0%9d%90%9a%f0%9d%90%a7%f0%9d%90%ad%f0%9d%90%84%f0%9d%90%91%f0%9d%90%80-%f0%9d%90%82%f0%9d%90%9a%f0%9d%90%a5%f0%9d%90%a5-%f0%9d%9f%90%f0%9d%9f%8e%f0%9d%9f%90%f0%9d%9f%93",
+      "https://quantum-saclay.fr/deces-de-mark-oliver-goerbig",
+      "https://quantum-saclay.fr/deux-chercheurs-lies-a-communaute-de-luniversite-paris-saclay-laureats-dune-bourse-erc-advanced",
+      "https://quantum-saclay.fr/quantum-phd-days-2025",
+      "https://quantum-saclay.fr/course-announcement-quantum-sensing-quantum-metrology"
+    ],
     "lastResult": "empty",
     "lastEventCount": 0,
     "errors": [
@@ -1241,15 +1288,15 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-11-08T20:32:05+00:00",
+    "lastCheck": "2026-11-09T16:24:05+00:00",
     "verifiedUrl": "https://www.sfoptique.org/",
     "lastIntegrationAttempt": "2026-10-28T18:37:11+00:00",
-    "lastAttempt": "2026-11-08T20:32:03+00:00",
+    "lastAttempt": "2026-11-09T16:24:03+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:32:06+00:00"
+    "lastSuccess": "2026-11-09T16:24:05+00:00"
   },
   {
     "id": "s051",
@@ -1277,17 +1324,17 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:04:17+00:00",
+    "lastAttempt": "2026-11-09T16:24:05+00:00",
     "verifiedUrl": "https://www.photonics-france.org/",
-    "lastCheck": "2026-11-07T13:04:18+00:00",
+    "lastCheck": "2026-11-09T16:24:07+00:00",
     "pendingDetails": [
-      "https://www.photonics-france.org/evenements/category/webinaire-fr",
-      "https://www.photonics-france.org/offre-evenementielle/"
+      "https://www.photonics-france.org/evenements/category/networking",
+      "https://www.photonics-france.org/evenements/category/salon-fr"
     ],
     "lastResult": "ok",
-    "lastEventCount": 4,
+    "lastEventCount": 3,
     "errors": [],
-    "lastSuccess": "2026-11-07T13:04:31+00:00",
+    "lastSuccess": "2026-11-09T16:24:19+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:48+00:00"
   },
   {
@@ -1478,21 +1525,15 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastCheck": "2026-11-07T13:04:34+00:00",
+    "lastCheck": "2026-11-09T16:24:21+00:00",
     "verifiedUrl": "https://lelabquantique.com/events/",
     "lastIntegrationAttempt": "2026-10-28T18:50:53+00:00",
     "lastResult": "ok",
-    "lastEventCount": 18,
-    "lastSuccess": "2026-11-07T13:04:46+00:00",
-    "lastAttempt": "2026-11-07T13:04:31+00:00",
+    "lastEventCount": 24,
+    "lastSuccess": "2026-11-09T16:24:34+00:00",
+    "lastAttempt": "2026-11-09T16:24:19+00:00",
     "errors": [],
     "pendingDetails": [
-      "https://lelabquantique.com/pack-quantique/",
-      "https://lelabquantique.com/workshop-alice-bob/",
-      "https://lelabquantique.com/reception-of-a-canadian-delegation/",
-      "https://lelabquantique.com/workshop-qaptiva/",
-      "https://lelabquantique.com/reception-of-a-dutch-delegation/",
-      "https://lelabquantique.com/event/european-conference-on-quantum-and-complex-matter/",
       "https://lelabquantique.com/event/webinaire-quantique/",
       "https://lelabquantique.com/event/qsip-hackathon-quantum-computing/",
       "https://lelabquantique.com/event/colloque-quantique-la-seconde-revolution-quantique/",
@@ -1516,7 +1557,15 @@
       "https://lelabquantique.com/workshop-olivier-ezratty/",
       "https://lelabquantique.com/qinnovation-partnership/",
       "https://lelabquantique.com/credit-agricoles-arrival/",
-      "https://lelabquantique.com/quoblys-arrival/"
+      "https://lelabquantique.com/quoblys-arrival/",
+      "https://lelabquantique.com/event/quantum-taiwan-2026/",
+      "https://lelabquantique.com/event/bluequbit-hackathon/",
+      "https://lelabquantique.com/events/list/?outlook-ical=1",
+      "https://lelabquantique.com/pack-quantique/",
+      "https://lelabquantique.com/workshop-alice-bob/",
+      "https://lelabquantique.com/reception-of-a-canadian-delegation/",
+      "https://lelabquantique.com/workshop-qaptiva/",
+      "https://lelabquantique.com/reception-of-a-dutch-delegation/"
     ]
   },
   {
@@ -1527,17 +1576,22 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Indisponible",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
     "lastCheck": "2026-11-07T13:04:49+00:00",
     "verifiedUrl": "https://systematic-paris-region.org/evenements/",
     "lastIntegrationAttempt": "2026-10-28T18:50:53+00:00",
-    "lastResult": "ok",
+    "lastResult": "error",
     "lastEventCount": 1,
     "lastSuccess": "2026-11-07T13:05:01+00:00",
-    "lastAttempt": "2026-11-07T13:04:46+00:00",
-    "errors": [],
+    "lastAttempt": "2026-11-09T16:24:34+00:00",
+    "errors": [
+      {
+        "at": "2026-11-09T16:24:35+00:00",
+        "error": "robots.txt non vérifié : collecte suspendue"
+      }
+    ],
     "pendingDetails": [
       "https://systematic-paris-region.org/evenement/open-source-experience-2026/",
       "https://systematic-paris-region.org/en/events/",
@@ -1629,13 +1683,13 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastCheck": "2026-11-07T13:05:02+00:00",
+    "lastCheck": "2026-11-09T16:24:37+00:00",
     "verifiedUrl": "https://paris-saclay-spring.com/",
     "lastIntegrationAttempt": "2026-10-28T18:50:55+00:00",
     "lastResult": "ok",
     "lastEventCount": 1,
-    "lastSuccess": "2026-11-07T13:05:02+00:00",
-    "lastAttempt": "2026-11-07T13:05:01+00:00",
+    "lastSuccess": "2026-11-09T16:24:37+00:00",
+    "lastAttempt": "2026-11-09T16:24:35+00:00",
     "errors": [],
     "pendingDetails": []
   },
@@ -1856,15 +1910,14 @@
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:05:02+00:00",
+    "lastAttempt": "2026-11-09T16:24:37+00:00",
     "verifiedUrl": "https://www.college-de-france.fr/fr/agenda",
-    "lastCheck": "2026-11-07T13:05:04+00:00",
+    "lastCheck": "2026-11-09T16:24:38+00:00",
     "pendingDetails": [
-      "https://www.college-de-france.fr/fr/agenda?page=4",
-      "https://www.college-de-france.fr/fr/agenda?page=3",
-      "https://www.college-de-france.fr/fr/agenda?page=2",
-      "https://www.college-de-france.fr/fr/agenda?page=1",
-      "https://www.college-de-france.fr/fr/agenda?page=0",
+      "https://www.college-de-france.fr/fr/agenda?page=8",
+      "https://www.college-de-france.fr/fr/agenda?page=7",
+      "https://www.college-de-france.fr/fr/agenda?page=6",
+      "https://www.college-de-france.fr/fr/agenda?page=5",
       "https://www.college-de-france.fr/fr/agenda/seminaire/lecture-de-textes-en-lien-avec-le-cours/lecture-de-textes-en-lien-avec-le-cours-2",
       "https://www.college-de-france.fr/fr/agenda/cours/les-epouses-du-dieu-thebes/les-nouveaux-territoires-de-epouse-du-dieu-2-chapelles-et-domaines-funeraires",
       "https://www.college-de-france.fr/fr/agenda/cours/sortir-de-cette-chambre-moi-chanceler-chavirer/une-femme-blanche-un-dialogue-avec-marie-ndiaye",
@@ -2007,7 +2060,8 @@
       "https://www.college-de-france.fr/fr/agenda/cours/retour-vers-le-dao-entre-empire-et-emprise/retour-vers-le-dao-entre-empire-et-emprise-2",
       "https://www.college-de-france.fr/fr/agenda/seminaire/equivalences-de-programmes/semantiques-de-jeux-des-langages-de-programmation",
       "https://www.college-de-france.fr/fr/agenda/cours/les-arts-au-defi-des-sciences-sociales-suite/comment-peindre-la-societe-deux-representations-opposees-suite",
-      "https://www.college-de-france.fr/fr/actualites/la-bibliotheque-indienne"
+      "https://www.college-de-france.fr/fr/actualites/la-bibliotheque-indienne",
+      "https://www.college-de-france.fr/fr/agenda/cours/les-arts-au-defi-des-sciences-sociales-suite/technologies-de-la-creation-impact-de-ia-sur-la-production-et-analyse-des-oeuvres-et-sur-la"
     ],
     "lastResult": "empty",
     "lastEventCount": 0,
@@ -2044,12 +2098,12 @@
     "status": "Indisponible",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:05:28+00:00",
+    "lastAttempt": "2026-11-09T16:25:05+00:00",
     "lastResult": "error",
     "errors": [
       {
-        "at": "2026-11-07T13:05:30+00:00",
-        "error": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda"
+        "at": "2026-11-09T16:25:22+00:00",
+        "error": "HTTP 503 : réessai à la prochaine collecte"
       }
     ],
     "lastCheckError": "404 Client Error: Not Found for url: https://www.sorbonne-universite.fr/agenda",
@@ -2087,15 +2141,10 @@
     "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:05:30+00:00",
+    "lastAttempt": "2026-11-09T16:25:22+00:00",
     "verifiedUrl": "https://psl.eu/agenda",
-    "lastCheck": "2026-11-07T13:05:33+00:00",
+    "lastCheck": "2026-11-09T16:25:25+00:00",
     "pendingDetails": [
-      "https://psl.eu/agenda/festival-cinema-voix-plurielles",
-      "https://psl.eu/actualites/couveuse-promesse-georges-ayrault-et-louis-chaumier-forment-le-duo-de-createurs",
-      "https://psl.eu/actualites/appel-propositions-semaine-de-hackathons-et-competitions-en-ia-pour-les-shs",
-      "https://psl.eu/actualites/je-voulais-donner-un-sens-aux-mathematiques",
-      "https://psl.eu/actualites/paris-ville-free",
       "https://psl.eu/agenda/les-rendez-vous-carriere-alumni-psl",
       "https://psl.eu/agenda/seminaires-de-lorganologia-institute",
       "https://psl.eu/agenda/les-europes-spatiales",
@@ -2114,17 +2163,31 @@
       "https://psl.eu/agenda/le-festival-du-conservatoire-avec-le-nouveau-theatre-populaire",
       "https://psl.eu/agenda/le-rameau-dor",
       "https://psl.eu/agenda/la-nuit-europeenne-des-idees-au-college-de-france",
-      "https://psl.eu/agenda/venez-pratiquer-le-francais-entre-amis"
+      "https://psl.eu/agenda/venez-pratiquer-le-francais-entre-amis",
+      "https://psl.eu/agenda/cours-du-soir-la-nouvelle-vague-un-cinema-en-liberte",
+      "https://psl.eu/agenda/cours-du-soir-larchitecture-du-xxe-siecle",
+      "https://psl.eu/agenda/cours-du-soir-les-grandes-questions-de-lastronomie",
+      "https://psl.eu/agenda/game-night-16",
+      "https://psl.eu/agenda/cours-du-soir-une-histoire-de-lia-1940-2026",
+      "https://psl.eu/agenda/cours-du-soir-la-mode-sous-toutes-ses-coutures",
+      "https://psl.eu/agenda/cours-du-soir-de-lempire-ottoman-la-turquie-moderne",
+      "https://psl.eu/agenda/forum-entreprises-de-chimie-paristech-psl-2026",
+      "https://psl.eu/agenda/tables-rondes-130-ans-regards-croises-industrie-talents",
+      "https://psl.eu/agenda/dauphine-digital-days",
+      "https://psl.eu/agenda/retour-dexperience-de-bertrand-folliet-entreprendre-seul-ou-plusieurs",
+      "https://psl.eu/agenda/remise-du-prix-entrepreneuriat-2026",
+      "https://psl.eu/agenda/30-ans-de-recherches-au-laboratoire-pays-germaniques",
+      "https://psl.eu/agenda/lancement-de-dots-suite"
     ],
     "lastResult": "ok",
-    "lastEventCount": 38,
+    "lastEventCount": 40,
     "errors": [
       {
         "url": "http://www.univ-psl.fr/rss.xml",
         "error": "robots.txt non vérifié : collecte suspendue"
       }
     ],
-    "lastSuccess": "2026-11-07T13:05:51+00:00",
+    "lastSuccess": "2026-11-09T16:25:49+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:50:56+00:00"
   },
   {
@@ -2138,12 +2201,10 @@
     "status": "Extraction vide — contrôle nécessaire",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastAttempt": "2026-11-07T13:05:51+00:00",
+    "lastAttempt": "2026-11-09T16:25:49+00:00",
     "verifiedUrl": "https://www.ens.psl.eu/agenda",
-    "lastCheck": "2026-11-07T13:05:54+00:00",
-    "pendingDetails": [
-      "https://www.ens.psl.eu/agenda/l-histoire-transnationale-imperiale-et-globale/2026-11-17t160000"
-    ],
+    "lastCheck": "2026-11-09T16:25:53+00:00",
+    "pendingDetails": [],
     "lastResult": "empty",
     "lastEventCount": 0,
     "errors": [],
@@ -2221,30 +2282,35 @@
     "connector": "auto",
     "enabled": true,
     "priority": false,
-    "status": "Collecte opérationnelle",
+    "status": "Collecte partielle",
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
-    "lastAttempt": "2026-11-07T13:06:10+00:00",
+    "lastAttempt": "2026-11-09T16:26:15+00:00",
     "verifiedUrl": "https://www.ihp.fr/fr/agenda",
-    "lastCheck": "2026-11-07T13:06:14+00:00",
+    "lastCheck": "2026-11-09T16:26:17+00:00",
     "pendingDetails": [
-      "https://www.ihp.fr/fr/agenda/topological-localization-unentangled-random-braids",
-      "https://www.ihp.fr/fr/agenda/tba-72",
-      "https://www.ihp.fr/en/events",
-      "https://www.ihp.fr/fr/seminaires-recurrents-et-groupes-de-travail",
-      "https://www.ihp.fr/fr/seminaire-dhistoire-des-mathematiques-de-lihp",
-      "https://www.ihp.fr/fr/agenda.xml",
       "https://www.ihp.fr/fr/agenda/laurent-schwartz-des-mathematiques-lengagement-politique",
       "https://www.ihp.fr/fr/agenda/t3-2026-operator-algebras-approximation-rigidity-and-dynamics",
       "https://www.ihp.fr/fr/agenda/organisation-dune-conference-sur-lia-destination-de-doctorants",
       "https://www.ihp.fr/fr/agenda/charles-francois-sturm-1803-1855-circulations-mathematiques-et-trajectoire-savante-entre",
       "https://www.ihp.fr/fr/agenda/seminaire-spike-0",
-      "https://www.ihp.fr/fr/agenda/seminaire-cristollien-danalyse-multifractale-selecta-yves-meyer-et-100-ans-de-la-naissance"
+      "https://www.ihp.fr/fr/agenda/seminaire-cristollien-danalyse-multifractale-selecta-yves-meyer-et-100-ans-de-la-naissance",
+      "https://www.ihp.fr/fr/agenda/abstraction-en-couleurs",
+      "https://www.ihp.fr/fr/agenda/seminaire-13112026-cyril-letrouit-and-pierfrancesco-urbani",
+      "https://www.ihp.fr/fr/agenda/topological-localization-unentangled-random-braids-0",
+      "https://www.ihp.fr/fr/agenda/tba-73",
+      "https://www.ihp.fr/fr/agenda/reunion-de-rentree-des-jeunes-chercheur-es-sound",
+      "https://www.ihp.fr/fr/agenda/theorie-des-jeux-en-informatique-fondamentale-et-applications"
     ],
     "lastResult": "ok",
-    "lastEventCount": 89,
-    "errors": [],
-    "lastSuccess": "2026-11-07T13:06:36+00:00",
+    "lastEventCount": 97,
+    "errors": [
+      {
+        "url": "https://www.ihp.fr/fr/agenda.xml",
+        "error": "500 Server Error: Internal Server Error for url: https://www.ihp.fr/fr/agenda.xml"
+      }
+    ],
+    "lastSuccess": "2026-11-09T16:26:41+00:00",
     "lastIntegrationAttempt": "2026-10-28T18:51:02+00:00"
   },
   {
@@ -2387,18 +2453,18 @@
     "status": "Collecte opérationnelle",
     "reliability": "Élevée",
     "note": "URL candidate : contrôle HTTP et format nécessaires. Aucun agenda ni événement public supposé.",
-    "lastCheck": "2026-11-08T20:32:08+00:00",
+    "lastCheck": "2026-11-09T16:26:43+00:00",
     "verifiedUrl": "https://www.forumdelaphotonique.fr/",
     "lastIntegrationAttempt": "2026-10-28T18:38:23+00:00",
     "enrichmentUrls": [
       "https://www.forumdelaphotonique.fr/espace-visiteur"
     ],
-    "lastAttempt": "2026-11-08T20:32:06+00:00",
+    "lastAttempt": "2026-11-09T16:26:41+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:32:09+00:00"
+    "lastSuccess": "2026-11-09T16:26:44+00:00"
   },
   {
     "id": "s104",
@@ -5837,12 +5903,12 @@
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
     "lastIntegrationAttempt": "2026-10-28T18:51:06+00:00",
-    "lastCheck": "2026-11-07T13:06:42+00:00",
+    "lastCheck": "2026-11-09T16:26:46+00:00",
     "verifiedUrl": "https://www.pharmacie.universite-paris-saclay.fr/evenements-ufr-pharmacie",
     "lastResult": "ok",
-    "lastEventCount": 4,
-    "lastSuccess": "2026-11-07T13:06:47+00:00",
-    "lastAttempt": "2026-11-07T13:06:39+00:00",
+    "lastEventCount": 5,
+    "lastSuccess": "2026-11-09T16:26:52+00:00",
+    "lastAttempt": "2026-11-09T16:26:44+00:00",
     "errors": [],
     "pendingDetails": []
   },
@@ -5858,12 +5924,12 @@
     "reliability": "Élevée",
     "note": "Extraction de dates et de liens testée sur une page publique institutionnelle. Les champs manquants restent inconnus.",
     "lastIntegrationAttempt": "2026-10-28T18:51:07+00:00",
-    "lastCheck": "2026-11-07T13:06:49+00:00",
+    "lastCheck": "2026-11-09T16:26:56+00:00",
     "verifiedUrl": "https://www.medecine.universite-paris-saclay.fr/evenements-ufr-medecine",
     "lastResult": "ok",
     "lastEventCount": 12,
-    "lastSuccess": "2026-11-07T13:07:15+00:00",
-    "lastAttempt": "2026-11-07T13:06:47+00:00",
+    "lastSuccess": "2026-11-09T16:27:30+00:00",
+    "lastAttempt": "2026-11-09T16:26:52+00:00",
     "errors": [],
     "pendingDetails": []
   },
@@ -5914,14 +5980,14 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-11-08T20:32:09+00:00",
+    "lastAttempt": "2026-11-09T16:27:30+00:00",
     "verifiedUrl": "https://indico.math.cnrs.fr/category/837/",
-    "lastCheck": "2026-11-08T20:32:20+00:00",
+    "lastCheck": "2026-11-09T16:27:42+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 4,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:33:20+00:00"
+    "lastSuccess": "2026-11-09T16:28:42+00:00"
   },
   {
     "id": "quest-is",
@@ -5934,14 +6000,14 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-11-08T20:33:20+00:00",
+    "lastAttempt": "2026-11-09T16:28:42+00:00",
     "verifiedUrl": "https://conference-questis.org/",
-    "lastCheck": "2026-11-08T20:33:23+00:00",
+    "lastCheck": "2026-11-09T16:28:48+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:33:23+00:00"
+    "lastSuccess": "2026-11-09T16:28:48+00:00"
   },
   {
     "id": "cigre-paris",
@@ -5954,14 +6020,14 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-11-07T13:08:34+00:00",
+    "lastAttempt": "2026-11-09T16:28:48+00:00",
     "verifiedUrl": "https://www.cigre-exhibition.com/",
-    "lastCheck": "2026-11-07T13:08:45+00:00",
+    "lastCheck": "2026-11-09T16:28:59+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-11-07T13:08:45+00:00"
+    "lastSuccess": "2026-11-09T16:28:59+00:00"
   },
   {
     "id": "quantum-networks-2027",
@@ -5974,13 +6040,13 @@
     "reliability": "Élevée",
     "status": "Collecte opérationnelle",
     "note": "Source officielle d’édition ou de programme ; dates collectées dans la page, sans extrapolation annuelle.",
-    "lastAttempt": "2026-11-08T20:33:23+00:00",
+    "lastAttempt": "2026-11-09T16:28:59+00:00",
     "verifiedUrl": "https://www.uppersideconferences.com/quantum-networks/2027/index.html",
-    "lastCheck": "2026-11-08T20:33:25+00:00",
+    "lastCheck": "2026-11-09T16:29:00+00:00",
     "pendingDetails": [],
     "lastResult": "ok",
     "lastEventCount": 1,
     "errors": [],
-    "lastSuccess": "2026-11-08T20:33:25+00:00"
+    "lastSuccess": "2026-11-09T16:29:00+00:00"
   }
 ]
