@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T16:29:02+00:00",
+  "generatedAt": "2026-11-10T00:19:52+00:00",
   "inventory": 317,
   "automated": 25,
   "enabled": 34,
@@ -35,8 +35,8 @@
     }
   ],
   "auditedRecall": 100.0,
-  "lastSuccessfulCollection": "2026-11-09T16:29:02+00:00",
-  "events": 1010,
+  "lastSuccessfulCollection": "2026-11-10T00:19:52+00:00",
+  "events": 1011,
   "limits": [
     "L’inventaire comprend des URL candidates non vérifiées.",
     "Le succès technique d’un collecteur ne prouve pas l’exhaustivité de l’agenda.",
